@@ -5,6 +5,9 @@ from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_sc
 import numpy as np
 from tqdm import tqdm
 import random
+import os
+import json
+import datetime
 
 def set_seed(seed_value=42):
     random.seed(seed_value)
@@ -104,12 +107,52 @@ def evaluate(model, loader, device):
     
     return accuracy, precision, recall, specificity, ppv, f1, mcc, auc, cm
 
+def save_inference_results(model_path, metrics, conf_matrix):
+    # Extract run ID from model path
+    run_id = model_path.split('/')[-2]  # Assuming the format is '.../run_YYYYMMDD_HHMMSS/model'
+    
+    # Create results directory if it doesn't exist
+    results_dir = './Resultados'
+    os.makedirs(results_dir, exist_ok=True)
+    
+    # Create results filename with run ID
+    results_file = os.path.join(results_dir, f"inference_{run_id}.json")
+    
+    # Prepare results dictionary
+    results = {
+        "model_path": model_path,
+        "inference_date": datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
+        "metrics": {
+            "accuracy": metrics[0],
+            "precision": metrics[1],
+            "recall": metrics[2],
+            "specificity": metrics[3],
+            "ppv": metrics[4],
+            "f1": metrics[5],
+            "mcc": metrics[6],
+            "auc": metrics[7],
+        },
+        "confusion_matrix": {
+            "array": conf_matrix.tolist(),
+            "true_negatives": int(conf_matrix[0, 0]),
+            "false_positives": int(conf_matrix[0, 1]),
+            "false_negatives": int(conf_matrix[1, 0]),
+            "true_positives": int(conf_matrix[1, 1])
+        }
+    }
+    
+    # Save to file
+    with open(results_file, 'w') as f:
+        json.dump(results, f, indent=4)
+    
+    return results_file
+
 def main():
     print("Loading model and tokenizer...")
     
     # Load the saved model and tokenizer
-    model_path = './'  # Path where the model was saved
-    tokenizer_path = './tokenizer'  # Path where the tokenizer was saved
+    model_path = '/scratch/pedro.bacelar/HIV-Models/IEDB/Modelos/MHC1/model/run_20250416_152440/model'  # Path where the model was saved
+    tokenizer_path = '/scratch/pedro.bacelar/HIV-Models/IEDB/Modelos/MHC1/model/run_20250416_152440/tokenizer'  # Path where the tokenizer was saved
     
     try:
         tokenizer = EsmTokenizer.from_pretrained(tokenizer_path)
@@ -123,7 +166,7 @@ def main():
     print("Loading data...")
     try:
         allergic_sequences, allergic_labels = load_protein_sequences('simBHIV.txt', 1)
-        non_allergic_sequences, non_allergic_labels = load_protein_sequences('naoBHIV.txt', 0)
+        non_allergic_sequences, non_allergic_labels = load_protein_sequences('naoMHC1HIV.txt', 0)
         
         # Combine data
         sequences = allergic_sequences + non_allergic_sequences
@@ -146,6 +189,13 @@ def main():
     # Perform evaluation
     print("Running inference and calculating metrics...")
     accuracy, precision, recall, specificity, ppv, f1, mcc, auc, conf_matrix = evaluate(model, dataloader, device)
+    
+    # Pack metrics for saving
+    metrics = (accuracy, precision, recall, specificity, ppv, f1, mcc, auc)
+    
+    # Save results to file
+    results_file = save_inference_results(model_path, metrics, conf_matrix)
+    print(f"\nResults saved to: {results_file}")
     
     # Print metrics
     print("\n===== EVALUATION METRICS =====")

@@ -6,8 +6,11 @@ import numpy as np
 import os
 from tqdm import tqdm
 import random
+import json
+import datetime
 
 
+seed = 42
 
 def set_seed(seed_value=42):
     random.seed(seed_value)
@@ -16,7 +19,7 @@ def set_seed(seed_value=42):
     if torch.cuda.is_available():
         torch.cuda.manual_seed_all(seed_value)
 
-set_seed(42)
+set_seed(seed)
 
 
 
@@ -247,41 +250,135 @@ def evaluate(model, loader, device):
     
     return accuracy, precision, recall, specificity, ppv, f1, mcc, auc
 
+# Função para atualizar e salvar métricas em arquivo JSON único
+def update_and_save_metrics(metrics_file, new_data):
+    # Verificar se o arquivo já existe
+    if os.path.exists(metrics_file):
+        # Carregar dados existentes
+        with open(metrics_file, 'r') as f:
+            data = json.load(f)
+    else:
+        # Criar estrutura inicial
+        data = {"epochs": [], "test": None}
+    
+    # Adicionar novos dados (seja uma nova época ou resultados de teste)
+    if "epoch" in new_data:  # Se for dados de uma época
+        data["epochs"].append(new_data)
+    else:  # Se for dados de teste
+        data["test"] = new_data
+    
+    # Salvar dados atualizados
+    with open(metrics_file, 'w') as f:
+        json.dump(data, f, indent=4)
+    
+    print(f"Metrics updated and saved to {metrics_file}")
+
 # Configurar dispositivo
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
+# Criar pasta principal 'model' se não existir
+os.makedirs('model', exist_ok=True)
+
+# Criar uma pasta com timestamp para o run atual
+timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
+run_dir = os.path.join('model', f'run_{timestamp}')
+os.makedirs(run_dir, exist_ok=True)
+
+# Caminhos para salvar o modelo, tokenizer e métricas
+model_dir = os.path.join(run_dir, 'model')
+tokenizer_dir = os.path.join(run_dir, 'tokenizer')
+metrics_file = os.path.join(run_dir, 'model_metrics.json')
+
+print(f"Iniciando treinamento, resultados serão salvos em: {run_dir}")
+
 # Loop de treinamento e validação
 epochs = 5
 for epoch in range(epochs):
+    epoch_num = epoch + 1
+    
+    # Treinar o modelo
     train_accuracy, train_loss = train(model, train_loader, optimizer, scheduler, device)
+    
+    # Validar o modelo e calcular métricas detalhadas
     val_accuracy, val_loss = validate(model, val_loader, device)
-    print(f"Epoch {epoch+1}/{epochs}")
+    val_accuracy_detailed, val_precision, val_recall, val_specificity, val_ppv, val_f1, val_mcc, val_auc = evaluate(model, val_loader, device)
+    
+    # Imprimir resultados
+    print(f"Epoch {epoch_num}/{epochs}")
     print(f"Train Loss: {train_loss:.4f}, Train Accuracy: {train_accuracy:.4f}")
     print(f"Val Loss: {val_loss:.4f}, Val Accuracy: {val_accuracy:.4f}")
-    accuracy, precision, recall, specificity, ppv, f1, mcc, auc = evaluate(model, val_loader, device)
-    print(f"Val Accuracy: {accuracy:.4f}")
-    print(f"Val Precision (PPV): {precision:.4f}")
-    print(f"Val Recall (Sensitivity): {recall:.4f}")
-    print(f"Val Specificity: {specificity:.4f}")
-    print(f"Val F1 Score: {f1:.4f}")
-    print(f"Val MCC: {mcc:.4f}")
-    print(f"Val AUC: {auc:.4f}")
+    print(f"Val Accuracy (detailed): {val_accuracy_detailed:.4f}")
+    print(f"Val Precision (PPV): {val_precision:.4f}")
+    print(f"Val Recall (Sensitivity): {val_recall:.4f}")
+    print(f"Val Specificity: {val_specificity:.4f}")
+    print(f"Val F1 Score: {val_f1:.4f}")
+    print(f"Val MCC: {val_mcc:.4f}")
+    print(f"Val AUC: {val_auc:.4f}")
+    
+    # Criar um dicionário com as métricas da época atual
+    epoch_metrics = {
+        "epoch": epoch_num,
+        "training": {
+            "loss": train_loss,
+            "accuracy": train_accuracy
+        },
+        "validation": {
+            "loss": val_loss,
+            "accuracy": val_accuracy,
+            "accuracy_detailed": val_accuracy_detailed,
+            "precision": val_precision,
+            "recall": val_recall,
+            "specificity": val_specificity,
+            "ppv": val_ppv,
+            "f1": val_f1,
+            "mcc": val_mcc,
+            "auc": val_auc
+        }
+    }
+    
+    # Atualizar e salvar métricas no arquivo JSON único
+    update_and_save_metrics(metrics_file, epoch_metrics)
 
 # Avaliação final no conjunto de teste
-accuracy, precision, recall, specificity, ppv, f1, mcc, auc = evaluate(model, test_loader, device)
-print(f"Test Accuracy: {accuracy:.4f}")
-print(f"Test Precision (PPV): {precision:.4f}")
-print(f"Test Recall (Sensitivity): {recall:.4f}")
-print(f"Test Specificity: {specificity:.4f}")
-print(f"Test F1 Score: {f1:.4f}")
-print(f"Test MCC: {mcc:.4f}")
-print(f"Test AUC: {auc:.4f}")
+test_accuracy, test_precision, test_recall, test_specificity, test_ppv, test_f1, test_mcc, test_auc = evaluate(model, test_loader, device)
 
-# Salvar o modelo na pasta atual
-model.save_pretrained('./')
+# Imprimir resultados do teste
+print("Final Test Results:")
+print(f"Test Accuracy: {test_accuracy:.4f}")
+print(f"Test Precision (PPV): {test_precision:.4f}")
+print(f"Test Recall (Sensitivity): {test_recall:.4f}")
+print(f"Test Specificity: {test_specificity:.4f}")
+print(f"Test F1 Score: {test_f1:.4f}")
+print(f"Test MCC: {test_mcc:.4f}")
+print(f"Test AUC: {test_auc:.4f}")
 
-# Salvar o tokenizer
-tokenizer.save_pretrained('./tokenizer')
+# Criar um dicionário com os resultados do teste
+test_metrics = {
+    "accuracy": test_accuracy,
+    "precision": test_precision,
+    "recall": test_recall,
+    "specificity": test_specificity,
+    "ppv": test_ppv,
+    "f1": test_f1,
+    "mcc": test_mcc,
+    "auc": test_auc
+}
 
-print("Modelo e tokenizer salvos na pasta atual.")
+# Atualizar o arquivo JSON com os resultados do teste
+update_and_save_metrics(metrics_file, test_metrics)
+
+# Salvar o modelo e tokenizer na pasta específica deste run
+model.save_pretrained(model_dir)
+tokenizer.save_pretrained(tokenizer_dir)
+
+# Salvar um arquivo README com informações sobre o run
+run_info = {
+    "seed" : seed,
+    "test_results": test_metrics
+}
+
+with open(os.path.join(run_dir, 'run_info.json'), 'w') as f:
+    json.dump(run_info, f, indent=4)
+
+print(f"Modelo, tokenizer e métricas salvos com sucesso em {run_dir}")
