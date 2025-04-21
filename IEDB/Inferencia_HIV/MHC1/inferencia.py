@@ -151,8 +151,8 @@ def main():
     print("Loading model and tokenizer...")
     
     # Load the saved model and tokenizer
-    model_path = '/scratch/pedro.bacelar/HIV-Models/IEDB/Modelos/MHC1/model/run_20250416_152440/model'  # Path where the model was saved
-    tokenizer_path = '/scratch/pedro.bacelar/HIV-Models/IEDB/Modelos/MHC1/model/run_20250416_152440/tokenizer'  # Path where the tokenizer was saved
+    model_path = '/scratch/pedro.bacelar/HIV-Models/IEDB/Modelos/MHC1/model/run_20250416_154051/model'  # Path where the model was saved
+    tokenizer_path = '/scratch/pedro.bacelar/HIV-Models/IEDB/Modelos/MHC1/model/run_20250416_154051/tokenizer'  # Path where the tokenizer was saved
     
     try:
         tokenizer = EsmTokenizer.from_pretrained(tokenizer_path)

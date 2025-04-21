@@ -1,0 +1,30 @@
+{
+    "model_path": "/scratch/pedro.bacelar/HIV-Models/IEDB/Modelos/MHC1/model/run_20250416_154051/model",
+    "inference_date": "2025-04-16 18:18:45",
+    "metrics": {
+        "accuracy": 0.6629213483146067,
+        "precision": 0.782051282051282,
+        "recall": 0.7093023255813954,
+        "specificity": 0.5595854922279793,
+        "ppv": 0.782051282051282,
+        "f1": 0.7439024390243902,
+        "mcc": 0.2569648643364003,
+        "auc": 0.6935715146403182
+    },
+    "confusion_matrix": {
+        "array": [
+            [
+                108,
+                85
+            ],
+            [
+                125,
+                305
+            ]
+        ],
+        "true_negatives": 108,
+        "false_positives": 85,
+        "false_negatives": 125,
+        "true_positives": 305
+    }
+}
