@@ -1,0 +1,28 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM319084v1
+#!genome-build-accession NCBI_Assembly:GCA_003190845.1
+##sequence-region JN572926.1 1 8892
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+JN572926.1	Genbank	region	1	8892	.	+	.	ID=JN572926.1:1..8892;Dbxref=taxon:11676;collection-date=11-Feb-2011;country=France;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=N1.FR.2011;mol_type=genomic RNA;nat-host=Homo sapiens
+JN572926.1	Genbank	gene	155	1693	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+JN572926.1	Genbank	CDS	155	1693	.	+	0	ID=cds-AEQ75931.1;Parent=gene-gag;Dbxref=NCBI_GP:AEQ75931.1;Name=AEQ75931.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AEQ75931.1
+JN572926.1	Genbank	gene	1465	4509	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1465
+JN572926.1	Genbank	CDS	1465	4509	.	+	0	ID=cds-AEQ75932.1;Parent=gene-pol;Dbxref=NCBI_GP:AEQ75932.1;Name=AEQ75932.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AEQ75932.1;start_range=.,1465
+JN572926.1	Genbank	gene	4442	5020	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+JN572926.1	Genbank	CDS	4442	5020	.	+	0	ID=cds-AEQ75933.1;Parent=gene-vif;Dbxref=NCBI_GP:AEQ75933.1;Name=AEQ75933.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AEQ75933.1
+JN572926.1	Genbank	gene	4960	5247	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+JN572926.1	Genbank	CDS	4960	5247	.	+	0	ID=cds-AEQ75934.1;Parent=gene-vpr;Dbxref=NCBI_GP:AEQ75934.1;Name=AEQ75934.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AEQ75934.1
+JN572926.1	Genbank	gene	5228	7805	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+JN572926.1	Genbank	CDS	5228	5442	.	+	0	ID=cds-AEQ75935.1;Parent=gene-tat;Dbxref=NCBI_GP:AEQ75935.1;Name=AEQ75935.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AEQ75935.1
+JN572926.1	Genbank	CDS	7712	7802	.	+	1	ID=cds-AEQ75935.1;Parent=gene-tat;Dbxref=NCBI_GP:AEQ75935.1;Name=AEQ75935.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AEQ75935.1
+JN572926.1	Genbank	gene	5367	8007	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=other
+JN572926.1	Genbank	sequence_feature	5367	7950	.	+	.	ID=id-rev;Note=nonfunctional rev protein due to mutation;gbkey=misc_feature;gene=rev
+JN572926.1	Genbank	gene	5461	5691	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+JN572926.1	Genbank	CDS	5461	5691	.	+	0	ID=cds-AEQ75936.1;Parent=gene-vpu;Dbxref=NCBI_GP:AEQ75936.1;Name=AEQ75936.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AEQ75936.1
+JN572926.1	Genbank	gene	5615	8149	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+JN572926.1	Genbank	CDS	5615	8149	.	+	0	ID=cds-AEQ75937.1;Parent=gene-env;Dbxref=NCBI_GP:AEQ75937.1;Name=AEQ75937.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AEQ75937.1
+JN572926.1	Genbank	gene	8151	8786	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+JN572926.1	Genbank	CDS	8151	8786	.	+	0	ID=cds-AEQ75938.1;Parent=gene-nef;Dbxref=NCBI_GP:AEQ75938.1;Name=AEQ75938.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AEQ75938.1
+###

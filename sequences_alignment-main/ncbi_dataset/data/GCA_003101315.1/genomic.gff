@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310131v1
+#!genome-build-accession NCBI_Assembly:GCA_003101315.1
+##sequence-region EF589039.1 1 8818
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EF589039.1	Genbank	region	1	8818	.	+	.	ID=EF589039.1:1..8818;Dbxref=taxon:11676;collection-date=2002;country=Kazakhstan: Pavlodar;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=02KZPAV300497;isolation-source=PBMC from a 26 year-old male intravenous drug user;mol_type=genomic DNA;subtype=A1
+EF589039.1	Genbank	gene	1	1491	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+EF589039.1	Genbank	CDS	1	1491	.	+	0	ID=cds-ABQ65867.1;Parent=gene-gag;Dbxref=NCBI_GP:ABQ65867.1;Name=ABQ65867.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=ABQ65867.1;start_range=.,1
+EF589039.1	Genbank	gene	1284	4295	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1284
+EF589039.1	Genbank	CDS	1284	4295	.	+	0	ID=cds-ABQ65869.1;Parent=gene-pol;Dbxref=NCBI_GP:ABQ65869.1;Name=ABQ65869.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ABQ65869.1;start_range=.,1284
+EF589039.1	Genbank	gene	4240	4818	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+EF589039.1	Genbank	CDS	4240	4818	.	+	0	ID=cds-ABQ65870.1;Parent=gene-vif;Dbxref=NCBI_GP:ABQ65870.1;Name=ABQ65870.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABQ65870.1
+EF589039.1	Genbank	gene	4758	5048	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EF589039.1	Genbank	CDS	4758	5048	.	+	0	ID=cds-ABQ65871.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABQ65871.1;Name=ABQ65871.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABQ65871.1
+EF589039.1	Genbank	gene	5029	7650	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EF589039.1	Genbank	CDS	5029	5243	.	+	0	ID=cds-ABQ65868.1;Parent=gene-tat;Dbxref=NCBI_GP:ABQ65868.1;Name=ABQ65868.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABQ65868.1
+EF589039.1	Genbank	CDS	7560	7650	.	+	1	ID=cds-ABQ65868.1;Parent=gene-tat;Dbxref=NCBI_GP:ABQ65868.1;Name=ABQ65868.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABQ65868.1
+EF589039.1	Genbank	gene	5168	7855	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EF589039.1	Genbank	CDS	5168	5243	.	+	0	ID=cds-ABQ65872.1;Parent=gene-rev;Dbxref=NCBI_GP:ABQ65872.1;Name=ABQ65872.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABQ65872.1
+EF589039.1	Genbank	CDS	7560	7855	.	+	2	ID=cds-ABQ65872.1;Parent=gene-rev;Dbxref=NCBI_GP:ABQ65872.1;Name=ABQ65872.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABQ65872.1
+EF589039.1	Genbank	gene	5264	5509	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EF589039.1	Genbank	CDS	5264	5509	.	+	0	ID=cds-ABQ65873.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABQ65873.1;Name=ABQ65873.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABQ65873.1
+EF589039.1	Genbank	gene	5427	7997	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+EF589039.1	Genbank	CDS	5427	7997	.	+	0	ID=cds-ABQ65874.1;Parent=gene-env;Dbxref=NCBI_GP:ABQ65874.1;Name=ABQ65874.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ABQ65874.1
+EF589039.1	Genbank	gene	7999	8622	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EF589039.1	Genbank	CDS	7999	8622	.	+	0	ID=cds-ABQ65875.1;Parent=gene-nef;Dbxref=NCBI_GP:ABQ65875.1;Name=ABQ65875.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ABQ65875.1
+EF589039.1	Genbank	long_terminal_repeat	8291	8818	.	+	.	ID=id-EF589039.1:8291..8818;Note=3' LTR;end_range=8818,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+###

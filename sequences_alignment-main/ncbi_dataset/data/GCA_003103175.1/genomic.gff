@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310317v1
+#!genome-build-accession NCBI_Assembly:GCA_003103175.1
+##sequence-region KC522033.1 1 8914
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KC522033.1	Genbank	region	1	8914	.	+	.	ID=KC522033.1:1..8914;Dbxref=taxon:11676;collection-date=2011;country=Malaysia;gb-acronym=HIV-1;gbkey=Src;genome=genomic;genotype=CRF58_01B;isolate=11MY1RJ704;mol_type=genomic RNA;nat-host=Homo sapiens
+KC522033.1	Genbank	gene	143	1630	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KC522033.1	Genbank	CDS	143	1630	.	+	0	ID=cds-AHE13827.1;Parent=gene-gag;Dbxref=NCBI_GP:AHE13827.1;Name=AHE13827.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AHE13827.1
+KC522033.1	Genbank	gene	1432	4443	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1432
+KC522033.1	Genbank	CDS	1432	4443	.	+	0	ID=cds-AHE13828.1;Parent=gene-pol;Dbxref=NCBI_GP:AHE13828.1;Name=AHE13828.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AHE13828.1;start_range=.,1432
+KC522033.1	Genbank	gene	4388	4966	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KC522033.1	Genbank	CDS	4388	4966	.	+	0	ID=cds-AHE13829.1;Parent=gene-vif;Dbxref=NCBI_GP:AHE13829.1;Name=AHE13829.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AHE13829.1
+KC522033.1	Genbank	gene	4906	5196	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KC522033.1	Genbank	CDS	4906	5196	.	+	0	ID=cds-AHE13830.1;Parent=gene-vpr;Dbxref=NCBI_GP:AHE13830.1;Name=AHE13830.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AHE13830.1
+KC522033.1	Genbank	gene	5177	7762	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KC522033.1	Genbank	CDS	5177	5391	.	+	0	ID=cds-AHE13831.1;Parent=gene-tat;Dbxref=NCBI_GP:AHE13831.1;Name=AHE13831.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHE13831.1
+KC522033.1	Genbank	CDS	7672	7762	.	+	1	ID=cds-AHE13831.1;Parent=gene-tat;Dbxref=NCBI_GP:AHE13831.1;Name=AHE13831.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHE13831.1
+KC522033.1	Genbank	gene	5316	7967	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KC522033.1	Genbank	CDS	5316	5391	.	+	0	ID=cds-AHE13832.1;Parent=gene-rev;Dbxref=NCBI_GP:AHE13832.1;Name=AHE13832.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHE13832.1
+KC522033.1	Genbank	CDS	7672	7967	.	+	2	ID=cds-AHE13832.1;Parent=gene-rev;Dbxref=NCBI_GP:AHE13832.1;Name=AHE13832.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHE13832.1
+KC522033.1	Genbank	gene	5412	5657	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KC522033.1	Genbank	CDS	5412	5657	.	+	0	ID=cds-AHE13833.1;Parent=gene-vpu;Dbxref=NCBI_GP:AHE13833.1;Name=AHE13833.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AHE13833.1
+KC522033.1	Genbank	gene	5575	8109	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KC522033.1	Genbank	CDS	5575	8109	.	+	0	ID=cds-AHE13834.1;Parent=gene-env;Dbxref=NCBI_GP:AHE13834.1;Name=AHE13834.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AHE13834.1
+KC522033.1	Genbank	gene	8111	8725	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KC522033.1	Genbank	CDS	8111	8725	.	+	0	ID=cds-AHE13835.1;Parent=gene-nef;Dbxref=NCBI_GP:AHE13835.1;Name=AHE13835.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AHE13835.1
+###

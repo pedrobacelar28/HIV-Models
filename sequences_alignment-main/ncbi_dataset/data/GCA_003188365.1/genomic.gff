@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318836v1
+#!genome-build-accession NCBI_Assembly:GCA_003188365.1
+##sequence-region KT276258.1 1 8863
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KT276258.1	Genbank	region	1	8863	.	+	.	ID=KT276258.1:1..8863;Dbxref=taxon:11676;collection-date=26-Mar-2014;country=Spain;gb-acronym=HIV-1;gbkey=Src;isolate=ARP1198;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=C
+KT276258.1	Genbank	gene	234	1697	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KT276258.1	Genbank	CDS	234	1697	.	+	0	ID=cds-AKV60173.1;Parent=gene-gag;Dbxref=NCBI_GP:AKV60173.1;Name=AKV60173.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AKV60173.1
+KT276258.1	Genbank	gene	1517	4510	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1517
+KT276258.1	Genbank	CDS	1517	4510	.	+	0	ID=cds-AKV60174.1;Parent=gene-pol;Dbxref=NCBI_GP:AKV60174.1;Name=AKV60174.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AKV60174.1;start_range=.,1517
+KT276258.1	Genbank	gene	4455	5033	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KT276258.1	Genbank	CDS	4455	5033	.	+	0	ID=cds-AKV60175.1;Parent=gene-vif;Dbxref=NCBI_GP:AKV60175.1;Name=AKV60175.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AKV60175.1
+KT276258.1	Genbank	gene	4973	5266	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KT276258.1	Genbank	CDS	4973	5266	.	+	0	ID=cds-AKV60176.1;Parent=gene-vpr;Dbxref=NCBI_GP:AKV60176.1;Name=AKV60176.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AKV60176.1
+KT276258.1	Genbank	gene	5247	7838	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KT276258.1	Genbank	CDS	5247	5461	.	+	0	ID=cds-AKV60177.1;Parent=gene-tat;Dbxref=NCBI_GP:AKV60177.1;Name=AKV60177.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AKV60177.1
+KT276258.1	Genbank	CDS	7748	7838	.	+	1	ID=cds-AKV60177.1;Parent=gene-tat;Dbxref=NCBI_GP:AKV60177.1;Name=AKV60177.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AKV60177.1
+KT276258.1	Genbank	gene	5386	7995	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KT276258.1	Genbank	CDS	5386	5461	.	+	0	ID=cds-AKV60178.1;Parent=gene-rev;Dbxref=NCBI_GP:AKV60178.1;Name=AKV60178.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AKV60178.1
+KT276258.1	Genbank	CDS	7748	7995	.	+	2	ID=cds-AKV60178.1;Parent=gene-rev;Dbxref=NCBI_GP:AKV60178.1;Name=AKV60178.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AKV60178.1
+KT276258.1	Genbank	gene	5485	5745	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KT276258.1	Genbank	CDS	5485	5745	.	+	0	ID=cds-AKV60179.1;Parent=gene-vpu;Dbxref=NCBI_GP:AKV60179.1;Name=AKV60179.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AKV60179.1
+KT276258.1	Genbank	gene	5663	8185	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KT276258.1	Genbank	CDS	5663	8185	.	+	0	ID=cds-AKV60180.1;Parent=gene-env;Dbxref=NCBI_GP:AKV60180.1;Name=AKV60180.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AKV60180.1
+KT276258.1	Genbank	gene	8187	8795	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KT276258.1	Genbank	CDS	8187	8795	.	+	0	ID=cds-AKV60181.1;Parent=gene-nef;Dbxref=NCBI_GP:AKV60181.1;Name=AKV60181.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AKV60181.1
+###

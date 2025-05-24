@@ -1,0 +1,27 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310371v1
+#!genome-build-accession NCBI_Assembly:GCA_003103715.1
+##sequence-region KF758551.1 1 8395
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KF758551.1	Genbank	region	1	8395	.	+	.	ID=KF758551.1:1..8395;Dbxref=taxon:11676;collection-date=10-May-2010;country=China;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=JS2010001;mol_type=genomic RNA;nat-host=Homo sapiens;note=CRF01_AE and B recombinant;old-name=HIV1
+KF758551.1	Genbank	gene	22	1512	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KF758551.1	Genbank	CDS	22	1512	.	+	0	ID=cds-AHH81842.1;Parent=gene-gag;Dbxref=NCBI_GP:AHH81842.1;Name=AHH81842.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AHH81842.1
+KF758551.1	Genbank	gene	1311	4316	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1311
+KF758551.1	Genbank	CDS	1311	4316	.	+	0	ID=cds-AHH81843.1;Parent=gene-pol;Dbxref=NCBI_GP:AHH81843.1;Name=AHH81843.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AHH81843.1;start_range=.,1311
+KF758551.1	Genbank	gene	4261	4839	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KF758551.1	Genbank	CDS	4261	4839	.	+	0	ID=cds-AHH81844.1;Parent=gene-vif;Dbxref=NCBI_GP:AHH81844.1;Name=AHH81844.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AHH81844.1
+KF758551.1	Genbank	gene	4779	5069	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KF758551.1	Genbank	CDS	4779	5069	.	+	0	ID=cds-AHH81845.1;Parent=gene-vpr;Dbxref=NCBI_GP:AHH81845.1;Name=AHH81845.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AHH81845.1
+KF758551.1	Genbank	gene	5050	7659	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KF758551.1	Genbank	CDS	5050	5264	.	+	0	ID=cds-AHH81846.1;Parent=gene-tat;Dbxref=NCBI_GP:AHH81846.1;Name=AHH81846.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHH81846.1
+KF758551.1	Genbank	CDS	7569	7659	.	+	1	ID=cds-AHH81846.1;Parent=gene-tat;Dbxref=NCBI_GP:AHH81846.1;Name=AHH81846.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHH81846.1
+KF758551.1	Genbank	gene	5189	7864	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KF758551.1	Genbank	CDS	5189	5264	.	+	0	ID=cds-AHH81847.1;Parent=gene-rev;Dbxref=NCBI_GP:AHH81847.1;Name=AHH81847.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHH81847.1
+KF758551.1	Genbank	CDS	7569	7864	.	+	2	ID=cds-AHH81847.1;Parent=gene-rev;Dbxref=NCBI_GP:AHH81847.1;Name=AHH81847.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHH81847.1
+KF758551.1	Genbank	gene	5448	8006	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KF758551.1	Genbank	CDS	5448	8006	.	+	0	ID=cds-AHH81849.1;Parent=gene-env;Dbxref=NCBI_GP:AHH81849.1;Name=AHH81849.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AHH81849.1
+KF758551.1	Genbank	gene	8008	8395	.	+	.	ID=gene-nef;Name=nef;end_range=8395,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+KF758551.1	Genbank	CDS	8008	8395	.	+	0	ID=cds-AHH81848.1;Parent=gene-nef;Dbxref=NCBI_GP:AHH81848.1;Name=AHH81848.1;end_range=8395,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=AHH81848.1
+###

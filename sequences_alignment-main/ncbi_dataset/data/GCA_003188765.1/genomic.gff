@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318876v1
+#!genome-build-accession NCBI_Assembly:GCA_003188765.1
+##sequence-region JX140670.1 1 8965
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+JX140670.1	Genbank	region	1	8965	.	+	.	ID=JX140670.1:1..8965;Dbxref=taxon:11676;collection-date=2010;country=Cameroon;gb-acronym=HIV-1;gbkey=Src;isolate=DEMD10CM009;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=D
+JX140670.1	Genbank	gene	156	1667	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+JX140670.1	Genbank	CDS	156	1667	.	+	0	ID=cds-AFN62103.1;Parent=gene-gag;Dbxref=NCBI_GP:AFN62103.1;Name=AFN62103.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AFN62103.1
+JX140670.1	Genbank	gene	1445	4471	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1445
+JX140670.1	Genbank	CDS	1445	4471	.	+	0	ID=cds-AFN62104.1;Parent=gene-pol;Dbxref=NCBI_GP:AFN62104.1;Name=AFN62104.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AFN62104.1;start_range=.,1445
+JX140670.1	Genbank	gene	4416	4994	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+JX140670.1	Genbank	CDS	4416	4994	.	+	0	ID=cds-AFN62105.1;Parent=gene-vif;Dbxref=NCBI_GP:AFN62105.1;Name=AFN62105.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AFN62105.1
+JX140670.1	Genbank	gene	4934	5224	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+JX140670.1	Genbank	CDS	4934	5224	.	+	0	ID=cds-AFN62106.1;Parent=gene-vpr;Dbxref=NCBI_GP:AFN62106.1;Name=AFN62106.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AFN62106.1
+JX140670.1	Genbank	gene	5205	7807	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=other
+JX140670.1	Genbank	sequence_feature	5205	5419	.	+	.	ID=id-tat;Note=nonfunctional tat protein due to mutation;gbkey=misc_feature;gene=tat
+JX140670.1	Genbank	sequence_feature	7717	7807	.	+	.	ID=id-tat;Note=nonfunctional tat protein due to mutation;gbkey=misc_feature;gene=tat
+JX140670.1	Genbank	gene	5344	7991	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+JX140670.1	Genbank	CDS	5344	5419	.	+	0	ID=cds-AFN62107.1;Parent=gene-rev;Dbxref=NCBI_GP:AFN62107.1;Name=AFN62107.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AFN62107.1
+JX140670.1	Genbank	CDS	7717	7991	.	+	2	ID=cds-AFN62107.1;Parent=gene-rev;Dbxref=NCBI_GP:AFN62107.1;Name=AFN62107.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AFN62107.1
+JX140670.1	Genbank	gene	5436	5684	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+JX140670.1	Genbank	CDS	5436	5684	.	+	0	ID=cds-AFN62108.1;Parent=gene-vpu;Dbxref=NCBI_GP:AFN62108.1;Name=AFN62108.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AFN62108.1
+JX140670.1	Genbank	gene	5599	8133	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+JX140670.1	Genbank	CDS	5599	8133	.	+	0	ID=cds-AFN62109.1;Parent=gene-env;Dbxref=NCBI_GP:AFN62109.1;Name=AFN62109.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AFN62109.1
+JX140670.1	Genbank	gene	8135	8767	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+JX140670.1	Genbank	CDS	8135	8767	.	+	0	ID=cds-AFN62110.1;Parent=gene-nef;Dbxref=NCBI_GP:AFN62110.1;Name=AFN62110.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AFN62110.1
+###

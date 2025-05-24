@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309943v1
+#!genome-build-accession NCBI_Assembly:GCA_003099435.1
+##sequence-region AY008717.1 1 8784
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY008717.1	Genbank	region	1	8784	.	+	.	ID=AY008717.1:1..8784;Dbxref=taxon:11676;country=China;gb-acronym=HIV-1;gbkey=Src;isolate=97CNGX-9F;mol_type=genomic RNA;old-name=Human immunodeficiency virus type 1
+AY008717.1	Genbank	gene	1	1472	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AY008717.1	Genbank	CDS	1	1472	.	+	2	ID=cds-AAG38921.1;Parent=gene-gag;Dbxref=NCBI_GP:AAG38921.1;Name=AAG38921.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AAG38921.1;start_range=.,1
+AY008717.1	Genbank	gene	1277	4276	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1277
+AY008717.1	Genbank	CDS	1277	4276	.	+	0	ID=cds-AAG38926.1;Parent=gene-pol;Dbxref=NCBI_GP:AAG38926.1;Name=AAG38926.1;exception=ribosomal slippage;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAG38926.1;start_range=.,1277
+AY008717.1	Genbank	gene	4221	4802	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY008717.1	Genbank	CDS	4221	4802	.	+	0	ID=cds-AAG38922.1;Parent=gene-vif;Dbxref=NCBI_GP:AAG38922.1;Name=AAG38922.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAG38922.1
+AY008717.1	Genbank	gene	4742	5032	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY008717.1	Genbank	CDS	4742	5032	.	+	0	ID=cds-AAG38923.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAG38923.1;Name=AAG38923.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAG38923.1
+AY008717.1	Genbank	gene	5013	7630	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY008717.1	Genbank	CDS	5013	5227	.	+	0	ID=cds-AAG38919.1;Parent=gene-tat;Dbxref=NCBI_GP:AAG38919.1;Name=AAG38919.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAG38919.1
+AY008717.1	Genbank	CDS	7540	7630	.	+	1	ID=cds-AAG38919.1;Parent=gene-tat;Dbxref=NCBI_GP:AAG38919.1;Name=AAG38919.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAG38919.1
+AY008717.1	Genbank	gene	5152	7835	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY008717.1	Genbank	CDS	5152	5227	.	+	0	ID=cds-AAG38920.1;Parent=gene-rev;Dbxref=NCBI_GP:AAG38920.1;Name=AAG38920.1;Note=premature stop codon;gbkey=CDS;gene=rev;product=truncated rev protein;protein_id=AAG38920.1
+AY008717.1	Genbank	CDS	7540	7787	.	+	2	ID=cds-AAG38920.1;Parent=gene-rev;Dbxref=NCBI_GP:AAG38920.1;Name=AAG38920.1;Note=premature stop codon;gbkey=CDS;gene=rev;product=truncated rev protein;protein_id=AAG38920.1
+AY008717.1	Genbank	gene	5241	5483	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY008717.1	Genbank	CDS	5241	5483	.	+	0	ID=cds-AAG38927.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAG38927.1;Name=AAG38927.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAG38927.1
+AY008717.1	Genbank	gene	5401	7977	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY008717.1	Genbank	CDS	5401	7977	.	+	0	ID=cds-AAG38924.1;Parent=gene-env;Dbxref=NCBI_GP:AAG38924.1;Name=AAG38924.1;gbkey=CDS;gene=env;product=env protein;protein_id=AAG38924.1
+AY008717.1	Genbank	gene	7979	8599	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY008717.1	Genbank	CDS	7979	8599	.	+	0	ID=cds-AAG38925.1;Parent=gene-nef;Dbxref=NCBI_GP:AAG38925.1;Name=AAG38925.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAG38925.1
+AY008717.1	Genbank	three_prime_UTR	8267	8721	.	+	.	ID=id-AY008717.1:8267..8721;gbkey=3'UTR
+###

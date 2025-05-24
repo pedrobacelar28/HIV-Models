@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310051v1
+#!genome-build-accession NCBI_Assembly:GCA_003100515.1
+##sequence-region AY945734.1 1 8395
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY945734.1	Genbank	region	1	8395	.	+	.	ID=AY945734.1:1..8395;Dbxref=taxon:11676;country=Thailand;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=00TH.R1741;mol_type=genomic DNA;note=isolated in 2000;subtype=CRF01_AE/B
+AY945734.1	Genbank	gene	1	1491	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AY945734.1	Genbank	CDS	1	1491	.	+	0	ID=cds-AAY25764.1;Parent=gene-gag;Dbxref=NCBI_GP:AAY25764.1;Name=AAY25764.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AAY25764.1;start_range=.,1
+AY945734.1	Genbank	gene	1284	4295	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1284
+AY945734.1	Genbank	CDS	1284	4295	.	+	0	ID=cds-AAY25765.1;Parent=gene-pol;Dbxref=NCBI_GP:AAY25765.1;Name=AAY25765.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAY25765.1;start_range=.,1284
+AY945734.1	Genbank	gene	4240	4818	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY945734.1	Genbank	CDS	4240	4818	.	+	0	ID=cds-AAY25766.1;Parent=gene-vif;Dbxref=NCBI_GP:AAY25766.1;Name=AAY25766.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAY25766.1
+AY945734.1	Genbank	gene	4758	5057	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY945734.1	Genbank	CDS	4758	5057	.	+	0	ID=cds-AAY25767.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAY25767.1;Name=AAY25767.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAY25767.1
+AY945734.1	Genbank	gene	5038	7674	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY945734.1	Genbank	CDS	5038	5252	.	+	0	ID=cds-AAY25768.1;Parent=gene-tat;Dbxref=NCBI_GP:AAY25768.1;Name=AAY25768.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAY25768.1
+AY945734.1	Genbank	CDS	7584	7674	.	+	1	ID=cds-AAY25768.1;Parent=gene-tat;Dbxref=NCBI_GP:AAY25768.1;Name=AAY25768.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAY25768.1
+AY945734.1	Genbank	gene	5177	7858	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY945734.1	Genbank	CDS	5177	5252	.	+	0	ID=cds-AAY25769.1;Parent=gene-rev;Dbxref=NCBI_GP:AAY25769.1;Name=AAY25769.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAY25769.1
+AY945734.1	Genbank	CDS	7584	7858	.	+	2	ID=cds-AAY25769.1;Parent=gene-rev;Dbxref=NCBI_GP:AAY25769.1;Name=AAY25769.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAY25769.1
+AY945734.1	Genbank	gene	5273	5518	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY945734.1	Genbank	CDS	5273	5518	.	+	0	ID=cds-AAY25770.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAY25770.1;Name=AAY25770.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAY25770.1
+AY945734.1	Genbank	gene	5436	8000	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY945734.1	Genbank	CDS	5436	8000	.	+	0	ID=cds-AAY25771.1;Parent=gene-env;Dbxref=NCBI_GP:AAY25771.1;Name=AAY25771.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAY25771.1
+AY945734.1	Genbank	gene	8002	8395	.	+	.	ID=gene-nef;Name=nef;end_range=8395,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+AY945734.1	Genbank	CDS	8002	8395	.	+	0	ID=cds-AAY25772.1;Parent=gene-nef;Dbxref=NCBI_GP:AAY25772.1;Name=AAY25772.1;end_range=8395,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=AAY25772.1
+AY945711.1	Genbank	match	1	8357	.	+	.	ID=aln0;Target=AY945710.1 1 8394 +;Gap=M347 I6 M767 I3 M325 D1 D2 M3463 I10 M932 I2 I1 I2 I1 I1 I2 I2 I1 I1 I1 I1 M115 I2 I1 I1 I1 I1 M642 I1 I1 I1 D6 D5 D1 D1 D1 D3 D1 M159 I3 I3 I3 I3 M158 D3 M310 I3 M914 I3 M201
+###

@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM385585v1
+#!genome-build-accession NCBI_Assembly:GCA_003855855.1
+##sequence-region GU237072.1 1 9077
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+GU237072.1	Genbank	region	1	9077	.	+	.	ID=GU237072.1:1..9077;Dbxref=taxon:11676;country=Cameroon;gb-acronym=HIV-1;gbkey=Src;genome=genomic;group=M;isolate=04CMU11421;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human immunodeficiency virus type 1;subtype=J
+GU237072.1	Genbank	gene	308	1798	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+GU237072.1	Genbank	CDS	308	1510	.	+	0	ID=cds-ADB25241.1;Parent=gene-gag;Dbxref=NCBI_GP:ADB25241.1;Name=ADB25241.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ADB25241.1
+GU237072.1	Genbank	CDS	1538	1798	.	+	0	ID=cds-ADB25241.1;Parent=gene-gag;Dbxref=NCBI_GP:ADB25241.1;Name=ADB25241.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ADB25241.1
+GU237072.1	Genbank	gene	1603	4602	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1603
+GU237072.1	Genbank	CDS	1603	2298	.	+	0	ID=cds-ADB25242.1;Parent=gene-pol;Dbxref=NCBI_GP:ADB25242.1;Name=ADB25242.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ADB25242.1;start_range=.,1603
+GU237072.1	Genbank	CDS	2323	4602	.	+	0	ID=cds-ADB25242.1;Parent=gene-pol;Dbxref=NCBI_GP:ADB25242.1;Name=ADB25242.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ADB25242.1
+GU237072.1	Genbank	gene	4547	5125	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+GU237072.1	Genbank	CDS	4547	5125	.	+	0	ID=cds-ADB25243.1;Parent=gene-vif;Dbxref=NCBI_GP:ADB25243.1;Name=ADB25243.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ADB25243.1
+GU237072.1	Genbank	gene	5065	5355	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+GU237072.1	Genbank	CDS	5065	5355	.	+	0	ID=cds-ADB25244.1;Parent=gene-vpr;Dbxref=NCBI_GP:ADB25244.1;Name=ADB25244.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ADB25244.1
+GU237072.1	Genbank	gene	5336	7995	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+GU237072.1	Genbank	CDS	5336	5550	.	+	0	ID=cds-ADB25245.1;Parent=gene-tat;Dbxref=NCBI_GP:ADB25245.1;Name=ADB25245.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ADB25245.1
+GU237072.1	Genbank	CDS	7905	7995	.	+	1	ID=cds-ADB25245.1;Parent=gene-tat;Dbxref=NCBI_GP:ADB25245.1;Name=ADB25245.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ADB25245.1
+GU237072.1	Genbank	gene	5475	8179	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+GU237072.1	Genbank	CDS	5475	5537	.	+	0	ID=cds-ADB25246.1;Parent=gene-rev;Dbxref=NCBI_GP:ADB25246.1;Name=ADB25246.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ADB25246.1
+GU237072.1	Genbank	CDS	7907	8179	.	+	0	ID=cds-ADB25246.1;Parent=gene-rev;Dbxref=NCBI_GP:ADB25246.1;Name=ADB25246.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ADB25246.1
+GU237072.1	Genbank	gene	5576	5821	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+GU237072.1	Genbank	CDS	5576	5821	.	+	0	ID=cds-ADB25247.1;Parent=gene-vpu;Dbxref=NCBI_GP:ADB25247.1;Name=ADB25247.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ADB25247.1
+GU237072.1	Genbank	gene	5739	8321	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+GU237072.1	Genbank	CDS	5739	8321	.	+	0	ID=cds-ADB25248.1;Parent=gene-env;Dbxref=NCBI_GP:ADB25248.1;Name=ADB25248.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ADB25248.1
+GU237072.1	Genbank	gene	8323	8952	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+GU237072.1	Genbank	CDS	8323	8952	.	+	0	ID=cds-ADB25249.1;Parent=gene-nef;Dbxref=NCBI_GP:ADB25249.1;Name=ADB25249.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ADB25249.1
+###

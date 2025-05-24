@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309909v1
+#!genome-build-accession NCBI_Assembly:GCA_003099095.1
+##sequence-region AF450097.1 1 8983
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF450097.1	Genbank	region	1	8983	.	+	.	ID=AF450097.1:1..8983;Dbxref=taxon:11676;country=Spain: Pontevedra%2C Galicia;gb-acronym=HIV-1;gbkey=Src;isolate=X623;mol_type=genomic RNA;note=patient born in Cabo Verde%2C now native of Portugal%3B CRF14_BG;old-name=Human immunodeficiency virus type 1;subtype=BG recombinant
+AF450097.1	Genbank	long_terminal_repeat	1	62	.	+	.	ID=id-AF450097.1:1..62;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+AF450097.1	Genbank	gene	239	1723	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF450097.1	Genbank	CDS	239	1723	.	+	0	ID=cds-AAL47035.1;Parent=gene-gag;Dbxref=NCBI_GP:AAL47035.1;Name=AAL47035.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAL47035.1
+AF450097.1	Genbank	gene	1528	4536	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1528
+AF450097.1	Genbank	CDS	1528	4536	.	+	0	ID=cds-AAL47036.1;Parent=gene-pol;Dbxref=NCBI_GP:AAL47036.1;Name=AAL47036.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAL47036.1;start_range=.,1528
+AF450097.1	Genbank	gene	4481	5059	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF450097.1	Genbank	CDS	4481	5059	.	+	0	ID=cds-AAL47037.1;Parent=gene-vif;Dbxref=NCBI_GP:AAL47037.1;Name=AAL47037.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAL47037.1
+AF450097.1	Genbank	gene	4999	5289	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF450097.1	Genbank	CDS	4999	5289	.	+	0	ID=cds-AAL47038.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAL47038.1;Name=AAL47038.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAL47038.1
+AF450097.1	Genbank	gene	5270	7891	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF450097.1	Genbank	CDS	5270	5484	.	+	0	ID=cds-AAL47039.1;Parent=gene-tat;Dbxref=NCBI_GP:AAL47039.1;Name=AAL47039.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAL47039.1
+AF450097.1	Genbank	CDS	7801	7891	.	+	1	ID=cds-AAL47039.1;Parent=gene-tat;Dbxref=NCBI_GP:AAL47039.1;Name=AAL47039.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAL47039.1
+AF450097.1	Genbank	gene	5409	8096	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF450097.1	Genbank	CDS	5409	5484	.	+	0	ID=cds-AAL47040.1;Parent=gene-rev;Dbxref=NCBI_GP:AAL47040.1;Name=AAL47040.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAL47040.1
+AF450097.1	Genbank	CDS	7801	8096	.	+	2	ID=cds-AAL47040.1;Parent=gene-rev;Dbxref=NCBI_GP:AAL47040.1;Name=AAL47040.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAL47040.1
+AF450097.1	Genbank	gene	5511	5756	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF450097.1	Genbank	CDS	5511	5756	.	+	0	ID=cds-AAL47041.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAL47041.1;Name=AAL47041.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAL47041.1
+AF450097.1	Genbank	gene	5674	8238	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF450097.1	Genbank	CDS	5674	8238	.	+	0	ID=cds-AAL47042.1;Parent=gene-env;Dbxref=NCBI_GP:AAL47042.1;Name=AAL47042.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAL47042.1
+AF450097.1	Genbank	gene	8240	8878	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF450097.1	Genbank	CDS	8240	8878	.	+	0	ID=cds-AAL47043.1;Parent=gene-nef;Dbxref=NCBI_GP:AAL47043.1;Name=AAL47043.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAL47043.1
+AF450097.1	Genbank	long_terminal_repeat	8547	8983	.	+	.	ID=id-AF450097.1:8547..8983;end_range=8983,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+###

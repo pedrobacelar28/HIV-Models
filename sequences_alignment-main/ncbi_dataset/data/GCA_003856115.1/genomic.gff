@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM385611v1
+#!genome-build-accession NCBI_Assembly:GCA_003856115.1
+##sequence-region KY112585.1 1 9885
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KY112585.1	Genbank	region	1	9885	.	+	.	ID=KY112585.1:1..9885;Dbxref=taxon:11676;collection-date=2006;country=France;gb-acronym=HIV-1;gbkey=Src;genome=genomic;genotype=group O;isolate=RBF206;mol_type=genomic RNA;nat-host=Homo sapiens
+KY112585.1	Genbank	long_terminal_repeat	1	672	.	+	.	ID=id-KY112585.1:1..672;Note=5' LTR;gbkey=repeat_region;rpt_type=long_terminal_repeat
+KY112585.1	Genbank	gene	852	2354	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KY112585.1	Genbank	CDS	852	2354	.	+	0	ID=cds-APZ84121.1;Parent=gene-gag;Dbxref=NCBI_GP:APZ84121.1;Name=APZ84121.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=APZ84121.1
+KY112585.1	Genbank	gene	2162	5197	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,2162
+KY112585.1	Genbank	CDS	2162	5197	.	+	0	ID=cds-APZ84123.1;Parent=gene-pol;Dbxref=NCBI_GP:APZ84123.1;Name=APZ84123.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=APZ84123.1;start_range=.,2162
+KY112585.1	Genbank	gene	5112	5690	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KY112585.1	Genbank	CDS	5112	5690	.	+	0	ID=cds-APZ84122.1;Parent=gene-vif;Dbxref=NCBI_GP:APZ84122.1;Name=APZ84122.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=APZ84122.1
+KY112585.1	Genbank	gene	5630	5932	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KY112585.1	Genbank	CDS	5630	5932	.	+	0	ID=cds-APZ84124.1;Parent=gene-vpr;Dbxref=NCBI_GP:APZ84124.1;Name=APZ84124.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=APZ84124.1
+KY112585.1	Genbank	gene	5913	8512	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KY112585.1	Genbank	CDS	5913	6124	.	+	0	ID=cds-APZ84125.1;Parent=gene-tat;Dbxref=NCBI_GP:APZ84125.1;Name=APZ84125.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=APZ84125.1
+KY112585.1	Genbank	CDS	8476	8512	.	+	1	ID=cds-APZ84125.1;Parent=gene-tat;Dbxref=NCBI_GP:APZ84125.1;Name=APZ84125.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=APZ84125.1
+KY112585.1	Genbank	gene	6052	8714	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KY112585.1	Genbank	CDS	6052	6124	.	+	0	ID=cds-APZ84126.1;Parent=gene-rev;Dbxref=NCBI_GP:APZ84126.1;Name=APZ84126.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=APZ84126.1
+KY112585.1	Genbank	CDS	8476	8714	.	+	2	ID=cds-APZ84126.1;Parent=gene-rev;Dbxref=NCBI_GP:APZ84126.1;Name=APZ84126.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=APZ84126.1
+KY112585.1	Genbank	gene	6132	6395	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KY112585.1	Genbank	CDS	6132	6395	.	+	0	ID=cds-APZ84127.1;Parent=gene-vpu;Dbxref=NCBI_GP:APZ84127.1;Name=APZ84127.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=APZ84127.1
+KY112585.1	Genbank	gene	6301	8913	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KY112585.1	Genbank	CDS	6301	8913	.	+	0	ID=cds-APZ84128.1;Parent=gene-env;Dbxref=NCBI_GP:APZ84128.1;Name=APZ84128.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=APZ84128.1
+KY112585.1	Genbank	gene	8915	9553	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KY112585.1	Genbank	CDS	8915	9553	.	+	0	ID=cds-APZ84129.1;Parent=gene-nef;Dbxref=NCBI_GP:APZ84129.1;Name=APZ84129.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=APZ84129.1
+KY112585.1	Genbank	long_terminal_repeat	9222	9885	.	+	.	ID=id-KY112585.1:9222..9885;Note=3' LTR;gbkey=repeat_region;rpt_type=long_terminal_repeat
+###

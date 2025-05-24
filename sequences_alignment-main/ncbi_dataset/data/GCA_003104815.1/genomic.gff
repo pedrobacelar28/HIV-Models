@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310481v1
+#!genome-build-accession NCBI_Assembly:GCA_003104815.1
+##sequence-region U63632.1 1 8896
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+U63632.1	Genbank	region	1	8896	.	+	.	ID=U63632.1:1..8896;Dbxref=taxon:11676;gb-acronym=HIV-1;gbkey=Src;mol_type=genomic DNA;note=subtype B%3B infectious clone derived from provirus taken from brain%2C 1986;old-name=Human immunodeficiency virus type 1;strain=JRFL;tissue-type=brain
+U63632.1	Genbank	long_terminal_repeat	1	112	.	+	.	ID=id-U63632.1:1..112;gbkey=LTR;partial=true;start_range=.,1
+U63632.1	Genbank	gene	113	1609	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+U63632.1	Genbank	CDS	113	1609	.	+	0	ID=cds-AAB05598.1;Parent=gene-gag;Dbxref=NCBI_GP:AAB05598.1;Name=AAB05598.1;Note=encoded as a gag-pol fusion protein%3B membrane anchor and nucleocapsid;gbkey=CDS;gene=gag;product=gag polyprotein;protein_id=AAB05598.1
+U63632.1	Genbank	sequence_feature	1402	1407	.	+	.	ID=id-gag;Note=ribosomal frameshift attttttt 'slippery spot';gbkey=misc_feature;gene=gag
+U63632.1	Genbank	stem_loop	1417	1443	.	+	.	ID=id-gag-2;Note=11 bp stem plus 4 base loop potentiates ribosomal frameshift to form gag-pol fusion protein.;gbkey=stem_loop;gene=gag
+U63632.1	Genbank	gene	1402	4413	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+U63632.1	Genbank	CDS	1402	4413	.	+	0	ID=cds-AAB05599.1;Parent=gene-pol;Dbxref=NCBI_GP:AAB05599.1;Name=AAB05599.1;Note=encoded as gag-pol fusion protein%3B reverse transcriptase%2C protease%2C integrase;gbkey=CDS;gene=pol;partial=true;product=pol polyprotein;protein_id=AAB05599.1;start_range=.,1402
+U63632.1	Genbank	gene	4358	4936	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+U63632.1	Genbank	CDS	4358	4936	.	+	0	ID=cds-AAB05600.1;Parent=gene-vif;Dbxref=NCBI_GP:AAB05600.1;Name=AAB05600.1;Note=virion maturation factor;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAB05600.1
+U63632.1	Genbank	gene	4876	5166	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+U63632.1	Genbank	CDS	4876	5166	.	+	0	ID=cds-AAB05601.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAB05601.1;Name=AAB05601.1;Note=promotes nuclear localization of preintegration complex.;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAB05601.1
+U63632.1	Genbank	gene	5147	7758	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+U63632.1	Genbank	CDS	5147	5361	.	+	0	ID=cds-AAB05602.1;Parent=gene-tat;Dbxref=NCBI_GP:AAB05602.1;Name=AAB05602.1;Note=transcriptional transactivator;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAB05602.1
+U63632.1	Genbank	CDS	7668	7758	.	+	1	ID=cds-AAB05602.1;Parent=gene-tat;Dbxref=NCBI_GP:AAB05602.1;Name=AAB05602.1;Note=transcriptional transactivator;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAB05602.1
+U63632.1	Genbank	intron	5362	7667	.	+	.	ID=id-tat;Parent=gene-tat;Note=tat and rev intron;gbkey=intron;gene=tat
+U63632.1	Genbank	gene	5286	7942	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+U63632.1	Genbank	CDS	5286	5361	.	+	0	ID=cds-AAB05603.1;Parent=gene-rev;Dbxref=NCBI_GP:AAB05603.1;Name=AAB05603.1;Note=RNA transport and stability factor;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAB05603.1
+U63632.1	Genbank	CDS	7668	7942	.	+	2	ID=cds-AAB05603.1;Parent=gene-rev;Dbxref=NCBI_GP:AAB05603.1;Name=AAB05603.1;Note=RNA transport and stability factor;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAB05603.1
+U63632.1	Genbank	gene	5541	8084	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+U63632.1	Genbank	CDS	5541	8084	.	+	0	ID=cds-AAB05604.1;Parent=gene-env;Dbxref=NCBI_GP:AAB05604.1;Name=AAB05604.1;Note=gp160 precursor is cleaved into gp120 and gp41.;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAB05604.1
+U63632.1	Genbank	long_terminal_repeat	8405	8896	.	+	.	ID=id-U63632.1:8405..8896;end_range=8896,.;gbkey=LTR;partial=true
+###

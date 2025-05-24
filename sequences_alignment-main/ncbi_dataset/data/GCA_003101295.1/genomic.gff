@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310129v1
+#!genome-build-accession NCBI_Assembly:GCA_003101295.1
+##sequence-region EF545108.1 1 8806
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EF545108.1	Genbank	region	1	8806	.	+	.	ID=EF545108.1:1..8806;Dbxref=taxon:11676;collection-date=2000;country=Russia: St. Petersburg;gb-acronym=HIV-1;gbkey=Src;isolate=RU00051;isolation-source=transmitted via heterosexual contact;mol_type=genomic RNA;subtype=A
+EF545108.1	Genbank	gene	94	1593	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+EF545108.1	Genbank	CDS	94	1593	.	+	0	ID=cds-ABS10793.1;Parent=gene-gag;Dbxref=NCBI_GP:ABS10793.1;Name=ABS10793.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ABS10793.1
+EF545108.1	Genbank	gene	1386	4397	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1386
+EF545108.1	Genbank	CDS	1386	4397	.	+	0	ID=cds-ABS10794.1;Parent=gene-pol;Dbxref=NCBI_GP:ABS10794.1;Name=ABS10794.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ABS10794.1;start_range=.,1386
+EF545108.1	Genbank	gene	4342	4920	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+EF545108.1	Genbank	CDS	4342	4920	.	+	0	ID=cds-ABS10795.1;Parent=gene-vif;Dbxref=NCBI_GP:ABS10795.1;Name=ABS10795.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABS10795.1
+EF545108.1	Genbank	gene	4860	5150	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EF545108.1	Genbank	CDS	4860	5150	.	+	0	ID=cds-ABS10796.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABS10796.1;Name=ABS10796.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABS10796.1
+EF545108.1	Genbank	gene	5131	7743	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EF545108.1	Genbank	CDS	5131	5345	.	+	0	ID=cds-ABS10797.1;Parent=gene-tat;Dbxref=NCBI_GP:ABS10797.1;Name=ABS10797.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABS10797.1
+EF545108.1	Genbank	CDS	7653	7743	.	+	1	ID=cds-ABS10797.1;Parent=gene-tat;Dbxref=NCBI_GP:ABS10797.1;Name=ABS10797.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABS10797.1
+EF545108.1	Genbank	gene	5270	7948	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EF545108.1	Genbank	CDS	5270	5345	.	+	0	ID=cds-ABS10798.1;Parent=gene-rev;Dbxref=NCBI_GP:ABS10798.1;Name=ABS10798.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABS10798.1
+EF545108.1	Genbank	CDS	7653	7948	.	+	2	ID=cds-ABS10798.1;Parent=gene-rev;Dbxref=NCBI_GP:ABS10798.1;Name=ABS10798.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABS10798.1
+EF545108.1	Genbank	gene	5366	5611	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EF545108.1	Genbank	CDS	5366	5611	.	+	0	ID=cds-ABS10799.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABS10799.1;Name=ABS10799.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABS10799.1
+EF545108.1	Genbank	gene	5529	8090	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+EF545108.1	Genbank	CDS	5529	8090	.	+	0	ID=cds-ABS10800.1;Parent=gene-env;Dbxref=NCBI_GP:ABS10800.1;Name=ABS10800.1;gbkey=CDS;gene=env;product=env protein;protein_id=ABS10800.1
+EF545108.1	Genbank	gene	8092	8715	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EF545108.1	Genbank	CDS	8092	8715	.	+	0	ID=cds-ABS10801.1;Parent=gene-nef;Dbxref=NCBI_GP:ABS10801.1;Name=ABS10801.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ABS10801.1
+###

@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318794v1
+#!genome-build-accession NCBI_Assembly:GCA_003187945.1
+##sequence-region KR914676.1 1 8318
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KR914676.1	Genbank	region	1	8318	.	+	.	ID=KR914676.1:1..8318;Dbxref=taxon:11676;collection-date=2014;country=Cuba;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=14CU005;mol_type=genomic RNA;nat-host=Homo sapiens;note=clinical isolate;subtype=B
+KR914676.1	Genbank	gene	1	1503	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KR914676.1	Genbank	CDS	1	1503	.	+	0	ID=cds-ALU34081.1;Parent=gene-gag;Dbxref=NCBI_GP:ALU34081.1;Name=ALU34081.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ALU34081.1
+KR914676.1	Genbank	gene	1296	4307	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1296
+KR914676.1	Genbank	CDS	1296	4307	.	+	0	ID=cds-ALU34082.1;Parent=gene-pol;Dbxref=NCBI_GP:ALU34082.1;Name=ALU34082.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ALU34082.1;start_range=.,1296
+KR914676.1	Genbank	gene	4252	4830	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KR914676.1	Genbank	CDS	4252	4830	.	+	0	ID=cds-ALU34083.1;Parent=gene-vif;Dbxref=NCBI_GP:ALU34083.1;Name=ALU34083.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ALU34083.1
+KR914676.1	Genbank	sequence_feature	4770	5006	.	+	.	ID=id-KR914676.1:4770..5006;Note=nonfunctional vpr protein due to mutation%3B deletion causes frameshift and premature termination;gbkey=misc_feature
+KR914676.1	Genbank	sequence_feature	5042	7636	.	+	.	ID=id-KR914676.1:5042..7636;Note=nonfunctional tat protein due to mutation%3B deletion causes frameshift and premature termination;gbkey=misc_feature
+KR914676.1	Genbank	sequence_feature	5181	8318	.	+	.	ID=id-KR914676.1:5181..8318;Note=nonfunctional rev protein due to mutation%3B deletion causes frameshift and premature termination;end_range=8318,.;gbkey=misc_feature;partial=true
+KR914676.1	Genbank	gene	5273	5527	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KR914676.1	Genbank	CDS	5273	5527	.	+	0	ID=cds-ALU34084.1;Parent=gene-vpu;Dbxref=NCBI_GP:ALU34084.1;Name=ALU34084.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ALU34084.1
+KR914676.1	Genbank	gene	5436	8003	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KR914676.1	Genbank	CDS	5436	8003	.	+	0	ID=cds-ALU34085.1;Parent=gene-env;Dbxref=NCBI_GP:ALU34085.1;Name=ALU34085.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ALU34085.1
+###

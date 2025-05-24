@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309803v1
+#!genome-build-accession NCBI_Assembly:GCA_003098035.1
+##sequence-region AF067155.1 1 9002
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF067155.1	Genbank	region	1	9002	.	+	.	ID=AF067155.1:1..9002;Dbxref=taxon:11676;country=India;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=21068;mol_type=genomic DNA;note=uncultured PBMC sample taken in 1995 from a man from Pune in Maharashtra State%2C India%3B this man seroconverted in 1994%3B his only identified risk factor for HIV infection was genital ulcer disease%3B subtype C;old-name=Human immunodeficiency virus type 1
+AF067155.1	Genbank	gene	168	1643	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF067155.1	Genbank	CDS	168	1643	.	+	0	ID=cds-AAD12079.1;Parent=gene-gag;Dbxref=NCBI_GP:AAD12079.1;Name=AAD12079.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAD12079.1
+AF067155.1	Genbank	pseudogene	1448	4447	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=pseudogene;partial=true;pseudo=true;start_range=.,1448
+AF067155.1	Genbank	CDS	1448	1507	.	+	0	ID=cds-pol;Parent=gene-pol;Note=pol protein%3B premature termination due to C to T transition resulting in a stop codon;gbkey=CDS;gene=pol;partial=true;pseudo=true;start_range=.,1448
+AF067155.1	Genbank	gene	4392	4970	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF067155.1	Genbank	CDS	4392	4970	.	+	0	ID=cds-AAD12080.1;Parent=gene-vif;Dbxref=NCBI_GP:AAD12080.1;Name=AAD12080.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAD12080.1
+AF067155.1	Genbank	gene	4910	5200	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF067155.1	Genbank	CDS	4910	5200	.	+	0	ID=cds-AAD12081.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAD12081.1;Name=AAD12081.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAD12081.1
+AF067155.1	Genbank	gene	5181	7840	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF067155.1	Genbank	CDS	5181	5395	.	+	0	ID=cds-AAD12082.1;Parent=gene-tat;Dbxref=NCBI_GP:AAD12082.1;Name=AAD12082.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAD12082.1
+AF067155.1	Genbank	CDS	7750	7840	.	+	1	ID=cds-AAD12082.1;Parent=gene-tat;Dbxref=NCBI_GP:AAD12082.1;Name=AAD12082.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAD12082.1
+AF067155.1	Genbank	gene	5320	8045	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF067155.1	Genbank	CDS	5320	5395	.	+	0	ID=cds-AAD12083.1;Parent=gene-rev;Dbxref=NCBI_GP:AAD12083.1;Name=AAD12083.1;Note=premature rev protein termination%2C this is also seen in subtype C isolates from Africa (isolate C2220%2C GenBank Accession Number U46016) and Brazil (isolate 92BR025%2C GenBank Accession Number U52953)%3B this mutation is probably not lethal;gbkey=CDS;gene=rev;product=truncated rev protein;protein_id=AAD12083.1
+AF067155.1	Genbank	CDS	7750	7997	.	+	2	ID=cds-AAD12083.1;Parent=gene-rev;Dbxref=NCBI_GP:AAD12083.1;Name=AAD12083.1;Note=premature rev protein termination%2C this is also seen in subtype C isolates from Africa (isolate C2220%2C GenBank Accession Number U46016) and Brazil (isolate 92BR025%2C GenBank Accession Number U52953)%3B this mutation is probably not lethal;gbkey=CDS;gene=rev;product=truncated rev protein;protein_id=AAD12083.1
+AF067155.1	Genbank	gene	5409	5657	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF067155.1	Genbank	CDS	5409	5657	.	+	0	ID=cds-AAD12084.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAD12084.1;Name=AAD12084.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAD12084.1
+AF067155.1	Genbank	gene	5575	8187	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF067155.1	Genbank	CDS	5575	8187	.	+	0	ID=cds-AAD12085.1;Parent=gene-env;Dbxref=NCBI_GP:AAD12085.1;Name=AAD12085.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAD12085.1
+AF067155.1	Genbank	sequence_feature	7129	7129	.	+	.	ID=id-env;Note=putative site of post translational cleavage of the gp160 protein%3B gp160 is cleaved to give gp41 and gp120 proteins;gbkey=misc_feature;gene=env
+AF067155.1	Genbank	gene	8189	8791	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF067155.1	Genbank	CDS	8189	8791	.	+	0	ID=cds-AAD12086.1;Parent=gene-nef;Dbxref=NCBI_GP:AAD12086.1;Name=AAD12086.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAD12086.1
+###

@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM320249v1
+#!genome-build-accession NCBI_Assembly:GCA_003202495.1
+##sequence-region KC156214.1 1 9705
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KC156214.1	Genbank	region	1	9705	.	+	.	ID=KC156214.1:1..9705;Dbxref=taxon:11676;collection-date=30-Jun-2009;country=Malawi;gb-acronym=HIV-1;gbkey=Src;isolate=CH256.w96;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=C
+KC156214.1	Genbank	gene	792	2273	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KC156214.1	Genbank	CDS	792	2273	.	+	0	ID=cds-AGF30949.1;Parent=gene-gag;Dbxref=NCBI_GP:AGF30949.1;Name=AGF30949.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AGF30949.1
+KC156214.1	Genbank	gene	2072	5077	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,2072
+KC156214.1	Genbank	CDS	2072	5077	.	+	0	ID=cds-AGF30950.1;Parent=gene-pol;Dbxref=NCBI_GP:AGF30950.1;Name=AGF30950.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AGF30950.1;start_range=.,2072
+KC156214.1	Genbank	gene	5022	5600	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KC156214.1	Genbank	CDS	5022	5600	.	+	0	ID=cds-AGF30951.1;Parent=gene-vif;Dbxref=NCBI_GP:AGF30951.1;Name=AGF30951.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AGF30951.1
+KC156214.1	Genbank	gene	5540	5830	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KC156214.1	Genbank	CDS	5540	5830	.	+	0	ID=cds-AGF30952.1;Parent=gene-vpr;Dbxref=NCBI_GP:AGF30952.1;Name=AGF30952.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AGF30952.1
+KC156214.1	Genbank	gene	5811	8434	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KC156214.1	Genbank	CDS	5811	6025	.	+	0	ID=cds-AGF30953.1;Parent=gene-tat;Dbxref=NCBI_GP:AGF30953.1;Name=AGF30953.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AGF30953.1
+KC156214.1	Genbank	CDS	8341	8434	.	+	1	ID=cds-AGF30953.1;Parent=gene-tat;Dbxref=NCBI_GP:AGF30953.1;Name=AGF30953.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AGF30953.1
+KC156214.1	Genbank	gene	5950	8588	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KC156214.1	Genbank	CDS	5950	6025	.	+	0	ID=cds-AGF30954.1;Parent=gene-rev;Dbxref=NCBI_GP:AGF30954.1;Name=AGF30954.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AGF30954.1
+KC156214.1	Genbank	CDS	8341	8588	.	+	2	ID=cds-AGF30954.1;Parent=gene-rev;Dbxref=NCBI_GP:AGF30954.1;Name=AGF30954.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AGF30954.1
+KC156214.1	Genbank	gene	6039	6314	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=other
+KC156214.1	Genbank	sequence_feature	6039	6314	.	+	.	ID=id-vpu;Note=nonfunctional vpu protein due to mutation;gbkey=misc_feature;gene=vpu
+KC156214.1	Genbank	gene	6217	8778	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KC156214.1	Genbank	CDS	6217	8778	.	+	0	ID=cds-AGF30955.1;Parent=gene-env;Dbxref=NCBI_GP:AGF30955.1;Name=AGF30955.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AGF30955.1
+KC156214.1	Genbank	gene	8780	9403	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KC156214.1	Genbank	CDS	8780	9403	.	+	0	ID=cds-AGF30956.1;Parent=gene-nef;Dbxref=NCBI_GP:AGF30956.1;Name=AGF30956.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AGF30956.1
+###

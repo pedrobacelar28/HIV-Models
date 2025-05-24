@@ -1,0 +1,32 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310461v1
+#!genome-build-accession NCBI_Assembly:GCA_003104615.1
+##sequence-region U21135.1 1 9720
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+U21135.1	Genbank	region	1	9720	.	+	.	ID=U21135.1:1..9720;Dbxref=taxon:11676;clone=WEAU 1.60;gb-acronym=HIV-1;gbkey=Src;mol_type=genomic DNA;note=viral subtype B;old-name=Human immunodeficiency virus type 1
+U21135.1	Genbank	long_terminal_repeat	1	634	.	+	.	ID=id-U21135.1:1..634;gbkey=LTR
+U21135.1	Genbank	gene	789	2291	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+U21135.1	Genbank	CDS	789	2291	.	+	0	ID=cds-AAC32293.1;Parent=gene-gag;Dbxref=NCBI_GP:AAC32293.1;Name=AAC32293.1;gbkey=CDS;gene=gag;product=gag polyprotein;protein_id=AAC32293.1
+U21135.1	Genbank	gene	2084	5095	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+U21135.1	Genbank	CDS	2084	5095	.	+	0	ID=cds-AAC32294.1;Parent=gene-pol;Dbxref=NCBI_GP:AAC32294.1;Name=AAC32294.1;gbkey=CDS;gene=pol;partial=true;product=pol polyprotein;protein_id=AAC32294.1;start_range=.,2084
+U21135.1	Genbank	gene	5040	5618	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+U21135.1	Genbank	CDS	5040	5618	.	+	0	ID=cds-AAC32295.1;Parent=gene-vif;Dbxref=NCBI_GP:AAC32295.1;Name=AAC32295.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAC32295.1
+U21135.1	Genbank	gene	5558	5848	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+U21135.1	Genbank	CDS	5558	5848	.	+	0	ID=cds-AAC32296.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAC32296.1;Name=AAC32296.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAC32296.1
+U21135.1	Genbank	gene	5829	8476	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+U21135.1	Genbank	CDS	5829	6043	.	+	0	ID=cds-AAC32297.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC32297.1;Name=AAC32297.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAC32297.1
+U21135.1	Genbank	CDS	8386	8476	.	+	1	ID=cds-AAC32297.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC32297.1;Name=AAC32297.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAC32297.1
+U21135.1	Genbank	gene	5968	8660	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+U21135.1	Genbank	CDS	5968	6043	.	+	0	ID=cds-AAC32298.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC32298.1;Name=AAC32298.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAC32298.1
+U21135.1	Genbank	CDS	8386	8660	.	+	2	ID=cds-AAC32298.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC32298.1;Name=AAC32298.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAC32298.1
+U21135.1	Genbank	gene	6060	6305	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+U21135.1	Genbank	CDS	6060	6305	.	+	0	ID=cds-AAC32299.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAC32299.1;Name=AAC32299.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAC32299.1
+U21135.1	Genbank	gene	6223	8802	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+U21135.1	Genbank	CDS	6223	8802	.	+	0	ID=cds-AAC32300.1;Parent=gene-env;Dbxref=NCBI_GP:AAC32300.1;Name=AAC32300.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAC32300.1
+U21135.1	Genbank	gene	8804	9070	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+U21135.1	Genbank	CDS	8804	9070	.	+	0	ID=cds-AAC32301.1;Parent=gene-nef;Dbxref=NCBI_GP:AAC32301.1;Name=AAC32301.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAC32301.1
+U21135.1	Genbank	long_terminal_repeat	9086	9719	.	+	.	ID=id-U21135.1:9086..9719;gbkey=LTR
+U21135.1	Genbank	region	9612	9617	.	+	.	ID=id-U21135.1:9612..9617;Note=polyA signal;gbkey=polyA_signal
+###

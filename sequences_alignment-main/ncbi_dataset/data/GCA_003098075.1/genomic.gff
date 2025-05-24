@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309807v1
+#!genome-build-accession NCBI_Assembly:GCA_003098075.1
+##sequence-region AF075703.1 1 8925
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF075703.1	Genbank	region	1	8925	.	+	.	ID=AF075703.1:1..8925;Dbxref=taxon:11676;country=Finland;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=FIN9363;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;subtype=F1
+AF075703.1	Genbank	gene	131	1612	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF075703.1	Genbank	CDS	131	1612	.	+	0	ID=cds-AAF03413.1;Parent=gene-gag;Dbxref=NCBI_GP:AAF03413.1;Name=AAF03413.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAF03413.1
+AF075703.1	Genbank	pseudogene	1414	4425	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=pseudogene;pseudo=true
+AF075703.1	Genbank	CDS	1414	4425	.	+	0	ID=cds-pol;Parent=gene-pol;Note=point mutation at nt 1473 results in a premature stop codon and truncated protein;gbkey=CDS;gene=pol;pseudo=true
+AF075703.1	Genbank	gene	4370	4948	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF075703.1	Genbank	CDS	4370	4948	.	+	0	ID=cds-AAF03414.1;Parent=gene-vif;Dbxref=NCBI_GP:AAF03414.1;Name=AAF03414.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAF03414.1
+AF075703.1	Genbank	gene	4888	5178	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF075703.1	Genbank	CDS	4888	5178	.	+	0	ID=cds-AAF03415.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAF03415.1;Name=AAF03415.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAF03415.1
+AF075703.1	Genbank	gene	5159	7765	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF075703.1	Genbank	CDS	5159	5373	.	+	0	ID=cds-AAF03416.1;Parent=gene-tat;Dbxref=NCBI_GP:AAF03416.1;Name=AAF03416.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAF03416.1
+AF075703.1	Genbank	CDS	7675	7765	.	+	1	ID=cds-AAF03416.1;Parent=gene-tat;Dbxref=NCBI_GP:AAF03416.1;Name=AAF03416.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAF03416.1
+AF075703.1	Genbank	gene	5298	7949	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF075703.1	Genbank	CDS	5298	5373	.	+	0	ID=cds-AAF03417.1;Parent=gene-rev;Dbxref=NCBI_GP:AAF03417.1;Name=AAF03417.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAF03417.1
+AF075703.1	Genbank	CDS	7675	7949	.	+	2	ID=cds-AAF03417.1;Parent=gene-rev;Dbxref=NCBI_GP:AAF03417.1;Name=AAF03417.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAF03417.1
+AF075703.1	Genbank	gene	5400	5645	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF075703.1	Genbank	CDS	5400	5645	.	+	0	ID=cds-AAF03418.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAF03418.1;Name=AAF03418.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAF03418.1
+AF075703.1	Genbank	gene	5563	8091	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF075703.1	Genbank	CDS	5563	8091	.	+	0	ID=cds-AAF03419.1;Parent=gene-env;Dbxref=NCBI_GP:AAF03419.1;Name=AAF03419.1;gbkey=CDS;gene=env;product=envelope;protein_id=AAF03419.1
+AF075703.1	Genbank	gene	8093	8464	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF075703.1	Genbank	CDS	8093	8464	.	+	0	ID=cds-AAF03420.1;Parent=gene-nef;Dbxref=NCBI_GP:AAF03420.1;Name=AAF03420.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAF03420.1
+###

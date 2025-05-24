@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM319080v1
+#!genome-build-accession NCBI_Assembly:GCA_003190805.1
+##sequence-region GQ324962.1 1 8545
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+GQ324962.1	Genbank	region	1	8545	.	+	.	ID=GQ324962.1:1..8545;Dbxref=taxon:11676;collection-date=2006;country=Cameroon: Jamot Hospital TB Clinic%2C Yaounde;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=06CM-U14296;isolation-source=blood from 47 year old female;mol_type=genomic DNA;nat-host=Homo sapiens
+GQ324962.1	Genbank	gene	260	1795	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+GQ324962.1	Genbank	CDS	260	1795	.	+	0	ID=cds-ADD25374.1;Parent=gene-gag;Dbxref=NCBI_GP:ADD25374.1;Name=ADD25374.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ADD25374.1
+GQ324962.1	Genbank	gene	1567	4611	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1567
+GQ324962.1	Genbank	CDS	1567	4611	.	+	0	ID=cds-ADD25375.1;Parent=gene-pol;Dbxref=NCBI_GP:ADD25375.1;Name=ADD25375.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ADD25375.1;start_range=.,1567
+GQ324962.1	Genbank	gene	4544	5122	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+GQ324962.1	Genbank	CDS	4544	5122	.	+	0	ID=cds-ADD25376.1;Parent=gene-vif;Dbxref=NCBI_GP:ADD25376.1;Name=ADD25376.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ADD25376.1
+GQ324962.1	Genbank	gene	5062	5349	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+GQ324962.1	Genbank	CDS	5062	5349	.	+	0	ID=cds-ADD25377.1;Parent=gene-vpr;Dbxref=NCBI_GP:ADD25377.1;Name=ADD25377.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ADD25377.1
+GQ324962.1	Genbank	gene	5330	7920	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+GQ324962.1	Genbank	CDS	5330	5544	.	+	0	ID=cds-ADD25373.1;Parent=gene-tat;Dbxref=NCBI_GP:ADD25373.1;Name=ADD25373.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ADD25373.1
+GQ324962.1	Genbank	CDS	7830	7920	.	+	1	ID=cds-ADD25373.1;Parent=gene-tat;Dbxref=NCBI_GP:ADD25373.1;Name=ADD25373.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ADD25373.1
+GQ324962.1	Genbank	gene	5469	8068	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+GQ324962.1	Genbank	CDS	5469	5544	.	+	0	ID=cds-ADD25378.1;Parent=gene-rev;Dbxref=NCBI_GP:ADD25378.1;Name=ADD25378.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ADD25378.1
+GQ324962.1	Genbank	CDS	7830	8068	.	+	2	ID=cds-ADD25378.1;Parent=gene-rev;Dbxref=NCBI_GP:ADD25378.1;Name=ADD25378.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ADD25378.1
+GQ324962.1	Genbank	gene	5564	5761	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+GQ324962.1	Genbank	CDS	5564	5761	.	+	0	ID=cds-ADD25379.1;Parent=gene-vpu;Dbxref=NCBI_GP:ADD25379.1;Name=ADD25379.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ADD25379.1
+GQ324962.1	Genbank	gene	5691	8267	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+GQ324962.1	Genbank	CDS	5691	8267	.	+	0	ID=cds-ADD25380.1;Parent=gene-env;Dbxref=NCBI_GP:ADD25380.1;Name=ADD25380.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ADD25380.1
+GQ324962.1	Genbank	gene	8269	8545	.	+	.	ID=gene-nef;Name=nef;end_range=8545,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+GQ324962.1	Genbank	CDS	8269	8545	.	+	0	ID=cds-ADD25381.1;Parent=gene-nef;Dbxref=NCBI_GP:ADD25381.1;Name=ADD25381.1;end_range=8545,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=ADD25381.1
+###

@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318982v1
+#!genome-build-accession NCBI_Assembly:GCA_003189825.1
+##sequence-region KP109508.1 1 8939
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KP109508.1	Genbank	region	1	8939	.	+	.	ID=KP109508.1:1..8939;Dbxref=taxon:11676;collection-date=2012;country=China;gb-acronym=HIV-1;gbkey=Src;isolate=DE00112CN011;mol_type=genomic RNA;nat-host=Homo sapiens;note=initially isolated from a person from China%3B propagated in PBMCs and used to establish the global viral diversity panel for External Quality Assurance Program Oversight Laboratory (EQAPOL);subtype=CRF01_AE
+KP109508.1	Genbank	gene	112	1602	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KP109508.1	Genbank	CDS	112	1602	.	+	0	ID=cds-AJG45197.1;Parent=gene-gag;Dbxref=NCBI_GP:AJG45197.1;Name=AJG45197.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AJG45197.1
+KP109508.1	Genbank	gene	1401	4406	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1401
+KP109508.1	Genbank	CDS	1401	4406	.	+	0	ID=cds-AJG45198.1;Parent=gene-pol;Dbxref=NCBI_GP:AJG45198.1;Name=AJG45198.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AJG45198.1;start_range=.,1401
+KP109508.1	Genbank	gene	4351	4929	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KP109508.1	Genbank	CDS	4351	4929	.	+	0	ID=cds-AJG45199.1;Parent=gene-vif;Dbxref=NCBI_GP:AJG45199.1;Name=AJG45199.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AJG45199.1
+KP109508.1	Genbank	gene	4869	5159	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KP109508.1	Genbank	CDS	4869	5159	.	+	0	ID=cds-AJG45200.1;Parent=gene-vpr;Dbxref=NCBI_GP:AJG45200.1;Name=AJG45200.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AJG45200.1
+KP109508.1	Genbank	gene	5140	7791	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KP109508.1	Genbank	CDS	5140	5354	.	+	0	ID=cds-AJG45201.1;Parent=gene-tat;Dbxref=NCBI_GP:AJG45201.1;Name=AJG45201.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AJG45201.1
+KP109508.1	Genbank	CDS	7701	7791	.	+	1	ID=cds-AJG45201.1;Parent=gene-tat;Dbxref=NCBI_GP:AJG45201.1;Name=AJG45201.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AJG45201.1
+KP109508.1	Genbank	gene	5279	7996	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KP109508.1	Genbank	CDS	5279	5354	.	+	0	ID=cds-AJG45202.1;Parent=gene-rev;Dbxref=NCBI_GP:AJG45202.1;Name=AJG45202.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AJG45202.1
+KP109508.1	Genbank	CDS	7701	7996	.	+	2	ID=cds-AJG45202.1;Parent=gene-rev;Dbxref=NCBI_GP:AJG45202.1;Name=AJG45202.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AJG45202.1
+KP109508.1	Genbank	gene	5375	5620	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KP109508.1	Genbank	CDS	5375	5620	.	+	0	ID=cds-AJG45203.1;Parent=gene-vpu;Dbxref=NCBI_GP:AJG45203.1;Name=AJG45203.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AJG45203.1
+KP109508.1	Genbank	gene	5538	8138	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KP109508.1	Genbank	CDS	5538	8138	.	+	0	ID=cds-AJG45204.1;Parent=gene-env;Dbxref=NCBI_GP:AJG45204.1;Name=AJG45204.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AJG45204.1
+KP109508.1	Genbank	gene	8140	8760	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KP109508.1	Genbank	CDS	8140	8760	.	+	0	ID=cds-AJG45205.1;Parent=gene-nef;Dbxref=NCBI_GP:AJG45205.1;Name=AJG45205.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AJG45205.1
+###

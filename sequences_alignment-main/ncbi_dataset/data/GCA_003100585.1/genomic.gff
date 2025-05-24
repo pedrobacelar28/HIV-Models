@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310058v1
+#!genome-build-accession NCBI_Assembly:GCA_003100585.1
+##sequence-region DQ020274.2 1 8944
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+DQ020274.2	Genbank	region	1	8944	.	+	.	ID=DQ020274.2:1..8944;Dbxref=taxon:11676;country=Cuba;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=CB134;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;serotype=BG recombinant;subtype=CRF20_BG
+DQ020274.2	Genbank	gene	239	1711	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+DQ020274.2	Genbank	CDS	239	1711	.	+	0	ID=cds-AAZ75943.2;Parent=gene-gag;Dbxref=NCBI_GP:AAZ75943.2;Name=AAZ75943.2;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAZ75943.2
+DQ020274.2	Genbank	gene	1531	4524	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1531
+DQ020274.2	Genbank	CDS	1531	4524	.	+	0	ID=cds-AAZ75944.2;Parent=gene-pol;Dbxref=NCBI_GP:AAZ75944.2;Name=AAZ75944.2;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAZ75944.2;start_range=.,1531
+DQ020274.2	Genbank	gene	4469	5047	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+DQ020274.2	Genbank	CDS	4469	5047	.	+	0	ID=cds-AAZ75945.1;Parent=gene-vif;Dbxref=NCBI_GP:AAZ75945.1;Name=AAZ75945.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAZ75945.1
+DQ020274.2	Genbank	gene	4987	5277	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+DQ020274.2	Genbank	CDS	4987	5277	.	+	0	ID=cds-AAZ75946.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAZ75946.1;Name=AAZ75946.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAZ75946.1
+DQ020274.2	Genbank	gene	5258	7877	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+DQ020274.2	Genbank	CDS	5258	5472	.	+	0	ID=cds-AAZ75947.1;Parent=gene-tat;Dbxref=NCBI_GP:AAZ75947.1;Name=AAZ75947.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAZ75947.1
+DQ020274.2	Genbank	CDS	7787	7877	.	+	1	ID=cds-AAZ75947.1;Parent=gene-tat;Dbxref=NCBI_GP:AAZ75947.1;Name=AAZ75947.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAZ75947.1
+DQ020274.2	Genbank	gene	5397	8082	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+DQ020274.2	Genbank	CDS	5397	5472	.	+	0	ID=cds-AAZ75948.1;Parent=gene-rev;Dbxref=NCBI_GP:AAZ75948.1;Name=AAZ75948.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAZ75948.1
+DQ020274.2	Genbank	CDS	7787	8082	.	+	2	ID=cds-AAZ75948.1;Parent=gene-rev;Dbxref=NCBI_GP:AAZ75948.1;Name=AAZ75948.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAZ75948.1
+DQ020274.2	Genbank	gene	5500	5745	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+DQ020274.2	Genbank	CDS	5500	5745	.	+	0	ID=cds-AAZ75949.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAZ75949.1;Name=AAZ75949.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAZ75949.1
+DQ020274.2	Genbank	gene	5663	8224	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+DQ020274.2	Genbank	CDS	5663	8224	.	+	0	ID=cds-AAZ75950.1;Parent=gene-env;Dbxref=NCBI_GP:AAZ75950.1;Name=AAZ75950.1;gbkey=CDS;gene=env;product=env protein;protein_id=AAZ75950.1
+DQ020274.2	Genbank	gene	8226	8849	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+DQ020274.2	Genbank	CDS	8226	8849	.	+	0	ID=cds-AAZ75951.1;Parent=gene-nef;Dbxref=NCBI_GP:AAZ75951.1;Name=AAZ75951.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAZ75951.1
+###

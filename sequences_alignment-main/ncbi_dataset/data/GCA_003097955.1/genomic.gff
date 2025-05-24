@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309795v1
+#!genome-build-accession NCBI_Assembly:GCA_003097955.1
+##sequence-region AF061641.1 1 9047
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF061641.1	Genbank	region	1	9047	.	+	.	ID=AF061641.1:1..9047;Dbxref=taxon:11676;clone=12.1;country=Finland;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=HH8793;mol_type=genomic DNA;note=cloned by extended PCR from total genomic DNA extracted from short-term PBMC co-culture%3B this patient resides in Finland%3B the likely origin of this virus is Kenya%3B subtype G;old-name=Human immunodeficiency virus type 1
+AF061641.1	Genbank	gene	192	1684	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF061641.1	Genbank	CDS	192	1496	.	+	0	ID=cds-AAC29051.1;Parent=gene-gag;Dbxref=NCBI_GP:AAC29051.1;Name=AAC29051.1;Note=frameshift at the ribosomal frameshift slippery site results in premature truncation;gbkey=CDS;gene=gag;product=truncated gag protein;protein_id=AAC29051.1
+AF061641.1	Genbank	sequence_feature	1490	1494	.	+	.	ID=id-AF061641.1:1490..1494;Note=ribosomal frameshift slippery site;gbkey=misc_feature
+AF061641.1	Genbank	pseudogene	1492	4496	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=pseudogene;partial=true;pseudo=true;start_range=.,1492
+AF061641.1	Genbank	CDS	1492	4496	.	+	0	ID=cds-pol;Parent=gene-pol;Note=pol protein;gbkey=CDS;gene=pol;partial=true;pseudo=true;start_range=.,1492
+AF061641.1	Genbank	gene	4441	5019	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF061641.1	Genbank	CDS	4441	5019	.	+	0	ID=cds-AAC29052.1;Parent=gene-vif;Dbxref=NCBI_GP:AAC29052.1;Name=AAC29052.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAC29052.1
+AF061641.1	Genbank	gene	4959	5249	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF061641.1	Genbank	CDS	4959	5249	.	+	0	ID=cds-AAC29053.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAC29053.1;Name=AAC29053.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAC29053.1
+AF061641.1	Genbank	gene	5230	7839	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF061641.1	Genbank	CDS	5230	5444	.	+	0	ID=cds-AAC29057.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC29057.1;Name=AAC29057.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAC29057.1
+AF061641.1	Genbank	CDS	7749	7839	.	+	1	ID=cds-AAC29057.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC29057.1;Name=AAC29057.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAC29057.1
+AF061641.1	Genbank	gene	5369	8050	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF061641.1	Genbank	CDS	5369	5444	.	+	0	ID=cds-AAC29058.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC29058.1;Name=AAC29058.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAC29058.1
+AF061641.1	Genbank	CDS	7749	8044	.	+	2	ID=cds-AAC29058.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC29058.1;Name=AAC29058.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAC29058.1
+AF061641.1	Genbank	gene	5471	5716	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF061641.1	Genbank	CDS	5471	5716	.	+	0	ID=cds-AAC29054.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAC29054.1;Name=AAC29054.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAC29054.1
+AF061641.1	Genbank	gene	5634	8186	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF061641.1	Genbank	CDS	5634	8186	.	+	0	ID=cds-AAC29055.1;Parent=gene-env;Dbxref=NCBI_GP:AAC29055.1;Name=AAC29055.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAC29055.1
+AF061641.1	Genbank	gene	8188	8817	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF061641.1	Genbank	CDS	8188	8817	.	+	0	ID=cds-AAC29056.1;Parent=gene-nef;Dbxref=NCBI_GP:AAC29056.1;Name=AAC29056.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAC29056.1
+###

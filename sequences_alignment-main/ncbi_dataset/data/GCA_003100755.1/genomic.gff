@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310075v1
+#!genome-build-accession NCBI_Assembly:GCA_003100755.1
+##sequence-region DQ354113.1 1 8796
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+DQ354113.1	Genbank	region	1	8796	.	+	.	ID=DQ354113.1:1..8796;Dbxref=taxon:11676;country=Thailand: Lampang;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=M043;isolation-source=PBMC of a seropositive individual;mol_type=genomic DNA;subtype=CRF01_AE/B
+DQ354113.1	Genbank	gene	1	1491	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+DQ354113.1	Genbank	CDS	1	1491	.	+	0	ID=cds-ABD04217.1;Parent=gene-gag;Dbxref=NCBI_GP:ABD04217.1;Name=ABD04217.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=ABD04217.1;start_range=.,1
+DQ354113.1	Genbank	gene	1284	4295	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1284
+DQ354113.1	Genbank	CDS	1284	4295	.	+	0	ID=cds-ABD04218.1;Parent=gene-pol;Dbxref=NCBI_GP:ABD04218.1;Name=ABD04218.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ABD04218.1;start_range=.,1284
+DQ354113.1	Genbank	gene	4240	4818	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+DQ354113.1	Genbank	CDS	4240	4818	.	+	0	ID=cds-ABD04219.1;Parent=gene-vif;Dbxref=NCBI_GP:ABD04219.1;Name=ABD04219.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABD04219.1
+DQ354113.1	Genbank	gene	4758	5048	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+DQ354113.1	Genbank	CDS	4758	5048	.	+	0	ID=cds-ABD04220.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABD04220.1;Name=ABD04220.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABD04220.1
+DQ354113.1	Genbank	gene	5029	7662	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+DQ354113.1	Genbank	CDS	5029	5243	.	+	0	ID=cds-ABD04221.1;Parent=gene-tat;Dbxref=NCBI_GP:ABD04221.1;Name=ABD04221.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABD04221.1
+DQ354113.1	Genbank	CDS	7572	7662	.	+	1	ID=cds-ABD04221.1;Parent=gene-tat;Dbxref=NCBI_GP:ABD04221.1;Name=ABD04221.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABD04221.1
+DQ354113.1	Genbank	gene	5168	7846	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+DQ354113.1	Genbank	CDS	5168	5243	.	+	0	ID=cds-ABD04222.1;Parent=gene-rev;Dbxref=NCBI_GP:ABD04222.1;Name=ABD04222.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABD04222.1
+DQ354113.1	Genbank	CDS	7572	7846	.	+	2	ID=cds-ABD04222.1;Parent=gene-rev;Dbxref=NCBI_GP:ABD04222.1;Name=ABD04222.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABD04222.1
+DQ354113.1	Genbank	gene	5264	5518	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+DQ354113.1	Genbank	CDS	5264	5518	.	+	0	ID=cds-ABD04223.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABD04223.1;Name=ABD04223.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABD04223.1
+DQ354113.1	Genbank	gene	5436	7988	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+DQ354113.1	Genbank	CDS	5436	7988	.	+	0	ID=cds-ABD04224.1;Parent=gene-env;Dbxref=NCBI_GP:ABD04224.1;Name=ABD04224.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ABD04224.1
+DQ354113.1	Genbank	gene	7990	8610	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+DQ354113.1	Genbank	CDS	7990	8610	.	+	0	ID=cds-ABD04225.1;Parent=gene-nef;Dbxref=NCBI_GP:ABD04225.1;Name=ABD04225.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ABD04225.1
+DQ354114.1	Genbank	match	1	8758	.	+	.	ID=aln0;Target=DQ354113.1 1 8796 +;Gap=M1114 D3 M42 D3 M237 D3 M38 I2 I1 M3817 I4 M24 I9 M563 I6 I6 I4 I2 I3 M74 I1 I2 M47 I4 I2 I2 D1 D1 M613 I4 I1 D1 D1 D1 D3 D1 M8 I5 I6 I9 D3 D6 M153 D3 M155 D3 M1676 D1 M120 D1 M42
+###

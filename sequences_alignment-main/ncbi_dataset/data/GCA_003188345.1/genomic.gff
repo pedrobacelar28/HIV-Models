@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build v1.0
+#!genome-build-accession NCBI_Assembly:GCA_003188345.1
+##sequence-region KT124786.1 1 8659
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KT124786.1	Genbank	region	1	8659	.	+	.	ID=KT124786.1:1..8659;Dbxref=taxon:11676;collection-date=2010;country=Germany;gb-acronym=HIV-1;gbkey=Src;isolate=622166;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=C
+KT124786.1	Genbank	gene	1	1497	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KT124786.1	Genbank	CDS	1	1497	.	+	0	ID=cds-ALP12966.1;Parent=gene-gag;Dbxref=NCBI_GP:ALP12966.1;Name=ALP12966.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ALP12966.1
+KT124786.1	Genbank	gene	1281	4298	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1281
+KT124786.1	Genbank	CDS	1281	4298	.	+	0	ID=cds-ALP12967.1;Parent=gene-pol;Dbxref=NCBI_GP:ALP12967.1;Name=ALP12967.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ALP12967.1;start_range=.,1281
+KT124786.1	Genbank	gene	4243	4821	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KT124786.1	Genbank	CDS	4243	4821	.	+	0	ID=cds-ALP12968.1;Parent=gene-vif;Dbxref=NCBI_GP:ALP12968.1;Name=ALP12968.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ALP12968.1
+KT124786.1	Genbank	gene	4761	5051	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KT124786.1	Genbank	CDS	4761	5051	.	+	0	ID=cds-ALP12969.1;Parent=gene-vpr;Dbxref=NCBI_GP:ALP12969.1;Name=ALP12969.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ALP12969.1
+KT124786.1	Genbank	gene	5032	7658	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KT124786.1	Genbank	CDS	5032	5246	.	+	0	ID=cds-ALP12970.1;Parent=gene-tat;Dbxref=NCBI_GP:ALP12970.1;Name=ALP12970.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ALP12970.1
+KT124786.1	Genbank	CDS	7568	7658	.	+	1	ID=cds-ALP12970.1;Parent=gene-tat;Dbxref=NCBI_GP:ALP12970.1;Name=ALP12970.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ALP12970.1
+KT124786.1	Genbank	gene	5171	7815	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KT124786.1	Genbank	CDS	5171	5246	.	+	0	ID=cds-ALP12971.1;Parent=gene-rev;Dbxref=NCBI_GP:ALP12971.1;Name=ALP12971.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ALP12971.1
+KT124786.1	Genbank	CDS	7568	7815	.	+	2	ID=cds-ALP12971.1;Parent=gene-rev;Dbxref=NCBI_GP:ALP12971.1;Name=ALP12971.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ALP12971.1
+KT124786.1	Genbank	gene	5260	5514	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KT124786.1	Genbank	CDS	5260	5514	.	+	0	ID=cds-ALP12972.1;Parent=gene-vpu;Dbxref=NCBI_GP:ALP12972.1;Name=ALP12972.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ALP12972.1
+KT124786.1	Genbank	gene	5438	8005	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KT124786.1	Genbank	CDS	5438	8005	.	+	0	ID=cds-ALP12973.1;Parent=gene-env;Dbxref=NCBI_GP:ALP12973.1;Name=ALP12973.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ALP12973.1
+KT124786.1	Genbank	gene	8021	8659	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KT124786.1	Genbank	CDS	8021	8659	.	+	0	ID=cds-ALP12974.1;Parent=gene-nef;Dbxref=NCBI_GP:ALP12974.1;Name=ALP12974.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ALP12974.1
+###

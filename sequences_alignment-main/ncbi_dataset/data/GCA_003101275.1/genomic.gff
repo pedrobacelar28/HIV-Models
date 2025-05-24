@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310127v1
+#!genome-build-accession NCBI_Assembly:GCA_003101275.1
+##sequence-region EF165541.1 1 8650
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EF165541.1	Genbank	region	1	8650	.	+	.	ID=EF165541.1:1..8650;Dbxref=taxon:11676;country=Thailand: northern region;gb-acronym=HIV-1;gbkey=Src;isolate=OUR2478P;isolation-source=intravenous drug user;mol_type=genomic RNA;subtype=CRF34_01B
+EF165541.1	Genbank	gene	1	1494	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+EF165541.1	Genbank	CDS	1	1494	.	+	0	ID=cds-ABO65234.1;Parent=gene-gag;Dbxref=NCBI_GP:ABO65234.1;Name=ABO65234.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=ABO65234.1;start_range=.,1
+EF165541.1	Genbank	gene	1287	4298	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1287
+EF165541.1	Genbank	CDS	1287	4298	.	+	0	ID=cds-ABO65235.1;Parent=gene-pol;Dbxref=NCBI_GP:ABO65235.1;Name=ABO65235.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ABO65235.1;start_range=.,1287
+EF165541.1	Genbank	gene	4243	4821	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+EF165541.1	Genbank	CDS	4243	4821	.	+	0	ID=cds-ABO65236.1;Parent=gene-vif;Dbxref=NCBI_GP:ABO65236.1;Name=ABO65236.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABO65236.1
+EF165541.1	Genbank	gene	4761	5051	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EF165541.1	Genbank	CDS	4761	5051	.	+	0	ID=cds-ABO65237.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABO65237.1;Name=ABO65237.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABO65237.1
+EF165541.1	Genbank	gene	5032	7635	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EF165541.1	Genbank	CDS	5032	5246	.	+	0	ID=cds-ABO65238.1;Parent=gene-tat;Dbxref=NCBI_GP:ABO65238.1;Name=ABO65238.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABO65238.1
+EF165541.1	Genbank	CDS	7545	7629	.	+	1	ID=cds-ABO65238.1;Parent=gene-tat;Dbxref=NCBI_GP:ABO65238.1;Name=ABO65238.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABO65238.1
+EF165541.1	Genbank	gene	5171	7819	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EF165541.1	Genbank	CDS	5171	5246	.	+	0	ID=cds-ABO65239.1;Parent=gene-rev;Dbxref=NCBI_GP:ABO65239.1;Name=ABO65239.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABO65239.1
+EF165541.1	Genbank	CDS	7545	7819	.	+	2	ID=cds-ABO65239.1;Parent=gene-rev;Dbxref=NCBI_GP:ABO65239.1;Name=ABO65239.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABO65239.1
+EF165541.1	Genbank	gene	5267	5512	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EF165541.1	Genbank	CDS	5267	5512	.	+	0	ID=cds-ABO65240.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABO65240.1;Name=ABO65240.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABO65240.1
+EF165541.1	Genbank	gene	5430	7961	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+EF165541.1	Genbank	CDS	5430	7961	.	+	0	ID=cds-ABO65241.1;Parent=gene-env;Dbxref=NCBI_GP:ABO65241.1;Name=ABO65241.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ABO65241.1
+EF165541.1	Genbank	gene	7963	8571	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EF165541.1	Genbank	CDS	7963	8571	.	+	0	ID=cds-ABO65242.1;Parent=gene-nef;Dbxref=NCBI_GP:ABO65242.1;Name=ABO65242.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ABO65242.1
+EF165540.1	Genbank	match	1	8728	.	+	.	ID=aln0;Target=EF165539.1 1 8668 +;Gap=M1114 I3 M4757 D4 I6 I1 M117 D3 D21 M495 D3 M118 D18 M183 D9 M1654 D12 M220
+###

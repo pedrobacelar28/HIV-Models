@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310029v1
+#!genome-build-accession NCBI_Assembly:GCA_003100295.1
+##sequence-region AY772699.1 1 9011
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY772699.1	Genbank	region	1	9011	.	+	.	ID=AY772699.1:1..9011;Dbxref=taxon:11676;country=South Africa: Durban;gb-acronym=HIV-1;gbkey=Src;isolate=04ZASK146B1;isolation-source=woman with heterosexual transmission as her primary risk factor;mol_type=genomic RNA;note=sample date 02/2004;subtype=C
+AY772699.1	Genbank	gene	225	1703	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AY772699.1	Genbank	CDS	225	1703	.	+	0	ID=cds-AAV41352.1;Parent=gene-gag;Dbxref=NCBI_GP:AAV41352.1;Name=AAV41352.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAV41352.1
+AY772699.1	Genbank	gene	1508	2740	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1508
+AY772699.1	Genbank	CDS	1508	2740	.	+	0	ID=cds-AAV41354.1;Parent=gene-pol;Dbxref=NCBI_GP:AAV41354.1;Name=AAV41354.1;gbkey=CDS;gene=pol;partial=true;product=truncated pol protein;protein_id=AAV41354.1;start_range=.,1508
+AY772699.1	Genbank	gene	4451	5029	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY772699.1	Genbank	CDS	4451	5029	.	+	0	ID=cds-AAV41346.1;Parent=gene-vif;Dbxref=NCBI_GP:AAV41346.1;Name=AAV41346.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAV41346.1
+AY772699.1	Genbank	gene	4969	5259	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY772699.1	Genbank	CDS	4969	5259	.	+	0	ID=cds-AAV41347.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAV41347.1;Name=AAV41347.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAV41347.1
+AY772699.1	Genbank	gene	5240	7839	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY772699.1	Genbank	CDS	5240	5454	.	+	0	ID=cds-AAV41348.1;Parent=gene-tat;Dbxref=NCBI_GP:AAV41348.1;Name=AAV41348.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAV41348.1
+AY772699.1	Genbank	CDS	7749	7839	.	+	1	ID=cds-AAV41348.1;Parent=gene-tat;Dbxref=NCBI_GP:AAV41348.1;Name=AAV41348.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAV41348.1
+AY772699.1	Genbank	gene	5379	7996	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY772699.1	Genbank	CDS	5379	5454	.	+	0	ID=cds-AAV41349.1;Parent=gene-rev;Dbxref=NCBI_GP:AAV41349.1;Name=AAV41349.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAV41349.1
+AY772699.1	Genbank	CDS	7749	7996	.	+	2	ID=cds-AAV41349.1;Parent=gene-rev;Dbxref=NCBI_GP:AAV41349.1;Name=AAV41349.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAV41349.1
+AY772699.1	Genbank	gene	5468	5728	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY772699.1	Genbank	CDS	5468	5728	.	+	0	ID=cds-AAV41350.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAV41350.1;Name=AAV41350.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAV41350.1
+AY772699.1	Genbank	gene	5646	8186	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY772699.1	Genbank	CDS	5646	8186	.	+	0	ID=cds-AAV41353.1;Parent=gene-env;Dbxref=NCBI_GP:AAV41353.1;Name=AAV41353.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAV41353.1
+AY772699.1	Genbank	gene	8188	8811	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY772699.1	Genbank	CDS	8188	8811	.	+	0	ID=cds-AAV41351.1;Parent=gene-nef;Dbxref=NCBI_GP:AAV41351.1;Name=AAV41351.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAV41351.1
+AY772691.1	Genbank	match	1	9060	.	+	.	ID=aln0;Target=AY772690.1 1 9039 +;Gap=M40 I1 M1283 D3 M208 I3 M77 I6 M3868 D7 M560 I6 I6 I3 I3 I3 M162 D3 D3 D3 M507 D3 M99 D3 D3 D3 D9 D3 D3 D9 M165 I3 D3 D3 D6 M978 I21 M235 I3 D3 M57 D12 M56 I3 M683
+###

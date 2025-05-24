@@ -1,0 +1,32 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310005v1
+#!genome-build-accession NCBI_Assembly:GCA_003100055.1
+##sequence-region AY535659.1 1 9262
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY535659.1	Genbank	region	1	9262	.	+	.	ID=AY535659.1:1..9262;Dbxref=taxon:11676;country=Estonia;gb-acronym=HIV-1;gbkey=Src;genome=proviral;group=M;isolate=EE0359;isolation-source=peripheral blood mononuclear cells;mol_type=genomic DNA;subtype=CRF06_cpx
+AY535659.1	Genbank	long_terminal_repeat	1	265	.	+	.	ID=id-AY535659.1:1..265;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+AY535659.1	Genbank	gene	443	1939	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AY535659.1	Genbank	CDS	443	1939	.	+	0	ID=cds-AAS83681.1;Parent=gene-gag;Dbxref=NCBI_GP:AAS83681.1;Name=AAS83681.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAS83681.1
+AY535659.1	Genbank	gene	1741	4752	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1741
+AY535659.1	Genbank	CDS	1741	4752	.	+	0	ID=cds-AAS83682.1;Parent=gene-pol;Dbxref=NCBI_GP:AAS83682.1;Name=AAS83682.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAS83682.1;start_range=.,1741
+AY535659.1	Genbank	gene	4697	5275	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY535659.1	Genbank	CDS	4697	5275	.	+	0	ID=cds-AAS83683.1;Parent=gene-vif;Dbxref=NCBI_GP:AAS83683.1;Name=AAS83683.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAS83683.1
+AY535659.1	Genbank	gene	5215	5505	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY535659.1	Genbank	CDS	5215	5505	.	+	0	ID=cds-AAS83686.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAS83686.1;Name=AAS83686.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAS83686.1
+AY535659.1	Genbank	gene	5486	8083	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY535659.1	Genbank	CDS	5486	5700	.	+	0	ID=cds-AAS83687.1;Parent=gene-tat;Dbxref=NCBI_GP:AAS83687.1;Name=AAS83687.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAS83687.1
+AY535659.1	Genbank	CDS	8038	8083	.	+	1	ID=cds-AAS83687.1;Parent=gene-tat;Dbxref=NCBI_GP:AAS83687.1;Name=AAS83687.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAS83687.1
+AY535659.1	Genbank	gene	5625	8312	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY535659.1	Genbank	CDS	5625	5700	.	+	0	ID=cds-AAS83688.1;Parent=gene-rev;Dbxref=NCBI_GP:AAS83688.1;Name=AAS83688.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAS83688.1
+AY535659.1	Genbank	CDS	8038	8312	.	+	2	ID=cds-AAS83688.1;Parent=gene-rev;Dbxref=NCBI_GP:AAS83688.1;Name=AAS83688.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAS83688.1
+AY535659.1	Genbank	gene	5727	5972	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY535659.1	Genbank	CDS	5727	5972	.	+	0	ID=cds-AAS83684.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAS83684.1;Name=AAS83684.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAS83684.1
+AY535659.1	Genbank	gene	5890	8454	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY535659.1	Genbank	CDS	5890	8454	.	+	0	ID=cds-AAS83689.1;Parent=gene-env;Dbxref=NCBI_GP:AAS83689.1;Name=AAS83689.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAS83689.1
+AY535659.1	Genbank	gene	8456	9076	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY535659.1	Genbank	CDS	8456	9076	.	+	0	ID=cds-AAS83685.1;Parent=gene-nef;Dbxref=NCBI_GP:AAS83685.1;Name=AAS83685.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAS83685.1
+AY535659.1	Genbank	long_terminal_repeat	8745	9262	.	+	.	ID=id-AY535659.1:8745..9262;end_range=9262,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+AY535660.1	Genbank	match	1	9229	.	+	.	ID=aln0;Target=AY535659.1 1 9262 +;Gap=M408 I3 M405 I9 M733 I6 M46 I3 M4678 D15 M26 D3 M729 I18 M186 I4 M4 I8 M1996
+###

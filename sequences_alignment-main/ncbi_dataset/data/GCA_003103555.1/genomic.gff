@@ -1,0 +1,24 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310355v1
+#!genome-build-accession NCBI_Assembly:GCA_003103555.1
+##sequence-region KC899079.1 1 9684
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KC899079.1	Genbank	region	1	9684	.	+	.	ID=KC899079.1:1..9684;Dbxref=taxon:11676;collected-by=A. Lai%2C F.R. Simonetti;collection-date=16-Sep-2011;country=Italy;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=BAV499;isolation-source=PBMC;mol_type=genomic DNA;nat-host=Homo sapiens;subtype=CRF60_BC
+KC899079.1	Genbank	gene	777	2249	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KC899079.1	Genbank	CDS	777	2249	.	+	0	ID=cds-AHI17545.1;Parent=gene-gag;Dbxref=NCBI_GP:AHI17545.1;Name=AHI17545.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AHI17545.1
+KC899079.1	Genbank	sequence_feature	2210	5053	.	+	.	ID=id-KC899079.1:2210..5053;Note=similar to pol protein;gbkey=misc_feature
+KC899079.1	Genbank	gene	4998	5576	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KC899079.1	Genbank	CDS	4998	5576	.	+	0	ID=cds-AHI17546.1;Parent=gene-vif;Dbxref=NCBI_GP:AHI17546.1;Name=AHI17546.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AHI17546.1
+KC899079.1	Genbank	gene	5516	5806	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KC899079.1	Genbank	CDS	5516	5806	.	+	0	ID=cds-AHI17547.1;Parent=gene-vpr;Dbxref=NCBI_GP:AHI17547.1;Name=AHI17547.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AHI17547.1
+KC899079.1	Genbank	sequence_feature	5787	6005	.	+	.	ID=id-KC899079.1:5787..6005;Note=similar to tat protein;gbkey=misc_feature
+KC899079.1	Genbank	sequence_feature	5926	6270	.	+	.	ID=id-KC899079.1:5926..6270;Note=similar to rev protein;gbkey=misc_feature
+KC899079.1	Genbank	gene	6025	6270	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KC899079.1	Genbank	CDS	6025	6270	.	+	0	ID=cds-AHI17548.1;Parent=gene-vpu;Dbxref=NCBI_GP:AHI17548.1;Name=AHI17548.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AHI17548.1
+KC899079.1	Genbank	gene	6194	8776	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KC899079.1	Genbank	CDS	6194	8776	.	+	0	ID=cds-AHI17549.1;Parent=gene-env;Dbxref=NCBI_GP:AHI17549.1;Name=AHI17549.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AHI17549.1
+KC899079.1	Genbank	gene	8778	9383	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KC899079.1	Genbank	CDS	8778	9383	.	+	0	ID=cds-AHI17550.1;Parent=gene-nef;Dbxref=NCBI_GP:AHI17550.1;Name=AHI17550.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AHI17550.1
+###

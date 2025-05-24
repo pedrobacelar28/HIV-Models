@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM385575v1
+#!genome-build-accession NCBI_Assembly:GCA_003855755.1
+##sequence-region KJ787684.1 1 8864
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KJ787684.1	Genbank	region	1	8864	.	+	.	ID=KJ787684.1:1..8864;Dbxref=taxon:11676;collection-date=2010;country=Brazil;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=10BR_RJ095;isolation-source=PBMC;mol_type=genomic DNA;nat-host=Homo sapiens;subtype=D
+KJ787684.1	Genbank	gene	244	1746	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KJ787684.1	Genbank	CDS	244	1746	.	+	0	ID=cds-AIA21694.1;Parent=gene-gag;Dbxref=NCBI_GP:AIA21694.1;Name=AIA21694.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AIA21694.1
+KJ787684.1	Genbank	gene	1544	4550	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+KJ787684.1	Genbank	CDS	1842	4550	.	+	0	ID=cds-AIA21702.1;Parent=gene-pol;Dbxref=NCBI_GP:AIA21702.1;Name=AIA21702.1;gbkey=CDS;gene=pol;product=pol protein;protein_id=AIA21702.1
+KJ787684.1	Genbank	gene	4495	5073	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KJ787684.1	Genbank	CDS	4495	5073	.	+	0	ID=cds-AIA21695.1;Parent=gene-vif;Dbxref=NCBI_GP:AIA21695.1;Name=AIA21695.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AIA21695.1
+KJ787684.1	Genbank	gene	5013	5303	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KJ787684.1	Genbank	CDS	5013	5303	.	+	0	ID=cds-AIA21696.1;Parent=gene-vpr;Dbxref=NCBI_GP:AIA21696.1;Name=AIA21696.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AIA21696.1
+KJ787684.1	Genbank	gene	5284	7907	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KJ787684.1	Genbank	CDS	5284	5498	.	+	0	ID=cds-AIA21697.1;Parent=gene-tat;Dbxref=NCBI_GP:AIA21697.1;Name=AIA21697.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AIA21697.1
+KJ787684.1	Genbank	CDS	7814	7907	.	+	1	ID=cds-AIA21697.1;Parent=gene-tat;Dbxref=NCBI_GP:AIA21697.1;Name=AIA21697.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AIA21697.1
+KJ787684.1	Genbank	gene	5423	8088	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KJ787684.1	Genbank	CDS	5423	5498	.	+	0	ID=cds-AIA21698.1;Parent=gene-rev;Dbxref=NCBI_GP:AIA21698.1;Name=AIA21698.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AIA21698.1
+KJ787684.1	Genbank	CDS	7814	8088	.	+	2	ID=cds-AIA21698.1;Parent=gene-rev;Dbxref=NCBI_GP:AIA21698.1;Name=AIA21698.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AIA21698.1
+KJ787684.1	Genbank	gene	5515	5760	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KJ787684.1	Genbank	CDS	5515	5760	.	+	0	ID=cds-AIA21699.1;Parent=gene-vpu;Dbxref=NCBI_GP:AIA21699.1;Name=AIA21699.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AIA21699.1
+KJ787684.1	Genbank	gene	5678	8230	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KJ787684.1	Genbank	CDS	5678	8230	.	+	0	ID=cds-AIA21700.1;Parent=gene-env;Dbxref=NCBI_GP:AIA21700.1;Name=AIA21700.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AIA21700.1
+KJ787684.1	Genbank	gene	8232	8864	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KJ787684.1	Genbank	CDS	8232	8864	.	+	0	ID=cds-AIA21701.1;Parent=gene-nef;Dbxref=NCBI_GP:AIA21701.1;Name=AIA21701.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AIA21701.1
+###

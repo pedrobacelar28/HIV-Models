@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310441v1
+#!genome-build-accession NCBI_Assembly:GCA_003104415.1
+##sequence-region L39106.1 1 9201
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+L39106.1	Genbank	region	1	9201	.	+	.	ID=L39106.1:1..9201;Dbxref=taxon:11676;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=Nigeria 5813;isolation-source=PBMC;mol_type=genomic RNA;old-name=Human immunodeficiency virus type 1;strain=IbNg
+L39106.1	Genbank	long_terminal_repeat	1	163	.	+	.	ID=id-L39106.1:1..163;Note=contains partial R region and complete U5 region;gbkey=repeat_region;rpt_type=long_terminal_repeat
+L39106.1	Genbank	gene	330	1808	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+L39106.1	Genbank	CDS	330	1808	.	+	0	ID=cds-AAB51136.1;Parent=gene-gag;Dbxref=NCBI_GP:AAB51136.1;Name=AAB51136.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAB51136.1
+L39106.1	Genbank	gene	1610	4621	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1610
+L39106.1	Genbank	CDS	1610	4621	.	+	0	ID=cds-AAB51137.1;Parent=gene-pol;Dbxref=NCBI_GP:AAB51137.1;Name=AAB51137.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAB51137.1;start_range=.,1610
+L39106.1	Genbank	gene	4566	5144	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+L39106.1	Genbank	CDS	4566	5144	.	+	0	ID=cds-AAB51138.1;Parent=gene-vif;Dbxref=NCBI_GP:AAB51138.1;Name=AAB51138.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAB51138.1
+L39106.1	Genbank	gene	5084	5374	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+L39106.1	Genbank	CDS	5084	5374	.	+	0	ID=cds-AAB51139.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAB51139.1;Name=AAB51139.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAB51139.1
+L39106.1	Genbank	gene	5355	5471	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+L39106.1	Genbank	CDS	5355	5471	.	+	0	ID=cds-AAB51140.1;Parent=gene-tat;Dbxref=NCBI_GP:AAB51140.1;Name=AAB51140.1;Note=Compared with other strains of HIV-1%2C IbNg appears to have a one nucleotide deletion within the first exon of the tat gene. A truncated%2C 38 amino acid tat protein would therefore be predicted.;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAB51140.1
+L39106.1	Genbank	gene	5493	8180	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+L39106.1	Genbank	CDS	5493	5568	.	+	0	ID=cds-AAB51141.1;Parent=gene-rev;Dbxref=NCBI_GP:AAB51141.1;Name=AAB51141.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAB51141.1
+L39106.1	Genbank	CDS	7885	8180	.	+	2	ID=cds-AAB51141.1;Parent=gene-rev;Dbxref=NCBI_GP:AAB51141.1;Name=AAB51141.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAB51141.1
+L39106.1	Genbank	gene	5595	5840	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+L39106.1	Genbank	CDS	5595	5840	.	+	0	ID=cds-AAB51142.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAB51142.1;Name=AAB51142.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAB51142.1
+L39106.1	Genbank	gene	5758	8322	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+L39106.1	Genbank	CDS	5758	8322	.	+	0	ID=cds-AAB51143.1;Parent=gene-env;Dbxref=NCBI_GP:AAB51143.1;Name=AAB51143.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAB51143.1
+L39106.1	Genbank	gene	8324	8944	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+L39106.1	Genbank	CDS	8324	8944	.	+	0	ID=cds-AAB51144.1;Parent=gene-nef;Dbxref=NCBI_GP:AAB51144.1;Name=AAB51144.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAB51144.1
+L39106.1	Genbank	long_terminal_repeat	8613	9201	.	+	.	ID=id-L39106.1:8613..9201;Note=complete U3 and R regions;gbkey=repeat_region;rpt_type=long_terminal_repeat
+###

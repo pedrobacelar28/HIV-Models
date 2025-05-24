@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309963v1
+#!genome-build-accession NCBI_Assembly:GCA_003099635.1
+##sequence-region AY253311.1 1 8775
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY253311.1	Genbank	region	1	8775	.	+	.	ID=AY253311.1:1..8775;Dbxref=taxon:11676;country=Tanzania: Mbeya;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=01TZA280;mol_type=genomic DNA;subtype=D
+AY253311.1	Genbank	gene	1	231	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AY253311.1	Genbank	CDS	1	231	.	+	0	ID=cds-AAQ98182.1;Parent=gene-gag;Dbxref=NCBI_GP:AAQ98182.1;Name=AAQ98182.1;gbkey=CDS;gene=gag;partial=true;product=truncated gag protein;protein_id=AAQ98182.1;start_range=.,1
+AY253311.1	Genbank	gene	1283	4297	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other;partial=true;start_range=.,1283
+AY253311.1	Genbank	sequence_feature	1283	4297	.	+	.	ID=id-pol;Note=nonfunctional pol protein due to mutation;gbkey=misc_feature;gene=pol;partial=true;start_range=.,1283
+AY253311.1	Genbank	gene	4242	4820	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY253311.1	Genbank	CDS	4242	4820	.	+	0	ID=cds-AAQ98183.1;Parent=gene-vif;Dbxref=NCBI_GP:AAQ98183.1;Name=AAQ98183.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAQ98183.1
+AY253311.1	Genbank	gene	4760	5050	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY253311.1	Genbank	CDS	4760	5050	.	+	0	ID=cds-AAQ98184.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAQ98184.1;Name=AAQ98184.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAQ98184.1
+AY253311.1	Genbank	gene	5031	7612	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY253311.1	Genbank	CDS	5031	5245	.	+	0	ID=cds-AAQ98185.1;Parent=gene-tat;Dbxref=NCBI_GP:AAQ98185.1;Name=AAQ98185.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAQ98185.1
+AY253311.1	Genbank	CDS	7567	7612	.	+	1	ID=cds-AAQ98185.1;Parent=gene-tat;Dbxref=NCBI_GP:AAQ98185.1;Name=AAQ98185.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAQ98185.1
+AY253311.1	Genbank	gene	5170	7842	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY253311.1	Genbank	CDS	5170	5245	.	+	0	ID=cds-AAQ98186.1;Parent=gene-rev;Dbxref=NCBI_GP:AAQ98186.1;Name=AAQ98186.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAQ98186.1
+AY253311.1	Genbank	CDS	7567	7841	.	+	2	ID=cds-AAQ98186.1;Parent=gene-rev;Dbxref=NCBI_GP:AAQ98186.1;Name=AAQ98186.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAQ98186.1
+AY253311.1	Genbank	gene	5262	5507	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY253311.1	Genbank	CDS	5262	5507	.	+	0	ID=cds-AAQ98187.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAQ98187.1;Name=AAQ98187.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAQ98187.1
+AY253311.1	Genbank	gene	5425	7983	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY253311.1	Genbank	CDS	5425	7983	.	+	0	ID=cds-AAQ98188.1;Parent=gene-env;Dbxref=NCBI_GP:AAQ98188.1;Name=AAQ98188.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAQ98188.1
+AY253311.1	Genbank	gene	7985	8608	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY253311.1	Genbank	CDS	7985	8608	.	+	0	ID=cds-AAQ98189.1;Parent=gene-nef;Dbxref=NCBI_GP:AAQ98189.1;Name=AAQ98189.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAQ98189.1
+AY253304.1	Genbank	match	1	8831	.	+	.	ID=aln0;Target=AY253303.1 1 8768 +;Gap=M1361 I3 I18 M64 D3 M4068 D3 M327 D3 D3 D3 D3 D3 D3 M145 D6 D3 D3 D3 M512 D3 M15 D3 M103 D3 D2 D1 D3 D3 M166 I3 M164 D6 M1123 D9 D3 D3 M21 D3 M47 D3 M48 D3 M580
+###

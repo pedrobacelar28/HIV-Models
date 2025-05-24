@@ -1,0 +1,24 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310918v1
+#!genome-build-accession NCBI_Assembly:GCA_003109185.1
+##sequence-region FM877780.1 1 9128
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=576900
+FM877780.1	EMBL	region	1	9128	.	+	.	ID=FM877780.1:1..9128;Dbxref=taxon:576900;country=Democratic Republic of the Congo;gbkey=Src;genome=proviral;isolate=02CD.KS069;mol_type=genomic DNA;note=group:M%3B~subtyped as CRF26_A5U
+FM877780.1	EMBL	gene	295	4583	.	+	.	ID=gene-gag/pol precursor;Name=gag/pol precursor;gbkey=Gene;gene=gag/pol precursor;gene_biotype=protein_coding
+FM877780.1	EMBL	CDS	295	1581	.	+	0	ID=cds-CAT00594.1;Parent=gene-gag/pol precursor;Dbxref=GOA:C7TQ81,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:C7TQ81,NCBI_GP:CAT00594.1;Name=CAT00594.1;gbkey=CDS;gene=gag/pol precursor;product=CAT00594.1;protein_id=CAT00594.1
+FM877780.1	EMBL	CDS	1581	4583	.	+	0	ID=cds-CAT00594.1;Parent=gene-gag/pol precursor;Dbxref=GOA:C7TQ81,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:C7TQ81,NCBI_GP:CAT00594.1;Name=CAT00594.1;gbkey=CDS;gene=gag/pol precursor;product=CAT00594.1;protein_id=CAT00594.1
+FM877780.1	EMBL	gene	295	1779	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=other
+FM877780.1	EMBL	gene	1581	4583	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other
+FM877780.1	EMBL	gene	4528	5106	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+FM877780.1	EMBL	CDS	4528	5106	.	+	0	ID=cds-CAT00595.1;Parent=gene-vif;Dbxref=GOA:C7TQ82,InterPro:IPR000475,UniProtKB/TrEMBL:C7TQ82,NCBI_GP:CAT00595.1;Name=CAT00595.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=CAT00595.1
+FM877780.1	EMBL	gene	5046	5339	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+FM877780.1	EMBL	CDS	5046	5339	.	+	0	ID=cds-CAT00596.1;Parent=gene-vpr;Dbxref=GOA:C7TQ83,InterPro:IPR000012,UniProtKB/TrEMBL:C7TQ83,NCBI_GP:CAT00596.1;Name=CAT00596.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=CAT00596.1
+FM877780.1	EMBL	gene	5552	5797	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+FM877780.1	EMBL	CDS	5552	5797	.	+	0	ID=cds-CAT00597.1;Parent=gene-vpu;Dbxref=GOA:C7TQ84,InterPro:IPR008187,InterPro:IPR009032,UniProtKB/TrEMBL:C7TQ84,NCBI_GP:CAT00597.1;Name=CAT00597.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=CAT00597.1
+FM877780.1	EMBL	gene	5715	8297	.	+	.	ID=gene-gp160;Name=gp160;gbkey=Gene;gene=gp160;gene_biotype=protein_coding
+FM877780.1	EMBL	CDS	5715	8297	.	+	0	ID=cds-CAT00598.1;Parent=gene-gp160;Dbxref=GOA:C7TQ85,InterPro:IPR000328,InterPro:IPR000777,UniProtKB/TrEMBL:C7TQ85,NCBI_GP:CAT00598.1;Name=CAT00598.1;gbkey=CDS;gene=gp160;product=env protein;protein_id=CAT00598.1
+FM877780.1	EMBL	gene	8299	8937	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+FM877780.1	EMBL	CDS	8299	8937	.	+	0	ID=cds-CAT00599.1;Parent=gene-nef;Dbxref=GOA:C7TQ86,InterPro:IPR001558,UniProtKB/TrEMBL:C7TQ86,NCBI_GP:CAT00599.1;Name=CAT00599.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=CAT00599.1
+###

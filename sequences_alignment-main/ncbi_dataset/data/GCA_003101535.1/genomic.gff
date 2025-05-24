@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310153v1
+#!genome-build-accession NCBI_Assembly:GCA_003101535.1
+##sequence-region EU448295.1 1 9680
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EU448295.1	Genbank	region	1	9680	.	+	.	ID=EU448295.1:1..9680;Dbxref=taxon:11676;collection-date=2004;country=France;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolation-source=PBMC from woman during primary HIV-1 infection;mol_type=genomic DNA;note=recombinant strain involving A/K/CRF09/U subtypes%3B subject originated from Democratic Republic of the Congo;old-name=Human immunodeficiency virus type 1;strain=04FR-AUK;subtype=URF
+EU448295.1	Genbank	long_terminal_repeat	1	630	.	+	.	ID=id-EU448295.1:1..630;gbkey=repeat_region;rpt_type=long_terminal_repeat
+EU448295.1	Genbank	gene	782	2278	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+EU448295.1	Genbank	CDS	782	2278	.	+	0	ID=cds-ACA21827.1;Parent=gene-gag;Dbxref=NCBI_GP:ACA21827.1;Name=ACA21827.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACA21827.1
+EU448295.1	Genbank	gene	2077	5082	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,2077
+EU448295.1	Genbank	CDS	2077	5082	.	+	0	ID=cds-ACA21828.1;Parent=gene-pol;Dbxref=NCBI_GP:ACA21828.1;Name=ACA21828.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACA21828.1;start_range=.,2077
+EU448295.1	Genbank	gene	5027	5605	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+EU448295.1	Genbank	CDS	5027	5605	.	+	0	ID=cds-ACA21829.1;Parent=gene-vif;Dbxref=NCBI_GP:ACA21829.1;Name=ACA21829.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACA21829.1
+EU448295.1	Genbank	gene	5545	5835	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EU448295.1	Genbank	CDS	5545	5835	.	+	0	ID=cds-ACA21830.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACA21830.1;Name=ACA21830.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACA21830.1
+EU448295.1	Genbank	gene	5816	8428	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EU448295.1	Genbank	CDS	5816	6030	.	+	0	ID=cds-ACA21831.1;Parent=gene-tat;Dbxref=NCBI_GP:ACA21831.1;Name=ACA21831.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACA21831.1
+EU448295.1	Genbank	CDS	8338	8428	.	+	1	ID=cds-ACA21831.1;Parent=gene-tat;Dbxref=NCBI_GP:ACA21831.1;Name=ACA21831.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACA21831.1
+EU448295.1	Genbank	gene	5955	8612	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EU448295.1	Genbank	CDS	5955	6030	.	+	0	ID=cds-ACA21832.1;Parent=gene-rev;Dbxref=NCBI_GP:ACA21832.1;Name=ACA21832.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACA21832.1
+EU448295.1	Genbank	CDS	8338	8612	.	+	2	ID=cds-ACA21832.1;Parent=gene-rev;Dbxref=NCBI_GP:ACA21832.1;Name=ACA21832.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACA21832.1
+EU448295.1	Genbank	gene	6057	6299	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EU448295.1	Genbank	CDS	6057	6299	.	+	0	ID=cds-ACA21833.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACA21833.1;Name=ACA21833.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACA21833.1
+EU448295.1	Genbank	gene	6217	8754	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+EU448295.1	Genbank	CDS	6217	8754	.	+	0	ID=cds-ACA21834.1;Parent=gene-env;Dbxref=NCBI_GP:ACA21834.1;Name=ACA21834.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACA21834.1
+EU448295.1	Genbank	gene	8756	9379	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EU448295.1	Genbank	CDS	8756	9379	.	+	0	ID=cds-ACA21835.1;Parent=gene-nef;Dbxref=NCBI_GP:ACA21835.1;Name=ACA21835.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACA21835.1
+EU448295.1	Genbank	long_terminal_repeat	9048	9680	.	+	.	ID=id-EU448295.1:9048..9680;gbkey=repeat_region;rpt_type=long_terminal_repeat
+###

@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318759v1
+#!genome-build-accession NCBI_Assembly:GCA_003187595.1
+##sequence-region JF683783.1 1 8168
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+JF683783.1	Genbank	region	1	8168	.	+	.	ID=JF683783.1:1..8168;Dbxref=taxon:11676;collection-date=2008;country=Cyprus;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=CY236;mol_type=genomic DNA;nat-host=Homo sapiens
+JF683783.1	Genbank	gene	1	1503	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+JF683783.1	Genbank	CDS	1	1503	.	+	0	ID=cds-AEB52809.1;Parent=gene-gag;Dbxref=NCBI_GP:AEB52809.1;Name=AEB52809.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AEB52809.1
+JF683783.1	Genbank	gene	1305	4307	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1305
+JF683783.1	Genbank	CDS	1305	4307	.	+	0	ID=cds-AEB52810.1;Parent=gene-pol;Dbxref=NCBI_GP:AEB52810.1;Name=AEB52810.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AEB52810.1;start_range=.,1305
+JF683783.1	Genbank	gene	4252	4830	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+JF683783.1	Genbank	CDS	4252	4830	.	+	0	ID=cds-AEB52811.1;Parent=gene-vif;Dbxref=NCBI_GP:AEB52811.1;Name=AEB52811.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AEB52811.1
+JF683783.1	Genbank	gene	4770	5060	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+JF683783.1	Genbank	CDS	4770	5060	.	+	0	ID=cds-AEB52812.1;Parent=gene-vpr;Dbxref=NCBI_GP:AEB52812.1;Name=AEB52812.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AEB52812.1
+JF683783.1	Genbank	gene	5041	7686	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+JF683783.1	Genbank	CDS	5041	5256	.	+	0	ID=cds-AEB52816.1;Parent=gene-tat;Dbxref=NCBI_GP:AEB52816.1;Name=AEB52816.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AEB52816.1
+JF683783.1	Genbank	CDS	7594	7686	.	+	0	ID=cds-AEB52816.1;Parent=gene-tat;Dbxref=NCBI_GP:AEB52816.1;Name=AEB52816.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AEB52816.1
+JF683783.1	Genbank	gene	5180	7891	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+JF683783.1	Genbank	CDS	5180	5256	.	+	0	ID=cds-AEB52817.1;Parent=gene-rev;Dbxref=NCBI_GP:AEB52817.1;Name=AEB52817.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AEB52817.1
+JF683783.1	Genbank	CDS	7594	7891	.	+	1	ID=cds-AEB52817.1;Parent=gene-rev;Dbxref=NCBI_GP:AEB52817.1;Name=AEB52817.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AEB52817.1
+JF683783.1	Genbank	gene	5282	5527	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+JF683783.1	Genbank	CDS	5282	5527	.	+	0	ID=cds-AEB52813.1;Parent=gene-vpu;Dbxref=NCBI_GP:AEB52813.1;Name=AEB52813.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AEB52813.1
+JF683783.1	Genbank	gene	5445	8033	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+JF683783.1	Genbank	CDS	5445	8033	.	+	0	ID=cds-AEB52814.1;Parent=gene-env;Dbxref=NCBI_GP:AEB52814.1;Name=AEB52814.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AEB52814.1
+JF683783.1	Genbank	gene	8035	8168	.	+	.	ID=gene-nef;Name=nef;end_range=8168,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+JF683783.1	Genbank	CDS	8035	8168	.	+	0	ID=cds-AEB52815.1;Parent=gene-nef;Dbxref=NCBI_GP:AEB52815.1;Name=AEB52815.1;end_range=8168,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=AEB52815.1
+###

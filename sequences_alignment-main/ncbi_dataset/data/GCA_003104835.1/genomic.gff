@@ -1,0 +1,32 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310483v1
+#!genome-build-accession NCBI_Assembly:GCA_003104835.1
+##sequence-region U88822.1 1 8975
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+U88822.1	Genbank	region	1	8975	.	+	.	ID=U88822.1:1..8975;Dbxref=taxon:11676;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=84zr085;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1
+U88822.1	Genbank	long_terminal_repeat	1	148	.	+	.	ID=id-U88822.1:1..148;gbkey=LTR;partial=true;start_range=.,1
+U88822.1	Genbank	repeat_region	1	65	.	+	.	ID=id-U88822.1:1..65;Note=LTR 5' repeat region;gbkey=repeat_region;partial=true;start_range=.,1
+U88822.1	Genbank	pseudogene	307	4618	.	+	.	ID=gene-gag-pol;Name=gag-pol;description=encodes gag-Pol fusion polyprotein by ribosome slip at 'tttttt';gbkey=Gene;gene=gag-pol;gene_biotype=pseudogene;pseudo=true
+U88822.1	Genbank	CDS	307	1604	.	+	0	ID=cds-gag-pol;Parent=gene-gag-pol;Note=single nucleotide deletion 'G' missing between bases 1691..1692 creates frameshift defect%3B gag-pol polyprotein (defective);gbkey=CDS;gene=gag-pol;pseudo=true
+U88822.1	Genbank	CDS	1604	4618	.	+	1	ID=cds-gag-pol;Parent=gene-gag-pol;Note=single nucleotide deletion 'G' missing between bases 1691..1692 creates frameshift defect%3B gag-pol polyprotein (defective);gbkey=CDS;gene=gag-pol;pseudo=true
+U88822.1	Genbank	gene	307	1716	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=pseudogene
+U88822.1	Genbank	CDS	307	1716	.	+	0	ID=cds-gag;Parent=gene-gag;gbkey=CDS;gene=gag;pseudo=true
+U88822.1	Genbank	gene	4563	5141	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+U88822.1	Genbank	CDS	4563	5141	.	+	0	ID=cds-AAC32649.1;Parent=gene-vif;Dbxref=NCBI_GP:AAC32649.1;Name=AAC32649.1;gbkey=CDS;gene=vif;product=Vif;protein_id=AAC32649.1
+U88822.1	Genbank	gene	5081	5371	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+U88822.1	Genbank	CDS	5081	5371	.	+	0	ID=cds-AAC32650.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAC32650.1;Name=AAC32650.1;gbkey=CDS;gene=vpr;product=Vpr;protein_id=AAC32650.1
+U88822.1	Genbank	gene	5352	7945	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+U88822.1	Genbank	CDS	5352	5566	.	+	0	ID=cds-AAC32647.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC32647.1;Name=AAC32647.1;gbkey=CDS;gene=tat;product=Tat;protein_id=AAC32647.1
+U88822.1	Genbank	CDS	7900	7945	.	+	1	ID=cds-AAC32647.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC32647.1;Name=AAC32647.1;gbkey=CDS;gene=tat;product=Tat;protein_id=AAC32647.1
+U88822.1	Genbank	gene	5491	8174	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+U88822.1	Genbank	CDS	5491	5566	.	+	0	ID=cds-AAC32648.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC32648.1;Name=AAC32648.1;gbkey=CDS;gene=rev;product=Rev;protein_id=AAC32648.1
+U88822.1	Genbank	CDS	7900	8174	.	+	2	ID=cds-AAC32648.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC32648.1;Name=AAC32648.1;gbkey=CDS;gene=rev;product=Rev;protein_id=AAC32648.1
+U88822.1	Genbank	gene	5583	5831	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+U88822.1	Genbank	CDS	5583	5831	.	+	0	ID=cds-AAC32653.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAC32653.1;Name=AAC32653.1;gbkey=CDS;gene=vpu;product=Vpu;protein_id=AAC32653.1
+U88822.1	Genbank	gene	5746	8316	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+U88822.1	Genbank	CDS	5746	8316	.	+	0	ID=cds-AAC32651.1;Parent=gene-env;Dbxref=NCBI_GP:AAC32651.1;Name=AAC32651.1;gbkey=CDS;gene=env;product=envelope polyprotein;protein_id=AAC32651.1
+U88822.1	Genbank	gene	8318	8965	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+U88822.1	Genbank	CDS	8318	8965	.	+	0	ID=cds-AAC32652.1;Parent=gene-nef;Dbxref=NCBI_GP:AAC32652.1;Name=AAC32652.1;gbkey=CDS;gene=nef;product=Nef;protein_id=AAC32652.1
+###

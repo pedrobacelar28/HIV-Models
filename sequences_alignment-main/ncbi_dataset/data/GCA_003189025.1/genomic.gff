@@ -1,0 +1,28 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318902v1
+#!genome-build-accession NCBI_Assembly:GCA_003189025.1
+##sequence-region DQ189088.1 1 8338
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+DQ189088.1	Genbank	region	1	8338	.	+	.	ID=DQ189088.1:1..8338;Dbxref=taxon:11676;clone=ARE933;country=Argentina;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolation-source=male child;mol_type=genomic DNA;subtype=F1
+DQ189088.1	Genbank	gene	99	1577	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+DQ189088.1	Genbank	CDS	99	1577	.	+	0	ID=cds-ABA43646.1;Parent=gene-gag;Dbxref=NCBI_GP:ABA43646.1;Name=ABA43646.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ABA43646.1
+DQ189088.1	Genbank	gene	1682	4390	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+DQ189088.1	Genbank	CDS	1682	4390	.	+	0	ID=cds-ABA43647.1;Parent=gene-pol;Dbxref=NCBI_GP:ABA43647.1;Name=ABA43647.1;gbkey=CDS;gene=pol;product=pol protein;protein_id=ABA43647.1
+DQ189088.1	Genbank	gene	4335	4913	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+DQ189088.1	Genbank	CDS	4335	4913	.	+	0	ID=cds-ABA43641.1;Parent=gene-vif;Dbxref=NCBI_GP:ABA43641.1;Name=ABA43641.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABA43641.1
+DQ189088.1	Genbank	gene	4853	5143	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+DQ189088.1	Genbank	CDS	4853	5143	.	+	0	ID=cds-ABA43642.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABA43642.1;Name=ABA43642.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABA43642.1
+DQ189088.1	Genbank	gene	5124	7739	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+DQ189088.1	Genbank	CDS	5124	5338	.	+	0	ID=cds-ABA43643.1;Parent=gene-tat;Dbxref=NCBI_GP:ABA43643.1;Name=ABA43643.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABA43643.1
+DQ189088.1	Genbank	CDS	7649	7739	.	+	1	ID=cds-ABA43643.1;Parent=gene-tat;Dbxref=NCBI_GP:ABA43643.1;Name=ABA43643.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABA43643.1
+DQ189088.1	Genbank	gene	5263	5352	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+DQ189088.1	Genbank	CDS	5263	5352	.	+	0	ID=cds-ABA43644.1;Parent=gene-rev;Dbxref=NCBI_GP:ABA43644.1;Name=ABA43644.1;Note=contains premature stop codon;gbkey=CDS;gene=rev;product=truncated rev protein;protein_id=ABA43644.1
+DQ189088.1	Genbank	gene	5365	5610	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+DQ189088.1	Genbank	CDS	5365	5610	.	+	0	ID=cds-ABA43648.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABA43648.1;Name=ABA43648.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABA43648.1
+DQ189088.1	Genbank	gene	5528	8065	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+DQ189088.1	Genbank	CDS	5528	8065	.	+	0	ID=cds-ABA43649.1;Parent=gene-env;Dbxref=NCBI_GP:ABA43649.1;Name=ABA43649.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ABA43649.1
+DQ189088.1	Genbank	gene	8067	8338	.	+	.	ID=gene-nef;Name=nef;end_range=8338,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+DQ189088.1	Genbank	CDS	8067	8338	.	+	0	ID=cds-ABA43645.1;Parent=gene-nef;Dbxref=NCBI_GP:ABA43645.1;Name=ABA43645.1;end_range=8338,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=ABA43645.1
+###

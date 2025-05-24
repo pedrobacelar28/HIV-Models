@@ -1,0 +1,44 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310896v1
+#!genome-build-accession NCBI_Assembly:GCA_003108965.1
+##sequence-region AJ302647.1 1 9829
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AJ302647.1	EMBL	region	1	9829	.	+	.	ID=AJ302647.1:1..9829;Dbxref=taxon:11676;country=Senegal;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=99SE-MP1300;mol_type=genomic DNA;subtype=Group O
+AJ302647.1	EMBL	gene	844	5180	.	+	.	ID=gene-gag-pol;Name=gag-pol;gbkey=Gene;gene=gag-pol;gene_biotype=protein_coding
+AJ302647.1	EMBL	CDS	844	2151	.	+	0	ID=cds-CAC38421.2;Parent=gene-gag-pol;Dbxref=GOA:Q900Z1,HSSP:1BMX,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:Q900Z1,NCBI_GP:CAC38421.2;Name=CAC38421.2;Note=ribosomal slippage;gbkey=CDS;gene=gag-pol;product=gag-pol fusion polyprotein precursor;protein_id=CAC38421.2
+AJ302647.1	EMBL	CDS	2151	5180	.	+	0	ID=cds-CAC38421.2;Parent=gene-gag-pol;Dbxref=GOA:Q900Z1,HSSP:1BMX,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:Q900Z1,NCBI_GP:CAC38421.2;Name=CAC38421.2;Note=ribosomal slippage;gbkey=CDS;gene=gag-pol;product=gag-pol fusion polyprotein precursor;protein_id=CAC38421.2
+AJ302647.1	EMBL	gene	844	2337	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AJ302647.1	EMBL	CDS	844	2337	.	+	0	ID=cds-CAC38420.1;Parent=gene-gag;Dbxref=GOA:Q900Z2,HSSP:1BMX,InterPro:IPR000071,InterPro:IPR000721,InterPro:IPR001878,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR010999,InterPro:IPR012344,InterPro:IPR013084,UniProtKB/TrEMBL:Q900Z2,NCBI_GP:CAC38420.1;Name=CAC38420.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=CAC38420.1
+AJ302647.1	EMBL	gene	5095	5673	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AJ302647.1	EMBL	CDS	5095	5673	.	+	0	ID=cds-CAC38422.1;Parent=gene-vif;Dbxref=GOA:Q900Z0,InterPro:IPR000475,UniProtKB/TrEMBL:Q900Z0,NCBI_GP:CAC38422.1;Name=CAC38422.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=CAC38422.1
+AJ302647.1	EMBL	gene	5613	5915	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AJ302647.1	EMBL	CDS	5613	5915	.	+	0	ID=cds-CAC38423.1;Parent=gene-vpr;Dbxref=GOA:Q900Y9,HSSP:1FI0,InterPro:IPR000012,UniProtKB/TrEMBL:Q900Y9,NCBI_GP:CAC38423.1;Name=CAC38423.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=CAC38423.1
+AJ302647.1	EMBL	gene	5896	6107	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true
+AJ302647.1	EMBL	gene	8462	8600	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true
+AJ302647.1	EMBL	exon	8462	8600	.	+	.	ID=id-tat-2;Parent=gene-tat;exon_number=2;gbkey=exon;gene=tat;number=2
+AJ302647.1	EMBL	mRNA	5896	8600	.	+	.	ID=rna-tat;Parent=gene-tat;gbkey=mRNA;gene=tat
+AJ302647.1	EMBL	exon	5896	6107	.	+	.	ID=exon-tat-1;Parent=rna-tat;gbkey=mRNA;gene=tat
+AJ302647.1	EMBL	exon	8462	8600	.	+	.	ID=exon-tat-2;Parent=rna-tat;gbkey=mRNA;gene=tat
+AJ302647.1	EMBL	CDS	5896	6107	.	+	0	ID=cds-CAC38424.1;Parent=rna-tat;Dbxref=GOA:Q900Y8,HSSP:1TBC,InterPro:IPR001831,UniProtKB/TrEMBL:Q900Y8,NCBI_GP:CAC38424.1;Name=CAC38424.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=CAC38424.1
+AJ302647.1	EMBL	CDS	8462	8600	.	+	1	ID=cds-CAC38424.1;Parent=rna-tat;Dbxref=GOA:Q900Y8,HSSP:1TBC,InterPro:IPR001831,UniProtKB/TrEMBL:Q900Y8,NCBI_GP:CAC38424.1;Name=CAC38424.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=CAC38424.1
+AJ302647.1	EMBL	exon	5896	6107	.	+	.	ID=id-tat-1;Parent=gene-tat;exon_number=1;gbkey=exon;gene=tat;number=1
+AJ302647.1	EMBL	gene	6035	6107	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+AJ302647.1	EMBL	gene	8462	8703	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+AJ302647.1	EMBL	exon	6035	6107	.	+	.	ID=id-rev-1;Parent=gene-rev;exon_number=1;gbkey=exon;gene=rev;number=1
+AJ302647.1	EMBL	exon	8462	8703	.	+	.	ID=id-rev-2;Parent=gene-rev;exon_number=2;gbkey=exon;gene=rev;number=2
+AJ302647.1	EMBL	mRNA	6035	8703	.	+	.	ID=rna-rev;Parent=gene-rev;gbkey=mRNA;gene=rev
+AJ302647.1	EMBL	exon	6035	6107	.	+	.	ID=exon-rev-1;Parent=rna-rev;gbkey=mRNA;gene=rev
+AJ302647.1	EMBL	exon	8462	8703	.	+	.	ID=exon-rev-2;Parent=rna-rev;gbkey=mRNA;gene=rev
+AJ302647.1	EMBL	CDS	6035	6107	.	+	0	ID=cds-CAC38425.1;Parent=rna-rev;Dbxref=GOA:Q900Y7,InterPro:IPR000625,UniProtKB/TrEMBL:Q900Y7,NCBI_GP:CAC38425.1;Name=CAC38425.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=CAC38425.1
+AJ302647.1	EMBL	CDS	8462	8703	.	+	2	ID=cds-CAC38425.1;Parent=rna-rev;Dbxref=GOA:Q900Y7,InterPro:IPR000625,UniProtKB/TrEMBL:Q900Y7,NCBI_GP:CAC38425.1;Name=CAC38425.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=CAC38425.1
+AJ302647.1	EMBL	gene	6108	8461	.	+	.	ID=gene-rev-2;Name=rev;gbkey=Gene;gene=rev;gene_biotype=other;gene_synonym=tat
+AJ302647.1	EMBL	intron	6108	8461	.	+	.	ID=id-rev;Parent=gene-rev-2;exon_number=1;gbkey=intron;gene=rev;number=1
+AJ302647.1	EMBL	gene	6121	6378	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AJ302647.1	EMBL	CDS	6121	6378	.	+	0	ID=cds-CAC38426.1;Parent=gene-vpu;Dbxref=GOA:Q900Y6,InterPro:IPR008187,UniProtKB/TrEMBL:Q900Y6,NCBI_GP:CAC38426.1;Name=CAC38426.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=CAC38426.1
+AJ302647.1	EMBL	gene	6284	8902	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AJ302647.1	EMBL	CDS	6284	8902	.	+	0	ID=cds-CAC38427.1;Parent=gene-env;Dbxref=GOA:Q900Y5,HSSP:1JPX,InterPro:IPR000328,InterPro:IPR000777,UniProtKB/TrEMBL:Q900Y5,NCBI_GP:CAC38427.1;Name=CAC38427.1;gbkey=CDS;gene=env;product=gp160;protein_id=CAC38427.1
+AJ302647.1	EMBL	gene	8904	9539	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AJ302647.1	EMBL	CDS	8904	9539	.	+	0	ID=cds-CAC38428.1;Parent=gene-nef;Dbxref=GOA:Q900Y4,InterPro:IPR001558,UniProtKB/TrEMBL:Q900Y4,NCBI_GP:CAC38428.1;Name=CAC38428.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=CAC38428.1
+###

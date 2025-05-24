@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309885v1
+#!genome-build-accession NCBI_Assembly:GCA_003098855.1
+##sequence-region AF385935.1 1 9762
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF385935.1	Genbank	region	1	9762	.	+	.	ID=AF385935.1:1..9762;Dbxref=taxon:11676;country=Uruguay: Monevideo;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=URTR35;mol_type=genomic DNA;note=isolated from PBMC drawn in 1999 from a 31-year-old Uruguayan male commercial sex worker%3B circulating BF recombinant;old-name=Human immunodeficiency virus type 1;subtype=CRF12_BF
+AF385935.1	Genbank	long_terminal_repeat	1	654	.	+	.	ID=id-AF385935.1:1..654;gbkey=repeat_region;rpt_type=long_terminal_repeat
+AF385935.1	Genbank	gene	810	2306	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF385935.1	Genbank	CDS	810	2306	.	+	0	ID=cds-AAK69321.1;Parent=gene-gag;Dbxref=NCBI_GP:AAK69321.1;Name=AAK69321.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAK69321.1
+AF385935.1	Genbank	gene	2090	5119	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,2090
+AF385935.1	Genbank	CDS	2090	5119	.	+	0	ID=cds-AAK69322.1;Parent=gene-pol;Dbxref=NCBI_GP:AAK69322.1;Name=AAK69322.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAK69322.1;start_range=.,2090
+AF385935.1	Genbank	gene	5064	5642	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF385935.1	Genbank	CDS	5064	5642	.	+	0	ID=cds-AAK69329.1;Parent=gene-vif;Dbxref=NCBI_GP:AAK69329.1;Name=AAK69329.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAK69329.1
+AF385935.1	Genbank	gene	5582	5872	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF385935.1	Genbank	CDS	5582	5872	.	+	0	ID=cds-AAK69323.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAK69323.1;Name=AAK69323.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAK69323.1
+AF385935.1	Genbank	gene	5853	8492	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF385935.1	Genbank	CDS	5853	6067	.	+	0	ID=cds-AAK69324.1;Parent=gene-tat;Dbxref=NCBI_GP:AAK69324.1;Name=AAK69324.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAK69324.1
+AF385935.1	Genbank	CDS	8402	8492	.	+	1	ID=cds-AAK69324.1;Parent=gene-tat;Dbxref=NCBI_GP:AAK69324.1;Name=AAK69324.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAK69324.1
+AF385935.1	Genbank	gene	5992	8676	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF385935.1	Genbank	CDS	5992	6067	.	+	0	ID=cds-AAK69325.1;Parent=gene-rev;Dbxref=NCBI_GP:AAK69325.1;Name=AAK69325.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAK69325.1
+AF385935.1	Genbank	CDS	8402	8676	.	+	2	ID=cds-AAK69325.1;Parent=gene-rev;Dbxref=NCBI_GP:AAK69325.1;Name=AAK69325.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAK69325.1
+AF385935.1	Genbank	gene	6084	6329	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF385935.1	Genbank	CDS	6084	6329	.	+	0	ID=cds-AAK69326.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAK69326.1;Name=AAK69326.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAK69326.1
+AF385935.1	Genbank	gene	6247	8818	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF385935.1	Genbank	CDS	6247	7644	.	+	0	ID=cds-AAK69327.1;Parent=gene-env;Dbxref=NCBI_GP:AAK69327.1;Name=AAK69327.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAK69327.1
+AF385935.1	Genbank	gene	8820	9437	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF385935.1	Genbank	CDS	8820	9437	.	+	0	ID=cds-AAK69328.1;Parent=gene-nef;Dbxref=NCBI_GP:AAK69328.1;Name=AAK69328.1;gbkey=CDS;gene=nef;product=nef;protein_id=AAK69328.1
+AF385935.1	Genbank	long_terminal_repeat	9109	9762	.	+	.	ID=id-AF385935.1:9109..9762;gbkey=repeat_region;rpt_type=long_terminal_repeat
+###

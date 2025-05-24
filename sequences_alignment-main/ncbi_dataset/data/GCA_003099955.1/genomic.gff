@@ -1,0 +1,28 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309995v1
+#!genome-build-accession NCBI_Assembly:GCA_003099955.1
+##sequence-region AY521629.1 1 8801
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY521629.1	Genbank	region	1	8801	.	+	.	ID=AY521629.1:1..8801;Dbxref=taxon:11676;country=Senegal;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=DDI579;mol_type=genomic DNA
+AY521629.1	Genbank	gene	1	1490	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AY521629.1	Genbank	CDS	1	1490	.	+	2	ID=cds-AAT06618.1;Parent=gene-gag;Dbxref=NCBI_GP:AAT06618.1;Name=AAT06618.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AAT06618.1;start_range=.,1
+AY521629.1	Genbank	gene	1283	4294	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1283
+AY521629.1	Genbank	CDS	1286	4294	.	+	0	ID=cds-AAT06619.1;Parent=gene-pol;Dbxref=NCBI_GP:AAT06619.1;Name=AAT06619.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAT06619.1;start_range=.,1286
+AY521629.1	Genbank	gene	4239	4817	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY521629.1	Genbank	CDS	4239	4817	.	+	0	ID=cds-AAT06620.1;Parent=gene-vif;Dbxref=NCBI_GP:AAT06620.1;Name=AAT06620.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAT06620.1
+AY521629.1	Genbank	gene	4757	5050	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY521629.1	Genbank	CDS	4757	5050	.	+	0	ID=cds-AAT06621.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAT06621.1;Name=AAT06621.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAT06621.1
+AY521629.1	Genbank	gene	5031	7673	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY521629.1	Genbank	CDS	5031	5245	.	+	0	ID=cds-AAT06622.1;Parent=gene-tat;Dbxref=NCBI_GP:AAT06622.1;Name=AAT06622.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAT06622.1
+AY521629.1	Genbank	CDS	7583	7673	.	+	1	ID=cds-AAT06622.1;Parent=gene-tat;Dbxref=NCBI_GP:AAT06622.1;Name=AAT06622.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAT06622.1
+AY521629.1	Genbank	sequence_feature	5170	5245	.	+	.	ID=id-AY521629.1:5170..7845;Note=similar to rev protein;gbkey=misc_feature
+AY521629.1	Genbank	sequence_feature	7583	7845	.	+	.	ID=id-AY521629.1:5170..7845;Note=similar to rev protein;gbkey=misc_feature
+AY521629.1	Genbank	gene	5272	5517	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY521629.1	Genbank	CDS	5272	5517	.	+	0	ID=cds-AAT06623.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAT06623.1;Name=AAT06623.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAT06623.1
+AY521629.1	Genbank	gene	5435	7987	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY521629.1	Genbank	CDS	5435	7987	.	+	0	ID=cds-AAT06624.1;Parent=gene-env;Dbxref=NCBI_GP:AAT06624.1;Name=AAT06624.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAT06624.1
+AY521629.1	Genbank	gene	7989	8600	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY521629.1	Genbank	CDS	7989	8600	.	+	0	ID=cds-AAT06625.1;Parent=gene-nef;Dbxref=NCBI_GP:AAT06625.1;Name=AAT06625.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAT06625.1
+###

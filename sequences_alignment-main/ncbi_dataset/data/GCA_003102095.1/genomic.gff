@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310209v1
+#!genome-build-accession NCBI_Assembly:GCA_003102095.1
+##sequence-region GQ328744.1 1 8654
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+GQ328744.1	Genbank	region	1	8654	.	+	.	ID=GQ328744.1:1..8654;Dbxref=taxon:11676;collection-date=27-Nov-2006;country=France;gb-acronym=HIV-1;gbkey=Src;isolate=RBF168;isolation-source=plasma;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=Human immunodeficiency virus type 1
+GQ328744.1	Genbank	gene	269	1744	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+GQ328744.1	Genbank	CDS	269	1744	.	+	0	ID=cds-ACT66822.1;Parent=gene-gag;Dbxref=NCBI_GP:ACT66822.1;Name=ACT66822.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACT66822.1
+GQ328744.1	Genbank	gene	1558	4569	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1558
+GQ328744.1	Genbank	CDS	1558	4569	.	+	0	ID=cds-ACT66823.1;Parent=gene-pol;Dbxref=NCBI_GP:ACT66823.1;Name=ACT66823.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACT66823.1;start_range=.,1558
+GQ328744.1	Genbank	gene	4502	5089	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+GQ328744.1	Genbank	CDS	4502	5089	.	+	0	ID=cds-ACT66824.1;Parent=gene-vif;Dbxref=NCBI_GP:ACT66824.1;Name=ACT66824.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACT66824.1
+GQ328744.1	Genbank	gene	5020	5316	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+GQ328744.1	Genbank	CDS	5020	5316	.	+	0	ID=cds-ACT66825.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACT66825.1;Name=ACT66825.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACT66825.1
+GQ328744.1	Genbank	gene	5297	7909	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+GQ328744.1	Genbank	CDS	5297	5511	.	+	0	ID=cds-ACT66826.1;Parent=gene-tat;Dbxref=NCBI_GP:ACT66826.1;Name=ACT66826.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACT66826.1
+GQ328744.1	Genbank	CDS	7909	7909	.	+	1	ID=cds-ACT66826.1;Parent=gene-tat;Dbxref=NCBI_GP:ACT66826.1;Name=ACT66826.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACT66826.1
+GQ328744.1	Genbank	gene	5436	8147	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+GQ328744.1	Genbank	CDS	5436	5511	.	+	0	ID=cds-ACT66827.1;Parent=gene-rev;Dbxref=NCBI_GP:ACT66827.1;Name=ACT66827.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACT66827.1
+GQ328744.1	Genbank	CDS	7909	8147	.	+	2	ID=cds-ACT66827.1;Parent=gene-rev;Dbxref=NCBI_GP:ACT66827.1;Name=ACT66827.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACT66827.1
+GQ328744.1	Genbank	gene	5538	5774	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+GQ328744.1	Genbank	CDS	5538	5774	.	+	0	ID=cds-ACT66828.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACT66828.1;Name=ACT66828.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACT66828.1
+GQ328744.1	Genbank	gene	5692	8346	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+GQ328744.1	Genbank	CDS	5692	8346	.	+	0	ID=cds-ACT66829.1;Parent=gene-env;Dbxref=NCBI_GP:ACT66829.1;Name=ACT66829.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACT66829.1
+GQ328744.1	Genbank	gene	8346	8654	.	+	.	ID=gene-nef;Name=nef;end_range=8654,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+GQ328744.1	Genbank	CDS	8346	8654	.	+	0	ID=cds-ACT66830.1;Parent=gene-nef;Dbxref=NCBI_GP:ACT66830.1;Name=ACT66830.1;end_range=8654,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=ACT66830.1
+###

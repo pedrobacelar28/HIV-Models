@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM385583v1
+#!genome-build-accession NCBI_Assembly:GCA_003855835.1
+##sequence-region KU685592.1 1 8894
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KU685592.1	Genbank	region	1	8894	.	+	.	ID=KU685592.1:1..8894;Dbxref=taxon:11676;collection-date=28-May-2014;country=Spain;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=EUR-0033;mol_type=genomic DNA;nat-host=Homo sapiens;subtype=G
+KU685592.1	Genbank	gene	212	1699	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KU685592.1	Genbank	CDS	212	1699	.	+	0	ID=cds-AMR72215.1;Parent=gene-gag;Dbxref=NCBI_GP:AMR72215.1;Name=AMR72215.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AMR72215.1
+KU685592.1	Genbank	gene	1501	4512	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1501
+KU685592.1	Genbank	CDS	1501	4512	.	+	0	ID=cds-AMR72216.1;Parent=gene-pol;Dbxref=NCBI_GP:AMR72216.1;Name=AMR72216.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AMR72216.1;start_range=.,1501
+KU685592.1	Genbank	gene	4457	5035	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KU685592.1	Genbank	CDS	4457	5035	.	+	0	ID=cds-AMR72217.1;Parent=gene-vif;Dbxref=NCBI_GP:AMR72217.1;Name=AMR72217.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AMR72217.1
+KU685592.1	Genbank	gene	4975	5265	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KU685592.1	Genbank	CDS	4975	5265	.	+	0	ID=cds-AMR72218.1;Parent=gene-vpr;Dbxref=NCBI_GP:AMR72218.1;Name=AMR72218.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AMR72218.1
+KU685592.1	Genbank	gene	5246	7885	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KU685592.1	Genbank	CDS	5246	5460	.	+	0	ID=cds-AMR72219.1;Parent=gene-tat;Dbxref=NCBI_GP:AMR72219.1;Name=AMR72219.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AMR72219.1
+KU685592.1	Genbank	CDS	7795	7885	.	+	1	ID=cds-AMR72219.1;Parent=gene-tat;Dbxref=NCBI_GP:AMR72219.1;Name=AMR72219.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AMR72219.1
+KU685592.1	Genbank	gene	5385	8090	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KU685592.1	Genbank	CDS	5385	5460	.	+	0	ID=cds-AMR72220.1;Parent=gene-rev;Dbxref=NCBI_GP:AMR72220.1;Name=AMR72220.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AMR72220.1
+KU685592.1	Genbank	CDS	7795	8090	.	+	2	ID=cds-AMR72220.1;Parent=gene-rev;Dbxref=NCBI_GP:AMR72220.1;Name=AMR72220.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AMR72220.1
+KU685592.1	Genbank	gene	5487	5732	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KU685592.1	Genbank	CDS	5487	5732	.	+	0	ID=cds-AMR72221.1;Parent=gene-vpu;Dbxref=NCBI_GP:AMR72221.1;Name=AMR72221.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AMR72221.1
+KU685592.1	Genbank	gene	5650	8232	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KU685592.1	Genbank	CDS	5650	8232	.	+	0	ID=cds-AMR72222.1;Parent=gene-env;Dbxref=NCBI_GP:AMR72222.1;Name=AMR72222.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AMR72222.1
+KU685592.1	Genbank	gene	8259	8888	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KU685592.1	Genbank	CDS	8259	8888	.	+	0	ID=cds-AMR72223.1;Parent=gene-nef;Dbxref=NCBI_GP:AMR72223.1;Name=AMR72223.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AMR72223.1
+###

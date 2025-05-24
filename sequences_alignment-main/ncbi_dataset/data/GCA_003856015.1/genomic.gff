@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM385601v1
+#!genome-build-accession NCBI_Assembly:GCA_003856015.1
+##sequence-region KX907411.1 1 8734
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KX907411.1	Genbank	region	1	8734	.	+	.	ID=KX907411.1:1..8734;Dbxref=taxon:11676;collection-date=10-Jun-2005;country=Tanzania: Mbeya;gb-acronym=HIV-1;gbkey=Src;genome=genomic;genotype=CD;isolate=CO6577V5;isolation-source=plasma;mol_type=genomic RNA;nat-host=Homo sapiens
+KX907411.1	Genbank	gene	1	1524	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+KX907411.1	Genbank	CDS	1	1524	.	+	0	ID=cds-APU88221.1;Parent=gene-gag;Dbxref=NCBI_GP:APU88221.1;Name=APU88221.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=APU88221.1;start_range=.,1
+KX907411.1	Genbank	gene	1296	4328	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1296
+KX907411.1	Genbank	CDS	1296	4328	.	+	0	ID=cds-APU88222.1;Parent=gene-pol;Dbxref=NCBI_GP:APU88222.1;Name=APU88222.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=APU88222.1;start_range=.,1296
+KX907411.1	Genbank	gene	4273	4851	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KX907411.1	Genbank	CDS	4273	4851	.	+	0	ID=cds-APU88223.1;Parent=gene-vif;Dbxref=NCBI_GP:APU88223.1;Name=APU88223.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=APU88223.1
+KX907411.1	Genbank	gene	4791	5081	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KX907411.1	Genbank	CDS	4791	5081	.	+	0	ID=cds-APU88224.1;Parent=gene-vpr;Dbxref=NCBI_GP:APU88224.1;Name=APU88224.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=APU88224.1
+KX907411.1	Genbank	gene	5062	7682	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KX907411.1	Genbank	CDS	5062	5276	.	+	0	ID=cds-APU88225.1;Parent=gene-tat;Dbxref=NCBI_GP:APU88225.1;Name=APU88225.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=APU88225.1
+KX907411.1	Genbank	CDS	7592	7682	.	+	1	ID=cds-APU88225.1;Parent=gene-tat;Dbxref=NCBI_GP:APU88225.1;Name=APU88225.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=APU88225.1
+KX907411.1	Genbank	gene	5201	7896	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KX907411.1	Genbank	CDS	5201	5276	.	+	0	ID=cds-APU88226.1;Parent=gene-rev;Dbxref=NCBI_GP:APU88226.1;Name=APU88226.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=APU88226.1
+KX907411.1	Genbank	CDS	7592	7896	.	+	2	ID=cds-APU88226.1;Parent=gene-rev;Dbxref=NCBI_GP:APU88226.1;Name=APU88226.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=APU88226.1
+KX907411.1	Genbank	gene	5293	5538	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KX907411.1	Genbank	CDS	5293	5538	.	+	0	ID=cds-APU88227.1;Parent=gene-vpu;Dbxref=NCBI_GP:APU88227.1;Name=APU88227.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=APU88227.1
+KX907411.1	Genbank	gene	5456	8029	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KX907411.1	Genbank	CDS	5456	8029	.	+	0	ID=cds-APU88228.1;Parent=gene-env;Dbxref=NCBI_GP:APU88228.1;Name=APU88228.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=APU88228.1
+KX907411.1	Genbank	gene	8031	8654	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KX907411.1	Genbank	CDS	8031	8654	.	+	0	ID=cds-APU88229.1;Parent=gene-nef;Dbxref=NCBI_GP:APU88229.1;Name=APU88229.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=APU88229.1
+KX907337.1	Genbank	match	1	8710	.	+	.	ID=aln0;Target=KX907336.1 1 8666 +;Gap=I7 M354 D3 M3 I2 I1 M3 I9 M783 D3 M233 I3 M39 I3 M3826 D3 D3 D3 D3 D3 M220 D3 M351 D3 D3 D3 D3 D3 D3 D3 D3 D3 M129 D3 D3 D3 M243 I3 M249 D3 M129 D3 M162 D3 M159 I3 M1195 D3 D3 M484 I1 I1 I1 I7 M13 I1 M10 D5 D1 D5 M39
+###

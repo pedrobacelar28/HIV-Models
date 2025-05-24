@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318944v1
+#!genome-build-accession NCBI_Assembly:GCA_003189445.1
+##sequence-region JN106043.1 1 8895
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+JN106043.1	Genbank	region	1	8895	.	+	.	ID=JN106043.1:1..8895;Dbxref=taxon:11676;collection-date=2008;country=China;gb-acronym=HIV-1;gbkey=Src;genome=proviral;genotype=G;isolate=GX-2084.08;mol_type=genomic DNA;nat-host=Homo sapiens
+JN106043.1	Genbank	long_terminal_repeat	1	26	.	+	.	ID=id-JN106043.1:1..26;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+JN106043.1	Genbank	gene	27	1523	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+JN106043.1	Genbank	CDS	27	1523	.	+	0	ID=cds-AER45472.1;Parent=gene-gag;Dbxref=NCBI_GP:AER45472.1;Name=AER45472.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AER45472.1
+JN106043.1	Genbank	gene	1313	4336	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1313
+JN106043.1	Genbank	CDS	1313	4336	.	+	0	ID=cds-AER45473.1;Parent=gene-pol;Dbxref=NCBI_GP:AER45473.1;Name=AER45473.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AER45473.1;start_range=.,1313
+JN106043.1	Genbank	gene	4281	4859	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+JN106043.1	Genbank	CDS	4281	4859	.	+	0	ID=cds-AER45474.1;Parent=gene-vif;Dbxref=NCBI_GP:AER45474.1;Name=AER45474.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AER45474.1
+JN106043.1	Genbank	gene	4799	5092	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+JN106043.1	Genbank	CDS	4799	5092	.	+	0	ID=cds-AER45475.1;Parent=gene-vpr;Dbxref=NCBI_GP:AER45475.1;Name=AER45475.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AER45475.1
+JN106043.1	Genbank	gene	5073	7702	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+JN106043.1	Genbank	CDS	5073	5287	.	+	0	ID=cds-AER45476.1;Parent=gene-tat;Dbxref=NCBI_GP:AER45476.1;Name=AER45476.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AER45476.1
+JN106043.1	Genbank	CDS	7612	7702	.	+	1	ID=cds-AER45476.1;Parent=gene-tat;Dbxref=NCBI_GP:AER45476.1;Name=AER45476.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AER45476.1
+JN106043.1	Genbank	gene	5212	7907	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+JN106043.1	Genbank	CDS	5212	5287	.	+	0	ID=cds-AER45477.1;Parent=gene-rev;Dbxref=NCBI_GP:AER45477.1;Name=AER45477.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AER45477.1
+JN106043.1	Genbank	CDS	7612	7907	.	+	2	ID=cds-AER45477.1;Parent=gene-rev;Dbxref=NCBI_GP:AER45477.1;Name=AER45477.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AER45477.1
+JN106043.1	Genbank	gene	5307	5552	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+JN106043.1	Genbank	CDS	5307	5552	.	+	0	ID=cds-AER45478.1;Parent=gene-vpu;Dbxref=NCBI_GP:AER45478.1;Name=AER45478.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AER45478.1
+JN106043.1	Genbank	gene	5470	8049	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+JN106043.1	Genbank	CDS	5470	8049	.	+	0	ID=cds-AER45479.1;Parent=gene-env;Dbxref=NCBI_GP:AER45479.1;Name=AER45479.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AER45479.1
+JN106043.1	Genbank	gene	8050	8673	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+JN106043.1	Genbank	CDS	8050	8673	.	+	0	ID=cds-AER45480.1;Parent=gene-nef;Dbxref=NCBI_GP:AER45480.1;Name=AER45480.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AER45480.1
+JN106043.1	Genbank	long_terminal_repeat	8674	8895	.	+	.	ID=id-JN106043.1:8674..8895;gbkey=repeat_region;rpt_type=long_terminal_repeat
+###

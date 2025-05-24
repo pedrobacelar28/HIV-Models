@@ -1,0 +1,19 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310874v1
+#!genome-build-accession NCBI_Assembly:GCA_003108745.1
+##sequence-region AJ249238.1 1 8614
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AJ249238.1	EMBL	region	1	8614	.	+	.	ID=AJ249238.1:1..8614;Dbxref=taxon:11676;country=Chad;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=96FR-MP411;mol_type=genomic RNA
+AJ249238.1	EMBL	gene	4	1486	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,4
+AJ249238.1	EMBL	CDS	4	1486	.	+	0	ID=cds-CAB58984.1;Parent=gene-gag;Dbxref=GOA:Q9QBY8,HSSP:1NCP,InterPro:IPR000071,InterPro:IPR000721,InterPro:IPR001878,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR010999,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR014817,UniProtKB/TrEMBL:Q9QBY8,NCBI_GP:CAB58984.1;Name=CAB58984.1;gbkey=CDS;gene=gag;partial=true;product=GAG protein;protein_id=CAB58984.1;start_range=.,4
+AJ249238.1	EMBL	gene	1281	4298	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1281
+AJ249238.1	EMBL	CDS	1281	4298	.	+	0	ID=cds-CAB58985.1;Parent=gene-pol;Dbxref=GOA:Q9QBY7,HSSP:1WJD,InterPro:IPR000477,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR012337,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:Q9QBY7,NCBI_GP:CAB58985.1;Name=CAB58985.1;gbkey=CDS;gene=pol;partial=true;product=POL protein;protein_id=CAB58985.1;start_range=.,1281
+AJ249238.1	EMBL	mature_protein_region_of_CDS	1281	4295	.	+	.	ID=id-CAB58985.1:1..1005;Parent=cds-CAB58985.1;gbkey=Prot;product=POL protein
+AJ249238.1	EMBL	gene	5407	7963	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding;partial=true;start_range=.,5407
+AJ249238.1	EMBL	CDS	5407	7963	.	+	0	ID=cds-CAB58986.1;Parent=gene-env;Dbxref=GOA:Q9QBY6,HSSP:1DLB,InterPro:IPR000328,InterPro:IPR000777,UniProtKB/TrEMBL:Q9QBY6,NCBI_GP:CAB58986.1;Name=CAB58986.1;gbkey=CDS;gene=env;partial=true;product=ENV protein;protein_id=CAB58986.1;start_range=.,5407
+AJ249238.1	EMBL	gene	7946	8581	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true;start_range=.,7946
+AJ249238.1	EMBL	CDS	7946	8581	.	+	0	ID=cds-CAB58987.1;Parent=gene-nef;Dbxref=GOA:Q9QBY5,HSSP:1ZEC,InterPro:IPR001558,UniProtKB/TrEMBL:Q9QBY5,NCBI_GP:CAB58987.1;Name=CAB58987.1;gbkey=CDS;gene=nef;partial=true;product=NEF protein;protein_id=CAB58987.1;start_range=.,7946
+AJ249238.1	EMBL	mature_protein_region_of_CDS	7946	8578	.	+	.	ID=id-CAB58987.1:1..211;Parent=cds-CAB58987.1;gbkey=Prot;product=NEF protein
+###

@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310033v1
+#!genome-build-accession NCBI_Assembly:GCA_003100335.1
+##sequence-region AY882421.1 1 9062
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY882421.1	Genbank	region	1	9062	.	+	.	ID=AY882421.1:1..9062;Dbxref=taxon:11676;country=Germany;gb-acronym=HIV-1;gbkey=Src;isolate=9196/01;mol_type=genomic RNA;note=patient has a history of injecting drug use and may have been infected in Portugal
+AY882421.1	Genbank	long_terminal_repeat	1	142	.	+	.	ID=id-AY882421.1:1..142;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+AY882421.1	Genbank	gene	316	1800	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AY882421.1	Genbank	CDS	316	1800	.	+	0	ID=cds-AAX81417.1;Parent=gene-gag;Dbxref=NCBI_GP:AAX81417.1;Name=AAX81417.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAX81417.1
+AY882421.1	Genbank	gene	1605	4613	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1605
+AY882421.1	Genbank	CDS	1605	4613	.	+	0	ID=cds-AAX81418.1;Parent=gene-pol;Dbxref=NCBI_GP:AAX81418.1;Name=AAX81418.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAX81418.1;start_range=.,1605
+AY882421.1	Genbank	gene	4558	5136	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY882421.1	Genbank	CDS	4558	5136	.	+	0	ID=cds-AAX81419.1;Parent=gene-vif;Dbxref=NCBI_GP:AAX81419.1;Name=AAX81419.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAX81419.1
+AY882421.1	Genbank	gene	5076	5366	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY882421.1	Genbank	CDS	5076	5366	.	+	0	ID=cds-AAX81420.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAX81420.1;Name=AAX81420.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAX81420.1
+AY882421.1	Genbank	gene	5347	7974	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY882421.1	Genbank	CDS	5347	5561	.	+	0	ID=cds-AAX81424.1;Parent=gene-tat;Dbxref=NCBI_GP:AAX81424.1;Name=AAX81424.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAX81424.1
+AY882421.1	Genbank	CDS	7884	7974	.	+	1	ID=cds-AAX81424.1;Parent=gene-tat;Dbxref=NCBI_GP:AAX81424.1;Name=AAX81424.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAX81424.1
+AY882421.1	Genbank	gene	5486	8179	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY882421.1	Genbank	CDS	5486	5561	.	+	0	ID=cds-AAX81425.1;Parent=gene-rev;Dbxref=NCBI_GP:AAX81425.1;Name=AAX81425.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAX81425.1
+AY882421.1	Genbank	CDS	7884	8179	.	+	2	ID=cds-AAX81425.1;Parent=gene-rev;Dbxref=NCBI_GP:AAX81425.1;Name=AAX81425.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAX81425.1
+AY882421.1	Genbank	gene	5588	5833	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY882421.1	Genbank	CDS	5588	5833	.	+	0	ID=cds-AAX81421.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAX81421.1;Name=AAX81421.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAX81421.1
+AY882421.1	Genbank	gene	5751	8321	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY882421.1	Genbank	CDS	5751	8321	.	+	0	ID=cds-AAX81422.1;Parent=gene-env;Dbxref=NCBI_GP:AAX81422.1;Name=AAX81422.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAX81422.1
+AY882421.1	Genbank	gene	8323	8946	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY882421.1	Genbank	CDS	8323	8946	.	+	0	ID=cds-AAX81423.1;Parent=gene-nef;Dbxref=NCBI_GP:AAX81423.1;Name=AAX81423.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAX81423.1
+AY882421.1	Genbank	long_terminal_repeat	8615	9062	.	+	.	ID=id-AY882421.1:8615..9062;end_range=9062,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+###

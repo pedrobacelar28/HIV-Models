@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309817v1
+#!genome-build-accession NCBI_Assembly:GCA_003098175.1
+##sequence-region AF082395.1 1 8953
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF082395.1	Genbank	region	1	8953	.	+	.	ID=AF082395.1:1..8953;Dbxref=taxon:11676;clone=3;country=Sweden: from Republic of the Congo immigrants living in Sweden;gb-acronym=HIV-1;gbkey=Src;genome=genomic;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;strain=SE9173;subtype=J
+AF082395.1	Genbank	gene	114	1607	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF082395.1	Genbank	CDS	114	1607	.	+	0	ID=cds-AAD17765.1;Parent=gene-gag;Dbxref=NCBI_GP:AAD17765.1;Name=AAD17765.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAD17765.1
+AF082395.1	Genbank	gene	1406	4411	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1406
+AF082395.1	Genbank	CDS	1406	4411	.	+	0	ID=cds-AAD17766.1;Parent=gene-pol;Dbxref=NCBI_GP:AAD17766.1;Name=AAD17766.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAD17766.1;start_range=.,1406
+AF082395.1	Genbank	gene	4356	4934	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF082395.1	Genbank	CDS	4356	4934	.	+	0	ID=cds-AAD17767.1;Parent=gene-vif;Dbxref=NCBI_GP:AAD17767.1;Name=AAD17767.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAD17767.1
+AF082395.1	Genbank	gene	4874	5164	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF082395.1	Genbank	CDS	4874	5164	.	+	0	ID=cds-AAD17769.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAD17769.1;Name=AAD17769.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAD17769.1
+AF082395.1	Genbank	gene	5145	7783	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF082395.1	Genbank	CDS	5145	5359	.	+	0	ID=cds-AAD17772.1;Parent=gene-tat;Dbxref=NCBI_GP:AAD17772.1;Name=AAD17772.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAD17772.1
+AF082395.1	Genbank	CDS	7693	7783	.	+	1	ID=cds-AAD17772.1;Parent=gene-tat;Dbxref=NCBI_GP:AAD17772.1;Name=AAD17772.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAD17772.1
+AF082395.1	Genbank	gene	5284	7967	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF082395.1	Genbank	CDS	5284	5359	.	+	0	ID=cds-AAD17773.1;Parent=gene-rev;Dbxref=NCBI_GP:AAD17773.1;Name=AAD17773.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAD17773.1
+AF082395.1	Genbank	CDS	7693	7967	.	+	2	ID=cds-AAD17773.1;Parent=gene-rev;Dbxref=NCBI_GP:AAD17773.1;Name=AAD17773.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAD17773.1
+AF082395.1	Genbank	gene	5385	5630	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF082395.1	Genbank	CDS	5385	5630	.	+	0	ID=cds-AAD17770.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAD17770.1;Name=AAD17770.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAD17770.1
+AF082395.1	Genbank	gene	5557	8109	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF082395.1	Genbank	CDS	5557	8109	.	+	0	ID=cds-AAD17768.1;Parent=gene-env;Dbxref=NCBI_GP:AAD17768.1;Name=AAD17768.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAD17768.1
+AF082395.1	Genbank	gene	8111	8725	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF082395.1	Genbank	CDS	8111	8725	.	+	0	ID=cds-AAD17771.1;Parent=gene-nef;Dbxref=NCBI_GP:AAD17771.1;Name=AAD17771.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAD17771.1
+###

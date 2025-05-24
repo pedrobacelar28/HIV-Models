@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM319048v1
+#!genome-build-accession NCBI_Assembly:GCA_003190485.1
+##sequence-region KX582249.1 1 8656
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KX582249.1	Genbank	region	1	8656	.	+	.	ID=KX582249.1:1..8656;Dbxref=taxon:11676;collection-date=26-Jun-2013;country=China;gb-acronym=HIV-1;gbkey=Src;isolate=15YNHS18;isolation-source=plasma;mol_type=genomic RNA;nat-host=Homo sapiens
+KX582249.1	Genbank	gene	1	1425	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+KX582249.1	Genbank	CDS	1	1425	.	+	0	ID=cds-AOS51445.1;Parent=gene-gag;Dbxref=NCBI_GP:AOS51445.1;Name=AOS51445.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AOS51445.1;start_range=.,1
+KX582249.1	Genbank	gene	1230	4229	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1230
+KX582249.1	Genbank	CDS	1230	4229	.	+	0	ID=cds-AOS51446.1;Parent=gene-pol;Dbxref=NCBI_GP:AOS51446.1;Name=AOS51446.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AOS51446.1;start_range=.,1230
+KX582249.1	Genbank	gene	4174	4755	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KX582249.1	Genbank	CDS	4174	4755	.	+	0	ID=cds-AOS51447.1;Parent=gene-vif;Dbxref=NCBI_GP:AOS51447.1;Name=AOS51447.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AOS51447.1
+KX582249.1	Genbank	gene	4695	4985	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KX582249.1	Genbank	CDS	4695	4985	.	+	0	ID=cds-AOS51448.1;Parent=gene-vpr;Dbxref=NCBI_GP:AOS51448.1;Name=AOS51448.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AOS51448.1
+KX582249.1	Genbank	gene	4966	7556	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KX582249.1	Genbank	CDS	4966	5180	.	+	0	ID=cds-AOS51449.1;Parent=gene-tat;Dbxref=NCBI_GP:AOS51449.1;Name=AOS51449.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AOS51449.1
+KX582249.1	Genbank	CDS	7466	7556	.	+	1	ID=cds-AOS51449.1;Parent=gene-tat;Dbxref=NCBI_GP:AOS51449.1;Name=AOS51449.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AOS51449.1
+KX582249.1	Genbank	gene	5105	7740	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KX582249.1	Genbank	CDS	5105	5180	.	+	0	ID=cds-AOS51450.1;Parent=gene-rev;Dbxref=NCBI_GP:AOS51450.1;Name=AOS51450.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AOS51450.1
+KX582249.1	Genbank	CDS	7466	7740	.	+	2	ID=cds-AOS51450.1;Parent=gene-rev;Dbxref=NCBI_GP:AOS51450.1;Name=AOS51450.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AOS51450.1
+KX582249.1	Genbank	gene	5197	5445	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KX582249.1	Genbank	CDS	5197	5445	.	+	0	ID=cds-AOS51451.1;Parent=gene-vpu;Dbxref=NCBI_GP:AOS51451.1;Name=AOS51451.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AOS51451.1
+KX582249.1	Genbank	gene	5369	7882	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KX582249.1	Genbank	CDS	5369	7882	.	+	0	ID=cds-AOS51452.1;Parent=gene-env;Dbxref=NCBI_GP:AOS51452.1;Name=AOS51452.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AOS51452.1
+KX582249.1	Genbank	gene	7884	8513	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KX582249.1	Genbank	CDS	7884	8513	.	+	0	ID=cds-AOS51453.1;Parent=gene-nef;Dbxref=NCBI_GP:AOS51453.1;Name=AOS51453.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AOS51453.1
+###

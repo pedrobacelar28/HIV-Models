@@ -1,0 +1,23 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318790v1
+#!genome-build-accession NCBI_Assembly:GCA_003187905.1
+##sequence-region KC797225.1 1 9221
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KC797225.1	Genbank	region	1	9221	.	+	.	ID=KC797225.1:1..9221;Dbxref=taxon:11676;collection-date=Mar-2008;country=Switzerland;gb-acronym=HIV-1;gbkey=Src;isolate=CHLSM2SI5082i0803101ppNFLG8;isolation-source=plasma from male M2;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=B
+KC797225.1	Genbank	gene	250	1761	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KC797225.1	Genbank	CDS	250	1761	.	+	0	ID=cds-AGL45923.1;Parent=gene-gag;Dbxref=NCBI_GP:AGL45923.1;Name=AGL45923.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AGL45923.1
+KC797225.1	Genbank	gene	1542	4565	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1542
+KC797225.1	Genbank	CDS	1542	4565	.	+	0	ID=cds-AGL45924.1;Parent=gene-pol;Dbxref=NCBI_GP:AGL45924.1;Name=AGL45924.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AGL45924.1;start_range=.,1542
+KC797225.1	Genbank	gene	4510	5076	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KC797225.1	Genbank	CDS	4510	5076	.	+	0	ID=cds-AGL45925.1;Parent=gene-vif;Dbxref=NCBI_GP:AGL45925.1;Name=AGL45925.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AGL45925.1
+KC797225.1	Genbank	gene	5028	5306	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KC797225.1	Genbank	CDS	5028	5306	.	+	0	ID=cds-AGL45926.1;Parent=gene-vpr;Dbxref=NCBI_GP:AGL45926.1;Name=AGL45926.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AGL45926.1
+KC797225.1	Genbank	gene	5518	5763	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KC797225.1	Genbank	CDS	5518	5763	.	+	0	ID=cds-AGL45927.1;Parent=gene-vpu;Dbxref=NCBI_GP:AGL45927.1;Name=AGL45927.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AGL45927.1
+KC797225.1	Genbank	gene	5681	8338	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KC797225.1	Genbank	CDS	5681	8338	.	+	0	ID=cds-AGL45928.1;Parent=gene-env;Dbxref=NCBI_GP:AGL45928.1;Name=AGL45928.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AGL45928.1
+KC797225.1	Genbank	gene	8341	8982	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KC797225.1	Genbank	CDS	8341	8982	.	+	0	ID=cds-AGL45929.1;Parent=gene-nef;Dbxref=NCBI_GP:AGL45929.1;Name=AGL45929.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AGL45929.1
+###

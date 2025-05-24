@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310363v1
+#!genome-build-accession NCBI_Assembly:GCA_003103635.1
+##sequence-region KC990125.1 1 9087
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KC990125.1	Genbank	region	1	9087	.	+	.	ID=KC990125.1:1..9087;Dbxref=taxon:11676;collection-date=2007;country=China;gb-acronym=HIV-1;gbkey=Src;isolate=FJ070004;mol_type=genomic RNA;nat-host=Homo sapiens
+KC990125.1	Genbank	gene	276	1763	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KC990125.1	Genbank	CDS	276	1763	.	+	0	ID=cds-AGK81947.1;Parent=gene-gag;Dbxref=NCBI_GP:AGK81947.1;Name=AGK81947.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AGK81947.1
+KC990125.1	Genbank	gene	1568	4567	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1568
+KC990125.1	Genbank	CDS	1568	4567	.	+	0	ID=cds-AGK81948.1;Parent=gene-pol;Dbxref=NCBI_GP:AGK81948.1;Name=AGK81948.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AGK81948.1;start_range=.,1568
+KC990125.1	Genbank	gene	4512	5093	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KC990125.1	Genbank	CDS	4512	5093	.	+	0	ID=cds-AGK81949.1;Parent=gene-vif;Dbxref=NCBI_GP:AGK81949.1;Name=AGK81949.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AGK81949.1
+KC990125.1	Genbank	gene	5033	5323	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KC990125.1	Genbank	CDS	5033	5323	.	+	0	ID=cds-AGK81950.1;Parent=gene-vpr;Dbxref=NCBI_GP:AGK81950.1;Name=AGK81950.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AGK81950.1
+KC990125.1	Genbank	gene	5304	7903	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KC990125.1	Genbank	CDS	5304	5518	.	+	0	ID=cds-AGK81951.1;Parent=gene-tat;Dbxref=NCBI_GP:AGK81951.1;Name=AGK81951.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AGK81951.1
+KC990125.1	Genbank	CDS	7813	7903	.	+	1	ID=cds-AGK81951.1;Parent=gene-tat;Dbxref=NCBI_GP:AGK81951.1;Name=AGK81951.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AGK81951.1
+KC990125.1	Genbank	gene	5443	8108	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=other
+KC990125.1	Genbank	sequence_feature	5443	5518	.	+	.	ID=id-rev;Note=nonfunctional rev protein due to mutation;gbkey=misc_feature;gene=rev
+KC990125.1	Genbank	sequence_feature	7813	8108	.	+	.	ID=id-rev;Note=nonfunctional rev protein due to mutation;gbkey=misc_feature;gene=rev
+KC990125.1	Genbank	gene	5532	5774	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KC990125.1	Genbank	CDS	5532	5774	.	+	0	ID=cds-AGK81952.1;Parent=gene-vpu;Dbxref=NCBI_GP:AGK81952.1;Name=AGK81952.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AGK81952.1
+KC990125.1	Genbank	gene	5692	8250	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KC990125.1	Genbank	CDS	5692	8250	.	+	0	ID=cds-AGK81953.1;Parent=gene-env;Dbxref=NCBI_GP:AGK81953.1;Name=AGK81953.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AGK81953.1
+KC990125.1	Genbank	gene	8252	8872	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KC990125.1	Genbank	CDS	8252	8872	.	+	0	ID=cds-AGK81954.1;Parent=gene-nef;Dbxref=NCBI_GP:AGK81954.1;Name=AGK81954.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AGK81954.1
+###

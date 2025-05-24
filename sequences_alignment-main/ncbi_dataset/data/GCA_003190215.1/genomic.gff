@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM319021v1
+#!genome-build-accession NCBI_Assembly:GCA_003190215.1
+##sequence-region KP411845.1 1 8761
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KP411845.1	Genbank	region	1	8761	.	+	.	ID=KP411845.1:1..8761;Dbxref=taxon:11676;collection-date=05-Aug-2011;country=Sweden;gb-acronym=HIV-1;gbkey=Src;isolate=SE602024;mol_type=genomic RNA;nat-host=Homo sapiens;note=patient code 046CM;subtype=CRF02_AG
+KP411845.1	Genbank	gene	1	1485	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KP411845.1	Genbank	CDS	1	1485	.	+	0	ID=cds-AJP61739.1;Parent=gene-gag;Dbxref=NCBI_GP:AJP61739.1;Name=AJP61739.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AJP61739.1
+KP411845.1	Genbank	gene	1278	4289	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1278
+KP411845.1	Genbank	CDS	1278	4289	.	+	0	ID=cds-AJP61740.1;Parent=gene-pol;Dbxref=NCBI_GP:AJP61740.1;Name=AJP61740.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AJP61740.1;start_range=.,1278
+KP411845.1	Genbank	gene	4234	4812	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KP411845.1	Genbank	CDS	4234	4812	.	+	0	ID=cds-AJP61741.1;Parent=gene-vif;Dbxref=NCBI_GP:AJP61741.1;Name=AJP61741.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AJP61741.1
+KP411845.1	Genbank	gene	4752	5043	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=other
+KP411845.1	Genbank	sequence_feature	4752	5043	.	+	.	ID=id-vpr;Note=nonfunctional vpr protein due to mutation;gbkey=misc_feature;gene=vpr
+KP411845.1	Genbank	gene	5024	7653	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KP411845.1	Genbank	CDS	5024	5247	.	+	0	ID=cds-AJP61742.1;Parent=gene-tat;Dbxref=NCBI_GP:AJP61742.1;Name=AJP61742.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AJP61742.1
+KP411845.1	Genbank	CDS	7563	7653	.	+	1	ID=cds-AJP61742.1;Parent=gene-tat;Dbxref=NCBI_GP:AJP61742.1;Name=AJP61742.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AJP61742.1
+KP411845.1	Genbank	gene	5172	7858	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KP411845.1	Genbank	CDS	5172	5247	.	+	0	ID=cds-AJP61743.1;Parent=gene-rev;Dbxref=NCBI_GP:AJP61743.1;Name=AJP61743.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AJP61743.1
+KP411845.1	Genbank	CDS	7563	7858	.	+	2	ID=cds-AJP61743.1;Parent=gene-rev;Dbxref=NCBI_GP:AJP61743.1;Name=AJP61743.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AJP61743.1
+KP411845.1	Genbank	gene	5273	5518	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KP411845.1	Genbank	CDS	5273	5518	.	+	0	ID=cds-AJP61744.1;Parent=gene-vpu;Dbxref=NCBI_GP:AJP61744.1;Name=AJP61744.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AJP61744.1
+KP411845.1	Genbank	gene	5436	8000	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KP411845.1	Genbank	CDS	5436	8000	.	+	0	ID=cds-AJP61745.1;Parent=gene-env;Dbxref=NCBI_GP:AJP61745.1;Name=AJP61745.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AJP61745.1
+KP411845.1	Genbank	gene	8002	8637	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KP411845.1	Genbank	CDS	8002	8637	.	+	0	ID=cds-AJP61746.1;Parent=gene-nef;Dbxref=NCBI_GP:AJP61746.1;Name=AJP61746.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AJP61746.1
+###

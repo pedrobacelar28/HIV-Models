@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310165v1
+#!genome-build-accession NCBI_Assembly:GCA_003101655.1
+##sequence-region EU697905.1 1 9093
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EU697905.1	Genbank	region	1	9093	.	+	.	ID=EU697905.1:1..9093;Dbxref=taxon:11676;country=Saudi Arabia;gb-acronym=HIV-1;gbkey=Src;isolate=J11232;isolation-source=plasma;mol_type=genomic RNA;nat-host=Homo sapiens
+EU697905.1	Genbank	gene	326	1819	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+EU697905.1	Genbank	CDS	326	1819	.	+	0	ID=cds-ACF95921.1;Parent=gene-gag;Dbxref=NCBI_GP:ACF95921.1;Name=ACF95921.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACF95921.1
+EU697905.1	Genbank	gene	1615	4623	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1615
+EU697905.1	Genbank	CDS	1615	4623	.	+	0	ID=cds-ACF95922.1;Parent=gene-pol;Dbxref=NCBI_GP:ACF95922.1;Name=ACF95922.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACF95922.1;start_range=.,1615
+EU697905.1	Genbank	gene	4568	5146	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+EU697905.1	Genbank	CDS	4568	5146	.	+	0	ID=cds-ACF95923.1;Parent=gene-vif;Dbxref=NCBI_GP:ACF95923.1;Name=ACF95923.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACF95923.1
+EU697905.1	Genbank	gene	5086	5376	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EU697905.1	Genbank	CDS	5086	5376	.	+	0	ID=cds-ACF95924.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACF95924.1;Name=ACF95924.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACF95924.1
+EU697905.1	Genbank	gene	5357	7993	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EU697905.1	Genbank	CDS	5357	5571	.	+	0	ID=cds-ACF95925.1;Parent=gene-tat;Dbxref=NCBI_GP:ACF95925.1;Name=ACF95925.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACF95925.1
+EU697905.1	Genbank	CDS	7903	7993	.	+	1	ID=cds-ACF95925.1;Parent=gene-tat;Dbxref=NCBI_GP:ACF95925.1;Name=ACF95925.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACF95925.1
+EU697905.1	Genbank	gene	5496	8198	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EU697905.1	Genbank	CDS	5496	5571	.	+	0	ID=cds-ACF95926.1;Parent=gene-rev;Dbxref=NCBI_GP:ACF95926.1;Name=ACF95926.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACF95926.1
+EU697905.1	Genbank	CDS	7903	8198	.	+	2	ID=cds-ACF95926.1;Parent=gene-rev;Dbxref=NCBI_GP:ACF95926.1;Name=ACF95926.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACF95926.1
+EU697905.1	Genbank	gene	5598	5843	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EU697905.1	Genbank	CDS	5598	5843	.	+	0	ID=cds-ACF95927.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACF95927.1;Name=ACF95927.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACF95927.1
+EU697905.1	Genbank	gene	5761	8340	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+EU697905.1	Genbank	CDS	5761	8340	.	+	0	ID=cds-ACF95928.1;Parent=gene-env;Dbxref=NCBI_GP:ACF95928.1;Name=ACF95928.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACF95928.1
+EU697905.1	Genbank	gene	8342	8962	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EU697905.1	Genbank	CDS	8342	8962	.	+	0	ID=cds-ACF95929.1;Parent=gene-nef;Dbxref=NCBI_GP:ACF95929.1;Name=ACF95929.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACF95929.1
+###

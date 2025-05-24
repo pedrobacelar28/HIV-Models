@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310099v1
+#!genome-build-accession NCBI_Assembly:GCA_003100995.1
+##sequence-region DQ826726.1 1 8882
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+DQ826726.1	Genbank	region	1	8882	.	+	.	ID=DQ826726.1:1..8882;Dbxref=taxon:11676;country=Cameroon: Bangouren;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=101BA;isolation-source=22-year-old man;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;subtype=CRF25_AGU
+DQ826726.1	Genbank	gene	1	1491	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+DQ826726.1	Genbank	CDS	1	1491	.	+	0	ID=cds-ABG91337.1;Parent=gene-gag;Dbxref=NCBI_GP:ABG91337.1;Name=ABG91337.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=ABG91337.1;start_range=.,1
+DQ826726.1	Genbank	gene	1296	4304	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1296
+DQ826726.1	Genbank	CDS	1296	4304	.	+	0	ID=cds-ABG91338.1;Parent=gene-pol;Dbxref=NCBI_GP:ABG91338.1;Name=ABG91338.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ABG91338.1;start_range=.,1296
+DQ826726.1	Genbank	gene	4249	4827	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+DQ826726.1	Genbank	CDS	4249	4827	.	+	0	ID=cds-ABG91339.1;Parent=gene-vif;Dbxref=NCBI_GP:ABG91339.1;Name=ABG91339.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABG91339.1
+DQ826726.1	Genbank	gene	4767	5057	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+DQ826726.1	Genbank	CDS	4767	5057	.	+	0	ID=cds-ABG91340.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABG91340.1;Name=ABG91340.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABG91340.1
+DQ826726.1	Genbank	gene	5038	7719	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+DQ826726.1	Genbank	CDS	5038	5246	.	+	0	ID=cds-ABG91344.1;Parent=gene-tat;Dbxref=NCBI_GP:ABG91344.1;Name=ABG91344.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABG91344.1
+DQ826726.1	Genbank	CDS	7629	7719	.	+	1	ID=cds-ABG91344.1;Parent=gene-tat;Dbxref=NCBI_GP:ABG91344.1;Name=ABG91344.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABG91344.1
+DQ826726.1	Genbank	gene	5177	7924	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+DQ826726.1	Genbank	CDS	5177	5246	.	+	0	ID=cds-ABG91345.1;Parent=gene-rev;Dbxref=NCBI_GP:ABG91345.1;Name=ABG91345.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABG91345.1
+DQ826726.1	Genbank	CDS	7629	7924	.	+	2	ID=cds-ABG91345.1;Parent=gene-rev;Dbxref=NCBI_GP:ABG91345.1;Name=ABG91345.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABG91345.1
+DQ826726.1	Genbank	gene	5279	5524	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+DQ826726.1	Genbank	CDS	5279	5524	.	+	0	ID=cds-ABG91341.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABG91341.1;Name=ABG91341.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABG91341.1
+DQ826726.1	Genbank	gene	5442	8066	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+DQ826726.1	Genbank	CDS	5442	8066	.	+	0	ID=cds-ABG91342.1;Parent=gene-env;Dbxref=NCBI_GP:ABG91342.1;Name=ABG91342.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ABG91342.1
+DQ826726.1	Genbank	gene	8068	8694	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+DQ826726.1	Genbank	CDS	8068	8694	.	+	0	ID=cds-ABG91343.1;Parent=gene-nef;Dbxref=NCBI_GP:ABG91343.1;Name=ABG91343.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ABG91343.1
+###

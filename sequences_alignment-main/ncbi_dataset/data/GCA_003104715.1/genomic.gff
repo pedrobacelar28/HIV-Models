@@ -1,0 +1,36 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310471v1
+#!genome-build-accession NCBI_Assembly:GCA_003104715.1
+##sequence-region U46016.1 1 9031
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+U46016.1	Genbank	region	1	9031	.	+	.	ID=U46016.1:1..9031;Dbxref=taxon:11676;clone=pNOTA/C2220/C3.6.4;gb-acronym=HIV-1;gbkey=Src;mol_type=genomic DNA;note=subtype C from Ethiopia%3B isolated by short term co-culture on normal human PBMC;old-name=Human immunodeficiency virus type 1;strain=C2220 (ETH2220)
+U46016.1	Genbank	gene	170	1684	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+U46016.1	Genbank	CDS	170	1684	.	+	0	ID=cds-AAB36500.1;Parent=gene-gag;Dbxref=NCBI_GP:AAB36500.1;Name=AAB36500.1;Note=GAG p17/p24/NCp7/p6;gbkey=CDS;gene=gag;product=matrix%2C capsid and core proteins;protein_id=AAB36500.1
+U46016.1	Genbank	gene	1456	4488	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+U46016.1	Genbank	CDS	1456	4488	.	+	0	ID=cds-AAB36501.1;Parent=gene-pol;Dbxref=NCBI_GP:AAB36501.1;Name=AAB36501.1;Note=initiation codon is unknown;gbkey=CDS;gene=pol;partial=true;product=protease/RT/RNAseH/integrase;protein_id=AAB36501.1;start_range=.,1456
+U46016.1	Genbank	gene	4433	5011	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+U46016.1	Genbank	CDS	4433	5011	.	+	0	ID=cds-AAB36502.1;Parent=gene-vif;Dbxref=NCBI_GP:AAB36502.1;Name=AAB36502.1;Note=infectivity factor;gbkey=CDS;gene=vif;product=VIF;protein_id=AAB36502.1
+U46016.1	Genbank	gene	4951	5241	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+U46016.1	Genbank	CDS	4951	5241	.	+	0	ID=cds-AAB36503.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAB36503.1;Name=AAB36503.1;gbkey=CDS;gene=vpr;product=VPR;protein_id=AAB36503.1
+U46016.1	Genbank	gene	5222	5350	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+U46016.1	Genbank	CDS	5222	5350	.	+	0	ID=cds-AAB36504.1;Parent=gene-tat;Dbxref=NCBI_GP:AAB36504.1;Name=AAB36504.1;Note=transactivating factor%3B prematurely truncated at nt 5350 due to a deletion at nt 5344%3B second exon not expressed;gbkey=CDS;gene=tat;product=TAT;protein_id=AAB36504.1
+U46016.1	Genbank	gene	5360	8002	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+U46016.1	Genbank	CDS	5360	5435	.	+	0	ID=cds-AAB36505.1;Parent=gene-rev;Dbxref=NCBI_GP:AAB36505.1;Name=AAB36505.1;Note=regulator of protein expression%3B prematurely truncated at nt 8002;gbkey=CDS;gene=rev;product=REV;protein_id=AAB36505.1
+U46016.1	Genbank	CDS	7755	8002	.	+	2	ID=cds-AAB36505.1;Parent=gene-rev;Dbxref=NCBI_GP:AAB36505.1;Name=AAB36505.1;Note=regulator of protein expression%3B prematurely truncated at nt 8002;gbkey=CDS;gene=rev;product=REV;protein_id=AAB36505.1
+U46016.1	Genbank	gene	5459	5719	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+U46016.1	Genbank	CDS	5459	5719	.	+	0	ID=cds-AAB36506.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAB36506.1;Name=AAB36506.1;gbkey=CDS;gene=vpu;product=VPU;protein_id=AAB36506.1
+U46016.1	Genbank	gene	5637	8192	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+U46016.1	Genbank	CDS	5637	8192	.	+	0	ID=cds-AAB36507.1;Parent=gene-env;Dbxref=NCBI_GP:AAB36507.1;Name=AAB36507.1;Note=viral envelope gene%3B contains external and transmembrane glycoproteins%3B cleaved to gp120 %26 gp41;gbkey=CDS;gene=env;product=gp160;protein_id=AAB36507.1
+U46016.1	Genbank	transcript	7145	7378	.	+	.	ID=rna-env;Parent=gene-env;Note=RRE region of mRNA%3B viral envelope gene;gbkey=misc_RNA;gene=env
+U46016.1	Genbank	exon	7145	7378	.	+	.	ID=exon-env-1;Parent=rna-env;Note=RRE region of mRNA%3B viral envelope gene;gbkey=misc_RNA;gene=env
+U46016.1	Genbank	gene	8194	8817	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+U46016.1	Genbank	CDS	8194	8817	.	+	0	ID=cds-AAB36508.1;Parent=gene-nef;Dbxref=NCBI_GP:AAB36508.1;Name=AAB36508.1;Note=regulatory protein;gbkey=CDS;gene=nef;product=NEF;protein_id=AAB36508.1
+U46016.1	Genbank	long_terminal_repeat	8486	9031	.	+	.	ID=id-U46016.1:8486..9031;Note=3'%2C U3 and R regions only;end_range=9031,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+U46016.1	Genbank	protein_binding_site	8825	8834	.	+	.	ID=id-U46016.1:8825..8834;Note=extra NFkB site III;bound_moiety=NFkb;gbkey=protein_bind
+U46016.1	Genbank	protein_binding_site	8838	8847	.	+	.	ID=id-U46016.1:8838..8847;Note=NFkB site II;bound_moiety=NFkb;gbkey=protein_bind
+U46016.1	Genbank	protein_binding_site	8851	8860	.	+	.	ID=id-U46016.1:8851..8860;Note=NFkB site I;bound_moiety=NFkb;gbkey=protein_bind
+U46016.1	Genbank	transcript	8939	8997	.	+	.	ID=rna-U46016.1:8939..8997;Note=TAR region of mRNA;gbkey=misc_RNA
+U46016.1	Genbank	exon	8939	8997	.	+	.	ID=exon-U46016.1:8939..8997-1;Parent=rna-U46016.1:8939..8997;Note=TAR region of mRNA;gbkey=misc_RNA
+###

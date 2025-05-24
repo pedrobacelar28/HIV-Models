@@ -1,0 +1,27 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310377v1
+#!genome-build-accession NCBI_Assembly:GCA_003103775.1
+##sequence-region KJ671535.1 1 8939
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KJ671535.1	Genbank	region	1	8939	.	+	.	ID=KJ671535.1:1..8939;Dbxref=taxon:11676;collection-date=2010;country=Brazil;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=10BR_MG004;isolation-source=PBMC;mol_type=genomic DNA;nat-host=Homo sapiens;subtype=BF1 recombinant
+KJ671535.1	Genbank	gene	265	1791	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KJ671535.1	Genbank	CDS	265	1791	.	+	0	ID=cds-AIA08992.1;Parent=gene-gag;Dbxref=NCBI_GP:AIA08992.1;Name=AIA08992.1;Note=contains p17%2C p24%2C p2%2C p7%2C p1%2C and p6;gbkey=CDS;gene=gag;product=gag protein;protein_id=AIA08992.1
+KJ671535.1	Genbank	gene	1887	4595	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+KJ671535.1	Genbank	CDS	1887	4595	.	+	0	ID=cds-AIA08993.1;Parent=gene-pol;Dbxref=NCBI_GP:AIA08993.1;Name=AIA08993.1;Note=contains protease%2C RT%2C RNase%2C and integrase;gbkey=CDS;gene=pol;product=pol protein;protein_id=AIA08993.1
+KJ671535.1	Genbank	gene	4540	5118	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KJ671535.1	Genbank	CDS	4540	5118	.	+	0	ID=cds-AIA08994.1;Parent=gene-vif;Dbxref=NCBI_GP:AIA08994.1;Name=AIA08994.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AIA08994.1
+KJ671535.1	Genbank	gene	5058	5348	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KJ671535.1	Genbank	CDS	5058	5348	.	+	0	ID=cds-AIA08995.1;Parent=gene-vpr;Dbxref=NCBI_GP:AIA08995.1;Name=AIA08995.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AIA08995.1
+KJ671535.1	Genbank	gene	5329	7976	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KJ671535.1	Genbank	CDS	5329	5543	.	+	0	ID=cds-AIA08996.1;Parent=gene-tat;Dbxref=NCBI_GP:AIA08996.1;Name=AIA08996.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AIA08996.1
+KJ671535.1	Genbank	CDS	7886	7976	.	+	1	ID=cds-AIA08996.1;Parent=gene-tat;Dbxref=NCBI_GP:AIA08996.1;Name=AIA08996.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AIA08996.1
+KJ671535.1	Genbank	gene	5468	8160	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KJ671535.1	Genbank	CDS	5468	5543	.	+	0	ID=cds-AIA08997.1;Parent=gene-rev;Dbxref=NCBI_GP:AIA08997.1;Name=AIA08997.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AIA08997.1
+KJ671535.1	Genbank	CDS	7886	8160	.	+	2	ID=cds-AIA08997.1;Parent=gene-rev;Dbxref=NCBI_GP:AIA08997.1;Name=AIA08997.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AIA08997.1
+KJ671535.1	Genbank	gene	5723	8302	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KJ671535.1	Genbank	CDS	5723	8302	.	+	0	ID=cds-AIA08998.1;Parent=gene-env;Dbxref=NCBI_GP:AIA08998.1;Name=AIA08998.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AIA08998.1
+KJ671535.1	Genbank	gene	8304	8918	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KJ671535.1	Genbank	CDS	8304	8918	.	+	0	ID=cds-AIA08999.1;Parent=gene-nef;Dbxref=NCBI_GP:AIA08999.1;Name=AIA08999.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AIA08999.1
+###

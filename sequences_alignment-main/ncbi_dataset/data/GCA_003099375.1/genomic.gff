@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309937v1
+#!genome-build-accession NCBI_Assembly:GCA_003099375.1
+##sequence-region AF530576.1 1 9017
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF530576.1	Genbank	region	1	9017	.	+	.	ID=AF530576.1:1..9017;Dbxref=taxon:11676;country=Thailand;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=99TH.R2399;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;subtype=CRF15_01B
+AF530576.1	Genbank	gene	157	1647	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF530576.1	Genbank	CDS	157	1647	.	+	0	ID=cds-AAQ09609.1;Parent=gene-gag;Dbxref=NCBI_GP:AAQ09609.1;Name=AAQ09609.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAQ09609.1
+AF530576.1	Genbank	gene	1446	4451	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1446
+AF530576.1	Genbank	CDS	1446	4451	.	+	0	ID=cds-AAQ09610.1;Parent=gene-pol;Dbxref=NCBI_GP:AAQ09610.1;Name=AAQ09610.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAQ09610.1;start_range=.,1446
+AF530576.1	Genbank	gene	4396	4974	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF530576.1	Genbank	CDS	4396	4974	.	+	0	ID=cds-AAQ09611.1;Parent=gene-vif;Dbxref=NCBI_GP:AAQ09611.1;Name=AAQ09611.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAQ09611.1
+AF530576.1	Genbank	gene	4914	5222	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF530576.1	Genbank	CDS	4914	5222	.	+	0	ID=cds-AAQ09612.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAQ09612.1;Name=AAQ09612.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAQ09612.1
+AF530576.1	Genbank	gene	5203	7866	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF530576.1	Genbank	CDS	5203	5417	.	+	0	ID=cds-AAQ09613.1;Parent=gene-tat;Dbxref=NCBI_GP:AAQ09613.1;Name=AAQ09613.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAQ09613.1
+AF530576.1	Genbank	CDS	7776	7866	.	+	1	ID=cds-AAQ09613.1;Parent=gene-tat;Dbxref=NCBI_GP:AAQ09613.1;Name=AAQ09613.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAQ09613.1
+AF530576.1	Genbank	gene	5342	8071	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF530576.1	Genbank	CDS	5342	5421	.	+	0	ID=cds-AAQ09614.1;Parent=gene-rev;Dbxref=NCBI_GP:AAQ09614.1;Name=AAQ09614.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAQ09614.1
+AF530576.1	Genbank	CDS	7774	8071	.	+	1	ID=cds-AAQ09614.1;Parent=gene-rev;Dbxref=NCBI_GP:AAQ09614.1;Name=AAQ09614.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAQ09614.1
+AF530576.1	Genbank	gene	5438	5683	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF530576.1	Genbank	CDS	5438	5683	.	+	0	ID=cds-AAQ09615.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAQ09615.1;Name=AAQ09615.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAQ09615.1
+AF530576.1	Genbank	gene	5601	8213	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF530576.1	Genbank	CDS	5601	8213	.	+	0	ID=cds-AAQ09616.1;Parent=gene-env;Dbxref=NCBI_GP:AAQ09616.1;Name=AAQ09616.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAQ09616.1
+AF530576.1	Genbank	gene	8215	8829	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF530576.1	Genbank	CDS	8215	8829	.	+	0	ID=cds-AAQ09617.1;Parent=gene-nef;Dbxref=NCBI_GP:AAQ09617.1;Name=AAQ09617.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAQ09617.1
+###

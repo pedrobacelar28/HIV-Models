@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318848v1
+#!genome-build-accession NCBI_Assembly:GCA_003188485.1
+##sequence-region KX389612.1 1 8727
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KX389612.1	Genbank	region	1	8727	.	+	.	ID=KX389612.1:1..8727;Dbxref=taxon:11676;collection-date=19-Feb-2010;country=Nigeria;gb-acronym=HIV-1;gbkey=Src;genome=genomic;genotype=C;isolate=10NG020523;isolation-source=plasma;mol_type=genomic RNA;nat-host=Homo sapiens
+KX389612.1	Genbank	gene	2	1480	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KX389612.1	Genbank	CDS	2	1480	.	+	0	ID=cds-ANS91111.1;Parent=gene-gag;Dbxref=NCBI_GP:ANS91111.1;Name=ANS91111.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ANS91111.1
+KX389612.1	Genbank	gene	1285	4284	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1285
+KX389612.1	Genbank	CDS	1285	4284	.	+	0	ID=cds-ANS91112.1;Parent=gene-pol;Dbxref=NCBI_GP:ANS91112.1;Name=ANS91112.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ANS91112.1;start_range=.,1285
+KX389612.1	Genbank	gene	4229	4807	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KX389612.1	Genbank	CDS	4229	4807	.	+	0	ID=cds-ANS91113.1;Parent=gene-vif;Dbxref=NCBI_GP:ANS91113.1;Name=ANS91113.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ANS91113.1
+KX389612.1	Genbank	gene	4747	5037	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KX389612.1	Genbank	CDS	4747	5037	.	+	0	ID=cds-ANS91114.1;Parent=gene-vpr;Dbxref=NCBI_GP:ANS91114.1;Name=ANS91114.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ANS91114.1
+KX389612.1	Genbank	gene	5018	7693	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KX389612.1	Genbank	CDS	5018	5232	.	+	0	ID=cds-ANS91115.1;Parent=gene-tat;Dbxref=NCBI_GP:ANS91115.1;Name=ANS91115.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ANS91115.1
+KX389612.1	Genbank	CDS	7603	7693	.	+	1	ID=cds-ANS91115.1;Parent=gene-tat;Dbxref=NCBI_GP:ANS91115.1;Name=ANS91115.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ANS91115.1
+KX389612.1	Genbank	gene	5157	7877	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=other
+KX389612.1	Genbank	sequence_feature	5157	7877	.	+	.	ID=id-rev;Note=similar to rev protein;gbkey=misc_feature;gene=rev
+KX389612.1	Genbank	gene	5256	5507	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KX389612.1	Genbank	CDS	5256	5507	.	+	0	ID=cds-ANS91116.1;Parent=gene-vpu;Dbxref=NCBI_GP:ANS91116.1;Name=ANS91116.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ANS91116.1
+KX389612.1	Genbank	gene	5425	8019	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KX389612.1	Genbank	CDS	5425	8019	.	+	0	ID=cds-ANS91117.1;Parent=gene-env;Dbxref=NCBI_GP:ANS91117.1;Name=ANS91117.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ANS91117.1
+KX389612.1	Genbank	gene	8021	8647	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KX389612.1	Genbank	CDS	8021	8647	.	+	0	ID=cds-ANS91118.1;Parent=gene-nef;Dbxref=NCBI_GP:ANS91118.1;Name=ANS91118.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ANS91118.1
+KX389609.1	Genbank	match	1	8734	.	+	.	ID=aln0;Target=KX389608.1 1 8722 +;Gap=M1114 D3 D3 M48 D3 M275 D3 D3 I3 M3573 I3 M263 D3 M9 D3 M166 I9 M54 I3 D3 M330 D3 D3 D3 D3 D3 D3 M129 D3 D3 D3 M255 I3 M252 D3 D3 D3 M126 I3 I3 I3 I3 I3 I3 I3 I3 M159 I3 M1270 I3 I3 I3 I6 M123 I3 M417 D3 D4 M15 D1 D1 D1 I1 I1 M12 D1 D1 M2 D2 D2 D4 M24 D1 M13 I1 M24
+###

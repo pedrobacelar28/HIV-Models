@@ -1,0 +1,34 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310479v1
+#!genome-build-accession NCBI_Assembly:GCA_003104795.1
+##sequence-region U54771.1 1 9203
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+U54771.1	Genbank	region	1	9203	.	+	.	ID=U54771.1:1..9203;Dbxref=taxon:11676;gb-acronym=HIV-1;gbkey=Src;genome=proviral;mol_type=genomic DNA;note=Blood from an asymptomatic young Thai man was transported from Chiang Mai to the USA where PBMCs were separated and co-cultivated with PHA-stimulated donor PBMCs. DNA from p24 antigen-positive culture was used to amplify the proviral DNA. The complete genomic sequence of the provirus was determined by the compilation of three clones containing different parts of the viral genome. Once the sequence of the provirus was determined the genome was permuted to the organizational structure of the viral genomic RNA%3B CM240 is an example of a Thai E virus%2C which is a mosaic of a clade A virus and a clade E virus;old-name=Human immunodeficiency virus type 1;strain=CM240
+U54771.1	Genbank	gene	355	1866	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+U54771.1	Genbank	CDS	355	1866	.	+	0	ID=cds-AAC55459.1;Parent=gene-gag;Dbxref=NCBI_GP:AAC55459.1;Name=AAC55459.1;gbkey=CDS;gene=gag;product=gag;protein_id=AAC55459.1
+U54771.1	Genbank	gene	1644	4670	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+U54771.1	Genbank	CDS	1644	4670	.	+	0	ID=cds-AAC55460.1;Parent=gene-pol;Dbxref=NCBI_GP:AAC55460.1;Name=AAC55460.1;Note=Method: conceptual translation supplied by author;gbkey=CDS;gene=pol;partial=true;product=pol;protein_id=AAC55460.1;start_range=.,1644
+U54771.1	Genbank	gene	4615	5187	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+U54771.1	Genbank	CDS	4615	5187	.	+	0	ID=cds-AAC55461.1;Parent=gene-vif;Dbxref=NCBI_GP:AAC55461.1;Name=AAC55461.1;gbkey=CDS;gene=vif;product=vif;protein_id=AAC55461.1
+U54771.1	Genbank	gene	5130	5417	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+U54771.1	Genbank	CDS	5130	5417	.	+	0	ID=cds-AAC55462.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAC55462.1;Name=AAC55462.1;gbkey=CDS;gene=vpr;product=vpr;protein_id=AAC55462.1
+U54771.1	Genbank	gene	5398	8022	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+U54771.1	Genbank	CDS	5398	5612	.	+	0	ID=cds-AAC55463.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC55463.1;Name=AAC55463.1;gbkey=CDS;gene=tat;product=tat;protein_id=AAC55463.1
+U54771.1	Genbank	CDS	7932	8022	.	+	1	ID=cds-AAC55463.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC55463.1;Name=AAC55463.1;gbkey=CDS;gene=tat;product=tat;protein_id=AAC55463.1
+U54771.1	Genbank	gene	5537	8227	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+U54771.1	Genbank	CDS	5537	5612	.	+	0	ID=cds-AAC55464.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC55464.1;Name=AAC55464.1;gbkey=CDS;gene=rev;product=rev;protein_id=AAC55464.1
+U54771.1	Genbank	CDS	7932	8227	.	+	2	ID=cds-AAC55464.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC55464.1;Name=AAC55464.1;gbkey=CDS;gene=rev;product=rev;protein_id=AAC55464.1
+U54771.1	Genbank	gene	5633	5701	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+U54771.1	Genbank	CDS	5633	5701	.	+	0	ID=cds-AAC55465.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAC55465.1;Name=AAC55465.1;Note=this clone has a premature translation stop in vpu;gbkey=CDS;gene=vpu;product=truncated vpu;protein_id=AAC55465.1
+U54771.1	Genbank	gene	5796	8369	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+U54771.1	Genbank	CDS	5796	8369	.	+	0	ID=cds-AAC55466.1;Parent=gene-env;Dbxref=NCBI_GP:AAC55466.1;Name=AAC55466.1;gbkey=CDS;gene=env;product=env;protein_id=AAC55466.1
+U54771.1	Genbank	gene	8371	8985	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+U54771.1	Genbank	CDS	8371	8985	.	+	0	ID=cds-AAC55467.1;Parent=gene-nef;Dbxref=NCBI_GP:AAC55467.1;Name=AAC55467.1;gbkey=CDS;gene=nef;product=nef;protein_id=AAC55467.1
+U54771.1	Genbank	region	9014	9024	.	+	.	ID=id-U54771.1:9014..9024;Note=NFkappaB;gbkey=misc_signal
+U54771.1	Genbank	region	9029	9038	.	+	.	ID=id-U54771.1:9029..9038;Note=sp1.3;gbkey=misc_signal
+U54771.1	Genbank	region	9040	9049	.	+	.	ID=id-U54771.1:9040..9049;Note=sp1.2;gbkey=misc_signal
+U54771.1	Genbank	region	9051	9061	.	+	.	ID=id-U54771.1:9051..9061;Note=sp1.1;gbkey=misc_signal
+U54771.1	Genbank	region	9080	9084	.	+	.	ID=id-U54771.1:9080..9084;gbkey=TATA_signal
+###

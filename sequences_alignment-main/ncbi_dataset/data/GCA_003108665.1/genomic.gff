@@ -1,0 +1,37 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310866v1
+#!genome-build-accession NCBI_Assembly:GCA_003108665.1
+##sequence-region AJ245481.2 1 9715
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AJ245481.2	EMBL	region	1	9715	.	+	.	ID=AJ245481.2:1..9715;Dbxref=taxon:11676;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=95ML84;mol_type=genomic DNA
+AJ245481.2	EMBL	gene	811	2310	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AJ245481.2	EMBL	CDS	811	2310	.	+	0	ID=cds-CAB53042.2;Parent=gene-gag;Dbxref=GOA:Q9IW66,HSSP:1NCP,InterPro:IPR000071,InterPro:IPR000721,InterPro:IPR001878,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR010999,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR014817,UniProtKB/TrEMBL:Q9IW66,NCBI_GP:CAB53042.2;Name=CAB53042.2;gbkey=CDS;gene=gag;product=GAG protein;protein_id=CAB53042.2
+AJ245481.2	EMBL	gene	2109	5123	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+AJ245481.2	EMBL	CDS	2109	5123	.	+	0	ID=cds-CAB53043.1;Parent=gene-pol;Dbxref=GOA:Q9QNY2,HSSP:1IHV,InterPro:IPR000477,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR012337,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:Q9QNY2,NCBI_GP:CAB53043.1;Name=CAB53043.1;exception=reasons given in citation;gbkey=CDS;gene=pol;product=POL protein;protein_id=CAB53043.1
+AJ245481.2	EMBL	gene	5068	5646	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AJ245481.2	EMBL	CDS	5068	5646	.	+	0	ID=cds-CAB53044.1;Parent=gene-vif;Dbxref=GOA:Q9QNY1,InterPro:IPR000475,UniProtKB/TrEMBL:Q9QNY1,NCBI_GP:CAB53044.1;Name=CAB53044.1;gbkey=CDS;gene=vif;product=VIF protein;protein_id=CAB53044.1
+AJ245481.2	EMBL	gene	5586	5876	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AJ245481.2	EMBL	CDS	5586	5876	.	+	0	ID=cds-CAB53045.1;Parent=gene-vpr;Dbxref=GOA:Q9QNY0,HSSP:1FI0,InterPro:IPR000012,UniProtKB/TrEMBL:Q9QNY0,NCBI_GP:CAB53045.1;Name=CAB53045.1;gbkey=CDS;gene=vpr;product=VPR protein;protein_id=CAB53045.1
+AJ245481.2	EMBL	gene	5857	6071	.	+	.	ID=gene-tat;Name=tat;end_range=8457,.;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true;partial=true;start_range=.,5857
+AJ245481.2	EMBL	gene	8367	8457	.	+	.	ID=gene-tat;Name=tat;end_range=8457,.;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true;partial=true;start_range=.,5857
+AJ245481.2	EMBL	exon	8367	8457	.	+	.	ID=id-tat-2;Parent=gene-tat;end_range=8457,.;exon_number=2;gbkey=exon;gene=tat;number=2;partial=true
+AJ245481.2	EMBL	CDS	5857	6071	.	+	0	ID=cds-CAB53046.1;Parent=gene-tat;Dbxref=GOA:Q9QNX9,HSSP:1TBC,InterPro:IPR001831,UniProtKB/TrEMBL:Q9QNX9,NCBI_GP:CAB53046.1;Name=CAB53046.1;gbkey=CDS;gene=tat;product=TAT protein;protein_id=CAB53046.1
+AJ245481.2	EMBL	CDS	8367	8457	.	+	1	ID=cds-CAB53046.1;Parent=gene-tat;Dbxref=GOA:Q9QNX9,HSSP:1TBC,InterPro:IPR001831,UniProtKB/TrEMBL:Q9QNX9,NCBI_GP:CAB53046.1;Name=CAB53046.1;gbkey=CDS;gene=tat;product=TAT protein;protein_id=CAB53046.1
+AJ245481.2	EMBL	exon	5857	6071	.	+	.	ID=id-tat-1;Parent=gene-tat;exon_number=1;gbkey=exon;gene=tat;number=1;partial=true;start_range=.,5857
+AJ245481.2	EMBL	gene	5996	6071	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+AJ245481.2	EMBL	gene	8367	8641	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+AJ245481.2	EMBL	exon	5996	6071	.	+	.	ID=id-rev-1;Parent=gene-rev;exon_number=1;gbkey=exon;gene=rev;number=1
+AJ245481.2	EMBL	exon	8367	8641	.	+	.	ID=id-rev-2;Parent=gene-rev;exon_number=2;gbkey=exon;gene=rev;number=2
+AJ245481.2	EMBL	CDS	5996	6071	.	+	0	ID=cds-CAB53047.2;Parent=gene-rev;Dbxref=GOA:Q9IW65,InterPro:IPR000625,UniProtKB/TrEMBL:Q9IW65,NCBI_GP:CAB53047.2;Name=CAB53047.2;gbkey=CDS;gene=rev;product=REV protein;protein_id=CAB53047.2
+AJ245481.2	EMBL	CDS	8367	8641	.	+	2	ID=cds-CAB53047.2;Parent=gene-rev;Dbxref=GOA:Q9IW65,InterPro:IPR000625,UniProtKB/TrEMBL:Q9IW65,NCBI_GP:CAB53047.2;Name=CAB53047.2;gbkey=CDS;gene=rev;product=REV protein;protein_id=CAB53047.2
+AJ245481.2	EMBL	gene	6072	8366	.	+	.	ID=gene-tat-2;Name=tat;gbkey=Gene;gene=tat;gene_biotype=other;gene_synonym=rev
+AJ245481.2	EMBL	intron	6072	8366	.	+	.	ID=id-tat;Parent=gene-tat-2;exon_number=1;gbkey=intron;gene=tat;number=1
+AJ245481.2	EMBL	gene	6098	6343	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AJ245481.2	EMBL	CDS	6098	6343	.	+	0	ID=cds-CAB53048.1;Parent=gene-vpu;Dbxref=GOA:Q9QNX8,HSSP:1VPU,InterPro:IPR008187,InterPro:IPR009032,UniProtKB/TrEMBL:Q9QNX8,NCBI_GP:CAB53048.1;Name=CAB53048.1;gbkey=CDS;gene=vpu;product=VPU protein;protein_id=CAB53048.1
+AJ245481.2	EMBL	gene	6261	8783	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AJ245481.2	EMBL	CDS	6261	8783	.	+	0	ID=cds-CAB53049.1;Parent=gene-env;Dbxref=GOA:Q9QNX7,HSSP:1DLB,InterPro:IPR000328,InterPro:IPR000777,UniProtKB/TrEMBL:Q9QNX7,NCBI_GP:CAB53049.1;Name=CAB53049.1;gbkey=CDS;gene=env;product=ENV protein;protein_id=CAB53049.1
+AJ245481.2	EMBL	gene	8785	9414	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AJ245481.2	EMBL	CDS	8785	9414	.	+	0	ID=cds-CAB53050.1;Parent=gene-nef;Dbxref=GOA:Q9QNX6,HSSP:1EFN,InterPro:IPR001558,UniProtKB/TrEMBL:Q9QNX6,NCBI_GP:CAB53050.1;Name=CAB53050.1;gbkey=CDS;gene=nef;product=NEF protein;protein_id=CAB53050.1
+###

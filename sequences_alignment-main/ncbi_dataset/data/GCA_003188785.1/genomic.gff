@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318878v1
+#!genome-build-accession NCBI_Assembly:GCA_003188785.1
+##sequence-region FJ388945.1 1 8143
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+FJ388945.1	Genbank	region	1	8143	.	+	.	ID=FJ388945.1:1..8143;Dbxref=taxon:11676;collection-date=02-Feb-2006;country=Cyprus;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=CY163;mol_type=genomic DNA;nat-host=Homo sapiens
+FJ388945.1	Genbank	gene	1	1500	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+FJ388945.1	Genbank	CDS	1	1500	.	+	0	ID=cds-ACR55495.1;Parent=gene-gag;Dbxref=NCBI_GP:ACR55495.1;Name=ACR55495.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACR55495.1
+FJ388945.1	Genbank	gene	1296	4304	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1296
+FJ388945.1	Genbank	CDS	1296	4304	.	+	0	ID=cds-ACR55496.1;Parent=gene-pol;Dbxref=NCBI_GP:ACR55496.1;Name=ACR55496.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACR55496.1;start_range=.,1296
+FJ388945.1	Genbank	gene	4249	4827	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+FJ388945.1	Genbank	CDS	4249	4827	.	+	0	ID=cds-ACR55497.1;Parent=gene-vif;Dbxref=NCBI_GP:ACR55497.1;Name=ACR55497.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACR55497.1
+FJ388945.1	Genbank	gene	4767	5057	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+FJ388945.1	Genbank	CDS	4767	5057	.	+	0	ID=cds-ACR55498.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACR55498.1;Name=ACR55498.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACR55498.1
+FJ388945.1	Genbank	gene	5038	7685	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+FJ388945.1	Genbank	CDS	5038	5252	.	+	0	ID=cds-ACR55499.1;Parent=gene-tat;Dbxref=NCBI_GP:ACR55499.1;Name=ACR55499.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACR55499.1
+FJ388945.1	Genbank	CDS	7592	7685	.	+	1	ID=cds-ACR55499.1;Parent=gene-tat;Dbxref=NCBI_GP:ACR55499.1;Name=ACR55499.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACR55499.1
+FJ388945.1	Genbank	gene	5177	7866	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+FJ388945.1	Genbank	CDS	5177	5252	.	+	0	ID=cds-ACR55500.1;Parent=gene-rev;Dbxref=NCBI_GP:ACR55500.1;Name=ACR55500.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACR55500.1
+FJ388945.1	Genbank	CDS	7592	7866	.	+	2	ID=cds-ACR55500.1;Parent=gene-rev;Dbxref=NCBI_GP:ACR55500.1;Name=ACR55500.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACR55500.1
+FJ388945.1	Genbank	gene	5269	5517	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+FJ388945.1	Genbank	CDS	5269	5517	.	+	0	ID=cds-ACR55501.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACR55501.1;Name=ACR55501.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACR55501.1
+FJ388945.1	Genbank	gene	5432	8008	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+FJ388945.1	Genbank	CDS	5432	8008	.	+	0	ID=cds-ACR55502.1;Parent=gene-env;Dbxref=NCBI_GP:ACR55502.1;Name=ACR55502.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACR55502.1
+FJ388945.1	Genbank	gene	8010	8143	.	+	.	ID=gene-nef;Name=nef;end_range=8143,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+FJ388945.1	Genbank	CDS	8010	8143	.	+	0	ID=cds-ACR55503.1;Parent=gene-nef;Dbxref=NCBI_GP:ACR55503.1;Name=ACR55503.1;end_range=8143,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=ACR55503.1
+FJ388936.1	Genbank	match	1	8134	.	+	.	ID=aln0;Target=FJ388890.1 1 8224 +;Gap=M1110 I1 I2 I1 I1 I1 M299 I1 D1 M15 I1 I2 I2 I3 I1 I2 I3 I1 I1 I1 I1 I2 I2 I2 I1 I2 I1 I1 D2 M529 D3 M3896 I2 I1 I1 I1 I1 I1 I1 M4 I1 M108 I1 I1 I2 I1 I1 I1 I1 I1 I1 I1 I1 I1 I1 I1 I1 I1 I2 I1 I1 I1 I1 I2 I1 I1 I1 I1 D2 M20 I1 I2 I3 I1 I1 I1 I1 I1 I2 I1 I3 I3 I3 I1 I1 I3 I1 I1 M456 D1 M6 I1 M29 I1 I1 I1 M27 I1 I1 I1 M96 D6 M35 I1 I2 M155 D3 M11 D3 M1208 D3 M106
+###

@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM385609v1
+#!genome-build-accession NCBI_Assembly:GCA_003856095.1
+##sequence-region KY628221.1 1 9026
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KY628221.1	Genbank	region	1	9026	.	+	.	ID=KY628221.1:1..9026;Dbxref=taxon:11676;collection-date=2011;country=Brazil;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=BRGO6043;isolation-source=heterosexual;mol_type=genomic DNA;nat-host=Homo sapiens;old-name=Human immunodeficiency virus type 1;subtype=CRF90_BF1
+KY628221.1	Genbank	gene	166	1680	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KY628221.1	Genbank	CDS	166	1680	.	+	0	ID=cds-ASM57530.1;Parent=gene-gag;Dbxref=NCBI_GP:ASM57530.1;Name=ASM57530.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ASM57530.1
+KY628221.1	Genbank	gene	1473	4484	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1473
+KY628221.1	Genbank	CDS	1473	4484	.	+	0	ID=cds-ASM57531.1;Parent=gene-pol;Dbxref=NCBI_GP:ASM57531.1;Name=ASM57531.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ASM57531.1;start_range=.,1473
+KY628221.1	Genbank	gene	4429	5007	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KY628221.1	Genbank	CDS	4429	5007	.	+	0	ID=cds-ASM57532.1;Parent=gene-vif;Dbxref=NCBI_GP:ASM57532.1;Name=ASM57532.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ASM57532.1
+KY628221.1	Genbank	gene	4947	5237	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KY628221.1	Genbank	CDS	4947	5237	.	+	0	ID=cds-ASM57533.1;Parent=gene-vpr;Dbxref=NCBI_GP:ASM57533.1;Name=ASM57533.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ASM57533.1
+KY628221.1	Genbank	gene	5218	7854	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KY628221.1	Genbank	CDS	5218	5432	.	+	0	ID=cds-ASM57534.1;Parent=gene-tat;Dbxref=NCBI_GP:ASM57534.1;Name=ASM57534.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ASM57534.1
+KY628221.1	Genbank	CDS	7770	7854	.	+	1	ID=cds-ASM57534.1;Parent=gene-tat;Dbxref=NCBI_GP:ASM57534.1;Name=ASM57534.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ASM57534.1
+KY628221.1	Genbank	gene	5357	8044	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KY628221.1	Genbank	CDS	5357	5432	.	+	0	ID=cds-ASM57535.1;Parent=gene-rev;Dbxref=NCBI_GP:ASM57535.1;Name=ASM57535.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ASM57535.1
+KY628221.1	Genbank	CDS	7770	8044	.	+	2	ID=cds-ASM57535.1;Parent=gene-rev;Dbxref=NCBI_GP:ASM57535.1;Name=ASM57535.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ASM57535.1
+KY628221.1	Genbank	gene	5449	5694	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KY628221.1	Genbank	CDS	5449	5694	.	+	0	ID=cds-ASM57536.1;Parent=gene-vpu;Dbxref=NCBI_GP:ASM57536.1;Name=ASM57536.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ASM57536.1
+KY628221.1	Genbank	gene	5612	8184	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=other
+KY628221.1	Genbank	sequence_feature	5612	8184	.	+	.	ID=id-env;Note=similar to envelope glycoprotein%3B contains gp120 and gp41;gbkey=misc_feature;gene=env
+KY628221.1	Genbank	gene	8188	8826	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KY628221.1	Genbank	CDS	8188	8826	.	+	0	ID=cds-ASM57537.1;Parent=gene-nef;Dbxref=NCBI_GP:ASM57537.1;Name=ASM57537.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ASM57537.1
+###

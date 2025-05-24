@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310155v1
+#!genome-build-accession NCBI_Assembly:GCA_003101555.1
+##sequence-region EU581825.1 1 8775
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EU581825.1	Genbank	region	1	8775	.	+	.	ID=EU581825.1:1..8775;Dbxref=taxon:11676;country=Argentina;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=AR02.ARG1139;isolation-source=male;mol_type=genomic DNA;subtype=CRF17_BF
+EU581825.1	Genbank	gene	1	1467	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+EU581825.1	Genbank	CDS	1	1467	.	+	0	ID=cds-ACD02814.1;Parent=gene-gag;Dbxref=NCBI_GP:ACD02814.1;Name=ACD02814.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=ACD02814.1;start_range=.,1
+EU581825.1	Genbank	gene	1275	4280	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1275
+EU581825.1	Genbank	CDS	1275	4280	.	+	0	ID=cds-ACD02815.1;Parent=gene-pol;Dbxref=NCBI_GP:ACD02815.1;Name=ACD02815.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACD02815.1;start_range=.,1275
+EU581825.1	Genbank	gene	4225	4803	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+EU581825.1	Genbank	CDS	4225	4803	.	+	0	ID=cds-ACD02816.1;Parent=gene-vif;Dbxref=NCBI_GP:ACD02816.1;Name=ACD02816.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACD02816.1
+EU581825.1	Genbank	gene	4743	5033	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EU581825.1	Genbank	CDS	4743	5033	.	+	0	ID=cds-ACD02817.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACD02817.1;Name=ACD02817.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACD02817.1
+EU581825.1	Genbank	gene	5014	7642	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EU581825.1	Genbank	CDS	5014	5228	.	+	0	ID=cds-ACD02818.1;Parent=gene-tat;Dbxref=NCBI_GP:ACD02818.1;Name=ACD02818.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACD02818.1
+EU581825.1	Genbank	CDS	7558	7642	.	+	1	ID=cds-ACD02818.1;Parent=gene-tat;Dbxref=NCBI_GP:ACD02818.1;Name=ACD02818.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACD02818.1
+EU581825.1	Genbank	gene	5153	7928	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EU581825.1	Genbank	CDS	5153	5228	.	+	0	ID=cds-ACD02819.1;Parent=gene-rev;Dbxref=NCBI_GP:ACD02819.1;Name=ACD02819.1;Note=deletion at end of exon 2 eliminates the last 7 amino acids and stop codon while adding 38 amino acids;gbkey=CDS;gene=rev;product=mutant rev protein;protein_id=ACD02819.1
+EU581825.1	Genbank	CDS	7558	7928	.	+	2	ID=cds-ACD02819.1;Parent=gene-rev;Dbxref=NCBI_GP:ACD02819.1;Name=ACD02819.1;Note=deletion at end of exon 2 eliminates the last 7 amino acids and stop codon while adding 38 amino acids;gbkey=CDS;gene=rev;product=mutant rev protein;protein_id=ACD02819.1
+EU581825.1	Genbank	gene	5245	5490	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EU581825.1	Genbank	CDS	5245	5490	.	+	0	ID=cds-ACD02821.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACD02821.1;Name=ACD02821.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACD02821.1
+EU581825.1	Genbank	gene	5408	6232	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=other
+EU581825.1	Genbank	sequence_feature	5408	6232	.	+	.	ID=id-env;Note=nonfunctional envelope glycoprotein due to mutation%3B contains frame shift mutation;gbkey=misc_feature;gene=env
+EU581825.1	Genbank	sequence_alteration	6221	6221	.	+	.	ID=id-env-2;gbkey=variation;gene=env
+EU581825.1	Genbank	gene	7930	8565	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EU581825.1	Genbank	CDS	7930	8565	.	+	0	ID=cds-ACD02820.1;Parent=gene-nef;Dbxref=NCBI_GP:ACD02820.1;Name=ACD02820.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACD02820.1
+EU581824.1	Genbank	match	1	8822	.	+	.	ID=aln0;Target=EU581823.1 1 8840 +;Gap=M345 I6 M1010 I18 I18 M66 D15 M3821 I6 M600 I6 D16 D2 M115 D1 D14 M505 D3 M124 I13 D3 D10 M148 I1 D3 D4 M5 I12 M156 I3 I3 M627 I3 M1058 I1 M54 D1 M116
+###

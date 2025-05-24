@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM385597v1
+#!genome-build-accession NCBI_Assembly:GCA_003855975.1
+##sequence-region KX232622.1 1 9267
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KX232622.1	Genbank	region	1	9267	.	+	.	ID=KX232622.1:1..9267;Dbxref=taxon:11676;collection-date=2015;country=Pakistan;gb-acronym=HIV-1;gbkey=Src;isolate=PK032;mol_type=genomic RNA;nat-host=Homo sapiens;strain=HIV-1;subtype=CRF02_AG
+KX232622.1	Genbank	gene	368	1846	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KX232622.1	Genbank	CDS	368	1846	.	+	0	ID=cds-ANW11074.1;Parent=gene-gag;Dbxref=NCBI_GP:ANW11074.1;Name=ANW11074.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ANW11074.1
+KX232622.1	Genbank	gene	1648	4658	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other;partial=true;start_range=.,1648
+KX232622.1	Genbank	sequence_feature	1648	4658	.	+	.	ID=id-pol;Note=nonfunctional pol protein due to mutation;gbkey=misc_feature;gene=pol;partial=true;start_range=.,1648
+KX232622.1	Genbank	gene	4603	5181	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KX232622.1	Genbank	CDS	4603	5181	.	+	0	ID=cds-ANW11075.1;Parent=gene-vif;Dbxref=NCBI_GP:ANW11075.1;Name=ANW11075.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ANW11075.1
+KX232622.1	Genbank	gene	5121	5411	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KX232622.1	Genbank	CDS	5121	5411	.	+	0	ID=cds-ANW11076.1;Parent=gene-vpr;Dbxref=NCBI_GP:ANW11076.1;Name=ANW11076.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ANW11076.1
+KX232622.1	Genbank	gene	5392	8070	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KX232622.1	Genbank	CDS	5392	5606	.	+	0	ID=cds-ANW11077.1;Parent=gene-tat;Dbxref=NCBI_GP:ANW11077.1;Name=ANW11077.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ANW11077.1
+KX232622.1	Genbank	CDS	7980	8070	.	+	1	ID=cds-ANW11077.1;Parent=gene-tat;Dbxref=NCBI_GP:ANW11077.1;Name=ANW11077.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ANW11077.1
+KX232622.1	Genbank	gene	5531	8275	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KX232622.1	Genbank	CDS	5531	5606	.	+	0	ID=cds-ANW11078.1;Parent=gene-rev;Dbxref=NCBI_GP:ANW11078.1;Name=ANW11078.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ANW11078.1
+KX232622.1	Genbank	CDS	7980	8275	.	+	2	ID=cds-ANW11078.1;Parent=gene-rev;Dbxref=NCBI_GP:ANW11078.1;Name=ANW11078.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ANW11078.1
+KX232622.1	Genbank	gene	5633	5887	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KX232622.1	Genbank	CDS	5633	5887	.	+	0	ID=cds-ANW11079.1;Parent=gene-vpu;Dbxref=NCBI_GP:ANW11079.1;Name=ANW11079.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ANW11079.1
+KX232622.1	Genbank	gene	5796	8417	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KX232622.1	Genbank	CDS	5796	8417	.	+	0	ID=cds-ANW11080.1;Parent=gene-env;Dbxref=NCBI_GP:ANW11080.1;Name=ANW11080.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ANW11080.1
+KX232622.1	Genbank	gene	8419	9045	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KX232622.1	Genbank	CDS	8419	9045	.	+	0	ID=cds-ANW11081.1;Parent=gene-nef;Dbxref=NCBI_GP:ANW11081.1;Name=ANW11081.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ANW11081.1
+###

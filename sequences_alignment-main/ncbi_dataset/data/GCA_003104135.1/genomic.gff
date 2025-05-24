@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310413v1
+#!genome-build-accession NCBI_Assembly:GCA_003104135.1
+##sequence-region KM248765.1 1 8997
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KM248765.1	Genbank	region	1	8997	.	+	.	ID=KM248765.1:1..8997;Dbxref=taxon:11676;collection-date=2011;country=Spain;gb-acronym=HIV-1;gbkey=Src;isolate=X3208;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=CRF73_BG
+KM248765.1	Genbank	gene	249	1751	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KM248765.1	Genbank	CDS	249	1751	.	+	0	ID=cds-AIZ05988.1;Parent=gene-gag;Dbxref=NCBI_GP:AIZ05988.1;Name=AIZ05988.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AIZ05988.1
+KM248765.1	Genbank	gene	1538	4564	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1538
+KM248765.1	Genbank	CDS	1538	4564	.	+	0	ID=cds-AIZ05989.1;Parent=gene-pol;Dbxref=NCBI_GP:AIZ05989.1;Name=AIZ05989.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AIZ05989.1;start_range=.,1538
+KM248765.1	Genbank	gene	4509	5087	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KM248765.1	Genbank	CDS	4509	5087	.	+	0	ID=cds-AIZ05990.1;Parent=gene-vif;Dbxref=NCBI_GP:AIZ05990.1;Name=AIZ05990.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AIZ05990.1
+KM248765.1	Genbank	gene	5027	5317	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KM248765.1	Genbank	CDS	5027	5317	.	+	0	ID=cds-AIZ05991.1;Parent=gene-vpr;Dbxref=NCBI_GP:AIZ05991.1;Name=AIZ05991.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AIZ05991.1
+KM248765.1	Genbank	gene	5298	7940	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KM248765.1	Genbank	CDS	5298	5512	.	+	0	ID=cds-AIZ05992.1;Parent=gene-tat;Dbxref=NCBI_GP:AIZ05992.1;Name=AIZ05992.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AIZ05992.1
+KM248765.1	Genbank	CDS	7850	7940	.	+	1	ID=cds-AIZ05992.1;Parent=gene-tat;Dbxref=NCBI_GP:AIZ05992.1;Name=AIZ05992.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AIZ05992.1
+KM248765.1	Genbank	gene	5437	8112	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KM248765.1	Genbank	CDS	5437	5512	.	+	0	ID=cds-AIZ05993.1;Parent=gene-rev;Dbxref=NCBI_GP:AIZ05993.1;Name=AIZ05993.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AIZ05993.1
+KM248765.1	Genbank	CDS	7850	8112	.	+	2	ID=cds-AIZ05993.1;Parent=gene-rev;Dbxref=NCBI_GP:AIZ05993.1;Name=AIZ05993.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AIZ05993.1
+KM248765.1	Genbank	gene	5539	5784	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KM248765.1	Genbank	CDS	5539	5784	.	+	0	ID=cds-AIZ05994.1;Parent=gene-vpu;Dbxref=NCBI_GP:AIZ05994.1;Name=AIZ05994.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AIZ05994.1
+KM248765.1	Genbank	gene	5702	8254	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KM248765.1	Genbank	CDS	5702	8254	.	+	0	ID=cds-AIZ05995.1;Parent=gene-env;Dbxref=NCBI_GP:AIZ05995.1;Name=AIZ05995.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AIZ05995.1
+KM248765.1	Genbank	gene	8256	8900	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KM248765.1	Genbank	CDS	8256	8900	.	+	0	ID=cds-AIZ05996.1;Parent=gene-nef;Dbxref=NCBI_GP:AIZ05996.1;Name=AIZ05996.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AIZ05996.1
+###

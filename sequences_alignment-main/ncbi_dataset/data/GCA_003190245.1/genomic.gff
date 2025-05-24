@@ -1,0 +1,17 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM319024v1
+#!genome-build-accession NCBI_Assembly:GCA_003190245.1
+##sequence-region KT223760.1 1 8833
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KT223760.1	Genbank	region	1	8833	.	+	.	ID=KT223760.1:1..8833;Dbxref=taxon:11676;collection-date=10-Oct-2013;country=Senegal;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=9580;mol_type=genomic DNA;nat-host=Homo sapiens;subtype=CRF02_AG/A3
+KT223760.1	Genbank	gene	1439	4474	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1439
+KT223760.1	Genbank	CDS	1439	4474	.	+	0	ID=cds-ALN36367.1;Parent=gene-pol;Dbxref=NCBI_GP:ALN36367.1;Name=ALN36367.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ALN36367.1;start_range=.,1439
+KT223760.1	Genbank	gene	4419	4997	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KT223760.1	Genbank	CDS	4419	4997	.	+	0	ID=cds-ALN36368.1;Parent=gene-vif;Dbxref=NCBI_GP:ALN36368.1;Name=ALN36368.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ALN36368.1
+KT223760.1	Genbank	gene	4937	5227	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KT223760.1	Genbank	CDS	4937	5227	.	+	0	ID=cds-ALN36369.1;Parent=gene-vpr;Dbxref=NCBI_GP:ALN36369.1;Name=ALN36369.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ALN36369.1
+KT223760.1	Genbank	gene	5449	5691	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=other
+KT223760.1	Genbank	sequence_feature	5449	5691	.	+	.	ID=id-vpu;Note=nonfunctional vpu protein due to mutation;gbkey=misc_feature;gene=vpu
+###

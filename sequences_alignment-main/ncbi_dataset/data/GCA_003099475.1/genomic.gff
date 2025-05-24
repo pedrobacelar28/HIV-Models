@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309947v1
+#!genome-build-accession NCBI_Assembly:GCA_003099475.1
+##sequence-region AY037281.1 1 8808
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY037281.1	Genbank	region	1	8808	.	+	.	ID=AY037281.1:1..8808;Dbxref=taxon:11676;country=Argentina: Buenos Aires;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=ARMA038;mol_type=genomic DNA;note=isolated from PBMC from a 29-year-old woman in 1999%3B patient was infected by heterosexual contact%3B CDC Stage A2;old-name=Human immunodeficiency virus type 1;subtype=BF Recombinant
+AY037281.1	Genbank	gene	1	1497	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AY037281.1	Genbank	CDS	1	1497	.	+	0	ID=cds-AAL12739.1;Parent=gene-gag;Dbxref=NCBI_GP:AAL12739.1;Name=AAL12739.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AAL12739.1;start_range=.,1
+AY037281.1	Genbank	gene	1299	4310	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1299
+AY037281.1	Genbank	CDS	1299	4310	.	+	0	ID=cds-AAL12740.1;Parent=gene-pol;Dbxref=NCBI_GP:AAL12740.1;Name=AAL12740.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAL12740.1;start_range=.,1299
+AY037281.1	Genbank	gene	4255	4833	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY037281.1	Genbank	CDS	4255	4833	.	+	0	ID=cds-AAL12741.1;Parent=gene-vif;Dbxref=NCBI_GP:AAL12741.1;Name=AAL12741.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAL12741.1
+AY037281.1	Genbank	gene	4773	5063	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY037281.1	Genbank	CDS	4773	5063	.	+	0	ID=cds-AAL12742.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAL12742.1;Name=AAL12742.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAL12742.1
+AY037281.1	Genbank	gene	5044	7658	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY037281.1	Genbank	CDS	5044	5258	.	+	0	ID=cds-AAL12743.1;Parent=gene-tat;Dbxref=NCBI_GP:AAL12743.1;Name=AAL12743.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAL12743.1
+AY037281.1	Genbank	CDS	7568	7652	.	+	1	ID=cds-AAL12743.1;Parent=gene-tat;Dbxref=NCBI_GP:AAL12743.1;Name=AAL12743.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAL12743.1
+AY037281.1	Genbank	gene	5183	7842	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY037281.1	Genbank	CDS	5183	5258	.	+	0	ID=cds-AAL12744.1;Parent=gene-rev;Dbxref=NCBI_GP:AAL12744.1;Name=AAL12744.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAL12744.1
+AY037281.1	Genbank	CDS	7568	7842	.	+	2	ID=cds-AAL12744.1;Parent=gene-rev;Dbxref=NCBI_GP:AAL12744.1;Name=AAL12744.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAL12744.1
+AY037281.1	Genbank	gene	5275	5520	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY037281.1	Genbank	CDS	5275	5520	.	+	0	ID=cds-AAL12745.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAL12745.1;Name=AAL12745.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAL12745.1
+AY037281.1	Genbank	gene	5438	7984	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY037281.1	Genbank	CDS	5438	7984	.	+	0	ID=cds-AAL12747.1;Parent=gene-env;Dbxref=NCBI_GP:AAL12747.1;Name=AAL12747.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAL12747.1
+AY037281.1	Genbank	gene	7986	8597	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY037281.1	Genbank	CDS	7986	8597	.	+	0	ID=cds-AAL12746.1;Parent=gene-nef;Dbxref=NCBI_GP:AAL12746.1;Name=AAL12746.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAL12746.1
+AY037281.1	Genbank	long_terminal_repeat	8269	8808	.	+	.	ID=id-AY037281.1:8269..8808;gbkey=LTR
+###

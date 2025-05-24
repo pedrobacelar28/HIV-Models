@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318930v1
+#!genome-build-accession NCBI_Assembly:GCA_003189305.1
+##sequence-region KU749422.1 1 9277
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KU749422.1	Genbank	region	1	9277	.	+	.	ID=KU749422.1:1..9277;Dbxref=taxon:11676;collection-date=2011;country=Cameroon;gb-acronym=HIV-1;gbkey=Src;isolate=DEURF11CM026;mol_type=genomic RNA;nat-host=Homo sapiens;note=This virus was initially isolated from a person from Cameroon. It was then propogated in PBMCs and was used to establish the global viral diversity panel for External Quality Assurance Program Oversight Laboratory (EQAPOL).;subtype=URF_F1F2
+KU749422.1	Genbank	gene	155	1615	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KU749422.1	Genbank	CDS	155	1615	.	+	0	ID=cds-API70290.1;Parent=gene-gag;Dbxref=NCBI_GP:API70290.1;Name=API70290.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=API70290.1
+KU749422.1	Genbank	gene	1426	4419	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1426
+KU749422.1	Genbank	CDS	1426	4419	.	+	0	ID=cds-API70291.1;Parent=gene-pol;Dbxref=NCBI_GP:API70291.1;Name=API70291.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=API70291.1;start_range=.,1426
+KU749422.1	Genbank	gene	4364	4945	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KU749422.1	Genbank	CDS	4364	4945	.	+	0	ID=cds-API70292.1;Parent=gene-vif;Dbxref=NCBI_GP:API70292.1;Name=API70292.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=API70292.1
+KU749422.1	Genbank	gene	4885	5175	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KU749422.1	Genbank	CDS	4885	5175	.	+	0	ID=cds-API70293.1;Parent=gene-vpr;Dbxref=NCBI_GP:API70293.1;Name=API70293.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=API70293.1
+KU749422.1	Genbank	gene	5156	7788	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KU749422.1	Genbank	CDS	5156	5370	.	+	0	ID=cds-API70294.1;Parent=gene-tat;Dbxref=NCBI_GP:API70294.1;Name=API70294.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=API70294.1
+KU749422.1	Genbank	CDS	7701	7788	.	+	1	ID=cds-API70294.1;Parent=gene-tat;Dbxref=NCBI_GP:API70294.1;Name=API70294.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=API70294.1
+KU749422.1	Genbank	gene	5295	7978	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KU749422.1	Genbank	CDS	5295	5370	.	+	0	ID=cds-API70295.1;Parent=gene-rev;Dbxref=NCBI_GP:API70295.1;Name=API70295.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=API70295.1
+KU749422.1	Genbank	CDS	7701	7978	.	+	2	ID=cds-API70295.1;Parent=gene-rev;Dbxref=NCBI_GP:API70295.1;Name=API70295.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=API70295.1
+KU749422.1	Genbank	gene	5387	5632	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KU749422.1	Genbank	CDS	5387	5632	.	+	0	ID=cds-API70296.1;Parent=gene-vpu;Dbxref=NCBI_GP:API70296.1;Name=API70296.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=API70296.1
+KU749422.1	Genbank	gene	5550	8120	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KU749422.1	Genbank	CDS	5550	8120	.	+	0	ID=cds-API70297.1;Parent=gene-env;Dbxref=NCBI_GP:API70297.1;Name=API70297.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=API70297.1
+KU749422.1	Genbank	gene	8122	8892	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=other
+KU749422.1	Genbank	sequence_feature	8122	8892	.	+	.	ID=id-nef;Note=similar to nef protein;gbkey=misc_feature;gene=nef
+###

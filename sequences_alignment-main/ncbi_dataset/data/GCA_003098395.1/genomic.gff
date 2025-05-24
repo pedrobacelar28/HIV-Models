@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309839v1
+#!genome-build-accession NCBI_Assembly:GCA_003098395.1
+##sequence-region AF190128.1 1 8955
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF190128.1	Genbank	region	1	8955	.	+	.	ID=AF190128.1:1..8955;Dbxref=taxon:11676;country=Belgium;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=VI997;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;subtype=H
+AF190128.1	Genbank	gene	117	1616	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF190128.1	Genbank	CDS	117	1616	.	+	0	ID=cds-AAF18402.1;Parent=gene-gag;Dbxref=NCBI_GP:AAF18402.1;Name=AAF18402.1;gbkey=CDS;gene=gag;product=Gag polyprotein;protein_id=AAF18402.1
+AF190128.1	Genbank	gene	1415	3115	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1415
+AF190128.1	Genbank	CDS	1415	3115	.	+	0	ID=cds-AAF18409.1;Parent=gene-pol;Dbxref=NCBI_GP:AAF18409.1;Name=AAF18409.1;gbkey=CDS;gene=pol;partial=true;product=truncated Pol polyprotein;protein_id=AAF18409.1;start_range=.,1415
+AF190128.1	Genbank	gene	4365	4943	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF190128.1	Genbank	CDS	4365	4943	.	+	0	ID=cds-AAF18405.1;Parent=gene-vif;Dbxref=NCBI_GP:AAF18405.1;Name=AAF18405.1;gbkey=CDS;gene=vif;product=Vif;protein_id=AAF18405.1
+AF190128.1	Genbank	gene	4883	4936	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF190128.1	Genbank	CDS	4883	4936	.	+	0	ID=cds-AAF18410.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAF18410.1;Name=AAF18410.1;gbkey=CDS;gene=vpr;product=truncated Vpr;protein_id=AAF18410.1
+AF190128.1	Genbank	gene	5154	7738	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF190128.1	Genbank	CDS	5154	5368	.	+	0	ID=cds-AAF18406.1;Parent=gene-tat;Dbxref=NCBI_GP:AAF18406.1;Name=AAF18406.1;gbkey=CDS;gene=tat;product=Tat;protein_id=AAF18406.1
+AF190128.1	Genbank	CDS	7693	7738	.	+	1	ID=cds-AAF18406.1;Parent=gene-tat;Dbxref=NCBI_GP:AAF18406.1;Name=AAF18406.1;gbkey=CDS;gene=tat;product=Tat;protein_id=AAF18406.1
+AF190128.1	Genbank	gene	5293	7967	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF190128.1	Genbank	CDS	5293	5368	.	+	0	ID=cds-AAF18408.1;Parent=gene-rev;Dbxref=NCBI_GP:AAF18408.1;Name=AAF18408.1;gbkey=CDS;gene=rev;product=Rev;protein_id=AAF18408.1
+AF190128.1	Genbank	CDS	7693	7967	.	+	2	ID=cds-AAF18408.1;Parent=gene-rev;Dbxref=NCBI_GP:AAF18408.1;Name=AAF18408.1;gbkey=CDS;gene=rev;product=Rev;protein_id=AAF18408.1
+AF190128.1	Genbank	gene	5382	5615	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF190128.1	Genbank	CDS	5382	5615	.	+	0	ID=cds-AAF18407.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAF18407.1;Name=AAF18407.1;gbkey=CDS;gene=vpu;product=Vpu;protein_id=AAF18407.1
+AF190128.1	Genbank	gene	5551	8109	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF190128.1	Genbank	CDS	5551	8109	.	+	0	ID=cds-AAF18403.1;Parent=gene-env;Dbxref=NCBI_GP:AAF18403.1;Name=AAF18403.1;gbkey=CDS;gene=env;product=envelope glycoprotein precursor;protein_id=AAF18403.1
+AF190128.1	Genbank	gene	8112	8735	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF190128.1	Genbank	CDS	8112	8735	.	+	0	ID=cds-AAF18404.1;Parent=gene-nef;Dbxref=NCBI_GP:AAF18404.1;Name=AAF18404.1;gbkey=CDS;gene=nef;product=Nef;protein_id=AAF18404.1
+###

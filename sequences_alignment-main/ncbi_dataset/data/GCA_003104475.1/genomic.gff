@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310447v1
+#!genome-build-accession NCBI_Assembly:GCA_003104475.1
+##sequence-region LC027100.1 1 9112
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+LC027100.1	DDBJ	region	1	9112	.	+	.	ID=LC027100.1:1..9112;Dbxref=taxon:11676;collection-date=2005;country=Japan;gb-acronym=HIV-1;gbkey=Src;isolate=05JPMYC113SP420;mol_type=genomic RNA;nat-host=Homo sapiens;note=genotype: 01B
+LC027100.1	DDBJ	gene	175	1659	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+LC027100.1	DDBJ	CDS	175	1659	.	+	0	ID=cds-BAQ55261.1;Parent=gene-gag;Dbxref=NCBI_GP:BAQ55261.1;Name=BAQ55261.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=BAQ55261.1
+LC027100.1	DDBJ	gene	1458	4463	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1458
+LC027100.1	DDBJ	CDS	1458	4463	.	+	0	ID=cds-BAQ55262.1;Parent=gene-pol;Dbxref=NCBI_GP:BAQ55262.1;Name=BAQ55262.1;Note=start codon is not identified;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=BAQ55262.1;start_range=.,1458
+LC027100.1	DDBJ	gene	4408	4986	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+LC027100.1	DDBJ	CDS	4408	4986	.	+	0	ID=cds-BAQ55263.1;Parent=gene-vif;Dbxref=NCBI_GP:BAQ55263.1;Name=BAQ55263.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=BAQ55263.1
+LC027100.1	DDBJ	gene	4926	5216	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+LC027100.1	DDBJ	CDS	4926	5216	.	+	0	ID=cds-BAQ55264.1;Parent=gene-vpr;Dbxref=NCBI_GP:BAQ55264.1;Name=BAQ55264.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=BAQ55264.1
+LC027100.1	DDBJ	gene	5197	5414	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true
+LC027100.1	DDBJ	gene	7772	7865	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true
+LC027100.1	DDBJ	CDS	5197	5414	.	+	0	ID=cds-BAQ55265.1;Parent=gene-tat;Dbxref=NCBI_GP:BAQ55265.1;Name=BAQ55265.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=BAQ55265.1
+LC027100.1	DDBJ	CDS	7772	7865	.	+	1	ID=cds-BAQ55265.1;Parent=gene-tat;Dbxref=NCBI_GP:BAQ55265.1;Name=BAQ55265.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=BAQ55265.1
+LC027100.1	DDBJ	gene	5336	5414	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+LC027100.1	DDBJ	gene	7772	8070	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+LC027100.1	DDBJ	CDS	5336	5414	.	+	0	ID=cds-BAQ55266.1;Parent=gene-rev;Dbxref=NCBI_GP:BAQ55266.1;Name=BAQ55266.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=BAQ55266.1
+LC027100.1	DDBJ	CDS	7772	8070	.	+	2	ID=cds-BAQ55266.1;Parent=gene-rev;Dbxref=NCBI_GP:BAQ55266.1;Name=BAQ55266.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=BAQ55266.1
+LC027100.1	DDBJ	gene	5425	5670	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+LC027100.1	DDBJ	CDS	5425	5670	.	+	0	ID=cds-BAQ55267.1;Parent=gene-vpu;Dbxref=NCBI_GP:BAQ55267.1;Name=BAQ55267.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=BAQ55267.1
+LC027100.1	DDBJ	gene	5588	8212	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+LC027100.1	DDBJ	CDS	5588	8212	.	+	0	ID=cds-BAQ55268.1;Parent=gene-env;Dbxref=NCBI_GP:BAQ55268.1;Name=BAQ55268.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=BAQ55268.1
+LC027100.1	DDBJ	gene	8214	8837	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+LC027100.1	DDBJ	CDS	8214	8837	.	+	0	ID=cds-BAQ55269.1;Parent=gene-nef;Dbxref=NCBI_GP:BAQ55269.1;Name=BAQ55269.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=BAQ55269.1
+###

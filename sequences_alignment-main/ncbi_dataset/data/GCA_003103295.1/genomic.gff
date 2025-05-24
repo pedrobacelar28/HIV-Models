@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310329v1
+#!genome-build-accession NCBI_Assembly:GCA_003103295.1
+##sequence-region KC870027.1 1 9038
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KC870027.1	Genbank	region	1	9038	.	+	.	ID=KC870027.1:1..9038;Dbxref=taxon:11676;collection-date=2010;country=China;gb-acronym=HIV-1;gbkey=Src;isolate=YNFL01;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=BC/AE
+KC870027.1	Genbank	gene	179	1663	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KC870027.1	Genbank	CDS	179	1663	.	+	0	ID=cds-AGW99760.1;Parent=gene-gag;Dbxref=NCBI_GP:AGW99760.1;Name=AGW99760.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AGW99760.1
+KC870027.1	Genbank	gene	1468	4467	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1468
+KC870027.1	Genbank	CDS	1468	4467	.	+	0	ID=cds-AGW99761.1;Parent=gene-pol;Dbxref=NCBI_GP:AGW99761.1;Name=AGW99761.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AGW99761.1;start_range=.,1468
+KC870027.1	Genbank	gene	4412	4984	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KC870027.1	Genbank	CDS	4412	4984	.	+	0	ID=cds-AGW99762.1;Parent=gene-vif;Dbxref=NCBI_GP:AGW99762.1;Name=AGW99762.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AGW99762.1
+KC870027.1	Genbank	gene	4930	5214	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KC870027.1	Genbank	CDS	4930	5214	.	+	0	ID=cds-AGW99763.1;Parent=gene-vpr;Dbxref=NCBI_GP:AGW99763.1;Name=AGW99763.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AGW99763.1
+KC870027.1	Genbank	gene	5195	7857	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KC870027.1	Genbank	CDS	5195	5409	.	+	0	ID=cds-AGW99764.1;Parent=gene-tat;Dbxref=NCBI_GP:AGW99764.1;Name=AGW99764.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AGW99764.1
+KC870027.1	Genbank	CDS	7764	7857	.	+	1	ID=cds-AGW99764.1;Parent=gene-tat;Dbxref=NCBI_GP:AGW99764.1;Name=AGW99764.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AGW99764.1
+KC870027.1	Genbank	gene	5334	8062	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KC870027.1	Genbank	CDS	5334	5409	.	+	0	ID=cds-AGW99765.1;Parent=gene-rev;Dbxref=NCBI_GP:AGW99765.1;Name=AGW99765.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AGW99765.1
+KC870027.1	Genbank	CDS	7764	8062	.	+	2	ID=cds-AGW99765.1;Parent=gene-rev;Dbxref=NCBI_GP:AGW99765.1;Name=AGW99765.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AGW99765.1
+KC870027.1	Genbank	gene	5429	5674	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KC870027.1	Genbank	CDS	5429	5674	.	+	0	ID=cds-AGW99766.1;Parent=gene-vpu;Dbxref=NCBI_GP:AGW99766.1;Name=AGW99766.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AGW99766.1
+KC870027.1	Genbank	gene	5592	8204	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KC870027.1	Genbank	CDS	5592	8204	.	+	0	ID=cds-AGW99767.1;Parent=gene-env;Dbxref=NCBI_GP:AGW99767.1;Name=AGW99767.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AGW99767.1
+KC870027.1	Genbank	gene	8206	8841	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KC870027.1	Genbank	CDS	8206	8841	.	+	0	ID=cds-AGW99768.1;Parent=gene-nef;Dbxref=NCBI_GP:AGW99768.1;Name=AGW99768.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AGW99768.1
+###

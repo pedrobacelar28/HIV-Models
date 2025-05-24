@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309965v1
+#!genome-build-accession NCBI_Assembly:GCA_003099655.1
+##sequence-region AY271690.1 1 9774
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY271690.1	Genbank	region	1	9774	.	+	.	ID=AY271690.1:1..9774;Dbxref=taxon:11676;clone=pBD6.15;country=Cameroon;gb-acronym=HIV-1;gbkey=Src;genome=proviral;group=M;isolation-source=recombinant virus (CRF02-AG) from a 32 year old female AIDS patient;mol_type=genomic DNA;note=primary isolate 99CMBD6%3B syncytium inducing and X4 tropic;old-name=Human immunodeficiency virus type 1
+AY271690.1	Genbank	gene	798	2294	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AY271690.1	Genbank	CDS	798	2294	.	+	0	ID=cds-AAQ17098.1;Parent=gene-gag;Dbxref=NCBI_GP:AAQ17098.1;Name=AAQ17098.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAQ17098.1
+AY271690.1	Genbank	gene	2096	5107	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,2096
+AY271690.1	Genbank	CDS	2096	5107	.	+	0	ID=cds-AAQ17099.1;Parent=gene-pol;Dbxref=NCBI_GP:AAQ17099.1;Name=AAQ17099.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAQ17099.1;start_range=.,2096
+AY271690.1	Genbank	gene	5052	5630	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY271690.1	Genbank	CDS	5052	5630	.	+	0	ID=cds-AAQ17100.1;Parent=gene-vif;Dbxref=NCBI_GP:AAQ17100.1;Name=AAQ17100.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAQ17100.1
+AY271690.1	Genbank	gene	5570	5860	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=other
+AY271690.1	Genbank	sequence_feature	5570	5860	.	+	.	ID=id-vpr;Note=nonfunctional vpr protein due to mutation;gbkey=misc_feature;gene=vpr
+AY271690.1	Genbank	gene	5841	8513	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY271690.1	Genbank	CDS	5841	6056	.	+	0	ID=cds-AAQ17103.1;Parent=gene-tat;Dbxref=NCBI_GP:AAQ17103.1;Name=AAQ17103.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAQ17103.1
+AY271690.1	Genbank	CDS	8424	8513	.	+	0	ID=cds-AAQ17103.1;Parent=gene-tat;Dbxref=NCBI_GP:AAQ17103.1;Name=AAQ17103.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAQ17103.1
+AY271690.1	Genbank	gene	5980	8697	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY271690.1	Genbank	CDS	5980	6055	.	+	0	ID=cds-AAQ17104.1;Parent=gene-rev;Dbxref=NCBI_GP:AAQ17104.1;Name=AAQ17104.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAQ17104.1
+AY271690.1	Genbank	CDS	8423	8697	.	+	2	ID=cds-AAQ17104.1;Parent=gene-rev;Dbxref=NCBI_GP:AAQ17104.1;Name=AAQ17104.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAQ17104.1
+AY271690.1	Genbank	gene	6082	6327	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY271690.1	Genbank	CDS	6082	6327	.	+	0	ID=cds-AAQ17102.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAQ17102.1;Name=AAQ17102.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAQ17102.1
+AY271690.1	Genbank	gene	6245	8839	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY271690.1	Genbank	CDS	6245	8839	.	+	0	ID=cds-AAQ17105.1;Parent=gene-env;Dbxref=NCBI_GP:AAQ17105.1;Name=AAQ17105.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAQ17105.1
+AY271690.1	Genbank	gene	8841	9500	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY271690.1	Genbank	CDS	8841	9500	.	+	0	ID=cds-AAQ17106.1;Parent=gene-nef;Dbxref=NCBI_GP:AAQ17106.1;Name=AAQ17106.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAQ17106.1
+###

@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318812v2
+#!genome-build-accession NCBI_Assembly:GCA_003188125.2
+##sequence-region KJ140263.2 1 9126
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KJ140263.2	Genbank	region	1	9126	.	+	.	ID=KJ140263.2:1..9126;Dbxref=taxon:11676;collection-date=Oct-2007;country=South Korea;gb-acronym=HIV-1;gbkey=Src;genome=proviral;genotype=Korean subclade B;isolate=HP-18:07JHS10-3909;mol_type=genomic DNA;nat-host=Homo sapiens;old-name=HIV-1
+KJ140263.2	Genbank	long_terminal_repeat	1	453	.	+	.	ID=id-KJ140263.2:1..453;Note=5' long terminal repeat;gbkey=repeat_region;rpt_type=long_terminal_repeat
+KJ140263.2	Genbank	gene	454	1956	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KJ140263.2	Genbank	CDS	454	1956	.	+	0	ID=cds-AHN55006.1;Parent=gene-gag;Dbxref=NCBI_GP:AHN55006.1;Name=AHN55006.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AHN55006.1
+KJ140263.2	Genbank	gene	1749	4760	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other;partial=true;start_range=.,1749
+KJ140263.2	Genbank	sequence_feature	1749	4760	.	+	.	ID=id-pol;Note=nonfunctional pol protein due to mutation;gbkey=misc_feature;gene=pol;partial=true;start_range=.,1749
+KJ140263.2	Genbank	gene	4705	5283	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KJ140263.2	Genbank	CDS	4705	5283	.	+	0	ID=cds-AHN55007.1;Parent=gene-vif;Dbxref=NCBI_GP:AHN55007.1;Name=AHN55007.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AHN55007.1
+KJ140263.2	Genbank	gene	5223	5513	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KJ140263.2	Genbank	CDS	5223	5513	.	+	0	ID=cds-AHN55008.1;Parent=gene-vpr;Dbxref=NCBI_GP:AHN55008.1;Name=AHN55008.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AHN55008.1
+KJ140263.2	Genbank	gene	5494	8138	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KJ140263.2	Genbank	CDS	5494	5708	.	+	0	ID=cds-AHN55009.1;Parent=gene-tat;Dbxref=NCBI_GP:AHN55009.1;Name=AHN55009.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHN55009.1
+KJ140263.2	Genbank	CDS	8048	8138	.	+	1	ID=cds-AHN55009.1;Parent=gene-tat;Dbxref=NCBI_GP:AHN55009.1;Name=AHN55009.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHN55009.1
+KJ140263.2	Genbank	gene	5633	8331	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KJ140263.2	Genbank	CDS	5633	5708	.	+	0	ID=cds-AHN55010.1;Parent=gene-rev;Dbxref=NCBI_GP:AHN55010.1;Name=AHN55010.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHN55010.1
+KJ140263.2	Genbank	CDS	8048	8331	.	+	2	ID=cds-AHN55010.1;Parent=gene-rev;Dbxref=NCBI_GP:AHN55010.1;Name=AHN55010.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHN55010.1
+KJ140263.2	Genbank	gene	5725	5970	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KJ140263.2	Genbank	CDS	5725	5970	.	+	0	ID=cds-AHN55011.2;Parent=gene-vpu;Dbxref=NCBI_GP:AHN55011.2;Name=AHN55011.2;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AHN55011.2
+KJ140263.2	Genbank	gene	5888	8464	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KJ140263.2	Genbank	CDS	5888	8464	.	+	0	ID=cds-AHN55012.2;Parent=gene-env;Dbxref=NCBI_GP:AHN55012.2;Name=AHN55012.2;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AHN55012.2
+KJ140263.2	Genbank	gene	8466	9086	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KJ140263.2	Genbank	CDS	8466	9086	.	+	0	ID=cds-AHN55013.1;Parent=gene-nef;Dbxref=NCBI_GP:AHN55013.1;Name=AHN55013.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AHN55013.1
+###

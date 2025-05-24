@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318974v1
+#!genome-build-accession NCBI_Assembly:GCA_003189745.1
+##sequence-region GQ477441.1 1 8762
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+GQ477441.1	Genbank	region	1	8762	.	+	.	ID=GQ477441.1:1..8762;Dbxref=taxon:11676;collection-date=2007;country=Afghanistan: Mazar-e-Sharif;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=569M;isolation-source=plasma of intravenous drug user;mol_type=genomic DNA;nat-host=Homo sapiens;old-name=HIV-1;subtype=CRF01_AE
+GQ477441.1	Genbank	gene	2	1498	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+GQ477441.1	Genbank	CDS	2	1498	.	+	0	ID=cds-ACV92583.1;Parent=gene-gag;Dbxref=NCBI_GP:ACV92583.1;Name=ACV92583.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACV92583.1
+GQ477441.1	Genbank	gene	1291	4302	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1291
+GQ477441.1	Genbank	CDS	1291	4302	.	+	0	ID=cds-ACV92584.1;Parent=gene-pol;Dbxref=NCBI_GP:ACV92584.1;Name=ACV92584.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACV92584.1;start_range=.,1291
+GQ477441.1	Genbank	gene	4247	4822	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+GQ477441.1	Genbank	CDS	4247	4822	.	+	0	ID=cds-ACV92585.1;Parent=gene-vif;Dbxref=NCBI_GP:ACV92585.1;Name=ACV92585.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACV92585.1
+GQ477441.1	Genbank	gene	4765	5052	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+GQ477441.1	Genbank	CDS	4765	5052	.	+	0	ID=cds-ACV92586.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACV92586.1;Name=ACV92586.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACV92586.1
+GQ477441.1	Genbank	gene	5033	7660	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+GQ477441.1	Genbank	CDS	5033	5247	.	+	0	ID=cds-ACV92588.1;Parent=gene-tat;Dbxref=NCBI_GP:ACV92588.1;Name=ACV92588.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACV92588.1
+GQ477441.1	Genbank	CDS	7570	7660	.	+	1	ID=cds-ACV92588.1;Parent=gene-tat;Dbxref=NCBI_GP:ACV92588.1;Name=ACV92588.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACV92588.1
+GQ477441.1	Genbank	gene	5172	7865	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+GQ477441.1	Genbank	CDS	5172	5247	.	+	0	ID=cds-ACV92589.1;Parent=gene-rev;Dbxref=NCBI_GP:ACV92589.1;Name=ACV92589.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACV92589.1
+GQ477441.1	Genbank	CDS	7570	7865	.	+	2	ID=cds-ACV92589.1;Parent=gene-rev;Dbxref=NCBI_GP:ACV92589.1;Name=ACV92589.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACV92589.1
+GQ477441.1	Genbank	gene	5268	5513	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+GQ477441.1	Genbank	CDS	5268	5513	.	+	0	ID=cds-ACV92587.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACV92587.1;Name=ACV92587.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACV92587.1
+GQ477441.1	Genbank	gene	5431	8007	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+GQ477441.1	Genbank	CDS	5431	8007	.	+	0	ID=cds-ACV92590.1;Parent=gene-env;Dbxref=NCBI_GP:ACV92590.1;Name=ACV92590.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACV92590.1
+GQ477441.1	Genbank	gene	8009	8683	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+GQ477441.1	Genbank	CDS	8009	8683	.	+	0	ID=cds-ACV92591.1;Parent=gene-nef;Dbxref=NCBI_GP:ACV92591.1;Name=ACV92591.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACV92591.1
+GQ477442.1	Genbank	match	1	8697	.	+	.	ID=aln0;Target=GQ477441.1 1 8762 +;Gap=M377 I3 M936 I3 M61 D3 M3404 D3 M481 D6 M13 I5 D5 M542 I6 I1 I2 I9 I3 I2 I7 M150 D6 D3 M389 I2 I1 M100 I1 M11 I1 I1 M110 D4 M43 D2 M134 I2 D2 D3 D1 D2 D3 M1353 I48 M42 I9 M3 I3 M449 D1 M55
+###

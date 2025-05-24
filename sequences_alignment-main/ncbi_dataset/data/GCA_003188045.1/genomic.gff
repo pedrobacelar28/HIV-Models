@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318804v1
+#!genome-build-accession NCBI_Assembly:GCA_003188045.1
+##sequence-region KF716496.1 1 8846
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KF716496.1	Genbank	region	1	8846	.	+	.	ID=KF716496.1:1..8846;Dbxref=taxon:11676;collection-date=2011;country=France;gb-acronym=HIV-1;gbkey=Src;isolate=DEMB11FR001;mol_type=genomic RNA;nat-host=Homo sapiens;note=propagated in PBMCs and used to establish the global viral diversity panel for External Quality Assurance Program Oversight Laboratory (EQAPOL);subtype=B
+KF716496.1	Genbank	gene	39	1529	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KF716496.1	Genbank	CDS	39	1529	.	+	0	ID=cds-AHA33951.1;Parent=gene-gag;Dbxref=NCBI_GP:AHA33951.1;Name=AHA33951.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AHA33951.1
+KF716496.1	Genbank	gene	1334	4342	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1334
+KF716496.1	Genbank	CDS	1334	4342	.	+	0	ID=cds-AHA33952.1;Parent=gene-pol;Dbxref=NCBI_GP:AHA33952.1;Name=AHA33952.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AHA33952.1;start_range=.,1334
+KF716496.1	Genbank	gene	4287	4865	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KF716496.1	Genbank	CDS	4287	4865	.	+	0	ID=cds-AHA33953.1;Parent=gene-vif;Dbxref=NCBI_GP:AHA33953.1;Name=AHA33953.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AHA33953.1
+KF716496.1	Genbank	gene	4805	5095	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KF716496.1	Genbank	CDS	4805	5095	.	+	0	ID=cds-AHA33954.1;Parent=gene-vpr;Dbxref=NCBI_GP:AHA33954.1;Name=AHA33954.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AHA33954.1
+KF716496.1	Genbank	gene	5076	7666	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KF716496.1	Genbank	CDS	5076	5290	.	+	0	ID=cds-AHA33955.1;Parent=gene-tat;Dbxref=NCBI_GP:AHA33955.1;Name=AHA33955.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHA33955.1
+KF716496.1	Genbank	CDS	7576	7666	.	+	1	ID=cds-AHA33955.1;Parent=gene-tat;Dbxref=NCBI_GP:AHA33955.1;Name=AHA33955.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHA33955.1
+KF716496.1	Genbank	gene	5215	7850	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KF716496.1	Genbank	CDS	5215	5290	.	+	0	ID=cds-AHA33956.1;Parent=gene-rev;Dbxref=NCBI_GP:AHA33956.1;Name=AHA33956.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHA33956.1
+KF716496.1	Genbank	CDS	7576	7850	.	+	2	ID=cds-AHA33956.1;Parent=gene-rev;Dbxref=NCBI_GP:AHA33956.1;Name=AHA33956.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHA33956.1
+KF716496.1	Genbank	gene	5307	5543	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KF716496.1	Genbank	CDS	5307	5543	.	+	0	ID=cds-AHA33957.1;Parent=gene-vpu;Dbxref=NCBI_GP:AHA33957.1;Name=AHA33957.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AHA33957.1
+KF716496.1	Genbank	gene	5470	7992	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KF716496.1	Genbank	CDS	5470	7992	.	+	0	ID=cds-AHA33958.1;Parent=gene-env;Dbxref=NCBI_GP:AHA33958.1;Name=AHA33958.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AHA33958.1
+KF716496.1	Genbank	gene	7994	8665	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KF716496.1	Genbank	CDS	7994	8665	.	+	0	ID=cds-AHA33959.1;Parent=gene-nef;Dbxref=NCBI_GP:AHA33959.1;Name=AHA33959.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AHA33959.1
+###

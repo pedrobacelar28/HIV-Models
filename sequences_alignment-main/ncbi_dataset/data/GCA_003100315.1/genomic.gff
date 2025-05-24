@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310031v1
+#!genome-build-accession NCBI_Assembly:GCA_003100315.1
+##sequence-region AY829212.1 1 8816
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY829212.1	Genbank	region	1	8816	.	+	.	ID=AY829212.1:1..8816;Dbxref=taxon:11676;country=Uzbekistan: Tashkent;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=02UZ0672;isolation-source=33-year-old female injecting drug user;mol_type=genomic DNA;subtype=A
+AY829212.1	Genbank	gene	1	1491	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AY829212.1	Genbank	CDS	1	1491	.	+	0	ID=cds-AAW03279.1;Parent=gene-gag;Dbxref=NCBI_GP:AAW03279.1;Name=AAW03279.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AAW03279.1;start_range=.,1
+AY829212.1	Genbank	gene	1284	4295	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1284
+AY829212.1	Genbank	CDS	1284	4295	.	+	0	ID=cds-AAW03280.1;Parent=gene-pol;Dbxref=NCBI_GP:AAW03280.1;Name=AAW03280.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAW03280.1;start_range=.,1284
+AY829212.1	Genbank	gene	4240	4818	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY829212.1	Genbank	CDS	4240	4818	.	+	0	ID=cds-AAW03281.1;Parent=gene-vif;Dbxref=NCBI_GP:AAW03281.1;Name=AAW03281.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAW03281.1
+AY829212.1	Genbank	gene	4758	5048	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY829212.1	Genbank	CDS	4758	5048	.	+	0	ID=cds-AAW03282.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAW03282.1;Name=AAW03282.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAW03282.1
+AY829212.1	Genbank	gene	5029	7650	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY829212.1	Genbank	CDS	5029	5243	.	+	0	ID=cds-AAW03286.1;Parent=gene-tat;Dbxref=NCBI_GP:AAW03286.1;Name=AAW03286.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAW03286.1
+AY829212.1	Genbank	CDS	7557	7650	.	+	1	ID=cds-AAW03286.1;Parent=gene-tat;Dbxref=NCBI_GP:AAW03286.1;Name=AAW03286.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAW03286.1
+AY829212.1	Genbank	gene	5168	7852	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY829212.1	Genbank	CDS	5168	5243	.	+	0	ID=cds-AAW03287.1;Parent=gene-rev;Dbxref=NCBI_GP:AAW03287.1;Name=AAW03287.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAW03287.1
+AY829212.1	Genbank	CDS	7557	7852	.	+	2	ID=cds-AAW03287.1;Parent=gene-rev;Dbxref=NCBI_GP:AAW03287.1;Name=AAW03287.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAW03287.1
+AY829212.1	Genbank	gene	5264	5509	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY829212.1	Genbank	CDS	5264	5509	.	+	0	ID=cds-AAW03283.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAW03283.1;Name=AAW03283.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAW03283.1
+AY829212.1	Genbank	gene	5427	7994	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY829212.1	Genbank	CDS	5427	7994	.	+	0	ID=cds-AAW03284.1;Parent=gene-env;Dbxref=NCBI_GP:AAW03284.1;Name=AAW03284.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAW03284.1
+AY829212.1	Genbank	gene	7996	8619	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY829212.1	Genbank	CDS	7996	8619	.	+	0	ID=cds-AAW03285.1;Parent=gene-nef;Dbxref=NCBI_GP:AAW03285.1;Name=AAW03285.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAW03285.1
+###

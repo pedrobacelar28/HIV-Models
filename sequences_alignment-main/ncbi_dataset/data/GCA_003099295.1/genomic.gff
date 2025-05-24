@@ -1,0 +1,26 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309929v1
+#!genome-build-accession NCBI_Assembly:GCA_003099295.1
+##sequence-region AF503396.1 1 8957
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF503396.1	Genbank	region	1	8957	.	+	.	ID=AF503396.1:1..8957;Dbxref=taxon:11676;country=China: Guangxi Province%2C Guilin;gb-acronym=HIV-1;gbkey=Src;genome=proviral;mol_type=genomic DNA;note=represents a sequence of CRF07_BC%2C which circulates mainly among IDU in China;old-name=Human immunodeficiency virus type 1;strain=CNGL179
+AF503396.1	Genbank	gene	17	1504	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF503396.1	Genbank	CDS	17	1504	.	+	0	ID=cds-AAP29644.1;Parent=gene-gag;Dbxref=NCBI_GP:AAP29644.1;Name=AAP29644.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAP29644.1
+AF503396.1	Genbank	gene	1297	4308	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1297
+AF503396.1	Genbank	CDS	1297	4308	.	+	0	ID=cds-AAP29645.1;Parent=gene-pol;Dbxref=NCBI_GP:AAP29645.1;Name=AAP29645.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAP29645.1;start_range=.,1297
+AF503396.1	Genbank	gene	4253	4834	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF503396.1	Genbank	CDS	4253	4834	.	+	0	ID=cds-AAP29646.1;Parent=gene-vif;Dbxref=NCBI_GP:AAP29646.1;Name=AAP29646.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAP29646.1
+AF503396.1	Genbank	gene	4774	5064	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF503396.1	Genbank	CDS	4774	5064	.	+	0	ID=cds-AAP29647.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAP29647.1;Name=AAP29647.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAP29647.1
+AF503396.1	Genbank	gene	5045	5263	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF503396.1	Genbank	CDS	5045	5263	.	+	0	ID=cds-AAP29648.1;Parent=gene-tat;Dbxref=NCBI_GP:AAP29648.1;Name=AAP29648.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAP29648.1
+AF503396.1	Genbank	gene	5184	7828	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF503396.1	Genbank	CDS	5184	5258	.	+	0	ID=cds-AAP29649.1;Parent=gene-rev;Dbxref=NCBI_GP:AAP29649.1;Name=AAP29649.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAP29649.1
+AF503396.1	Genbank	CDS	7580	7828	.	+	0	ID=cds-AAP29649.1;Parent=gene-rev;Dbxref=NCBI_GP:AAP29649.1;Name=AAP29649.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAP29649.1
+AF503396.1	Genbank	gene	5439	8018	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF503396.1	Genbank	CDS	5439	8018	.	+	0	ID=cds-AAP29650.1;Parent=gene-env;Dbxref=NCBI_GP:AAP29650.1;Name=AAP29650.1;gbkey=CDS;gene=env;product=env glycoprotein;protein_id=AAP29650.1
+AF503396.1	Genbank	gene	8020	8637	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF503396.1	Genbank	CDS	8020	8637	.	+	0	ID=cds-AAP29651.1;Parent=gene-nef;Dbxref=NCBI_GP:AAP29651.1;Name=AAP29651.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAP29651.1
+###

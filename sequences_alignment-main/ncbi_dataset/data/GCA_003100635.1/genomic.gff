@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310063v1
+#!genome-build-accession NCBI_Assembly:GCA_003100635.1
+##sequence-region DQ085872.1 1 8902
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+DQ085872.1	Genbank	region	1	8902	.	+	.	ID=DQ085872.1:1..8902;Dbxref=taxon:11676;collection-date=1999;country=Brazil: Santos%2C SP;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=BREPM12313;mol_type=genomic DNA;note=recombinant B/F
+DQ085872.1	Genbank	gene	193	1713	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+DQ085872.1	Genbank	CDS	193	1713	.	+	0	ID=cds-AAZ39134.1;Parent=gene-gag;Dbxref=NCBI_GP:AAZ39134.1;Name=AAZ39134.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAZ39134.1
+DQ085872.1	Genbank	gene	1494	4517	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1494
+DQ085872.1	Genbank	CDS	1494	4517	.	+	0	ID=cds-AAZ39135.1;Parent=gene-pol;Dbxref=NCBI_GP:AAZ39135.1;Name=AAZ39135.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAZ39135.1;start_range=.,1494
+DQ085872.1	Genbank	gene	4462	5040	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+DQ085872.1	Genbank	CDS	4462	5040	.	+	0	ID=cds-AAZ39136.1;Parent=gene-vif;Dbxref=NCBI_GP:AAZ39136.1;Name=AAZ39136.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAZ39136.1
+DQ085872.1	Genbank	gene	4980	5270	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+DQ085872.1	Genbank	CDS	4980	5270	.	+	0	ID=cds-AAZ39137.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAZ39137.1;Name=AAZ39137.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAZ39137.1
+DQ085872.1	Genbank	gene	5251	7889	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+DQ085872.1	Genbank	CDS	5251	5465	.	+	0	ID=cds-AAZ39138.1;Parent=gene-tat;Dbxref=NCBI_GP:AAZ39138.1;Name=AAZ39138.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAZ39138.1
+DQ085872.1	Genbank	CDS	7799	7889	.	+	1	ID=cds-AAZ39138.1;Parent=gene-tat;Dbxref=NCBI_GP:AAZ39138.1;Name=AAZ39138.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAZ39138.1
+DQ085872.1	Genbank	gene	5390	8073	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+DQ085872.1	Genbank	CDS	5390	5465	.	+	0	ID=cds-AAZ39139.1;Parent=gene-rev;Dbxref=NCBI_GP:AAZ39139.1;Name=AAZ39139.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAZ39139.1
+DQ085872.1	Genbank	CDS	7799	8073	.	+	2	ID=cds-AAZ39139.1;Parent=gene-rev;Dbxref=NCBI_GP:AAZ39139.1;Name=AAZ39139.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAZ39139.1
+DQ085872.1	Genbank	gene	5482	5727	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+DQ085872.1	Genbank	CDS	5482	5727	.	+	0	ID=cds-AAZ39140.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAZ39140.1;Name=AAZ39140.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAZ39140.1
+DQ085872.1	Genbank	gene	5645	8215	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+DQ085872.1	Genbank	CDS	5645	8215	.	+	0	ID=cds-AAZ39141.1;Parent=gene-env;Dbxref=NCBI_GP:AAZ39141.1;Name=AAZ39141.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAZ39141.1
+DQ085872.1	Genbank	gene	8217	8843	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+DQ085872.1	Genbank	CDS	8217	8843	.	+	0	ID=cds-AAZ39142.1;Parent=gene-nef;Dbxref=NCBI_GP:AAZ39142.1;Name=AAZ39142.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAZ39142.1
+###

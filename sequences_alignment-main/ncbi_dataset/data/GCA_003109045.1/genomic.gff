@@ -1,0 +1,22 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310904v1
+#!genome-build-accession NCBI_Assembly:GCA_003109045.1
+##sequence-region AM000053.1 1 9740
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AM000053.1	EMBL	region	1	9740	.	+	.	ID=AM000053.1:1..9740;Dbxref=taxon:11676;country=Democratic Republic of the Congo;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=97CD.KCC2;mol_type=genomic DNA;note=subtype A4%3B~isolated in 1997
+AM000053.1	EMBL	gene	792	5092	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+AM000053.1	EMBL	CDS	792	2081	.	+	0	ID=cds-CAJ01215.1;Parent=gene-pol;Dbxref=GOA:Q2A7S7,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:Q2A7S7,NCBI_GP:CAJ01215.1;Name=CAJ01215.1;gbkey=CDS;gene=pol;product=gag-pol precursor;protein_id=CAJ01215.1
+AM000053.1	EMBL	CDS	2081	5092	.	+	0	ID=cds-CAJ01215.1;Parent=gene-pol;Dbxref=GOA:Q2A7S7,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:Q2A7S7,NCBI_GP:CAJ01215.1;Name=CAJ01215.1;gbkey=CDS;gene=pol;product=gag-pol precursor;protein_id=CAJ01215.1
+AM000053.1	EMBL	gene	792	2279	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AM000053.1	EMBL	CDS	792	2279	.	+	0	ID=cds-CAJ01217.1;Parent=gene-gag;Dbxref=GOA:Q2A7S6,InterPro:IPR000071,InterPro:IPR000721,InterPro:IPR001878,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR010999,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR014817,UniProtKB/TrEMBL:Q2A7S6,NCBI_GP:CAJ01217.1;Name=CAJ01217.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=CAJ01217.1
+AM000053.1	EMBL	gene	5037	5615	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AM000053.1	EMBL	CDS	5037	5615	.	+	0	ID=cds-CAJ01221.1;Parent=gene-vif;Dbxref=GOA:Q2A7S5,InterPro:IPR000475,UniProtKB/TrEMBL:Q2A7S5,NCBI_GP:CAJ01221.1;Name=CAJ01221.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=CAJ01221.1
+AM000053.1	EMBL	gene	6067	6309	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AM000053.1	EMBL	CDS	6067	6309	.	+	0	ID=cds-CAJ01222.1;Parent=gene-vpu;Dbxref=GOA:Q2A7S4,InterPro:IPR008187,InterPro:IPR009032,UniProtKB/TrEMBL:Q2A7S4,NCBI_GP:CAJ01222.1;Name=CAJ01222.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=CAJ01222.1
+AM000053.1	EMBL	gene	6227	8815	.	+	.	ID=gene-GP160;Name=GP160;gbkey=Gene;gene=GP160;gene_biotype=protein_coding
+AM000053.1	EMBL	CDS	6227	8815	.	+	0	ID=cds-CAJ01223.1;Parent=gene-GP160;Dbxref=GOA:Q2A7S3,InterPro:IPR000328,InterPro:IPR000777,UniProtKB/TrEMBL:Q2A7S3,NCBI_GP:CAJ01223.1;Name=CAJ01223.1;gbkey=CDS;gene=GP160;product=env protein;protein_id=CAJ01223.1
+AM000053.1	EMBL	gene	8817	9437	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AM000053.1	EMBL	CDS	8817	9437	.	+	0	ID=cds-CAJ01225.1;Parent=gene-nef;Dbxref=GOA:Q2A7S2,InterPro:IPR001558,UniProtKB/TrEMBL:Q2A7S2,NCBI_GP:CAJ01225.1;Name=CAJ01225.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=CAJ01225.1
+###

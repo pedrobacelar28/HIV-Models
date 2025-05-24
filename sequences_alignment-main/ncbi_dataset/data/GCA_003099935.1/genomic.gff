@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309993v1
+#!genome-build-accession NCBI_Assembly:GCA_003099935.1
+##sequence-region AY500393.1 1 9159
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY500393.1	Genbank	region	1	9159	.	+	.	ID=AY500393.1:1..9159;Dbxref=taxon:11676;country=Russia: Moscow;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=03RU20-06-13;isolation-source=peripheral blood mononuclear cells of heterosexual intercourse-infected 23 year-old woman%3B collected in June 2003 at the B2-B3 stages of the HIV infection;mol_type=genomic DNA
+AY500393.1	Genbank	long_terminal_repeat	1	119	.	+	.	ID=id-AY500393.1:1..119;Note=LTR5;gbkey=repeat_region;rpt_type=long_terminal_repeat
+AY500393.1	Genbank	gene	273	1769	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AY500393.1	Genbank	CDS	273	1769	.	+	0	ID=cds-AAS01339.1;Parent=gene-gag;Dbxref=NCBI_GP:AAS01339.1;Name=AAS01339.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAS01339.1
+AY500393.1	Genbank	gene	1562	4570	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1562
+AY500393.1	Genbank	CDS	1562	4570	.	+	0	ID=cds-AAS01340.1;Parent=gene-pol;Dbxref=NCBI_GP:AAS01340.1;Name=AAS01340.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAS01340.1;start_range=.,1562
+AY500393.1	Genbank	gene	4515	5093	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY500393.1	Genbank	CDS	4515	5093	.	+	0	ID=cds-AAS01341.1;Parent=gene-vif;Dbxref=NCBI_GP:AAS01341.1;Name=AAS01341.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAS01341.1
+AY500393.1	Genbank	gene	5033	5323	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY500393.1	Genbank	CDS	5033	5323	.	+	0	ID=cds-AAS01342.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAS01342.1;Name=AAS01342.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAS01342.1
+AY500393.1	Genbank	gene	5304	7940	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY500393.1	Genbank	CDS	5304	5518	.	+	0	ID=cds-AAS01343.1;Parent=gene-tat;Dbxref=NCBI_GP:AAS01343.1;Name=AAS01343.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAS01343.1
+AY500393.1	Genbank	CDS	7850	7940	.	+	1	ID=cds-AAS01343.1;Parent=gene-tat;Dbxref=NCBI_GP:AAS01343.1;Name=AAS01343.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAS01343.1
+AY500393.1	Genbank	gene	5443	8145	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY500393.1	Genbank	CDS	5443	5518	.	+	0	ID=cds-AAS01344.1;Parent=gene-rev;Dbxref=NCBI_GP:AAS01344.1;Name=AAS01344.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAS01344.1
+AY500393.1	Genbank	CDS	7850	8145	.	+	2	ID=cds-AAS01344.1;Parent=gene-rev;Dbxref=NCBI_GP:AAS01344.1;Name=AAS01344.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAS01344.1
+AY500393.1	Genbank	gene	5539	5784	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY500393.1	Genbank	CDS	5539	5784	.	+	0	ID=cds-AAS01345.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAS01345.1;Name=AAS01345.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAS01345.1
+AY500393.1	Genbank	gene	5702	8287	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY500393.1	Genbank	CDS	5702	8287	.	+	0	ID=cds-AAS01346.1;Parent=gene-env;Dbxref=NCBI_GP:AAS01346.1;Name=AAS01346.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAS01346.1
+AY500393.1	Genbank	gene	8289	8912	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY500393.1	Genbank	CDS	8289	8912	.	+	0	ID=cds-AAS01347.1;Parent=gene-nef;Dbxref=NCBI_GP:AAS01347.1;Name=AAS01347.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAS01347.1
+AY500393.1	Genbank	long_terminal_repeat	8581	9159	.	+	.	ID=id-AY500393.1:8581..9159;Note=LTR3;gbkey=repeat_region;rpt_type=long_terminal_repeat
+###

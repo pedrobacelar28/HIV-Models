@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM319060v1
+#!genome-build-accession NCBI_Assembly:GCA_003190605.1
+##sequence-region AY169815.1 1 9186
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY169815.1	Genbank	region	1	9186	.	+	.	ID=AY169815.1:1..9186;Dbxref=taxon:11676;country=Cameroon: Yaounde;gb-acronym=HIV-1;gbkey=Src;group=O;isolate=99CMU4122;isolation-source=patient #U4122%3B plasma;mol_type=genomic RNA;note=isolated in 1998;old-name=Human immunodeficiency virus type 1
+AY169815.1	Genbank	long_terminal_repeat	1	93	.	+	.	ID=id-AY169815.1:1..93;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+AY169815.1	Genbank	gene	272	1768	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AY169815.1	Genbank	CDS	272	1768	.	+	0	ID=cds-AAO47207.1;Parent=gene-gag;Dbxref=NCBI_GP:AAO47207.1;Name=AAO47207.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAO47207.1
+AY169815.1	Genbank	gene	1582	4611	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1582
+AY169815.1	Genbank	CDS	1582	4611	.	+	0	ID=cds-AAO47208.1;Parent=gene-pol;Dbxref=NCBI_GP:AAO47208.1;Name=AAO47208.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAO47208.1;start_range=.,1582
+AY169815.1	Genbank	gene	4526	5104	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY169815.1	Genbank	CDS	4526	5104	.	+	0	ID=cds-AAO47209.1;Parent=gene-vif;Dbxref=NCBI_GP:AAO47209.1;Name=AAO47209.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAO47209.1
+AY169815.1	Genbank	gene	5044	5346	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY169815.1	Genbank	CDS	5044	5346	.	+	0	ID=cds-AAO47210.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAO47210.1;Name=AAO47210.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAO47210.1
+AY169815.1	Genbank	gene	5327	7983	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY169815.1	Genbank	CDS	5327	5535	.	+	0	ID=cds-AAO47211.1;Parent=gene-tat;Dbxref=NCBI_GP:AAO47211.1;Name=AAO47211.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAO47211.1
+AY169815.1	Genbank	CDS	7902	7983	.	+	1	ID=cds-AAO47211.1;Parent=gene-tat;Dbxref=NCBI_GP:AAO47211.1;Name=AAO47211.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAO47211.1
+AY169815.1	Genbank	gene	5466	8140	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY169815.1	Genbank	CDS	5466	5535	.	+	0	ID=cds-AAO47212.1;Parent=gene-rev;Dbxref=NCBI_GP:AAO47212.1;Name=AAO47212.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAO47212.1
+AY169815.1	Genbank	CDS	7902	8140	.	+	2	ID=cds-AAO47212.1;Parent=gene-rev;Dbxref=NCBI_GP:AAO47212.1;Name=AAO47212.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAO47212.1
+AY169815.1	Genbank	gene	5549	5806	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY169815.1	Genbank	CDS	5549	5806	.	+	0	ID=cds-AAO47213.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAO47213.1;Name=AAO47213.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAO47213.1
+AY169815.1	Genbank	gene	5712	8339	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY169815.1	Genbank	CDS	5712	8339	.	+	0	ID=cds-AAO47214.1;Parent=gene-env;Dbxref=NCBI_GP:AAO47214.1;Name=AAO47214.1;gbkey=CDS;gene=env;product=env protien;protein_id=AAO47214.1
+AY169815.1	Genbank	gene	8341	8976	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY169815.1	Genbank	CDS	8341	8976	.	+	0	ID=cds-AAO47215.1;Parent=gene-nef;Dbxref=NCBI_GP:AAO47215.1;Name=AAO47215.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAO47215.1
+AY169815.1	Genbank	long_terminal_repeat	8642	9186	.	+	.	ID=id-AY169815.1:8642..9186;end_range=9186,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+###

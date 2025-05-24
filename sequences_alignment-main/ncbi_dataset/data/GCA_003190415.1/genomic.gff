@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM319041v1
+#!genome-build-accession NCBI_Assembly:GCA_003190415.1
+##sequence-region EU170151.1 1 9126
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EU170151.1	Genbank	region	1	9126	.	+	.	ID=EU170151.1:1..9126;Dbxref=taxon:11676;collection-date=2003;country=Luxembourg;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=luBF_01.03;mol_type=genomic DNA
+EU170151.1	Genbank	long_terminal_repeat	1	176	.	+	.	ID=id-EU170151.1:1..176;Note=5' LTR;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+EU170151.1	Genbank	gene	331	1840	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=other
+EU170151.1	Genbank	sequence_feature	331	1840	.	+	.	ID=id-gag;Note=nonfunctional gag protein due to mutation;gbkey=misc_feature;gene=gag
+EU170151.1	Genbank	gene	1621	4644	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other
+EU170151.1	Genbank	sequence_feature	1621	4644	.	+	.	ID=id-pol;Note=nonfunctional pol protein due to mutation;gbkey=misc_feature;gene=pol
+EU170151.1	Genbank	gene	4589	5167	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+EU170151.1	Genbank	CDS	4589	5167	.	+	0	ID=cds-ABW72851.1;Parent=gene-vif;Dbxref=NCBI_GP:ABW72851.1;Name=ABW72851.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABW72851.1
+EU170151.1	Genbank	gene	5107	5397	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EU170151.1	Genbank	CDS	5107	5397	.	+	0	ID=cds-ABW72852.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABW72852.1;Name=ABW72852.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABW72852.1
+EU170151.1	Genbank	gene	5378	7978	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EU170151.1	Genbank	CDS	5378	5592	.	+	0	ID=cds-ABW72853.1;Parent=gene-tat;Dbxref=NCBI_GP:ABW72853.1;Name=ABW72853.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABW72853.1
+EU170151.1	Genbank	CDS	7888	7978	.	+	1	ID=cds-ABW72853.1;Parent=gene-tat;Dbxref=NCBI_GP:ABW72853.1;Name=ABW72853.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABW72853.1
+EU170151.1	Genbank	gene	5517	8162	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EU170151.1	Genbank	CDS	5517	5592	.	+	0	ID=cds-ABW72854.1;Parent=gene-rev;Dbxref=NCBI_GP:ABW72854.1;Name=ABW72854.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABW72854.1
+EU170151.1	Genbank	CDS	7888	8162	.	+	2	ID=cds-ABW72854.1;Parent=gene-rev;Dbxref=NCBI_GP:ABW72854.1;Name=ABW72854.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABW72854.1
+EU170151.1	Genbank	gene	5609	5854	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EU170151.1	Genbank	CDS	5609	5854	.	+	0	ID=cds-ABW72855.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABW72855.1;Name=ABW72855.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABW72855.1
+EU170151.1	Genbank	gene	5772	8304	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=other
+EU170151.1	Genbank	sequence_feature	5772	8304	.	+	.	ID=id-env;Note=nonfunctional envelope glycoprotein due to mutation;gbkey=misc_feature;gene=env
+EU170151.1	Genbank	gene	8306	8926	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EU170151.1	Genbank	CDS	8306	8926	.	+	0	ID=cds-ABW72856.1;Parent=gene-nef;Dbxref=NCBI_GP:ABW72856.1;Name=ABW72856.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ABW72856.1
+EU170151.1	Genbank	long_terminal_repeat	8595	9126	.	+	.	ID=id-EU170151.1:8595..9126;Note=3' LTR;end_range=9126,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+###

@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310325v1
+#!genome-build-accession NCBI_Assembly:GCA_003103255.1
+##sequence-region KC852173.1 1 8930
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KC852173.1	Genbank	region	1	8930	.	+	.	ID=KC852173.1:1..8930;Dbxref=taxon:11676;collected-by=C. Charpentier;collection-date=11-Oct-2011;country=France;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=patient D;isolation-source=plasma;mol_type=genomic RNA;nat-host=Homo sapiens;strain=11111584
+KC852173.1	Genbank	gene	186	1688	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KC852173.1	Genbank	CDS	186	1688	.	+	0	ID=cds-AHB23348.1;Parent=gene-gag;Dbxref=NCBI_GP:AHB23348.1;Name=AHB23348.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AHB23348.1
+KC852173.1	Genbank	gene	1475	4501	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1475
+KC852173.1	Genbank	CDS	1475	4501	.	+	0	ID=cds-AHB23349.1;Parent=gene-pol;Dbxref=NCBI_GP:AHB23349.1;Name=AHB23349.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AHB23349.1;start_range=.,1475
+KC852173.1	Genbank	gene	4446	5024	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KC852173.1	Genbank	CDS	4446	5024	.	+	0	ID=cds-AHB23350.1;Parent=gene-vif;Dbxref=NCBI_GP:AHB23350.1;Name=AHB23350.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AHB23350.1
+KC852173.1	Genbank	gene	4964	5254	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KC852173.1	Genbank	CDS	4964	5254	.	+	0	ID=cds-AHB23351.1;Parent=gene-vpr;Dbxref=NCBI_GP:AHB23351.1;Name=AHB23351.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AHB23351.1
+KC852173.1	Genbank	gene	5235	7850	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KC852173.1	Genbank	CDS	5235	5449	.	+	0	ID=cds-AHB23352.1;Parent=gene-tat;Dbxref=NCBI_GP:AHB23352.1;Name=AHB23352.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHB23352.1
+KC852173.1	Genbank	CDS	7766	7850	.	+	1	ID=cds-AHB23352.1;Parent=gene-tat;Dbxref=NCBI_GP:AHB23352.1;Name=AHB23352.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHB23352.1
+KC852173.1	Genbank	gene	5374	8070	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KC852173.1	Genbank	CDS	5374	5449	.	+	0	ID=cds-AHB23353.1;Parent=gene-rev;Dbxref=NCBI_GP:AHB23353.1;Name=AHB23353.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHB23353.1
+KC852173.1	Genbank	CDS	7766	8070	.	+	2	ID=cds-AHB23353.1;Parent=gene-rev;Dbxref=NCBI_GP:AHB23353.1;Name=AHB23353.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHB23353.1
+KC852173.1	Genbank	gene	5476	5721	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KC852173.1	Genbank	CDS	5476	5721	.	+	0	ID=cds-AHB23354.1;Parent=gene-vpu;Dbxref=NCBI_GP:AHB23354.1;Name=AHB23354.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AHB23354.1
+KC852173.1	Genbank	gene	5639	8203	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KC852173.1	Genbank	CDS	5639	8203	.	+	0	ID=cds-AHB23355.1;Parent=gene-env;Dbxref=NCBI_GP:AHB23355.1;Name=AHB23355.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AHB23355.1
+KC852173.1	Genbank	gene	8205	8828	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KC852173.1	Genbank	CDS	8205	8828	.	+	0	ID=cds-AHB23356.1;Parent=gene-nef;Dbxref=NCBI_GP:AHB23356.1;Name=AHB23356.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AHB23356.1
+###

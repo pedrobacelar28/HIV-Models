@@ -1,0 +1,23 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310109v1
+#!genome-build-accession NCBI_Assembly:GCA_003101095.1
+##sequence-region EF087995.1 1 8412
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EF087995.1	Genbank	region	1	8412	.	+	.	ID=EF087995.1:1..8412;Dbxref=taxon:11676;collection-date=2000;country=Cameroon: East Province%2C Mboy;gb-acronym=HIV-1;gbkey=Src;genotype=CRF01_AE-CRF02_AG-A-G recombinant;isolate=00CMNYU1162;isolation-source=female age 19;mol_type=genomic RNA;note=representative sequence of CRF36_cpx%2C along with 00CMNYU830 and 02CM1590LE%3B fragments of this CRF are found in CRF22 sequences and 01CM0190MA;subtype=CRF36_cpx
+EF087995.1	Genbank	gene	1	1494	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=other;partial=true;start_range=.,1
+EF087995.1	Genbank	sequence_feature	1	1494	.	+	.	ID=id-gag;Note=nonfunctional gag protein due to mutation;gbkey=misc_feature;gene=gag;partial=true;start_range=.,1
+EF087995.1	Genbank	gene	1455	4300	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other;partial=true;start_range=.,1455
+EF087995.1	Genbank	sequence_feature	1455	4300	.	+	.	ID=id-pol;Note=nonfunctional pol protein due to mutation;gbkey=misc_feature;gene=pol;partial=true;start_range=.,1455
+EF087995.1	Genbank	gene	4243	4821	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=other
+EF087995.1	Genbank	sequence_feature	4243	4821	.	+	.	ID=id-vif;Note=nonfunctional vif protein due to mutation;gbkey=misc_feature;gene=vif
+EF087995.1	Genbank	gene	4761	5051	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EF087995.1	Genbank	CDS	4761	5051	.	+	0	ID=cds-ABO16339.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABO16339.1;Name=ABO16339.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABO16339.1
+EF087995.1	Genbank	gene	5276	5521	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EF087995.1	Genbank	CDS	5276	5521	.	+	0	ID=cds-ABO16340.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABO16340.1;Name=ABO16340.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABO16340.1
+EF087995.1	Genbank	gene	5439	8018	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+EF087995.1	Genbank	CDS	5439	8018	.	+	0	ID=cds-ABO16341.1;Parent=gene-env;Dbxref=NCBI_GP:ABO16341.1;Name=ABO16341.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ABO16341.1
+EF087995.1	Genbank	gene	8020	8412	.	+	.	ID=gene-nef;Name=nef;end_range=8412,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+EF087995.1	Genbank	CDS	8020	8412	.	+	0	ID=cds-ABO16342.1;Parent=gene-nef;Dbxref=NCBI_GP:ABO16342.1;Name=ABO16342.1;end_range=8412,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=ABO16342.1
+###

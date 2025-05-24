@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310926v1
+#!genome-build-accession NCBI_Assembly:GCA_003109265.1
+##sequence-region FN392875.1 1 8536
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+FN392875.1	EMBL	region	1	8536	.	+	.	ID=FN392875.1:1..8536;Dbxref=taxon:11676;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=97CD.MBS30;mol_type=genomic DNA
+FN392875.1	EMBL	gene	308	4593	.	+	.	ID=gene-gag-pol;Name=gag-pol;gbkey=Gene;gene=gag-pol;gene_biotype=protein_coding
+FN392875.1	EMBL	CDS	308	1588	.	+	0	ID=cds-CAY83110.1;Parent=gene-gag-pol;Dbxref=GOA:D2EAR8,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:D2EAR8,NCBI_GP:CAY83110.1;Name=CAY83110.1;exception=ribosomal slippage;gbkey=CDS;gene=gag-pol;product=gag-pol fusion polyprotein precursor;protein_id=CAY83110.1
+FN392875.1	EMBL	CDS	1588	4593	.	+	0	ID=cds-CAY83110.1;Parent=gene-gag-pol;Dbxref=GOA:D2EAR8,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:D2EAR8,NCBI_GP:CAY83110.1;Name=CAY83110.1;exception=ribosomal slippage;gbkey=CDS;gene=gag-pol;product=gag-pol fusion polyprotein precursor;protein_id=CAY83110.1
+FN392875.1	EMBL	mature_protein_region_of_CDS	1750	2046	.	+	.	ID=id-CAY83110.1:482..580;Parent=cds-CAY83110.1;gbkey=Prot;gene=pol;product=protease
+FN392875.1	EMBL	mature_protein_region_of_CDS	2047	3366	.	+	.	ID=id-CAY83110.1:581..1020;Parent=cds-CAY83110.1;gbkey=Prot;gene=pol;product=reverse transcriptase
+FN392875.1	EMBL	mature_protein_region_of_CDS	3727	4590	.	+	.	ID=id-CAY83110.1:1141..1428;Parent=cds-CAY83110.1;gbkey=Prot;gene=pol;product=integrase
+FN392875.1	EMBL	gene	308	1789	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+FN392875.1	EMBL	CDS	308	1789	.	+	0	ID=cds-CAY83112.1;Parent=gene-gag;Dbxref=GOA:D2EAR9,InterPro:IPR000071,InterPro:IPR000721,InterPro:IPR001878,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR010999,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR014817,UniProtKB/TrEMBL:D2EAR9,NCBI_GP:CAY83112.1;Name=CAY83112.1;gbkey=CDS;gene=gag;product=gag polyprotein;protein_id=CAY83112.1
+FN392875.1	EMBL	gene	1750	3366	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other;is_ordered=true
+FN392875.1	EMBL	gene	3727	4590	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other;is_ordered=true
+FN392875.1	EMBL	gene	4538	5116	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+FN392875.1	EMBL	CDS	4538	5116	.	+	0	ID=cds-CAY83114.1;Parent=gene-vif;Dbxref=GOA:D2EAS0,InterPro:IPR000475,UniProtKB/TrEMBL:D2EAS0,NCBI_GP:CAY83114.1;Name=CAY83114.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=CAY83114.1
+FN392875.1	EMBL	gene	5056	5349	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+FN392875.1	EMBL	CDS	5056	5349	.	+	0	ID=cds-CAY83116.1;Parent=gene-vpr;Dbxref=GOA:D2EAS1,InterPro:IPR000012,UniProtKB/TrEMBL:D2EAS1,NCBI_GP:CAY83116.1;Name=CAY83116.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=CAY83116.1
+FN392875.1	EMBL	gene	5572	5817	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+FN392875.1	EMBL	CDS	5572	5817	.	+	0	ID=cds-CAY83118.1;Parent=gene-vpu;Dbxref=GOA:D2EAS2,InterPro:IPR008187,InterPro:IPR009032,UniProtKB/TrEMBL:D2EAS2,NCBI_GP:CAY83118.1;Name=CAY83118.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=CAY83118.1;transl_except=(pos:5572..5574%2Caa:Met)
+FN392875.1	EMBL	gene	5735	8269	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+FN392875.1	EMBL	CDS	5735	8269	.	+	0	ID=cds-CAY83120.1;Parent=gene-env;Dbxref=GOA:D2EAS3,InterPro:IPR000328,InterPro:IPR000777,UniProtKB/TrEMBL:D2EAS3,NCBI_GP:CAY83120.1;Name=CAY83120.1;gbkey=CDS;gene=env;product=envelope polyprotein;protein_id=CAY83120.1;transl_except=(pos:5735..5737%2Caa:Met)
+FN392875.1	EMBL	mature_protein_region_of_CDS	7232	8266	.	+	.	ID=id-CAY83120.1:500..844;Parent=cds-CAY83120.1;gbkey=Prot;product=gp41
+FN392875.1	EMBL	gene	8271	8536	.	+	.	ID=gene-nef;Name=nef;end_range=8536,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+FN392875.1	EMBL	CDS	8271	8536	.	+	0	ID=cds-CAY83121.1;Parent=gene-nef;Dbxref=GOA:D2EAS4,InterPro:IPR001558,UniProtKB/TrEMBL:D2EAS4,NCBI_GP:CAY83121.1;Name=CAY83121.1;end_range=8536,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=CAY83121.1
+###

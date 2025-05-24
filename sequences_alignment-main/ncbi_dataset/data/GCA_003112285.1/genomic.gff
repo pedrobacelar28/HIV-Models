@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM311228v1
+#!genome-build-accession NCBI_Assembly:GCA_003112285.1
+##sequence-region AF286240.1 1 5100
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF286240.1	Genbank	region	1	5100	.	+	.	ID=AF286240.1:1..5100;Dbxref=taxon:11676;country=Republic of the Congo;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=97CDKFE4;mol_type=genomic DNA;note=isolated in 1997;old-name=Human immunodeficiency virus type 1;subtype=A
+AF286240.1	Genbank	gene	1	1097	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AF286240.1	Genbank	CDS	1	1097	.	+	2	ID=cds-AAK67311.1;Parent=gene-gag;Dbxref=NCBI_GP:AAK67311.1;Name=AAK67311.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AAK67311.1;start_range=.,1
+AF286240.1	Genbank	gene	914	3901	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,914
+AF286240.1	Genbank	CDS	914	3901	.	+	0	ID=cds-AAK67310.1;Parent=gene-pol;Dbxref=NCBI_GP:AAK67310.1;Name=AAK67310.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAK67310.1;start_range=.,914
+###

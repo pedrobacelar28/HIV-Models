@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310133v1
+#!genome-build-accession NCBI_Assembly:GCA_003101335.1
+##sequence-region EF614151.1 1 8739
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EF614151.1	Genbank	region	1	8739	.	+	.	ID=EF614151.1:1..8739;Dbxref=taxon:11676;country=Democratic Republic of the Congo;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=J_97DC.KTB147;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1
+EF614151.1	Genbank	gene	1	1862	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=other;partial=true;start_range=.,1
+EF614151.1	Genbank	sequence_feature	1	1862	.	+	.	ID=id-gag;Note=nonfunctional gag protein due to mutation;gbkey=misc_feature;gene=gag;partial=true;start_range=.,1
+EF614151.1	Genbank	gene	1286	4272	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other;partial=true;start_range=.,1286
+EF614151.1	Genbank	sequence_feature	1286	4272	.	+	.	ID=id-pol;Note=nonfunctional pol protein due to mutation;gbkey=misc_feature;gene=pol;partial=true;start_range=.,1286
+EF614151.1	Genbank	gene	4235	4813	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+EF614151.1	Genbank	CDS	4235	4813	.	+	0	ID=cds-ABR20448.1;Parent=gene-vif;Dbxref=NCBI_GP:ABR20448.1;Name=ABR20448.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABR20448.1
+EF614151.1	Genbank	gene	4753	5043	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EF614151.1	Genbank	CDS	4753	5043	.	+	0	ID=cds-ABR20447.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABR20447.1;Name=ABR20447.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABR20447.1
+EF614151.1	Genbank	gene	5024	7672	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EF614151.1	Genbank	CDS	5024	5238	.	+	0	ID=cds-ABR20449.1;Parent=gene-tat;Dbxref=NCBI_GP:ABR20449.1;Name=ABR20449.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABR20449.1
+EF614151.1	Genbank	CDS	7582	7672	.	+	1	ID=cds-ABR20449.1;Parent=gene-tat;Dbxref=NCBI_GP:ABR20449.1;Name=ABR20449.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABR20449.1
+EF614151.1	Genbank	gene	5095	7856	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EF614151.1	Genbank	CDS	5163	5238	.	+	0	ID=cds-ABR20450.1;Parent=gene-rev;Dbxref=NCBI_GP:ABR20450.1;Name=ABR20450.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABR20450.1
+EF614151.1	Genbank	CDS	7582	7856	.	+	2	ID=cds-ABR20450.1;Parent=gene-rev;Dbxref=NCBI_GP:ABR20450.1;Name=ABR20450.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABR20450.1
+EF614151.1	Genbank	gene	5265	5510	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EF614151.1	Genbank	CDS	5265	5510	.	+	0	ID=cds-ABR20451.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABR20451.1;Name=ABR20451.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABR20451.1
+EF614151.1	Genbank	gene	5437	7998	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+EF614151.1	Genbank	CDS	5437	7998	.	+	0	ID=cds-ABR20452.1;Parent=gene-env;Dbxref=NCBI_GP:ABR20452.1;Name=ABR20452.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ABR20452.1
+EF614151.1	Genbank	gene	7962	8582	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EF614151.1	Genbank	CDS	8007	8582	.	+	0	ID=cds-ABR20453.1;Parent=gene-nef;Dbxref=NCBI_GP:ABR20453.1;Name=ABR20453.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ABR20453.1
+###

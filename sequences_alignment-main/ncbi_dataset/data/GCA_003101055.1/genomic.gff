@@ -1,0 +1,28 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310105v1
+#!genome-build-accession NCBI_Assembly:GCA_003101055.1
+##sequence-region DQ853463.1 1 9210
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+DQ853463.1	Genbank	region	1	9210	.	+	.	ID=DQ853463.1:1..9210;Dbxref=taxon:11676;collection-date=Oct-1998;country=USA;gb-acronym=HIV-1;gbkey=Src;isolate=15384.1;isolation-source=plasma;mol_type=genomic RNA;note=patient PIC1365%2C A*0101%2C A*0201%2C B*0801%2C B*5001/5004%2C Cw*0602 and Cw*0701.;subtype=B
+DQ853463.1	Genbank	gene	251	871	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+DQ853463.1	Genbank	CDS	251	871	.	+	0	ID=cds-ABI80019.1;Parent=gene-gag;Dbxref=NCBI_GP:ABI80019.1;Name=ABI80019.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ABI80019.1
+DQ853463.1	Genbank	gene	1544	4579	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1544
+DQ853463.1	Genbank	CDS	1544	4579	.	+	0	ID=cds-ABI80020.1;Parent=gene-pol;Dbxref=NCBI_GP:ABI80020.1;Name=ABI80020.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ABI80020.1;start_range=.,1544
+DQ853463.1	Genbank	gene	4524	5102	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+DQ853463.1	Genbank	CDS	4524	5102	.	+	0	ID=cds-ABI80021.1;Parent=gene-vif;Dbxref=NCBI_GP:ABI80021.1;Name=ABI80021.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABI80021.1
+DQ853463.1	Genbank	gene	5042	5332	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+DQ853463.1	Genbank	CDS	5042	5332	.	+	0	ID=cds-ABI80022.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABI80022.1;Name=ABI80022.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABI80022.1
+DQ853463.1	Genbank	gene	5313	7987	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+DQ853463.1	Genbank	CDS	5313	5527	.	+	0	ID=cds-ABI80023.1;Parent=gene-tat;Dbxref=NCBI_GP:ABI80023.1;Name=ABI80023.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABI80023.1
+DQ853463.1	Genbank	CDS	7903	7987	.	+	1	ID=cds-ABI80023.1;Parent=gene-tat;Dbxref=NCBI_GP:ABI80023.1;Name=ABI80023.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABI80023.1
+DQ853463.1	Genbank	gene	5452	8177	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+DQ853463.1	Genbank	CDS	5452	5527	.	+	0	ID=cds-ABI80024.1;Parent=gene-rev;Dbxref=NCBI_GP:ABI80024.1;Name=ABI80024.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABI80024.1
+DQ853463.1	Genbank	CDS	7903	8177	.	+	2	ID=cds-ABI80024.1;Parent=gene-rev;Dbxref=NCBI_GP:ABI80024.1;Name=ABI80024.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABI80024.1
+DQ853463.1	Genbank	gene	5544	5789	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+DQ853463.1	Genbank	CDS	5544	5789	.	+	0	ID=cds-ABI80025.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABI80025.1;Name=ABI80025.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABI80025.1
+DQ853463.1	Genbank	gene	5707	8319	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+DQ853463.1	Genbank	CDS	5707	8319	.	+	0	ID=cds-ABI80026.1;Parent=gene-env;Dbxref=NCBI_GP:ABI80026.1;Name=ABI80026.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ABI80026.1
+DQ853463.1	Genbank	gene	8321	8971	.	+	.	ID=gene-nef;Name=nef;Note=nef coding sequence lacks start codon;gbkey=Gene;gene=nef;gene_biotype=other
+###

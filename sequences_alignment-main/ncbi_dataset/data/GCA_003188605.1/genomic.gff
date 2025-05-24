@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318860v1
+#!genome-build-accession NCBI_Assembly:GCA_003188605.1
+##sequence-region KF526226.1 1 9050
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KF526226.1	Genbank	region	1	9050	.	+	.	ID=KF526226.1:1..9050;Dbxref=taxon:11676;collection-date=16-Mar-2011;country=USA;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=17TB4_4G8;mol_type=genomic DNA;nat-host=Homo sapiens;note=insertion;subtype=C
+KF526226.1	Genbank	gene	120	1643	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KF526226.1	Genbank	CDS	120	1643	.	+	0	ID=cds-AGV33202.1;Parent=gene-gag;Dbxref=NCBI_GP:AGV33202.1;Name=AGV33202.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AGV33202.1
+KF526226.1	Genbank	gene	1406	4447	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1406
+KF526226.1	Genbank	CDS	1406	4447	.	+	0	ID=cds-AGV33203.1;Parent=gene-pol;Dbxref=NCBI_GP:AGV33203.1;Name=AGV33203.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AGV33203.1;start_range=.,1406
+KF526226.1	Genbank	gene	4392	4970	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KF526226.1	Genbank	CDS	4392	4970	.	+	0	ID=cds-AGV33204.1;Parent=gene-vif;Dbxref=NCBI_GP:AGV33204.1;Name=AGV33204.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AGV33204.1
+KF526226.1	Genbank	gene	4910	5200	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KF526226.1	Genbank	CDS	4910	5200	.	+	0	ID=cds-AGV33205.1;Parent=gene-vpr;Dbxref=NCBI_GP:AGV33205.1;Name=AGV33205.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AGV33205.1
+KF526226.1	Genbank	gene	5181	7815	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KF526226.1	Genbank	CDS	5181	5395	.	+	0	ID=cds-AGV33206.1;Parent=gene-tat;Dbxref=NCBI_GP:AGV33206.1;Name=AGV33206.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AGV33206.1
+KF526226.1	Genbank	CDS	7725	7815	.	+	1	ID=cds-AGV33206.1;Parent=gene-tat;Dbxref=NCBI_GP:AGV33206.1;Name=AGV33206.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AGV33206.1
+KF526226.1	Genbank	gene	5320	7972	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KF526226.1	Genbank	CDS	5320	5395	.	+	0	ID=cds-AGV33207.1;Parent=gene-rev;Dbxref=NCBI_GP:AGV33207.1;Name=AGV33207.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AGV33207.1
+KF526226.1	Genbank	CDS	7725	7972	.	+	2	ID=cds-AGV33207.1;Parent=gene-rev;Dbxref=NCBI_GP:AGV33207.1;Name=AGV33207.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AGV33207.1
+KF526226.1	Genbank	gene	5419	5679	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KF526226.1	Genbank	CDS	5419	5679	.	+	0	ID=cds-AGV33208.1;Parent=gene-vpu;Dbxref=NCBI_GP:AGV33208.1;Name=AGV33208.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AGV33208.1
+KF526226.1	Genbank	gene	5597	8162	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=other
+KF526226.1	Genbank	sequence_feature	5597	8162	.	+	.	ID=id-env;Note=nonfunctional envelope glycoprotein due to mutation;gbkey=misc_feature;gene=env
+KF526226.1	Genbank	gene	8164	8817	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KF526226.1	Genbank	CDS	8164	8817	.	+	0	ID=cds-AGV33209.1;Parent=gene-nef;Dbxref=NCBI_GP:AGV33209.1;Name=AGV33209.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AGV33209.1
+###

@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310205v1
+#!genome-build-accession NCBI_Assembly:GCA_003102055.1
+##sequence-region GQ175882.1 1 8893
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+GQ175882.1	Genbank	region	1	8893	.	+	.	ID=GQ175882.1:1..8893;Dbxref=taxon:11676;country=Malaysia: Kuantan;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=07MYKT016;mol_type=genomic DNA;nat-host=Homo sapiens;note=clade CRF46_01B
+GQ175882.1	Genbank	gene	1	1506	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+GQ175882.1	Genbank	CDS	1	1506	.	+	0	ID=cds-AEA77101.1;Parent=gene-gag;Dbxref=NCBI_GP:AEA77101.1;Name=AEA77101.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AEA77101.1
+GQ175882.1	Genbank	gene	1299	4310	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1299
+GQ175882.1	Genbank	CDS	1299	4310	.	+	0	ID=cds-AEA77102.1;Parent=gene-pol;Dbxref=NCBI_GP:AEA77102.1;Name=AEA77102.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AEA77102.1;start_range=.,1299
+GQ175882.1	Genbank	gene	4255	4833	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+GQ175882.1	Genbank	CDS	4255	4833	.	+	0	ID=cds-AEA77103.1;Parent=gene-vif;Dbxref=NCBI_GP:AEA77103.1;Name=AEA77103.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AEA77103.1
+GQ175882.1	Genbank	gene	4773	5063	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+GQ175882.1	Genbank	CDS	4773	5063	.	+	0	ID=cds-AEA77104.1;Parent=gene-vpr;Dbxref=NCBI_GP:AEA77104.1;Name=AEA77104.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AEA77104.1
+GQ175882.1	Genbank	gene	5044	7689	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+GQ175882.1	Genbank	CDS	5044	5258	.	+	0	ID=cds-AEA77105.1;Parent=gene-tat;Dbxref=NCBI_GP:AEA77105.1;Name=AEA77105.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AEA77105.1
+GQ175882.1	Genbank	CDS	7599	7689	.	+	1	ID=cds-AEA77105.1;Parent=gene-tat;Dbxref=NCBI_GP:AEA77105.1;Name=AEA77105.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AEA77105.1
+GQ175882.1	Genbank	gene	5183	7894	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+GQ175882.1	Genbank	CDS	5183	5258	.	+	0	ID=cds-AEA77106.1;Parent=gene-rev;Dbxref=NCBI_GP:AEA77106.1;Name=AEA77106.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AEA77106.1
+GQ175882.1	Genbank	CDS	7599	7894	.	+	2	ID=cds-AEA77106.1;Parent=gene-rev;Dbxref=NCBI_GP:AEA77106.1;Name=AEA77106.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AEA77106.1
+GQ175882.1	Genbank	gene	5279	5524	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+GQ175882.1	Genbank	CDS	5279	5524	.	+	0	ID=cds-AEA77107.1;Parent=gene-vpu;Dbxref=NCBI_GP:AEA77107.1;Name=AEA77107.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AEA77107.1
+GQ175882.1	Genbank	gene	5442	8036	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+GQ175882.1	Genbank	CDS	5442	8036	.	+	0	ID=cds-AEA77108.1;Parent=gene-env;Dbxref=NCBI_GP:AEA77108.1;Name=AEA77108.1;gbkey=CDS;gene=env;product=env protein;protein_id=AEA77108.1
+GQ175882.1	Genbank	gene	8038	8655	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+GQ175882.1	Genbank	CDS	8038	8655	.	+	0	ID=cds-AEA77109.1;Parent=gene-nef;Dbxref=NCBI_GP:AEA77109.1;Name=AEA77109.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AEA77109.1
+###

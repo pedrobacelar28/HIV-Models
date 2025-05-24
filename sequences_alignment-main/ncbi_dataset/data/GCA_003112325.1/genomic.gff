@@ -1,0 +1,11 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM311232v1
+#!genome-build-accession NCBI_Assembly:GCA_003112325.1
+##sequence-region AF286241.1 1 5323
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF286241.1	Genbank	region	1	5323	.	+	.	ID=AF286241.1:1..5323;Dbxref=taxon:11676;country=Republic of the Congo;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=97CDKS10;mol_type=genomic DNA;note=isolated in 1997;old-name=Human immunodeficiency virus type 1;subtype=A
+AF286241.1	Genbank	gene	2347	4932	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF286241.1	Genbank	CDS	2347	4932	.	+	0	ID=cds-AAK67312.1;Parent=gene-env;Dbxref=NCBI_GP:AAK67312.1;Name=AAK67312.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAK67312.1
+###

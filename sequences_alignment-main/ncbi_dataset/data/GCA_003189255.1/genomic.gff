@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318925v1
+#!genome-build-accession NCBI_Assembly:GCA_003189255.1
+##sequence-region GQ290462.1 1 9049
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+GQ290462.1	Genbank	region	1	9049	.	+	.	ID=GQ290462.1:1..9049;Dbxref=taxon:11676;collection-date=2008;country=Russia: St. Petersburg;gb-acronym=HIV-1;gbkey=Src;isolate=D88_845;isolation-source=plasma;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=F1
+GQ290462.1	Genbank	long_terminal_repeat	1	91	.	+	.	ID=id-GQ290462.1:1..91;Note=5' long terminal repeat%3B LTR5;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+GQ290462.1	Genbank	gene	246	1751	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+GQ290462.1	Genbank	CDS	246	1742	.	+	0	ID=cds-ACZ60059.1;Parent=gene-gag;Dbxref=NCBI_GP:ACZ60059.1;Name=ACZ60059.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACZ60059.1
+GQ290462.1	Genbank	gene	1544	4555	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1544
+GQ290462.1	Genbank	CDS	1544	4555	.	+	0	ID=cds-ACZ60060.1;Parent=gene-pol;Dbxref=NCBI_GP:ACZ60060.1;Name=ACZ60060.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACZ60060.1;start_range=.,1544
+GQ290462.1	Genbank	gene	4500	5078	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+GQ290462.1	Genbank	CDS	4500	5078	.	+	0	ID=cds-ACZ60061.1;Parent=gene-vif;Dbxref=NCBI_GP:ACZ60061.1;Name=ACZ60061.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACZ60061.1
+GQ290462.1	Genbank	gene	5018	5308	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+GQ290462.1	Genbank	CDS	5018	5308	.	+	0	ID=cds-ACZ60062.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACZ60062.1;Name=ACZ60062.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACZ60062.1
+GQ290462.1	Genbank	gene	5289	7955	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+GQ290462.1	Genbank	CDS	5289	5503	.	+	0	ID=cds-ACZ60066.1;Parent=gene-tat;Dbxref=NCBI_GP:ACZ60066.1;Name=ACZ60066.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACZ60066.1
+GQ290462.1	Genbank	CDS	7865	7949	.	+	1	ID=cds-ACZ60066.1;Parent=gene-tat;Dbxref=NCBI_GP:ACZ60066.1;Name=ACZ60066.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACZ60066.1
+GQ290462.1	Genbank	gene	5428	8139	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+GQ290462.1	Genbank	CDS	5428	5503	.	+	0	ID=cds-ACZ60065.1;Parent=gene-rev;Dbxref=NCBI_GP:ACZ60065.1;Name=ACZ60065.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACZ60065.1
+GQ290462.1	Genbank	CDS	7865	8139	.	+	2	ID=cds-ACZ60065.1;Parent=gene-rev;Dbxref=NCBI_GP:ACZ60065.1;Name=ACZ60065.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACZ60065.1
+GQ290462.1	Genbank	gene	5530	5775	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+GQ290462.1	Genbank	CDS	5530	5775	.	+	0	ID=cds-ACZ60063.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACZ60063.1;Name=ACZ60063.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACZ60063.1
+GQ290462.1	Genbank	gene	5693	8281	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+GQ290462.1	Genbank	CDS	5693	8281	.	+	0	ID=cds-ACZ60064.1;Parent=gene-env;Dbxref=NCBI_GP:ACZ60064.1;Name=ACZ60064.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACZ60064.1
+GQ290462.1	Genbank	gene	8288	8955	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+GQ290462.1	Genbank	CDS	8288	8932	.	+	0	ID=cds-ACZ60067.1;Parent=gene-nef;Dbxref=NCBI_GP:ACZ60067.1;Name=ACZ60067.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACZ60067.1
+GQ290462.1	Genbank	long_terminal_repeat	8604	9049	.	+	.	ID=id-GQ290462.1:8604..9049;Note=3' long terminal repeat%3B LTR3;end_range=9049,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+###

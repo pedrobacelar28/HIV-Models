@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM385607v1
+#!genome-build-accession NCBI_Assembly:GCA_003856075.1
+##sequence-region KU820847.1 1 8319
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KU820847.1	Genbank	region	1	8319	.	+	.	ID=KU820847.1:1..8319;Dbxref=taxon:11676;collection-date=28-Nov-2013;country=Myanmar;gb-acronym=HIV-1;gbkey=Src;genome=proviral;genotype=83_cpx;isolate=mSSDU94;mol_type=genomic DNA;nat-host=Homo sapiens;old-name=HIV1
+KU820847.1	Genbank	gene	1	1464	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+KU820847.1	Genbank	CDS	1	1464	.	+	0	ID=cds-AMQ24567.1;Parent=gene-gag;Dbxref=NCBI_GP:AMQ24567.1;Name=AMQ24567.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AMQ24567.1;start_range=.,1
+KU820847.1	Genbank	gene	1269	4268	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1269
+KU820847.1	Genbank	CDS	1269	4268	.	+	0	ID=cds-AMQ24568.1;Parent=gene-pol;Dbxref=NCBI_GP:AMQ24568.1;Name=AMQ24568.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AMQ24568.1;start_range=.,1269
+KU820847.1	Genbank	gene	4213	4794	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KU820847.1	Genbank	CDS	4213	4794	.	+	0	ID=cds-AMQ24569.1;Parent=gene-vif;Dbxref=NCBI_GP:AMQ24569.1;Name=AMQ24569.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AMQ24569.1
+KU820847.1	Genbank	gene	4734	5024	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KU820847.1	Genbank	CDS	4734	5024	.	+	0	ID=cds-AMQ24570.1;Parent=gene-vpr;Dbxref=NCBI_GP:AMQ24570.1;Name=AMQ24570.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AMQ24570.1
+KU820847.1	Genbank	gene	5005	7644	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KU820847.1	Genbank	CDS	5005	5219	.	+	0	ID=cds-AMQ24571.1;Parent=gene-tat;Dbxref=NCBI_GP:AMQ24571.1;Name=AMQ24571.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AMQ24571.1
+KU820847.1	Genbank	CDS	7554	7644	.	+	1	ID=cds-AMQ24571.1;Parent=gene-tat;Dbxref=NCBI_GP:AMQ24571.1;Name=AMQ24571.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AMQ24571.1
+KU820847.1	Genbank	gene	5144	7849	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KU820847.1	Genbank	CDS	5144	5219	.	+	0	ID=cds-AMQ24572.1;Parent=gene-rev;Dbxref=NCBI_GP:AMQ24572.1;Name=AMQ24572.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AMQ24572.1
+KU820847.1	Genbank	CDS	7554	7849	.	+	2	ID=cds-AMQ24572.1;Parent=gene-rev;Dbxref=NCBI_GP:AMQ24572.1;Name=AMQ24572.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AMQ24572.1
+KU820847.1	Genbank	gene	5240	5485	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KU820847.1	Genbank	CDS	5240	5485	.	+	0	ID=cds-AMQ24573.1;Parent=gene-vpu;Dbxref=NCBI_GP:AMQ24573.1;Name=AMQ24573.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AMQ24573.1
+KU820847.1	Genbank	gene	5403	7991	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KU820847.1	Genbank	CDS	5403	7991	.	+	0	ID=cds-AMQ24574.1;Parent=gene-env;Dbxref=NCBI_GP:AMQ24574.1;Name=AMQ24574.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AMQ24574.1
+KU820847.1	Genbank	gene	7993	8319	.	+	.	ID=gene-nef;Name=nef;end_range=8319,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+KU820847.1	Genbank	CDS	7993	8319	.	+	0	ID=cds-AMQ24575.1;Parent=gene-nef;Dbxref=NCBI_GP:AMQ24575.1;Name=AMQ24575.1;end_range=8319,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=AMQ24575.1
+###

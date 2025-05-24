@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310179v1
+#!genome-build-accession NCBI_Assembly:GCA_003101795.1
+##sequence-region EU735539.1 1 9105
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EU735539.1	Genbank	region	1	9105	.	+	.	ID=EU735539.1:1..9105;Dbxref=taxon:11676;collection-date=2005;country=Brazil;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=05BRRJ200;mol_type=genomic DNA;nat-host=Homo sapiens;old-name=Human immunodeficiency virus type 1;subtype=CRF40_BF
+EU735539.1	Genbank	gene	334	1830	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+EU735539.1	Genbank	CDS	334	1830	.	+	0	ID=cds-ACF04074.1;Parent=gene-gag;Dbxref=NCBI_GP:ACF04074.1;Name=ACF04074.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACF04074.1
+EU735539.1	Genbank	gene	1632	4643	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1632
+EU735539.1	Genbank	CDS	1632	4643	.	+	0	ID=cds-ACF04080.1;Parent=gene-pol;Dbxref=NCBI_GP:ACF04080.1;Name=ACF04080.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACF04080.1;start_range=.,1632
+EU735539.1	Genbank	gene	4588	5166	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+EU735539.1	Genbank	CDS	4588	5166	.	+	0	ID=cds-ACF04075.1;Parent=gene-vif;Dbxref=NCBI_GP:ACF04075.1;Name=ACF04075.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACF04075.1
+EU735539.1	Genbank	gene	5106	5396	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EU735539.1	Genbank	CDS	5106	5396	.	+	0	ID=cds-ACF04076.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACF04076.1;Name=ACF04076.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACF04076.1
+EU735539.1	Genbank	gene	5377	8030	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EU735539.1	Genbank	CDS	5377	5591	.	+	0	ID=cds-ACF04081.1;Parent=gene-tat;Dbxref=NCBI_GP:ACF04081.1;Name=ACF04081.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACF04081.1
+EU735539.1	Genbank	CDS	7940	8030	.	+	1	ID=cds-ACF04081.1;Parent=gene-tat;Dbxref=NCBI_GP:ACF04081.1;Name=ACF04081.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACF04081.1
+EU735539.1	Genbank	gene	5516	8214	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EU735539.1	Genbank	CDS	5516	5591	.	+	0	ID=cds-ACF04082.1;Parent=gene-rev;Dbxref=NCBI_GP:ACF04082.1;Name=ACF04082.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACF04082.1
+EU735539.1	Genbank	CDS	7940	8214	.	+	2	ID=cds-ACF04082.1;Parent=gene-rev;Dbxref=NCBI_GP:ACF04082.1;Name=ACF04082.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACF04082.1
+EU735539.1	Genbank	gene	5608	5853	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EU735539.1	Genbank	CDS	5608	5853	.	+	0	ID=cds-ACF04077.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACF04077.1;Name=ACF04077.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACF04077.1
+EU735539.1	Genbank	gene	5771	8356	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+EU735539.1	Genbank	CDS	5771	8356	.	+	0	ID=cds-ACF04078.1;Parent=gene-env;Dbxref=NCBI_GP:ACF04078.1;Name=ACF04078.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACF04078.1
+EU735539.1	Genbank	gene	8358	8990	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EU735539.1	Genbank	CDS	8358	8990	.	+	0	ID=cds-ACF04079.1;Parent=gene-nef;Dbxref=NCBI_GP:ACF04079.1;Name=ACF04079.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACF04079.1
+###

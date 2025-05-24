@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM319026v1
+#!genome-build-accession NCBI_Assembly:GCA_003190265.1
+##sequence-region FJ670522.1 1 9028
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+FJ670522.1	Genbank	region	1	9028	.	+	.	ID=FJ670522.1:1..9028;Dbxref=taxon:11676;collection-date=29-Sep-2005;country=Spain;gb-acronym=HIV-1;gbkey=Src;isolation-source=PBMCs of patient co-cultured during 28 days with PHA-stimulated PBMCs from a HIV sero-negative donor;mol_type=genomic RNA;nat-host=Homo sapiens;serotype=CRF14_BG;strain=ES X1870
+FJ670522.1	Genbank	long_terminal_repeat	1	91	.	+	.	ID=id-FJ670522.1:1..91;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+FJ670522.1	Genbank	gene	266	1750	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+FJ670522.1	Genbank	CDS	266	1750	.	+	0	ID=cds-ACY70051.1;Parent=gene-gag;Dbxref=NCBI_GP:ACY70051.1;Name=ACY70051.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACY70051.1
+FJ670522.1	Genbank	gene	1555	4563	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1555
+FJ670522.1	Genbank	CDS	1555	4563	.	+	0	ID=cds-ACY70052.1;Parent=gene-pol;Dbxref=NCBI_GP:ACY70052.1;Name=ACY70052.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACY70052.1;start_range=.,1555
+FJ670522.1	Genbank	gene	4508	5086	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+FJ670522.1	Genbank	CDS	4508	5086	.	+	0	ID=cds-ACY70053.1;Parent=gene-vif;Dbxref=NCBI_GP:ACY70053.1;Name=ACY70053.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACY70053.1
+FJ670522.1	Genbank	gene	5026	5316	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+FJ670522.1	Genbank	CDS	5026	5316	.	+	0	ID=cds-ACY70054.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACY70054.1;Name=ACY70054.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACY70054.1
+FJ670522.1	Genbank	gene	5297	7951	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+FJ670522.1	Genbank	CDS	5297	5511	.	+	0	ID=cds-ACY70058.1;Parent=gene-tat;Dbxref=NCBI_GP:ACY70058.1;Name=ACY70058.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACY70058.1
+FJ670522.1	Genbank	CDS	7861	7951	.	+	1	ID=cds-ACY70058.1;Parent=gene-tat;Dbxref=NCBI_GP:ACY70058.1;Name=ACY70058.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACY70058.1
+FJ670522.1	Genbank	gene	5436	8156	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+FJ670522.1	Genbank	CDS	5436	5511	.	+	0	ID=cds-ACY70057.1;Parent=gene-rev;Dbxref=NCBI_GP:ACY70057.1;Name=ACY70057.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACY70057.1
+FJ670522.1	Genbank	CDS	7861	8156	.	+	2	ID=cds-ACY70057.1;Parent=gene-rev;Dbxref=NCBI_GP:ACY70057.1;Name=ACY70057.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACY70057.1
+FJ670522.1	Genbank	gene	5538	5780	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+FJ670522.1	Genbank	CDS	5538	5780	.	+	0	ID=cds-ACY70055.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACY70055.1;Name=ACY70055.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACY70055.1
+FJ670522.1	Genbank	gene	5701	8298	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+FJ670522.1	Genbank	CDS	5701	8298	.	+	0	ID=cds-ACY70056.1;Parent=gene-env;Dbxref=NCBI_GP:ACY70056.1;Name=ACY70056.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACY70056.1
+FJ670522.1	Genbank	gene	8300	8923	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+FJ670522.1	Genbank	CDS	8300	8923	.	+	0	ID=cds-ACY70059.1;Parent=gene-nef;Dbxref=NCBI_GP:ACY70059.1;Name=ACY70059.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACY70059.1
+FJ670522.1	Genbank	long_terminal_repeat	8592	9028	.	+	.	ID=id-FJ670522.1:8592..9028;end_range=9028,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+###

@@ -1,0 +1,23 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309881v1
+#!genome-build-accession NCBI_Assembly:GCA_003098815.1
+##sequence-region AF377959.1 1 8828
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF377959.1	Genbank	region	1	8828	.	+	.	ID=AF377959.1:1..8828;Dbxref=taxon:11676;country=Cameroon: Koutaba;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=CM53379;mol_type=genomic DNA;note=isolated from PBMC of a 46-year-old male in 1997%3B infected by heterosexual contact and had a viral load of 153%2C000 RNA copies/ml.;old-name=HIV-1;subtype=novel complex recombinant
+AF377959.1	Genbank	gene	1	4290	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AF377959.1	Genbank	CDS	1	4290	.	+	0	ID=cds-AAK59212.1;Parent=gene-gag;Dbxref=NCBI_GP:AAK59212.1;Name=AAK59212.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AAK59212.1;start_range=.,1
+AF377959.1	Genbank	gene	1281	4290	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1281
+AF377959.1	Genbank	CDS	1281	1535	.	+	0	ID=cds-AAK59213.1;Parent=gene-pol;Dbxref=NCBI_GP:AAK59213.1;Name=AAK59213.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAK59213.1;start_range=.,1281
+AF377959.1	Genbank	gene	4235	4813	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF377959.1	Genbank	CDS	4235	4813	.	+	0	ID=cds-AAK59214.1;Parent=gene-vif;Dbxref=NCBI_GP:AAK59214.1;Name=AAK59214.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAK59214.1
+AF377959.1	Genbank	gene	4753	5043	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF377959.1	Genbank	CDS	4753	5043	.	+	0	ID=cds-AAK59215.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAK59215.1;Name=AAK59215.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAK59215.1
+AF377959.1	Genbank	sequence_feature	5024	7667	.	+	.	ID=id-AF377959.1:5024..7667;Note=nonfunctional tat protein due to mutation;gbkey=misc_feature
+AF377959.1	Genbank	sequence_feature	5163	7872	.	+	.	ID=id-AF377959.1:5163..7872;Note=nonfunctional rev protein due to mutation;gbkey=misc_feature
+AF377959.1	Genbank	gene	5263	5517	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF377959.1	Genbank	CDS	5263	5508	.	+	0	ID=cds-AAK59216.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAK59216.1;Name=AAK59216.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAK59216.1
+AF377959.1	Genbank	gene	5426	8014	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF377959.1	Genbank	CDS	5426	8014	.	+	0	ID=cds-AAK59217.1;Parent=gene-env;Dbxref=NCBI_GP:AAK59217.1;Name=AAK59217.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAK59217.1
+###

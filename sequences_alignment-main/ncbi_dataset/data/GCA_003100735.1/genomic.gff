@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310073v1
+#!genome-build-accession NCBI_Assembly:GCA_003100735.1
+##sequence-region DQ207944.1 1 8792
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+DQ207944.1	Genbank	region	1	8792	.	+	.	ID=DQ207944.1:1..8792;Dbxref=taxon:11676;collection-date=1999;country=Georgia: Tbilisi;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=99GEMZ011;isolation-source=blood from injecting drug user who may have been infected in Ukraine;mol_type=genomic DNA;old-name=HIV-1;subtype=A
+DQ207944.1	Genbank	gene	1	1476	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+DQ207944.1	Genbank	CDS	1	1476	.	+	0	ID=cds-ABB29382.1;Parent=gene-gag;Dbxref=NCBI_GP:ABB29382.1;Name=ABB29382.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=ABB29382.1;start_range=.,1
+DQ207944.1	Genbank	gene	1269	4280	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1269
+DQ207944.1	Genbank	CDS	1269	4280	.	+	0	ID=cds-ABB29383.1;Parent=gene-pol;Dbxref=NCBI_GP:ABB29383.1;Name=ABB29383.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ABB29383.1;start_range=.,1269
+DQ207944.1	Genbank	gene	4225	4803	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+DQ207944.1	Genbank	CDS	4225	4803	.	+	0	ID=cds-ABB29384.1;Parent=gene-vif;Dbxref=NCBI_GP:ABB29384.1;Name=ABB29384.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABB29384.1
+DQ207944.1	Genbank	gene	4743	5033	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+DQ207944.1	Genbank	CDS	4743	5033	.	+	0	ID=cds-ABB29385.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABB29385.1;Name=ABB29385.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABB29385.1
+DQ207944.1	Genbank	gene	5014	7644	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+DQ207944.1	Genbank	CDS	5014	5228	.	+	0	ID=cds-ABB29389.1;Parent=gene-tat;Dbxref=NCBI_GP:ABB29389.1;Name=ABB29389.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABB29389.1
+DQ207944.1	Genbank	CDS	7554	7644	.	+	1	ID=cds-ABB29389.1;Parent=gene-tat;Dbxref=NCBI_GP:ABB29389.1;Name=ABB29389.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABB29389.1
+DQ207944.1	Genbank	gene	5153	7849	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+DQ207944.1	Genbank	CDS	5153	5228	.	+	0	ID=cds-ABB29390.1;Parent=gene-rev;Dbxref=NCBI_GP:ABB29390.1;Name=ABB29390.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABB29390.1
+DQ207944.1	Genbank	CDS	7554	7849	.	+	2	ID=cds-ABB29390.1;Parent=gene-rev;Dbxref=NCBI_GP:ABB29390.1;Name=ABB29390.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABB29390.1
+DQ207944.1	Genbank	gene	5249	5494	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+DQ207944.1	Genbank	CDS	5249	5494	.	+	0	ID=cds-ABB29386.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABB29386.1;Name=ABB29386.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABB29386.1
+DQ207944.1	Genbank	gene	5412	7991	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+DQ207944.1	Genbank	CDS	5412	7991	.	+	0	ID=cds-ABB29387.1;Parent=gene-env;Dbxref=NCBI_GP:ABB29387.1;Name=ABB29387.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ABB29387.1
+DQ207944.1	Genbank	gene	7993	8616	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+DQ207944.1	Genbank	CDS	7993	8616	.	+	0	ID=cds-ABB29388.1;Parent=gene-nef;Dbxref=NCBI_GP:ABB29388.1;Name=ABB29388.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ABB29388.1
+###

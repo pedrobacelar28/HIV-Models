@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309787v1
+#!genome-build-accession NCBI_Assembly:GCA_003097875.1
+##sequence-region AF004885.1 1 9160
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF004885.1	Genbank	region	1	9160	.	+	.	ID=AF004885.1:1..9160;Dbxref=taxon:11676;clone=CxC-B;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=Q23-CxC;mol_type=genomic DNA;note=from Kenya;old-name=Human immunodeficiency virus type 1
+AF004885.1	Genbank	mRNA	1	9087	.	+	.	ID=rna-AF004885.1:1..9087;gbkey=mRNA
+AF004885.1	Genbank	exon	1	9087	.	+	.	ID=exon-AF004885.1:1..9087-1;Parent=rna-AF004885.1:1..9087;gbkey=mRNA
+AF004885.1	Genbank	long_terminal_repeat	1	103	.	+	.	ID=id-AF004885.1:1..103;Note=5' long terminal repeat;gbkey=LTR;partial=true;start_range=.,1
+AF004885.1	Genbank	repeat_region	1	21	.	+	.	ID=id-AF004885.1:1..21;Note=R repeat 5' copy;gbkey=repeat_region;partial=true;start_range=.,1
+AF004885.1	Genbank	intron	209	5234	.	+	.	ID=id-AF004885.1:209..5234;Note=tat%2C rev mRNA intron 1;exon_number=1;gbkey=intron;number=1
+AF004885.1	Genbank	CDS	254	1544	.	+	0	ID=cds-AAC97532.1;Dbxref=NCBI_GP:AAC97532.1;Name=AAC97532.1;Note=-1 ribosomal slip at tttttt slippery sequence;gbkey=CDS;product=gag-pol polyprotein;protein_id=AAC97532.1
+AF004885.1	Genbank	CDS	1544	4554	.	+	2	ID=cds-AAC97532.1;Dbxref=NCBI_GP:AAC97532.1;Name=AAC97532.1;Note=-1 ribosomal slip at tttttt slippery sequence;gbkey=CDS;product=gag-pol polyprotein;protein_id=AAC97532.1
+AF004885.1	Genbank	gene	254	1750	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF004885.1	Genbank	CDS	254	1750	.	+	0	ID=cds-AAC97528.1;Parent=gene-gag;Dbxref=NCBI_GP:AAC97528.1;Name=AAC97528.1;gbkey=CDS;gene=gag;product=Gag protein;protein_id=AAC97528.1
+AF004885.1	Genbank	CDS	5288	5502	.	+	0	ID=cds-AAC97529.1;Dbxref=NCBI_GP:AAC97529.1;Name=AAC97529.1;gbkey=CDS;product=tat protein;protein_id=AAC97529.1
+AF004885.1	Genbank	CDS	7816	7906	.	+	1	ID=cds-AAC97529.1;Dbxref=NCBI_GP:AAC97529.1;Name=AAC97529.1;gbkey=CDS;product=tat protein;protein_id=AAC97529.1
+AF004885.1	Genbank	CDS	5427	5502	.	+	0	ID=cds-AAC97530.1;Dbxref=NCBI_GP:AAC97530.1;Name=AAC97530.1;gbkey=CDS;product=rev protein;protein_id=AAC97530.1
+AF004885.1	Genbank	CDS	7816	8111	.	+	2	ID=cds-AAC97530.1;Dbxref=NCBI_GP:AAC97530.1;Name=AAC97530.1;gbkey=CDS;product=rev protein;protein_id=AAC97530.1
+AF004885.1	Genbank	gene	5692	8253	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF004885.1	Genbank	CDS	5692	8253	.	+	0	ID=cds-AAC97527.1;Parent=gene-env;Dbxref=NCBI_GP:AAC97527.1;Name=AAC97527.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAC97527.1
+AF004885.1	Genbank	gene	8255	8869	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF004885.1	Genbank	CDS	8255	8869	.	+	0	ID=cds-AAC97531.1;Parent=gene-nef;Dbxref=NCBI_GP:AAC97531.1;Name=AAC97531.1;gbkey=CDS;gene=nef;product=Nef protein;protein_id=AAC97531.1
+AF004885.1	Genbank	long_terminal_repeat	8535	9160	.	+	.	ID=id-AF004885.1:8535..9160;Note=3' long terminal repeat;end_range=9160,.;gbkey=LTR;partial=true
+AF004885.1	Genbank	repeat_region	8993	9088	.	+	.	ID=id-AF004885.1:8993..9088;Note=R repeat 3' copy;gbkey=repeat_region
+AF004885.1	Genbank	region	9064	9069	.	+	.	ID=id-AF004885.1:9064..9069;gbkey=polyA_signal
+###

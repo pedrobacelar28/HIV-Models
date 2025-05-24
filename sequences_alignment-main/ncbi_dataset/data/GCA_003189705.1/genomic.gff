@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318970v1
+#!genome-build-accession NCBI_Assembly:GCA_003189705.1
+##sequence-region FJ711703.1 1 9081
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+FJ711703.1	Genbank	region	1	9081	.	+	.	ID=FJ711703.1:1..9081;Dbxref=taxon:11676;collection-date=2000;country=United Kingdom;gb-acronym=HIV-1;gbkey=Src;isolate=00GBAC4001;mol_type=genomic RNA;nat-host=Homo sapiens;note=patient from Democratic Republic of Congo%3B history of antiretroviral therapy;subtype=H
+FJ711703.1	Genbank	long_terminal_repeat	1	146	.	+	.	ID=id-FJ711703.1:1..146;gbkey=repeat_region;rpt_type=long_terminal_repeat
+FJ711703.1	Genbank	gene	311	1810	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+FJ711703.1	Genbank	CDS	311	1810	.	+	0	ID=cds-ACT78479.1;Parent=gene-gag;Dbxref=NCBI_GP:ACT78479.1;Name=ACT78479.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACT78479.1
+FJ711703.1	Genbank	gene	1609	4614	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1609
+FJ711703.1	Genbank	CDS	1609	4614	.	+	0	ID=cds-ACT78480.1;Parent=gene-pol;Dbxref=NCBI_GP:ACT78480.1;Name=ACT78480.1;Note=translated by ribosomal slippage;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACT78480.1;start_range=.,1609
+FJ711703.1	Genbank	gene	4559	5137	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+FJ711703.1	Genbank	CDS	4559	5137	.	+	0	ID=cds-ACT78481.1;Parent=gene-vif;Dbxref=NCBI_GP:ACT78481.1;Name=ACT78481.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACT78481.1
+FJ711703.1	Genbank	gene	5077	5367	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+FJ711703.1	Genbank	CDS	5077	5367	.	+	0	ID=cds-ACT78482.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACT78482.1;Name=ACT78482.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACT78482.1
+FJ711703.1	Genbank	gene	5348	7932	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+FJ711703.1	Genbank	CDS	5348	5562	.	+	0	ID=cds-ACT78483.1;Parent=gene-tat;Dbxref=NCBI_GP:ACT78483.1;Name=ACT78483.1;Note=contains premature termination codon;gbkey=CDS;gene=tat;product=truncated tat protein;protein_id=ACT78483.1
+FJ711703.1	Genbank	CDS	7887	7932	.	+	1	ID=cds-ACT78483.1;Parent=gene-tat;Dbxref=NCBI_GP:ACT78483.1;Name=ACT78483.1;Note=contains premature termination codon;gbkey=CDS;gene=tat;product=truncated tat protein;protein_id=ACT78483.1
+FJ711703.1	Genbank	gene	5487	8161	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+FJ711703.1	Genbank	CDS	5487	5562	.	+	0	ID=cds-ACT78484.1;Parent=gene-rev;Dbxref=NCBI_GP:ACT78484.1;Name=ACT78484.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACT78484.1
+FJ711703.1	Genbank	CDS	7887	8161	.	+	2	ID=cds-ACT78484.1;Parent=gene-rev;Dbxref=NCBI_GP:ACT78484.1;Name=ACT78484.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACT78484.1
+FJ711703.1	Genbank	gene	5576	5818	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+FJ711703.1	Genbank	CDS	5576	5818	.	+	0	ID=cds-ACT78485.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACT78485.1;Name=ACT78485.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACT78485.1
+FJ711703.1	Genbank	gene	5745	8303	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+FJ711703.1	Genbank	CDS	5745	8303	.	+	0	ID=cds-ACT78486.1;Parent=gene-env;Dbxref=NCBI_GP:ACT78486.1;Name=ACT78486.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACT78486.1
+FJ711703.1	Genbank	gene	8306	8929	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+FJ711703.1	Genbank	CDS	8306	8929	.	+	0	ID=cds-ACT78487.1;Parent=gene-nef;Dbxref=NCBI_GP:ACT78487.1;Name=ACT78487.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACT78487.1
+FJ711703.1	Genbank	long_terminal_repeat	8599	9081	.	+	.	ID=id-FJ711703.1:8599..9081;gbkey=repeat_region;rpt_type=long_terminal_repeat
+###

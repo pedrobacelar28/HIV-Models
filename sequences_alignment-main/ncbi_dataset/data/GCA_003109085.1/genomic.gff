@@ -1,0 +1,14 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310908v1
+#!genome-build-accession NCBI_Assembly:GCA_003109085.1
+##sequence-region AM000055.1 1 9740
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AM000055.1	EMBL	region	1	9740	.	+	.	ID=AM000055.1:1..9740;Dbxref=taxon:11676;country=Democratic Republic of the Congo;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=02CD.KTB035;mol_type=genomic DNA;note=subtype A4%3B~isolated in 2002
+AM000055.1	EMBL	gene	787	5090	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+AM000055.1	EMBL	CDS	787	2079	.	+	0	ID=cds-CAJ01210.1;Parent=gene-pol;Dbxref=GOA:Q2A7R5,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:Q2A7R5,NCBI_GP:CAJ01210.1;Name=CAJ01210.1;gbkey=CDS;gene=pol;product=gag-pol precursor;protein_id=CAJ01210.1
+AM000055.1	EMBL	CDS	2079	5090	.	+	0	ID=cds-CAJ01210.1;Parent=gene-pol;Dbxref=GOA:Q2A7R5,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:Q2A7R5,NCBI_GP:CAJ01210.1;Name=CAJ01210.1;gbkey=CDS;gene=pol;product=gag-pol precursor;protein_id=CAJ01210.1
+AM000055.1	EMBL	gene	787	2286	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AM000055.1	EMBL	CDS	787	2286	.	+	0	ID=cds-CAJ01212.1;Parent=gene-gag;Dbxref=GOA:Q2A7R4,InterPro:IPR000071,InterPro:IPR000721,InterPro:IPR001878,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR010999,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR014817,UniProtKB/TrEMBL:Q2A7R4,NCBI_GP:CAJ01212.1;Name=CAJ01212.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=CAJ01212.1
+###

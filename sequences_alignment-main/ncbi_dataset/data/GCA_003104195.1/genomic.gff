@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310419v1
+#!genome-build-accession NCBI_Assembly:GCA_003104195.1
+##sequence-region KR019772.1 1 8885
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KR019772.1	Genbank	region	1	8885	.	+	.	ID=KR019772.1:1..8885;Dbxref=taxon:11676;collection-date=2011;country=Malaysia;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=11MYPR416;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=CRF74_01B
+KR019772.1	Genbank	gene	106	1602	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KR019772.1	Genbank	CDS	106	1602	.	+	0	ID=cds-ALA56093.1;Parent=gene-gag;Dbxref=NCBI_GP:ALA56093.1;Name=ALA56093.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ALA56093.1
+KR019772.1	Genbank	gene	1395	4406	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1395
+KR019772.1	Genbank	CDS	1395	4406	.	+	0	ID=cds-ALA56094.1;Parent=gene-pol;Dbxref=NCBI_GP:ALA56094.1;Name=ALA56094.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ALA56094.1;start_range=.,1395
+KR019772.1	Genbank	gene	4351	4929	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KR019772.1	Genbank	CDS	4351	4929	.	+	0	ID=cds-ALA56095.1;Parent=gene-vif;Dbxref=NCBI_GP:ALA56095.1;Name=ALA56095.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ALA56095.1
+KR019772.1	Genbank	gene	4869	5159	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KR019772.1	Genbank	CDS	4869	5159	.	+	0	ID=cds-ALA56096.1;Parent=gene-vpr;Dbxref=NCBI_GP:ALA56096.1;Name=ALA56096.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ALA56096.1
+KR019772.1	Genbank	gene	5140	7803	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KR019772.1	Genbank	CDS	5140	5354	.	+	0	ID=cds-ALA56097.1;Parent=gene-tat;Dbxref=NCBI_GP:ALA56097.1;Name=ALA56097.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ALA56097.1
+KR019772.1	Genbank	CDS	7713	7803	.	+	1	ID=cds-ALA56097.1;Parent=gene-tat;Dbxref=NCBI_GP:ALA56097.1;Name=ALA56097.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ALA56097.1
+KR019772.1	Genbank	gene	5279	8008	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KR019772.1	Genbank	CDS	5279	5354	.	+	0	ID=cds-ALA56098.1;Parent=gene-rev;Dbxref=NCBI_GP:ALA56098.1;Name=ALA56098.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ALA56098.1
+KR019772.1	Genbank	CDS	7713	8008	.	+	2	ID=cds-ALA56098.1;Parent=gene-rev;Dbxref=NCBI_GP:ALA56098.1;Name=ALA56098.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ALA56098.1
+KR019772.1	Genbank	gene	5375	5620	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KR019772.1	Genbank	CDS	5375	5620	.	+	0	ID=cds-ALA56099.1;Parent=gene-vpu;Dbxref=NCBI_GP:ALA56099.1;Name=ALA56099.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ALA56099.1
+KR019772.1	Genbank	gene	5538	8150	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KR019772.1	Genbank	CDS	5538	8150	.	+	0	ID=cds-ALA56100.1;Parent=gene-env;Dbxref=NCBI_GP:ALA56100.1;Name=ALA56100.1;gbkey=CDS;gene=env;product=envelope protein;protein_id=ALA56100.1
+KR019772.1	Genbank	gene	8152	8769	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KR019772.1	Genbank	CDS	8152	8769	.	+	0	ID=cds-ALA56101.1;Parent=gene-nef;Dbxref=NCBI_GP:ALA56101.1;Name=ALA56101.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ALA56101.1
+###

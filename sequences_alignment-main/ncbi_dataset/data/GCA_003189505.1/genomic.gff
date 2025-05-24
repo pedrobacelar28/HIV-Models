@@ -1,0 +1,33 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318950v1
+#!genome-build-accession NCBI_Assembly:GCA_003189505.1
+##sequence-region AB287004.1 1 9725
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AB287004.1	DDBJ	region	1	9725	.	+	.	ID=AB287004.1:1..9725;Dbxref=taxon:11676;clone=p03GH175G29;collection-date=28-Jul-2003;country=Ghana;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=03GH175G;mol_type=genomic DNA
+AB287004.1	DDBJ	long_terminal_repeat	1	656	.	+	.	ID=id-AB287004.1:1..656;Note=LTR5;gbkey=repeat_region;rpt_type=long_terminal_repeat
+AB287004.1	DDBJ	gene	833	2323	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AB287004.1	DDBJ	CDS	833	2323	.	+	0	ID=cds-BAF42496.1;Parent=gene-gag;Dbxref=NCBI_GP:BAF42496.1;Name=BAF42496.1;gbkey=CDS;gene=gag;product=Gag;protein_id=BAF42496.1
+AB287004.1	DDBJ	gene	2125	5136	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,2125
+AB287004.1	DDBJ	CDS	2125	5136	.	+	0	ID=cds-BAF42497.1;Parent=gene-pol;Dbxref=NCBI_GP:BAF42497.1;Name=BAF42497.1;gbkey=CDS;gene=pol;partial=true;product=Pol;protein_id=BAF42497.1;start_range=.,2125
+AB287004.1	DDBJ	gene	5081	5668	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AB287004.1	DDBJ	CDS	5081	5668	.	+	0	ID=cds-BAF42498.1;Parent=gene-vif;Dbxref=NCBI_GP:BAF42498.1;Name=BAF42498.1;gbkey=CDS;gene=vif;product=Vif;protein_id=BAF42498.1
+AB287004.1	DDBJ	gene	5599	5889	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AB287004.1	DDBJ	CDS	5599	5889	.	+	0	ID=cds-BAF42499.1;Parent=gene-vpr;Dbxref=NCBI_GP:BAF42499.1;Name=BAF42499.1;gbkey=CDS;gene=vpr;product=Vpr;protein_id=BAF42499.1
+AB287004.1	DDBJ	gene	5870	6084	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AB287004.1	DDBJ	gene	8425	8461	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AB287004.1	DDBJ	CDS	5870	6084	.	+	0	ID=cds-BAF42500.1;Parent=gene-tat;Dbxref=NCBI_GP:BAF42500.1;Name=BAF42500.1;gbkey=CDS;gene=tat;product=Tat;protein_id=BAF42500.1
+AB287004.1	DDBJ	CDS	8425	8461	.	+	1	ID=cds-BAF42500.1;Parent=gene-tat;Dbxref=NCBI_GP:BAF42500.1;Name=BAF42500.1;gbkey=CDS;gene=tat;product=Tat;protein_id=BAF42500.1
+AB287004.1	DDBJ	gene	6009	6084	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AB287004.1	DDBJ	gene	8425	8720	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AB287004.1	DDBJ	CDS	6009	6084	.	+	0	ID=cds-BAF42501.1;Parent=gene-rev;Dbxref=NCBI_GP:BAF42501.1;Name=BAF42501.1;gbkey=CDS;gene=rev;product=Rev;protein_id=BAF42501.1
+AB287004.1	DDBJ	CDS	8425	8720	.	+	2	ID=cds-BAF42501.1;Parent=gene-rev;Dbxref=NCBI_GP:BAF42501.1;Name=BAF42501.1;gbkey=CDS;gene=rev;product=Rev;protein_id=BAF42501.1
+AB287004.1	DDBJ	gene	6111	6356	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AB287004.1	DDBJ	CDS	6111	6356	.	+	0	ID=cds-BAF42502.1;Parent=gene-vpu;Dbxref=NCBI_GP:BAF42502.1;Name=BAF42502.1;gbkey=CDS;gene=vpu;product=Vpu;protein_id=BAF42502.1
+AB287004.1	DDBJ	gene	6274	8862	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AB287004.1	DDBJ	CDS	6274	8862	.	+	0	ID=cds-BAF42503.1;Parent=gene-env;Dbxref=NCBI_GP:BAF42503.1;Name=BAF42503.1;gbkey=CDS;gene=env;product=gp160;protein_id=BAF42503.1
+AB287004.1	DDBJ	gene	8834	9487	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true;start_range=.,8834
+AB287004.1	DDBJ	CDS	8834	9487	.	+	0	ID=cds-BAF42504.1;Parent=gene-nef;Dbxref=NCBI_GP:BAF42504.1;Name=BAF42504.1;gbkey=CDS;gene=nef;partial=true;product=Nef;protein_id=BAF42504.1;start_range=.,8834
+AB287004.1	DDBJ	long_terminal_repeat	9156	9725	.	+	.	ID=id-AB287004.1:9156..9725;Note=LTR3;gbkey=repeat_region;rpt_type=long_terminal_repeat
+###

@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310071v1
+#!genome-build-accession NCBI_Assembly:GCA_003100715.1
+##sequence-region DQ167215.1 1 8404
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+DQ167215.1	Genbank	region	1	8404	.	+	.	ID=DQ167215.1:1..8404;Dbxref=taxon:11676;country=Estonia;gb-acronym=HIV-1;gbkey=Src;isolate=EST2002-1169;mol_type=genomic RNA;old-name=Human immunodeficiency virus type 1;subtype=CRF06-cpx/A recombinant group M
+DQ167215.1	Genbank	long_terminal_repeat	1	69	.	+	.	ID=id-DQ167215.1:1..69;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+DQ167215.1	Genbank	gene	245	1732	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+DQ167215.1	Genbank	CDS	245	1732	.	+	0	ID=cds-AAZ95218.1;Parent=gene-gag;Dbxref=NCBI_GP:AAZ95218.1;Name=AAZ95218.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAZ95218.1
+DQ167215.1	Genbank	sequence_feature	671	1560	.	+	.	ID=id-DQ167215.1:671..1560;Note=subtype A-like sequence%3B similar to several subtype A and CRF03_AB forms of HIV-1 isolated from Ukraine%2C Russia and Belarus;gbkey=misc_feature
+DQ167215.1	Genbank	gene	1534	2301	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1534
+DQ167215.1	Genbank	CDS	1534	2301	.	+	0	ID=cds-AAZ95219.1;Parent=gene-pol;Dbxref=NCBI_GP:AAZ95219.1;Name=AAZ95219.1;Note=contains frameshift mutations;gbkey=CDS;gene=pol;partial=true;product=aberrant pol protein;protein_id=AAZ95219.1;start_range=.,1534
+DQ167215.1	Genbank	gene	4499	5014	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+DQ167215.1	Genbank	CDS	4499	5014	.	+	0	ID=cds-AAZ95220.1;Parent=gene-vif;Dbxref=NCBI_GP:AAZ95220.1;Name=AAZ95220.1;Note=contains frameshift mutation;gbkey=CDS;gene=vif;product=truncated vif protein;protein_id=AAZ95220.1
+DQ167215.1	Genbank	gene	5015	5305	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+DQ167215.1	Genbank	CDS	5015	5305	.	+	0	ID=cds-AAZ95221.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAZ95221.1;Name=AAZ95221.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAZ95221.1
+DQ167215.1	Genbank	gene	5286	7850	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+DQ167215.1	Genbank	CDS	5286	5500	.	+	0	ID=cds-AAZ95225.1;Parent=gene-tat;Dbxref=NCBI_GP:AAZ95225.1;Name=AAZ95225.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAZ95225.1
+DQ167215.1	Genbank	CDS	7805	7850	.	+	1	ID=cds-AAZ95225.1;Parent=gene-tat;Dbxref=NCBI_GP:AAZ95225.1;Name=AAZ95225.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAZ95225.1
+DQ167215.1	Genbank	gene	5425	8079	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+DQ167215.1	Genbank	CDS	5425	5500	.	+	0	ID=cds-AAZ95226.1;Parent=gene-rev;Dbxref=NCBI_GP:AAZ95226.1;Name=AAZ95226.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAZ95226.1
+DQ167215.1	Genbank	CDS	7805	8079	.	+	2	ID=cds-AAZ95226.1;Parent=gene-rev;Dbxref=NCBI_GP:AAZ95226.1;Name=AAZ95226.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAZ95226.1
+DQ167215.1	Genbank	gene	5527	5772	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+DQ167215.1	Genbank	CDS	5527	5772	.	+	0	ID=cds-AAZ95222.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAZ95222.1;Name=AAZ95222.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAZ95222.1
+DQ167215.1	Genbank	gene	5690	8221	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+DQ167215.1	Genbank	CDS	5690	8221	.	+	0	ID=cds-AAZ95223.1;Parent=gene-env;Dbxref=NCBI_GP:AAZ95223.1;Name=AAZ95223.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAZ95223.1
+DQ167215.1	Genbank	gene	8223	8404	.	+	.	ID=gene-nef;Name=nef;end_range=8404,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+DQ167215.1	Genbank	CDS	8223	8404	.	+	0	ID=cds-AAZ95224.1;Parent=gene-nef;Dbxref=NCBI_GP:AAZ95224.1;Name=AAZ95224.1;end_range=8404,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=AAZ95224.1
+###

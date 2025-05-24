@@ -1,0 +1,32 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310902v1
+#!genome-build-accession NCBI_Assembly:GCA_003109025.1
+##sequence-region AJ866553.1 1 9775
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AJ866553.1	EMBL	region	1	9775	.	+	.	ID=AJ866553.1:1..9775;Dbxref=taxon:11676;country=Cote d'Ivoire;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=00IC-10092;mol_type=genomic DNA
+AJ866553.1	EMBL	gene	779	5076	.	+	.	ID=gene-gag-pol;Name=gag-pol;gbkey=Gene;gene=gag-pol;gene_biotype=protein_coding
+AJ866553.1	EMBL	CDS	779	2062	.	+	0	ID=cds-CAI28818.1;Parent=gene-gag-pol;Dbxref=GOA:Q4A3P6,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:Q4A3P6,NCBI_GP:CAI28818.1;Name=CAI28818.1;gbkey=CDS;gene=gag-pol;product=gag-pol fusion polyprotein precursor;protein_id=CAI28818.1
+AJ866553.1	EMBL	CDS	2062	5076	.	+	0	ID=cds-CAI28818.1;Parent=gene-gag-pol;Dbxref=GOA:Q4A3P6,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:Q4A3P6,NCBI_GP:CAI28818.1;Name=CAI28818.1;gbkey=CDS;gene=gag-pol;product=gag-pol fusion polyprotein precursor;protein_id=CAI28818.1
+AJ866553.1	EMBL	gene	779	2272	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AJ866553.1	EMBL	CDS	779	2272	.	+	0	ID=cds-CAI28817.1;Parent=gene-gag;Dbxref=GOA:Q4A3P7,InterPro:IPR000071,InterPro:IPR000721,InterPro:IPR001878,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR010999,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR014817,UniProtKB/TrEMBL:Q4A3P7,NCBI_GP:CAI28817.1;Name=CAI28817.1;gbkey=CDS;gene=gag;product=gag polyprotein;protein_id=CAI28817.1
+AJ866553.1	EMBL	gene	5021	5599	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AJ866553.1	EMBL	CDS	5021	5599	.	+	0	ID=cds-CAI28819.1;Parent=gene-vif;Dbxref=GOA:Q4A3P5,InterPro:IPR000475,UniProtKB/TrEMBL:Q4A3P5,NCBI_GP:CAI28819.1;Name=CAI28819.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=CAI28819.1
+AJ866553.1	EMBL	gene	5539	5832	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AJ866553.1	EMBL	CDS	5539	5832	.	+	0	ID=cds-CAI28820.1;Parent=gene-vpr;Dbxref=GOA:Q4A3P4,InterPro:IPR000012,UniProtKB/TrEMBL:Q4A3P4,NCBI_GP:CAI28820.1;Name=CAI28820.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=CAI28820.1
+AJ866553.1	EMBL	gene	5813	6027	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true
+AJ866553.1	EMBL	gene	8391	8481	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true
+AJ866553.1	EMBL	CDS	5813	6027	.	+	0	ID=cds-CAI28821.1;Parent=gene-tat;Dbxref=GOA:Q4A3P3,InterPro:IPR001831,UniProtKB/TrEMBL:Q4A3P3,NCBI_GP:CAI28821.1;Name=CAI28821.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=CAI28821.1
+AJ866553.1	EMBL	CDS	8391	8481	.	+	1	ID=cds-CAI28821.1;Parent=gene-tat;Dbxref=GOA:Q4A3P3,InterPro:IPR001831,UniProtKB/TrEMBL:Q4A3P3,NCBI_GP:CAI28821.1;Name=CAI28821.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=CAI28821.1
+AJ866553.1	EMBL	gene	5952	6027	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+AJ866553.1	EMBL	gene	8391	8665	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+AJ866553.1	EMBL	CDS	5952	6027	.	+	0	ID=cds-CAI28822.1;Parent=gene-rev;Dbxref=GOA:Q4A3N9,InterPro:IPR000625,UniProtKB/TrEMBL:Q4A3N9,NCBI_GP:CAI28822.1;Name=CAI28822.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=CAI28822.1
+AJ866553.1	EMBL	CDS	8391	8665	.	+	2	ID=cds-CAI28822.1;Parent=gene-rev;Dbxref=GOA:Q4A3N9,InterPro:IPR000625,UniProtKB/TrEMBL:Q4A3N9,NCBI_GP:CAI28822.1;Name=CAI28822.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=CAI28822.1
+AJ866553.1	EMBL	gene	6050	6298	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AJ866553.1	EMBL	CDS	6050	6298	.	+	0	ID=cds-CAI28823.1;Parent=gene-vpu;Dbxref=GOA:Q4A3P2,InterPro:IPR008187,InterPro:IPR009032,UniProtKB/TrEMBL:Q4A3P2,NCBI_GP:CAI28823.1;Name=CAI28823.1;gbkey=CDS;gene=vpu;product=viral protein U;protein_id=CAI28823.1
+AJ866553.1	EMBL	gene	6213	8807	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AJ866553.1	EMBL	CDS	6213	8807	.	+	0	ID=cds-CAI28824.1;Parent=gene-env;Dbxref=GOA:Q4A3P1,InterPro:IPR000328,InterPro:IPR000777,UniProtKB/TrEMBL:Q4A3P1,NCBI_GP:CAI28824.1;Name=CAI28824.1;gbkey=CDS;gene=env;product=envelope glycoprotein precursor gp160;protein_id=CAI28824.1
+AJ866553.1	EMBL	gene	8809	9435	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AJ866553.1	EMBL	CDS	8809	9435	.	+	0	ID=cds-CAI28825.1;Parent=gene-nef;Dbxref=GOA:Q4A3P0,InterPro:IPR001558,UniProtKB/TrEMBL:Q4A3P0,NCBI_GP:CAI28825.1;Name=CAI28825.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=CAI28825.1
+###

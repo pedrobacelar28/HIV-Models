@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310245v1
+#!genome-build-accession NCBI_Assembly:GCA_003102455.1
+##sequence-region JN029803.1 1 8819
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+JN029803.1	Genbank	region	1	8819	.	+	.	ID=JN029803.1:1..8819;Dbxref=taxon:11676;collection-date=2011;country=Singapore;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=11SG.HM091;mol_type=genomic DNA;nat-host=Homo sapiens;subtype=CRF50
+JN029803.1	Genbank	gene	1	1499	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+JN029803.1	Genbank	CDS	1	1499	.	+	2	ID=cds-AEN25461.1;Parent=gene-gag;Dbxref=NCBI_GP:AEN25461.1;Name=AEN25461.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AEN25461.1;start_range=.,1
+JN029803.1	Genbank	gene	1292	4303	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1292
+JN029803.1	Genbank	CDS	1292	4303	.	+	0	ID=cds-AEN25462.1;Parent=gene-pol;Dbxref=NCBI_GP:AEN25462.1;Name=AEN25462.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AEN25462.1;start_range=.,1292
+JN029803.1	Genbank	gene	4248	4826	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+JN029803.1	Genbank	CDS	4248	4826	.	+	0	ID=cds-AEN25463.1;Parent=gene-vif;Dbxref=NCBI_GP:AEN25463.1;Name=AEN25463.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AEN25463.1
+JN029803.1	Genbank	gene	4766	5056	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+JN029803.1	Genbank	CDS	4766	5056	.	+	0	ID=cds-AEN25464.1;Parent=gene-vpr;Dbxref=NCBI_GP:AEN25464.1;Name=AEN25464.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AEN25464.1
+JN029803.1	Genbank	gene	5037	7687	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+JN029803.1	Genbank	CDS	5037	5251	.	+	0	ID=cds-AEN25465.1;Parent=gene-tat;Dbxref=NCBI_GP:AEN25465.1;Name=AEN25465.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AEN25465.1
+JN029803.1	Genbank	CDS	7582	7687	.	+	1	ID=cds-AEN25465.1;Parent=gene-tat;Dbxref=NCBI_GP:AEN25465.1;Name=AEN25465.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AEN25465.1
+JN029803.1	Genbank	gene	5176	7856	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+JN029803.1	Genbank	CDS	5176	5251	.	+	0	ID=cds-AEN25466.1;Parent=gene-rev;Dbxref=NCBI_GP:AEN25466.1;Name=AEN25466.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AEN25466.1
+JN029803.1	Genbank	CDS	7582	7856	.	+	2	ID=cds-AEN25466.1;Parent=gene-rev;Dbxref=NCBI_GP:AEN25466.1;Name=AEN25466.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AEN25466.1
+JN029803.1	Genbank	gene	5268	5513	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+JN029803.1	Genbank	CDS	5268	5513	.	+	0	ID=cds-AEN25467.1;Parent=gene-vpu;Dbxref=NCBI_GP:AEN25467.1;Name=AEN25467.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AEN25467.1
+JN029803.1	Genbank	gene	5431	7998	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+JN029803.1	Genbank	CDS	5431	7998	.	+	0	ID=cds-AEN25468.1;Parent=gene-env;Dbxref=NCBI_GP:AEN25468.1;Name=AEN25468.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AEN25468.1
+JN029803.1	Genbank	gene	8000	8632	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+JN029803.1	Genbank	CDS	8000	8632	.	+	0	ID=cds-AEN25469.1;Parent=gene-nef;Dbxref=NCBI_GP:AEN25469.1;Name=AEN25469.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AEN25469.1
+###

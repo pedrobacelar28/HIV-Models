@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310161v1
+#!genome-build-accession NCBI_Assembly:GCA_003101615.1
+##sequence-region EU581828.1 1 8818
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EU581828.1	Genbank	region	1	8818	.	+	.	ID=EU581828.1:1..8818;Dbxref=taxon:11676;country=Peru;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=PE02.PCR0155;mol_type=genomic DNA;subtype=CRF17_BF
+EU581828.1	Genbank	gene	1	1473	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+EU581828.1	Genbank	CDS	1	1473	.	+	0	ID=cds-ACD02839.1;Parent=gene-gag;Dbxref=NCBI_GP:ACD02839.1;Name=ACD02839.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=ACD02839.1;start_range=.,1
+EU581828.1	Genbank	gene	1275	4286	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1275
+EU581828.1	Genbank	CDS	1275	4286	.	+	0	ID=cds-ACD02840.1;Parent=gene-pol;Dbxref=NCBI_GP:ACD02840.1;Name=ACD02840.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACD02840.1;start_range=.,1275
+EU581828.1	Genbank	gene	4231	4809	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+EU581828.1	Genbank	CDS	4231	4809	.	+	0	ID=cds-ACD02841.1;Parent=gene-vif;Dbxref=NCBI_GP:ACD02841.1;Name=ACD02841.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACD02841.1
+EU581828.1	Genbank	gene	4749	5039	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EU581828.1	Genbank	CDS	4749	5039	.	+	0	ID=cds-ACD02842.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACD02842.1;Name=ACD02842.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACD02842.1
+EU581828.1	Genbank	gene	5020	7635	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EU581828.1	Genbank	CDS	5020	5234	.	+	0	ID=cds-ACD02843.1;Parent=gene-tat;Dbxref=NCBI_GP:ACD02843.1;Name=ACD02843.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACD02843.1
+EU581828.1	Genbank	CDS	7551	7635	.	+	1	ID=cds-ACD02843.1;Parent=gene-tat;Dbxref=NCBI_GP:ACD02843.1;Name=ACD02843.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACD02843.1
+EU581828.1	Genbank	gene	5159	7967	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EU581828.1	Genbank	CDS	5159	5234	.	+	0	ID=cds-ACD02844.1;Parent=gene-rev;Dbxref=NCBI_GP:ACD02844.1;Name=ACD02844.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACD02844.1
+EU581828.1	Genbank	CDS	7551	7825	.	+	2	ID=cds-ACD02844.1;Parent=gene-rev;Dbxref=NCBI_GP:ACD02844.1;Name=ACD02844.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACD02844.1
+EU581828.1	Genbank	gene	5251	6304	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EU581828.1	Genbank	CDS	5251	5496	.	+	0	ID=cds-ACD02846.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACD02846.1;Name=ACD02846.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACD02846.1
+EU581828.1	Genbank	gene	5408	6232	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=other
+EU581828.1	Genbank	sequence_feature	5414	6232	.	+	.	ID=id-env;Note=nonfunctional envelope glycoprotein due to mutation;gbkey=misc_feature;gene=env
+EU581828.1	Genbank	gene	7930	8610	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EU581828.1	Genbank	CDS	7969	8610	.	+	0	ID=cds-ACD02845.1;Parent=gene-nef;Dbxref=NCBI_GP:ACD02845.1;Name=ACD02845.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACD02845.1
+EU581824.1	Genbank	match	1	8822	.	+	.	ID=aln0;Target=EU581823.1 1 8840 +;Gap=M345 I6 M1010 I18 I18 M66 D15 M3821 I6 M600 I6 D16 D2 M115 D1 D14 M505 D3 M124 I13 D3 D10 M148 I1 D3 D4 M5 I12 M156 I3 I3 M627 I3 M1058 I1 M54 D1 M116
+###

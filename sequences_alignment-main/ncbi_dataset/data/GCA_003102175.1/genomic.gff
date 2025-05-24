@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310217v1
+#!genome-build-accession NCBI_Assembly:GCA_003102175.1
+##sequence-region HM026457.1 1 8925
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+HM026457.1	Genbank	region	1	8925	.	+	.	ID=HM026457.1:1..8925;Dbxref=taxon:11676;collection-date=2007;country=Brazil;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=07BR_FPS742;isolation-source=buffy coat;mol_type=genomic DNA;nat-host=Homo sapiens;subtype=BF1 recombinant
+HM026457.1	Genbank	gene	200	1687	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+HM026457.1	Genbank	CDS	200	1687	.	+	0	ID=cds-ADG07950.1;Parent=gene-gag;Dbxref=NCBI_GP:ADG07950.1;Name=ADG07950.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ADG07950.1
+HM026457.1	Genbank	gene	1480	4491	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1480
+HM026457.1	Genbank	CDS	1480	4491	.	+	0	ID=cds-ADG07951.1;Parent=gene-pol;Dbxref=NCBI_GP:ADG07951.1;Name=ADG07951.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ADG07951.1;start_range=.,1480
+HM026457.1	Genbank	gene	4436	5014	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+HM026457.1	Genbank	CDS	4436	5014	.	+	0	ID=cds-ADG07952.1;Parent=gene-vif;Dbxref=NCBI_GP:ADG07952.1;Name=ADG07952.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ADG07952.1
+HM026457.1	Genbank	gene	4954	5244	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+HM026457.1	Genbank	CDS	4954	5244	.	+	0	ID=cds-ADG07953.1;Parent=gene-vpr;Dbxref=NCBI_GP:ADG07953.1;Name=ADG07953.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ADG07953.1
+HM026457.1	Genbank	gene	5225	7864	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+HM026457.1	Genbank	CDS	5225	5439	.	+	0	ID=cds-ADG07954.1;Parent=gene-tat;Dbxref=NCBI_GP:ADG07954.1;Name=ADG07954.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ADG07954.1
+HM026457.1	Genbank	CDS	7771	7864	.	+	1	ID=cds-ADG07954.1;Parent=gene-tat;Dbxref=NCBI_GP:ADG07954.1;Name=ADG07954.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ADG07954.1
+HM026457.1	Genbank	gene	5364	8045	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+HM026457.1	Genbank	CDS	5364	5439	.	+	0	ID=cds-ADG07955.1;Parent=gene-rev;Dbxref=NCBI_GP:ADG07955.1;Name=ADG07955.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ADG07955.1
+HM026457.1	Genbank	CDS	7771	8045	.	+	2	ID=cds-ADG07955.1;Parent=gene-rev;Dbxref=NCBI_GP:ADG07955.1;Name=ADG07955.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ADG07955.1
+HM026457.1	Genbank	gene	5466	5711	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+HM026457.1	Genbank	CDS	5466	5711	.	+	0	ID=cds-ADG07956.1;Parent=gene-vpu;Dbxref=NCBI_GP:ADG07956.1;Name=ADG07956.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ADG07956.1
+HM026457.1	Genbank	gene	5629	8187	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+HM026457.1	Genbank	CDS	5629	8187	.	+	0	ID=cds-ADG07957.1;Parent=gene-env;Dbxref=NCBI_GP:ADG07957.1;Name=ADG07957.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ADG07957.1
+HM026457.1	Genbank	gene	8189	8809	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+HM026457.1	Genbank	CDS	8189	8809	.	+	0	ID=cds-ADG07958.1;Parent=gene-nef;Dbxref=NCBI_GP:ADG07958.1;Name=ADG07958.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ADG07958.1
+###

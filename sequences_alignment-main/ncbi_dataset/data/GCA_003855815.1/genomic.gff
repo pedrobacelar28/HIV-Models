@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM385581v1
+#!genome-build-accession NCBI_Assembly:GCA_003855815.1
+##sequence-region KY275364.1 1 8847
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KY275364.1	Genbank	region	1	8847	.	+	.	ID=KY275364.1:1..8847;Dbxref=taxon:11676;collection-date=2016;country=China;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=224GX;mol_type=genomic DNA;nat-host=Homo sapiens;subtype=G
+KY275364.1	Genbank	gene	14	1518	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=other
+KY275364.1	Genbank	sequence_feature	14	1518	.	+	.	ID=id-gag;Note=nonfunctional gag protein due to mutation;gbkey=misc_feature;gene=gag
+KY275364.1	Genbank	gene	1317	4322	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1317
+KY275364.1	Genbank	CDS	1317	4322	.	+	0	ID=cds-ASY08059.1;Parent=gene-pol;Dbxref=NCBI_GP:ASY08059.1;Name=ASY08059.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ASY08059.1;start_range=.,1317
+KY275364.1	Genbank	gene	4267	4818	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KY275364.1	Genbank	CDS	4267	4818	.	+	0	ID=cds-ASY08060.1;Parent=gene-vif;Dbxref=NCBI_GP:ASY08060.1;Name=ASY08060.1;gbkey=CDS;gene=vif;product=truncated vif protein;protein_id=ASY08060.1
+KY275364.1	Genbank	gene	4785	5078	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KY275364.1	Genbank	CDS	4785	5078	.	+	0	ID=cds-ASY08061.1;Parent=gene-vpr;Dbxref=NCBI_GP:ASY08061.1;Name=ASY08061.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ASY08061.1
+KY275364.1	Genbank	gene	5059	7655	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KY275364.1	Genbank	CDS	5059	5273	.	+	0	ID=cds-ASY08062.1;Parent=gene-tat;Dbxref=NCBI_GP:ASY08062.1;Name=ASY08062.1;gbkey=CDS;gene=tat;product=truncated tat protein;protein_id=ASY08062.1
+KY275364.1	Genbank	CDS	7610	7655	.	+	1	ID=cds-ASY08062.1;Parent=gene-tat;Dbxref=NCBI_GP:ASY08062.1;Name=ASY08062.1;gbkey=CDS;gene=tat;product=truncated tat protein;protein_id=ASY08062.1
+KY275364.1	Genbank	gene	5198	7905	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KY275364.1	Genbank	CDS	5198	5273	.	+	0	ID=cds-ASY08063.1;Parent=gene-rev;Dbxref=NCBI_GP:ASY08063.1;Name=ASY08063.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ASY08063.1
+KY275364.1	Genbank	CDS	7610	7905	.	+	2	ID=cds-ASY08063.1;Parent=gene-rev;Dbxref=NCBI_GP:ASY08063.1;Name=ASY08063.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ASY08063.1
+KY275364.1	Genbank	gene	5293	5538	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KY275364.1	Genbank	CDS	5293	5538	.	+	0	ID=cds-ASY08064.1;Parent=gene-vpu;Dbxref=NCBI_GP:ASY08064.1;Name=ASY08064.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ASY08064.1
+KY275364.1	Genbank	gene	5456	8047	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KY275364.1	Genbank	CDS	5456	8047	.	+	0	ID=cds-ASY08065.1;Parent=gene-env;Dbxref=NCBI_GP:ASY08065.1;Name=ASY08065.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ASY08065.1
+KY275364.1	Genbank	gene	8047	8670	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KY275364.1	Genbank	CDS	8047	8670	.	+	0	ID=cds-ASY08066.1;Parent=gene-nef;Dbxref=NCBI_GP:ASY08066.1;Name=ASY08066.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ASY08066.1
+###

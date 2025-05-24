@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310880v1
+#!genome-build-accession NCBI_Assembly:GCA_003108805.1
+##sequence-region AJ271370.1 1 9045
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AJ271370.1	EMBL	region	1	9045	.	+	.	ID=AJ271370.1:1..9045;Dbxref=taxon:11676;country=Cameroon;gb-acronym=HIV-1;gbkey=Src;genome=proviral;mol_type=genomic DNA;strain=CM_YBF106
+AJ271370.1	EMBL	long_terminal_repeat	1	192	.	+	.	ID=id-AJ271370.1:1..9045;end_range=9045,.;gbkey=LTR;partial=true
+AJ271370.1	EMBL	long_terminal_repeat	8619	9045	.	+	.	ID=id-AJ271370.1:1..9045;end_range=9045,.;gbkey=LTR;partial=true
+AJ271370.1	EMBL	primary_transcript	195	212	.	+	.	ID=id-AJ271370.1:195..212;gbkey=prim_transcript
+AJ271370.1	EMBL	CDS	349	1656	.	+	0	ID=cds-CAB96338.1;Dbxref=GOA:Q9IDV9,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/Swiss-Prot:Q9IDV9,NCBI_GP:CAB96338.1;Name=CAB96338.1;Note=ribosomal slip on tttt sequence at 1656..1661;gbkey=CDS;product=gag-pol fusion polyprotein precursor;protein_id=CAB96338.1
+AJ271370.1	EMBL	CDS	1659	4700	.	+	0	ID=cds-CAB96338.1;Dbxref=GOA:Q9IDV9,InterPro:IPR000071,InterPro:IPR000477,InterPro:IPR000721,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001878,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR010999,InterPro:IPR012337,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/Swiss-Prot:Q9IDV9,NCBI_GP:CAB96338.1;Name=CAB96338.1;Note=ribosomal slip on tttt sequence at 1656..1661;gbkey=CDS;product=gag-pol fusion polyprotein precursor;protein_id=CAB96338.1
+AJ271370.1	EMBL	CDS	349	1884	.	+	0	ID=cds-CAB96339.1;Dbxref=GOA:Q9IDV8,InterPro:IPR000071,InterPro:IPR000721,InterPro:IPR001878,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR010999,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR014817,UniProtKB/Swiss-Prot:Q9IDV8,NCBI_GP:CAB96339.1;Name=CAB96339.1;gbkey=CDS;product=gag polyprotein;protein_id=CAB96339.1
+AJ271370.1	EMBL	CDS	4633	5211	.	+	0	ID=cds-CAB96340.1;Dbxref=GOA:Q9IDV7,InterPro:IPR000475,UniProtKB/Swiss-Prot:Q9IDV7,NCBI_GP:CAB96340.1;Name=CAB96340.1;gbkey=CDS;product=Vif;protein_id=CAB96340.1
+AJ271370.1	EMBL	CDS	5151	5438	.	+	0	ID=cds-CAB96341.1;Dbxref=GOA:Q9IDV6,InterPro:IPR000012,UniProtKB/Swiss-Prot:Q9IDV6,NCBI_GP:CAB96341.1;Name=CAB96341.1;gbkey=CDS;product=Vpr;protein_id=CAB96341.1
+AJ271370.1	EMBL	gene	5419	5634	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true
+AJ271370.1	EMBL	gene	7886	7978	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true
+AJ271370.1	EMBL	CDS	5419	5634	.	+	0	ID=cds-CAB96342.1;Parent=gene-tat;Dbxref=GOA:Q9IDV5,InterPro:IPR001831,UniProtKB/Swiss-Prot:Q9IDV5,NCBI_GP:CAB96342.1;Name=CAB96342.1;gbkey=CDS;gene=tat;product=Tat protein;protein_id=CAB96342.1
+AJ271370.1	EMBL	CDS	7886	7978	.	+	0	ID=cds-CAB96342.1;Parent=gene-tat;Dbxref=GOA:Q9IDV5,InterPro:IPR001831,UniProtKB/Swiss-Prot:Q9IDV5,NCBI_GP:CAB96342.1;Name=CAB96342.1;gbkey=CDS;gene=tat;product=Tat protein;protein_id=CAB96342.1
+AJ271370.1	EMBL	gene	5558	5632	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+AJ271370.1	EMBL	gene	7887	8126	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+AJ271370.1	EMBL	CDS	5558	5632	.	+	0	ID=cds-CAB96343.1;Parent=gene-rev;Dbxref=GOA:Q9IDV4,InterPro:IPR000625,UniProtKB/Swiss-Prot:Q9IDV4,NCBI_GP:CAB96343.1;Name=CAB96343.1;gbkey=CDS;gene=rev;product=Rev protein;protein_id=CAB96343.1
+AJ271370.1	EMBL	CDS	7887	8126	.	+	0	ID=cds-CAB96343.1;Parent=gene-rev;Dbxref=GOA:Q9IDV4,InterPro:IPR000625,UniProtKB/Swiss-Prot:Q9IDV4,NCBI_GP:CAB96343.1;Name=CAB96343.1;gbkey=CDS;gene=rev;product=Rev protein;protein_id=CAB96343.1
+AJ271370.1	EMBL	gene	5652	5876	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AJ271370.1	EMBL	CDS	5652	5876	.	+	0	ID=cds-CAB96344.1;Parent=gene-vpu;Dbxref=GOA:Q9IDV3,InterPro:IPR008187,InterPro:IPR009032,UniProtKB/Swiss-Prot:Q9IDV3,NCBI_GP:CAB96344.1;Name=CAB96344.1;gbkey=CDS;gene=vpu;product=viral protein U;protein_id=CAB96344.1
+AJ271370.1	EMBL	gene	5815	8325	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AJ271370.1	EMBL	CDS	5815	8325	.	+	0	ID=cds-CAB96345.1;Parent=gene-env;Dbxref=GOA:Q9IDV2,InterPro:IPR000328,InterPro:IPR000777,UniProtKB/Swiss-Prot:Q9IDV2,NCBI_GP:CAB96345.1;Name=CAB96345.1;gbkey=CDS;gene=env;product=envelope glycoprotein precursor gp160;protein_id=CAB96345.1
+AJ271370.1	EMBL	CDS	8327	8950	.	+	0	ID=cds-CAB96346.1;Dbxref=GOA:Q9IDV1,InterPro:IPR001558,UniProtKB/Swiss-Prot:Q9IDV1,NCBI_GP:CAB96346.1;Name=CAB96346.1;gbkey=CDS;product=Nef protein;protein_id=CAB96346.1
+AJ271370.1	EMBL	region	9033	9037	.	+	.	ID=id-AJ271370.1:9033..9037;gbkey=TATA_signal
+###

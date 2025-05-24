@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309777v1
+#!genome-build-accession NCBI_Assembly:GCA_003097775.1
+##sequence-region AB220944.1 1 9652
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AB220944.1	DDBJ	region	1	9652	.	+	.	ID=AB220944.1:1..9652;Dbxref=taxon:11676;country=Thailand;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=93TH051;mol_type=genomic RNA;note=Vector:p93TH051-13~subtype: CRF01_AE
+AB220944.1	DDBJ	gene	807	2297	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AB220944.1	DDBJ	CDS	807	2297	.	+	0	ID=cds-BAE95857.1;Parent=gene-gag;Dbxref=NCBI_GP:BAE95857.1;Name=BAE95857.1;gbkey=CDS;gene=gag;product=Gag;protein_id=BAE95857.1
+AB220944.1	DDBJ	gene	2096	5101	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,2096
+AB220944.1	DDBJ	CDS	2096	5101	.	+	0	ID=cds-BAE95858.1;Parent=gene-pol;Dbxref=NCBI_GP:BAE95858.1;Name=BAE95858.1;gbkey=CDS;gene=pol;partial=true;product=Pol;protein_id=BAE95858.1;start_range=.,2096
+AB220944.1	DDBJ	gene	5046	5624	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AB220944.1	DDBJ	CDS	5046	5624	.	+	0	ID=cds-BAE95859.1;Parent=gene-vif;Dbxref=NCBI_GP:BAE95859.1;Name=BAE95859.1;gbkey=CDS;gene=vif;product=Vif;protein_id=BAE95859.1
+AB220944.1	DDBJ	gene	5564	5854	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AB220944.1	DDBJ	CDS	5564	5854	.	+	0	ID=cds-BAE95860.1;Parent=gene-vpr;Dbxref=NCBI_GP:BAE95860.1;Name=BAE95860.1;gbkey=CDS;gene=vpr;product=Vpr;protein_id=BAE95860.1
+AB220944.1	DDBJ	gene	5835	6049	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AB220944.1	DDBJ	gene	8378	8462	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AB220944.1	DDBJ	CDS	5835	6049	.	+	0	ID=cds-BAE95861.1;Parent=gene-tat;Dbxref=NCBI_GP:BAE95861.1;Name=BAE95861.1;gbkey=CDS;gene=tat;product=Tat;protein_id=BAE95861.1
+AB220944.1	DDBJ	CDS	8378	8462	.	+	1	ID=cds-BAE95861.1;Parent=gene-tat;Dbxref=NCBI_GP:BAE95861.1;Name=BAE95861.1;gbkey=CDS;gene=tat;product=Tat;protein_id=BAE95861.1
+AB220944.1	DDBJ	gene	5974	6049	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AB220944.1	DDBJ	gene	8378	8673	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AB220944.1	DDBJ	CDS	5974	6049	.	+	0	ID=cds-BAE95862.1;Parent=gene-rev;Dbxref=NCBI_GP:BAE95862.1;Name=BAE95862.1;gbkey=CDS;gene=rev;product=Rev;protein_id=BAE95862.1
+AB220944.1	DDBJ	CDS	8378	8673	.	+	2	ID=cds-BAE95862.1;Parent=gene-rev;Dbxref=NCBI_GP:BAE95862.1;Name=BAE95862.1;gbkey=CDS;gene=rev;product=Rev;protein_id=BAE95862.1
+AB220944.1	DDBJ	gene	6070	6315	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AB220944.1	DDBJ	CDS	6070	6315	.	+	0	ID=cds-BAE95863.1;Parent=gene-vpu;Dbxref=NCBI_GP:BAE95863.1;Name=BAE95863.1;gbkey=CDS;gene=vpu;product=Vpu;protein_id=BAE95863.1
+AB220944.1	DDBJ	gene	6233	8815	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AB220944.1	DDBJ	CDS	6233	8815	.	+	0	ID=cds-BAE95864.1;Parent=gene-env;Dbxref=NCBI_GP:BAE95864.1;Name=BAE95864.1;gbkey=CDS;gene=env;product=Gp160;protein_id=BAE95864.1
+AB220944.1	DDBJ	gene	8817	9437	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AB220944.1	DDBJ	CDS	8817	9437	.	+	0	ID=cds-BAE95865.1;Parent=gene-nef;Dbxref=NCBI_GP:BAE95865.1;Name=BAE95865.1;gbkey=CDS;gene=nef;product=Nef;protein_id=BAE95865.1
+###

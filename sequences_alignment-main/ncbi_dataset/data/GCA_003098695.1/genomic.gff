@@ -1,0 +1,28 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309869v1
+#!genome-build-accession NCBI_Assembly:GCA_003098695.1
+##sequence-region AF289549.1 1 9023
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF289549.1	Genbank	region	1	9023	.	+	.	ID=AF289549.1:1..9023;Dbxref=taxon:11676;clone=96TZ-BF071;country=Tanzania;gb-acronym=HIV-1;gbkey=Src;genome=proviral;mol_type=genomic DNA;note=isolated from an infant;old-name=Human immunodeficiency virus type 1
+AF289549.1	Genbank	gene	167	1669	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF289549.1	Genbank	CDS	167	1669	.	+	0	ID=cds-AAK29339.1;Parent=gene-gag;Dbxref=NCBI_GP:AAK29339.1;Name=AAK29339.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAK29339.1
+AF289549.1	Genbank	gene	1462	4485	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1462
+AF289549.1	Genbank	CDS	1462	4485	.	+	0	ID=cds-AAK29340.1;Parent=gene-pol;Dbxref=NCBI_GP:AAK29340.1;Name=AAK29340.1;gbkey=CDS;gene=pol;partial=true;product=pol polyprotein;protein_id=AAK29340.1;start_range=.,1462
+AF289549.1	Genbank	gene	4418	4996	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF289549.1	Genbank	CDS	4418	4996	.	+	0	ID=cds-AAK29341.1;Parent=gene-vif;Dbxref=NCBI_GP:AAK29341.1;Name=AAK29341.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAK29341.1
+AF289549.1	Genbank	gene	4936	5226	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF289549.1	Genbank	CDS	4936	5226	.	+	0	ID=cds-AAK29342.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAK29342.1;Name=AAK29342.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAK29342.1
+AF289549.1	Genbank	CDS	5207	5421	.	+	0	ID=cds-AAK29347.1;Dbxref=NCBI_GP:AAK29347.1;Name=AAK29347.1;gbkey=CDS;product=truncated tat protein;protein_id=AAK29347.1
+AF289549.1	Genbank	CDS	7761	7806	.	+	1	ID=cds-AAK29347.1;Dbxref=NCBI_GP:AAK29347.1;Name=AAK29347.1;gbkey=CDS;product=truncated tat protein;protein_id=AAK29347.1
+AF289549.1	Genbank	gene	5346	8035	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF289549.1	Genbank	CDS	5346	5421	.	+	0	ID=cds-AAK29346.1;Parent=gene-rev;Dbxref=NCBI_GP:AAK29346.1;Name=AAK29346.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAK29346.1
+AF289549.1	Genbank	CDS	7761	8035	.	+	2	ID=cds-AAK29346.1;Parent=gene-rev;Dbxref=NCBI_GP:AAK29346.1;Name=AAK29346.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAK29346.1
+AF289549.1	Genbank	gene	5444	5704	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF289549.1	Genbank	CDS	5444	5704	.	+	0	ID=cds-AAK29344.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAK29344.1;Name=AAK29344.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAK29344.1
+AF289549.1	Genbank	gene	5622	8177	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF289549.1	Genbank	CDS	5622	8177	.	+	0	ID=cds-AAK29343.1;Parent=gene-env;Dbxref=NCBI_GP:AAK29343.1;Name=AAK29343.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAK29343.1
+AF289549.1	Genbank	gene	8179	8817	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF289549.1	Genbank	CDS	8179	8817	.	+	0	ID=cds-AAK29345.1;Parent=gene-nef;Dbxref=NCBI_GP:AAK29345.1;Name=AAK29345.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAK29345.1
+###

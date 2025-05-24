@@ -1,0 +1,41 @@
+#gtf-version 2.2
+#!genome-build ASM310487v1
+#!genome-build-accession NCBI_Assembly:GCA_003104875.1
+U88826.1	Genbank	gene	156	362	.	+	.	gene_id "gag"; transcript_id ""; gbkey "Gene"; gene "gag"; gene_biotype "pseudogene"; note "no start codon atg -> gtg mutation, also in-frame stop codons after first internal atg"; pseudo "true"; 
+U88826.1	Genbank	CDS	156	359	.	+	0	gene_id "gag"; transcript_id "unassigned_transcript_1"; gbkey "CDS"; gene "gag"; note "gag protein"; pseudo "true"; exon_number "1"; 
+U88826.1	Genbank	start_codon	156	158	.	+	0	gene_id "gag"; transcript_id "unassigned_transcript_1"; gbkey "CDS"; gene "gag"; note "gag protein"; pseudo "true"; exon_number "1"; 
+U88826.1	Genbank	stop_codon	360	362	.	+	0	gene_id "gag"; transcript_id "unassigned_transcript_1"; gbkey "CDS"; gene "gag"; note "gag protein"; pseudo "true"; exon_number "1"; 
+U88826.1	Genbank	gene	1727	4465	.	+	.	gene_id "pol"; transcript_id ""; gbkey "Gene"; gene "pol"; gene_biotype "protein_coding"; partial "true"; 
+U88826.1	Genbank	CDS	1727	4462	.	+	0	gene_id "pol"; transcript_id "unassigned_transcript_2"; gbkey "CDS"; gene "pol"; partial "true"; product "pol polyprotein"; protein_id "AAC32654.1"; exon_number "1"; 
+U88826.1	Genbank	stop_codon	4463	4465	.	+	0	gene_id "pol"; transcript_id "unassigned_transcript_2"; gbkey "CDS"; gene "pol"; partial "true"; product "pol polyprotein"; protein_id "AAC32654.1"; exon_number "1"; 
+U88826.1	Genbank	gene	4410	4988	.	+	.	gene_id "vif"; transcript_id ""; gbkey "Gene"; gene "vif"; gene_biotype "protein_coding"; 
+U88826.1	Genbank	CDS	4410	4985	.	+	0	gene_id "vif"; transcript_id "unassigned_transcript_3"; gbkey "CDS"; gene "vif"; product "Vif"; protein_id "AAC32658.1"; exon_number "1"; 
+U88826.1	Genbank	start_codon	4410	4412	.	+	0	gene_id "vif"; transcript_id "unassigned_transcript_3"; gbkey "CDS"; gene "vif"; product "Vif"; protein_id "AAC32658.1"; exon_number "1"; 
+U88826.1	Genbank	stop_codon	4986	4988	.	+	0	gene_id "vif"; transcript_id "unassigned_transcript_3"; gbkey "CDS"; gene "vif"; product "Vif"; protein_id "AAC32658.1"; exon_number "1"; 
+U88826.1	Genbank	gene	4928	5218	.	+	.	gene_id "vpr"; transcript_id ""; gbkey "Gene"; gene "vpr"; gene_biotype "protein_coding"; 
+U88826.1	Genbank	CDS	4928	5215	.	+	0	gene_id "vpr"; transcript_id "unassigned_transcript_4"; gbkey "CDS"; gene "vpr"; product "Vpr"; protein_id "AAC32659.1"; exon_number "1"; 
+U88826.1	Genbank	start_codon	4928	4930	.	+	0	gene_id "vpr"; transcript_id "unassigned_transcript_4"; gbkey "CDS"; gene "vpr"; product "Vpr"; protein_id "AAC32659.1"; exon_number "1"; 
+U88826.1	Genbank	stop_codon	5216	5218	.	+	0	gene_id "vpr"; transcript_id "unassigned_transcript_4"; gbkey "CDS"; gene "vpr"; product "Vpr"; protein_id "AAC32659.1"; exon_number "1"; 
+U88826.1	Genbank	gene	5199	7795	.	+	.	gene_id "tat"; transcript_id ""; gbkey "Gene"; gene "tat"; gene_biotype "protein_coding"; 
+U88826.1	Genbank	CDS	5199	5413	.	+	0	gene_id "tat"; transcript_id "unassigned_transcript_5"; gbkey "CDS"; gene "tat"; product "Tat"; protein_id "AAC32656.1"; exon_number "1"; 
+U88826.1	Genbank	CDS	7705	7792	.	+	1	gene_id "tat"; transcript_id "unassigned_transcript_5"; gbkey "CDS"; gene "tat"; product "Tat"; protein_id "AAC32656.1"; exon_number "2"; 
+U88826.1	Genbank	start_codon	5199	5201	.	+	0	gene_id "tat"; transcript_id "unassigned_transcript_5"; gbkey "CDS"; gene "tat"; product "Tat"; protein_id "AAC32656.1"; exon_number "1"; 
+U88826.1	Genbank	stop_codon	7793	7795	.	+	0	gene_id "tat"; transcript_id "unassigned_transcript_5"; gbkey "CDS"; gene "tat"; product "Tat"; protein_id "AAC32656.1"; exon_number "2"; 
+U88826.1	Genbank	gene	5338	8000	.	+	.	gene_id "rev"; transcript_id ""; gbkey "Gene"; gene "rev"; gene_biotype "protein_coding"; 
+U88826.1	Genbank	CDS	5338	5413	.	+	0	gene_id "rev"; transcript_id "unassigned_transcript_6"; gbkey "CDS"; gene "rev"; product "Rev"; protein_id "AAC32657.1"; exon_number "1"; 
+U88826.1	Genbank	CDS	7705	7997	.	+	2	gene_id "rev"; transcript_id "unassigned_transcript_6"; gbkey "CDS"; gene "rev"; product "Rev"; protein_id "AAC32657.1"; exon_number "2"; 
+U88826.1	Genbank	start_codon	5338	5340	.	+	0	gene_id "rev"; transcript_id "unassigned_transcript_6"; gbkey "CDS"; gene "rev"; product "Rev"; protein_id "AAC32657.1"; exon_number "1"; 
+U88826.1	Genbank	stop_codon	7998	8000	.	+	0	gene_id "rev"; transcript_id "unassigned_transcript_6"; gbkey "CDS"; gene "rev"; product "Rev"; protein_id "AAC32657.1"; exon_number "2"; 
+U88826.1	Genbank	gene	5440	5466	.	+	.	gene_id "vpu (defective)"; transcript_id ""; gbkey "Gene"; gene "vpu (defective)"; gene_biotype "pseudogene"; pseudo "true"; 
+U88826.1	Genbank	CDS	5440	5463	.	+	0	gene_id "vpu (defective)"; transcript_id "unassigned_transcript_7"; gbkey "CDS"; gene "vpu (defective)"; note "10 bp deletion early in vpu frameshifts, results in premature termination"; pseudo "true"; exon_number "1"; 
+U88826.1	Genbank	start_codon	5440	5442	.	+	0	gene_id "vpu (defective)"; transcript_id "unassigned_transcript_7"; gbkey "CDS"; gene "vpu (defective)"; note "10 bp deletion early in vpu frameshifts, results in premature termination"; pseudo "true"; exon_number "1"; 
+U88826.1	Genbank	stop_codon	5464	5466	.	+	0	gene_id "vpu (defective)"; transcript_id "unassigned_transcript_7"; gbkey "CDS"; gene "vpu (defective)"; note "10 bp deletion early in vpu frameshifts, results in premature termination"; pseudo "true"; exon_number "1"; 
+U88826.1	Genbank	gene	5593	8142	.	+	.	gene_id "env"; transcript_id ""; gbkey "Gene"; gene "env"; gene_biotype "protein_coding"; 
+U88826.1	Genbank	CDS	5593	8139	.	+	0	gene_id "env"; transcript_id "unassigned_transcript_8"; gbkey "CDS"; gene "env"; product "envelope polyprotein"; protein_id "AAC32655.1"; exon_number "1"; 
+U88826.1	Genbank	start_codon	5593	5595	.	+	0	gene_id "env"; transcript_id "unassigned_transcript_8"; gbkey "CDS"; gene "env"; product "envelope polyprotein"; protein_id "AAC32655.1"; exon_number "1"; 
+U88826.1	Genbank	stop_codon	8140	8142	.	+	0	gene_id "env"; transcript_id "unassigned_transcript_8"; gbkey "CDS"; gene "env"; product "envelope polyprotein"; protein_id "AAC32655.1"; exon_number "1"; 
+U88826.1	Genbank	gene	8144	8767	.	+	.	gene_id "nef"; transcript_id ""; gbkey "Gene"; gene "nef"; gene_biotype "protein_coding"; 
+U88826.1	Genbank	CDS	8144	8764	.	+	0	gene_id "nef"; transcript_id "unassigned_transcript_9"; gbkey "CDS"; gene "nef"; product "Nef"; protein_id "AAC32660.1"; exon_number "1"; 
+U88826.1	Genbank	start_codon	8144	8146	.	+	0	gene_id "nef"; transcript_id "unassigned_transcript_9"; gbkey "CDS"; gene "nef"; product "Nef"; protein_id "AAC32660.1"; exon_number "1"; 
+U88826.1	Genbank	stop_codon	8765	8767	.	+	0	gene_id "nef"; transcript_id "unassigned_transcript_9"; gbkey "CDS"; gene "nef"; product "Nef"; protein_id "AAC32660.1"; exon_number "1"; 
+###

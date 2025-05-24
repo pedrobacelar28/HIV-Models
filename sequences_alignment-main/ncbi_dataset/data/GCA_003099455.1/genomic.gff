@@ -1,0 +1,24 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309945v1
+#!genome-build-accession NCBI_Assembly:GCA_003099455.1
+##sequence-region AY037279.1 1 8760
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY037279.1	Genbank	region	1	8760	.	+	.	ID=AY037279.1:1..8760;Dbxref=taxon:11676;country=Argentina: Buenos Aires;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=ARMA185;mol_type=genomic DNA;note=isolated from PBMC from a 22-year-old woman in 1999%3B patient was infected by heterosexual contact%3B CDC Stage A2;old-name=Human immunodeficiency virus type 1;subtype=CRF12_BF
+AY037279.1	Genbank	sequence_feature	1	1491	.	+	.	ID=id-AY037279.1:1..1491;Note=nonfunctional gag protein due to hypermutation;gbkey=misc_feature;partial=true;start_range=.,1
+AY037279.1	Genbank	sequence_feature	1278	4304	.	+	.	ID=id-AY037279.1:1278..4304;Note=nonfunctional pol protein due to hypermutation;gbkey=misc_feature;partial=true;start_range=.,1278
+AY037279.1	Genbank	sequence_feature	4249	4827	.	+	.	ID=id-AY037279.1:4249..4827;Note=nonfunctional vif protein due to hypermutation;gbkey=misc_feature
+AY037279.1	Genbank	sequence_feature	4767	5057	.	+	.	ID=id-AY037279.1:4767..5057;Note=nonfunctional vpr protein due to hypermutation;gbkey=misc_feature
+AY037279.1	Genbank	gene	5038	7603	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY037279.1	Genbank	CDS	5038	5252	.	+	0	ID=cds-AAL12727.1;Parent=gene-tat;Dbxref=NCBI_GP:AAL12727.1;Name=AAL12727.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAL12727.1
+AY037279.1	Genbank	CDS	7513	7603	.	+	1	ID=cds-AAL12727.1;Parent=gene-tat;Dbxref=NCBI_GP:AAL12727.1;Name=AAL12727.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAL12727.1
+AY037279.1	Genbank	gene	5177	7787	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY037279.1	Genbank	CDS	5177	5252	.	+	0	ID=cds-AAL12728.1;Parent=gene-rev;Dbxref=NCBI_GP:AAL12728.1;Name=AAL12728.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAL12728.1
+AY037279.1	Genbank	CDS	7513	7787	.	+	2	ID=cds-AAL12728.1;Parent=gene-rev;Dbxref=NCBI_GP:AAL12728.1;Name=AAL12728.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAL12728.1
+AY037279.1	Genbank	gene	5269	5523	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY037279.1	Genbank	CDS	5269	5523	.	+	0	ID=cds-AAL12729.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAL12729.1;Name=AAL12729.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAL12729.1
+AY037279.1	Genbank	sequence_feature	5481	7929	.	+	.	ID=id-AY037279.1:5481..7929;Note=nonfunctional envelope glycoprotein due to hypermutation;gbkey=misc_feature
+AY037279.1	Genbank	sequence_feature	7931	8548	.	+	.	ID=id-AY037279.1:7931..8548;Note=nonfunctional nef protein due to hypermutation;gbkey=misc_feature
+AY037279.1	Genbank	long_terminal_repeat	8220	8760	.	+	.	ID=id-AY037279.1:8220..8760;gbkey=LTR
+###

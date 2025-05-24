@@ -1,0 +1,33 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310007v1
+#!genome-build-accession NCBI_Assembly:GCA_003100075.1
+##sequence-region AY535660.1 1 9229
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY535660.1	Genbank	region	1	9229	.	+	.	ID=AY535660.1:1..9229;Dbxref=taxon:11676;country=Estonia;gb-acronym=HIV-1;gbkey=Src;genome=proviral;group=M;isolate=EE0369;isolation-source=peripheral blood mononuclear cells;mol_type=genomic DNA;subtype=CRF06-cpx/A/CRF06-cpx recombinant
+AY535660.1	Genbank	long_terminal_repeat	1	265	.	+	.	ID=id-AY535660.1:1..265;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+AY535660.1	Genbank	gene	440	1918	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AY535660.1	Genbank	CDS	440	1918	.	+	0	ID=cds-AAS83690.1;Parent=gene-gag;Dbxref=NCBI_GP:AAS83690.1;Name=AAS83690.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAS83690.1
+AY535660.1	Genbank	sequence_feature	857	1746	.	+	.	ID=id-gag;Note=subtype A-like sequence%3B similar to subtype A and CRF03_AB forms of HIV-1 isolated from Ukraine%2C Russia%2C and Belarus;gbkey=misc_feature;gene=gag
+AY535660.1	Genbank	gene	1720	4731	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1720
+AY535660.1	Genbank	CDS	1720	4731	.	+	0	ID=cds-AAS83691.1;Parent=gene-pol;Dbxref=NCBI_GP:AAS83691.1;Name=AAS83691.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAS83691.1;start_range=.,1720
+AY535660.1	Genbank	gene	4676	5254	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY535660.1	Genbank	CDS	4676	5254	.	+	0	ID=cds-AAS83692.1;Parent=gene-vif;Dbxref=NCBI_GP:AAS83692.1;Name=AAS83692.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAS83692.1
+AY535660.1	Genbank	gene	5194	5484	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY535660.1	Genbank	CDS	5194	5484	.	+	0	ID=cds-AAS83693.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAS83693.1;Name=AAS83693.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAS83693.1
+AY535660.1	Genbank	gene	5465	8050	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY535660.1	Genbank	CDS	5465	5679	.	+	0	ID=cds-AAS83694.1;Parent=gene-tat;Dbxref=NCBI_GP:AAS83694.1;Name=AAS83694.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAS83694.1
+AY535660.1	Genbank	CDS	8005	8050	.	+	1	ID=cds-AAS83694.1;Parent=gene-tat;Dbxref=NCBI_GP:AAS83694.1;Name=AAS83694.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAS83694.1
+AY535660.1	Genbank	gene	5604	8279	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY535660.1	Genbank	CDS	5604	5679	.	+	0	ID=cds-AAS83695.1;Parent=gene-rev;Dbxref=NCBI_GP:AAS83695.1;Name=AAS83695.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAS83695.1
+AY535660.1	Genbank	CDS	8005	8279	.	+	2	ID=cds-AAS83695.1;Parent=gene-rev;Dbxref=NCBI_GP:AAS83695.1;Name=AAS83695.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAS83695.1
+AY535660.1	Genbank	gene	5706	5951	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY535660.1	Genbank	CDS	5706	5951	.	+	0	ID=cds-AAS83696.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAS83696.1;Name=AAS83696.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAS83696.1
+AY535660.1	Genbank	gene	5869	8421	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY535660.1	Genbank	CDS	5869	8421	.	+	0	ID=cds-AAS83697.1;Parent=gene-env;Dbxref=NCBI_GP:AAS83697.1;Name=AAS83697.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAS83697.1
+AY535660.1	Genbank	gene	8423	9043	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY535660.1	Genbank	CDS	8423	9043	.	+	0	ID=cds-AAS83698.1;Parent=gene-nef;Dbxref=NCBI_GP:AAS83698.1;Name=AAS83698.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAS83698.1
+AY535660.1	Genbank	long_terminal_repeat	8712	9229	.	+	.	ID=id-AY535660.1:8712..9229;end_range=9229,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+AY535660.1	Genbank	match	1	9229	.	+	.	ID=aln0;Target=AY535659.1 1 9262 +;Gap=M408 I3 M405 I9 M733 I6 M46 I3 M4678 D15 M26 D3 M729 I18 M186 I4 M4 I8 M1996
+###

@@ -1,0 +1,45 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309847v1
+#!genome-build-accession NCBI_Assembly:GCA_003098475.1
+##sequence-region AF197340.1 1 9628
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF197340.1	Genbank	region	1	9628	.	+	.	ID=AF197340.1:1..9628;Dbxref=taxon:11676;country=Central African Republic;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=90CF11697;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;subtype=E
+AF197340.1	Genbank	long_terminal_repeat	1	570	.	+	.	ID=id-AF197340.1:1..570;Note=5' long terminal repeat;gbkey=repeat_region;rpt_type=long_terminal_repeat
+AF197340.1	Genbank	repeat_region	1	478	.	+	.	ID=id-AF197340.1:1..478;Note=U3;gbkey=repeat_region
+AF197340.1	Genbank	binding_site	287	295	.	+	.	ID=id-AF197340.1:287..295;bound_moiety=NF-kappa-B;gbkey=misc_binding
+AF197340.1	Genbank	binding_site	299	309	.	+	.	ID=id-AF197340.1:299..309;bound_moiety=NF-kappa-B;gbkey=misc_binding
+AF197340.1	Genbank	TATA_box	361	369	.	+	.	ID=id-AF197340.1:361..369;gbkey=regulatory;regulatory_class=TATA_box
+AF197340.1	Genbank	stem_loop	391	448	.	+	.	ID=id-AF197340.1:391..448;Note=TAR element;gbkey=stem_loop
+AF197340.1	Genbank	sequence_secondary_structure	413	414	.	+	.	ID=id-AF197340.1:413..414;Note=TAR stem bulge;gbkey=misc_structure
+AF197340.1	Genbank	sequence_secondary_structure	419	424	.	+	.	ID=id-AF197340.1:419..424;Note=TAR loop;gbkey=misc_structure
+AF197340.1	Genbank	polyA_signal_sequence	464	469	.	+	.	ID=id-AF197340.1:464..469;gbkey=regulatory;regulatory_class=polyA_signal_sequence
+AF197340.1	Genbank	repeat_region	479	488	.	+	.	ID=id-AF197340.1:479..488;Note=R;gbkey=repeat_region
+AF197340.1	Genbank	repeat_region	489	570	.	+	.	ID=id-AF197340.1:489..570;Note=U5;gbkey=repeat_region
+AF197340.1	Genbank	gene	745	2241	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF197340.1	Genbank	CDS	745	2241	.	+	0	ID=cds-AAF24327.1;Parent=gene-gag;Dbxref=NCBI_GP:AAF24327.1;Name=AAF24327.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAF24327.1
+AF197340.1	Genbank	pseudogene	2034	5047	.	+	.	ID=gene-pol;Name=pol;Note=terminated by inframe stop codon;gbkey=Gene;gene=pol;gene_biotype=pseudogene;partial=true;pseudo=true;start_range=.,2034
+AF197340.1	Genbank	gene	4990	5568	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF197340.1	Genbank	CDS	4990	5568	.	+	0	ID=cds-AAF24328.1;Parent=gene-vif;Dbxref=NCBI_GP:AAF24328.1;Name=AAF24328.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAF24328.1
+AF197340.1	Genbank	gene	5508	5798	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF197340.1	Genbank	CDS	5508	5798	.	+	0	ID=cds-AAF24329.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAF24329.1;Name=AAF24329.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAF24329.1
+AF197340.1	Genbank	gene	5779	8421	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF197340.1	Genbank	CDS	5779	5993	.	+	0	ID=cds-AAF24330.1;Parent=gene-tat;Dbxref=NCBI_GP:AAF24330.1;Name=AAF24330.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAF24330.1
+AF197340.1	Genbank	CDS	8331	8421	.	+	1	ID=cds-AAF24330.1;Parent=gene-tat;Dbxref=NCBI_GP:AAF24330.1;Name=AAF24330.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAF24330.1
+AF197340.1	Genbank	gene	5918	8626	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF197340.1	Genbank	CDS	5918	5993	.	+	0	ID=cds-AAF24331.1;Parent=gene-rev;Dbxref=NCBI_GP:AAF24331.1;Name=AAF24331.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAF24331.1
+AF197340.1	Genbank	CDS	8331	8626	.	+	2	ID=cds-AAF24331.1;Parent=gene-rev;Dbxref=NCBI_GP:AAF24331.1;Name=AAF24331.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAF24331.1
+AF197340.1	Genbank	pseudogene	6014	6259	.	+	.	ID=gene-vpu;Name=vpu;Note=terminated by inframe stop codon;gbkey=Gene;gene=vpu;gene_biotype=pseudogene;pseudo=true
+AF197340.1	Genbank	gene	6177	8768	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF197340.1	Genbank	CDS	6177	8768	.	+	0	ID=cds-AAF24332.1;Parent=gene-env;Dbxref=NCBI_GP:AAF24332.1;Name=AAF24332.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAF24332.1
+AF197340.1	Genbank	gene	8770	9384	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF197340.1	Genbank	CDS	8770	9384	.	+	0	ID=cds-AAF24333.1;Parent=gene-nef;Dbxref=NCBI_GP:AAF24333.1;Name=AAF24333.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAF24333.1
+AF197340.1	Genbank	long_terminal_repeat	9053	9628	.	+	.	ID=id-AF197340.1:9053..9628;Note=3' long terminal repeat;gbkey=repeat_region;rpt_type=long_terminal_repeat
+AF197340.1	Genbank	repeat_region	9053	9507	.	+	.	ID=id-AF197340.1:9053..9507;Note=U3;gbkey=repeat_region
+AF197340.1	Genbank	binding_site	9402	9410	.	+	.	ID=id-AF197340.1:9402..9410;bound_moiety=NF-kappa-B;gbkey=misc_binding
+AF197340.1	Genbank	binding_site	9414	9424	.	+	.	ID=id-AF197340.1:9414..9424;bound_moiety=NF-kappa-B;gbkey=misc_binding
+AF197340.1	Genbank	repeat_region	9508	9603	.	+	.	ID=id-AF197340.1:9508..9603;Note=R;gbkey=repeat_region
+AF197340.1	Genbank	polyA_signal_sequence	9579	9584	.	+	.	ID=id-AF197340.1:9579..9584;gbkey=regulatory;regulatory_class=polyA_signal_sequence
+AF197340.1	Genbank	repeat_region	9604	9628	.	+	.	ID=id-AF197340.1:9604..9628;Note=U5;gbkey=repeat_region
+###

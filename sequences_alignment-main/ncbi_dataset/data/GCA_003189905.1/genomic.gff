@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318990v1
+#!genome-build-accession NCBI_Assembly:GCA_003189905.1
+##sequence-region KF859741.1 1 9025
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KF859741.1	Genbank	region	1	9025	.	+	.	ID=KF859741.1:1..9025;Dbxref=taxon:11676;collection-date=2011;country=Japan;gb-acronym=HIV-1;gbkey=Src;isolate=DE00111JP003;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=CRF01_AE
+KF859741.1	Genbank	gene	274	1767	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KF859741.1	Genbank	CDS	274	1767	.	+	0	ID=cds-AHC30136.1;Parent=gene-gag;Dbxref=NCBI_GP:AHC30136.1;Name=AHC30136.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AHC30136.1
+KF859741.1	Genbank	gene	1563	4572	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other;partial=true;start_range=.,1563
+KF859741.1	Genbank	sequence_feature	1563	4572	.	+	.	ID=id-pol;Note=nonfunctional pol protein due to mutation;gbkey=misc_feature;gene=pol;partial=true;start_range=.,1563
+KF859741.1	Genbank	gene	4517	5083	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KF859741.1	Genbank	CDS	4517	5083	.	+	0	ID=cds-AHC30137.1;Parent=gene-vif;Dbxref=NCBI_GP:AHC30137.1;Name=AHC30137.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AHC30137.1
+KF859741.1	Genbank	gene	5035	5313	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KF859741.1	Genbank	CDS	5035	5313	.	+	0	ID=cds-AHC30138.1;Parent=gene-vpr;Dbxref=NCBI_GP:AHC30138.1;Name=AHC30138.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AHC30138.1
+KF859741.1	Genbank	gene	5294	7866	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KF859741.1	Genbank	CDS	5294	5508	.	+	0	ID=cds-AHC30139.1;Parent=gene-tat;Dbxref=NCBI_GP:AHC30139.1;Name=AHC30139.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHC30139.1
+KF859741.1	Genbank	CDS	7776	7866	.	+	1	ID=cds-AHC30139.1;Parent=gene-tat;Dbxref=NCBI_GP:AHC30139.1;Name=AHC30139.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHC30139.1
+KF859741.1	Genbank	gene	5433	8071	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KF859741.1	Genbank	CDS	5433	5508	.	+	0	ID=cds-AHC30140.1;Parent=gene-rev;Dbxref=NCBI_GP:AHC30140.1;Name=AHC30140.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHC30140.1
+KF859741.1	Genbank	CDS	7776	8071	.	+	2	ID=cds-AHC30140.1;Parent=gene-rev;Dbxref=NCBI_GP:AHC30140.1;Name=AHC30140.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHC30140.1
+KF859741.1	Genbank	gene	5529	5713	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=other
+KF859741.1	Genbank	sequence_feature	5529	5713	.	+	.	ID=id-vpu;Note=nonfunctional vpu protein due to mutation;gbkey=misc_feature;gene=vpu
+KF859741.1	Genbank	gene	5631	8213	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KF859741.1	Genbank	CDS	5631	8213	.	+	0	ID=cds-AHC30141.1;Parent=gene-env;Dbxref=NCBI_GP:AHC30141.1;Name=AHC30141.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AHC30141.1
+KF859741.1	Genbank	gene	8215	8832	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KF859741.1	Genbank	CDS	8215	8832	.	+	0	ID=cds-AHC30142.1;Parent=gene-nef;Dbxref=NCBI_GP:AHC30142.1;Name=AHC30142.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AHC30142.1
+###

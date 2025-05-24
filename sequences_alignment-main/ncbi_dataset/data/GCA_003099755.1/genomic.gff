@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309975v1
+#!genome-build-accession NCBI_Assembly:GCA_003099755.1
+##sequence-region AY371152.1 1 8394
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY371152.1	Genbank	region	1	8394	.	+	.	ID=AY371152.1:1..8394;Dbxref=taxon:11676;country=Cameroon: Lomie;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=02CM.1710LE;isolation-source=healthy adult;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;subtype=CRF11_cpx
+AY371152.1	Genbank	gene	1	1479	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=other;partial=true;start_range=.,1
+AY371152.1	Genbank	sequence_feature	1	1479	.	+	.	ID=id-gag;Note=nonfunctional gag protein due to mutation;gbkey=misc_feature;gene=gag;partial=true;start_range=.,1
+AY371152.1	Genbank	gene	1284	4292	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other;partial=true;start_range=.,1284
+AY371152.1	Genbank	sequence_feature	1284	4292	.	+	.	ID=id-pol;Note=nonfunctional pol protein due to mutation;gbkey=misc_feature;gene=pol;partial=true;start_range=.,1284
+AY371152.1	Genbank	gene	4237	4815	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY371152.1	Genbank	CDS	4237	4815	.	+	0	ID=cds-AAR22145.1;Parent=gene-vif;Dbxref=NCBI_GP:AAR22145.1;Name=AAR22145.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAR22145.1
+AY371152.1	Genbank	gene	4755	5045	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AY371152.1	Genbank	CDS	4755	5045	.	+	0	ID=cds-AAR22146.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAR22146.1;Name=AAR22146.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAR22146.1
+AY371152.1	Genbank	gene	5026	7685	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY371152.1	Genbank	CDS	5026	5240	.	+	0	ID=cds-AAR22147.1;Parent=gene-tat;Dbxref=NCBI_GP:AAR22147.1;Name=AAR22147.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAR22147.1
+AY371152.1	Genbank	CDS	7595	7685	.	+	1	ID=cds-AAR22147.1;Parent=gene-tat;Dbxref=NCBI_GP:AAR22147.1;Name=AAR22147.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAR22147.1
+AY371152.1	Genbank	gene	5165	7878	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY371152.1	Genbank	CDS	5165	5240	.	+	0	ID=cds-AAR22148.1;Parent=gene-rev;Dbxref=NCBI_GP:AAR22148.1;Name=AAR22148.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAR22148.1
+AY371152.1	Genbank	CDS	7595	7878	.	+	2	ID=cds-AAR22148.1;Parent=gene-rev;Dbxref=NCBI_GP:AAR22148.1;Name=AAR22148.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAR22148.1
+AY371152.1	Genbank	gene	5266	5511	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY371152.1	Genbank	CDS	5266	5511	.	+	0	ID=cds-AAR22149.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAR22149.1;Name=AAR22149.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAR22149.1
+AY371152.1	Genbank	gene	5429	7990	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=other
+AY371152.1	Genbank	sequence_feature	5429	7990	.	+	.	ID=id-env;Note=nonfunctional envelope glycoprotein due to mutation;gbkey=misc_feature;gene=env
+AY371152.1	Genbank	gene	7992	8394	.	+	.	ID=gene-nef;Name=nef;end_range=8394,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+AY371152.1	Genbank	CDS	7992	8394	.	+	0	ID=cds-AAR22150.1;Parent=gene-nef;Dbxref=NCBI_GP:AAR22150.1;Name=AAR22150.1;end_range=8394,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=AAR22150.1
+AY371122.1	Genbank	match	1	8428	.	+	.	ID=aln0;Target=AY371121.1 1 8367 +;Gap=M368 D3 I1 I3 I3 M2 I1 I1 I3 M732 I3 M42 I3 M208 D11 D6 D1 M67 D3 M3817 D1 M270 I3 M335 I1 I2 I1 I2 M135 D4 D1 D1 D6 D6 D7 I1 I2 I1 M485 D3 M120 D6 D19 D5 D1 I2 I3 I3 I6 I1 I2 I1 I1 I1 I2 I2 I1 M159 D3 M161 I3 M1147 D36 M56 I2 I1 M201
+###

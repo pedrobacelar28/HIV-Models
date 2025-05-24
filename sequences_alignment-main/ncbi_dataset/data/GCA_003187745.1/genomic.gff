@@ -1,0 +1,32 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318774v1
+#!genome-build-accession NCBI_Assembly:GCA_003187745.1
+##sequence-region KT983615.1 1 9020
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KT983615.1	Genbank	region	1	9020	.	+	.	ID=KT983615.1:1..9020;Dbxref=taxon:11676;collection-date=06-Feb-2013;country=Belarus: Minsk;gb-acronym=HIV-1;gbkey=Src;genotype=A1;isolate=PV85;mol_type=genomic RNA;nat-host=Homo sapiens%3B female infected in 2012
+KT983615.1	Genbank	long_terminal_repeat	1	72	.	+	.	ID=id-KT983615.1:1..72;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+KT983615.1	Genbank	sequence_feature	73	252	.	+	.	ID=id-KT983615.1:73..252;Note=NCR%3B noncoding region;gbkey=misc_feature
+KT983615.1	Genbank	gene	253	1755	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KT983615.1	Genbank	CDS	253	1755	.	+	0	ID=cds-ALV86886.1;Parent=gene-gag;Dbxref=NCBI_GP:ALV86886.1;Name=ALV86886.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ALV86886.1
+KT983615.1	Genbank	gene	1545	4559	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1545
+KT983615.1	Genbank	CDS	1545	4559	.	+	0	ID=cds-ALV86887.1;Parent=gene-pol;Dbxref=NCBI_GP:ALV86887.1;Name=ALV86887.1;Note=reverse transcriptase (RT) and RNase H%2C integrase (IN)%2C and HIV protease (PR);gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ALV86887.1;start_range=.,1545
+KT983615.1	Genbank	gene	4504	5082	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KT983615.1	Genbank	CDS	4504	5082	.	+	0	ID=cds-ALV86888.1;Parent=gene-vif;Dbxref=NCBI_GP:ALV86888.1;Name=ALV86888.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ALV86888.1
+KT983615.1	Genbank	gene	5022	5312	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KT983615.1	Genbank	CDS	5022	5312	.	+	0	ID=cds-ALV86889.1;Parent=gene-vpr;Dbxref=NCBI_GP:ALV86889.1;Name=ALV86889.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ALV86889.1
+KT983615.1	Genbank	gene	5293	7938	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KT983615.1	Genbank	CDS	5293	5507	.	+	0	ID=cds-ALV86890.1;Parent=gene-tat;Dbxref=NCBI_GP:ALV86890.1;Name=ALV86890.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ALV86890.1
+KT983615.1	Genbank	CDS	7848	7938	.	+	1	ID=cds-ALV86890.1;Parent=gene-tat;Dbxref=NCBI_GP:ALV86890.1;Name=ALV86890.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ALV86890.1
+KT983615.1	Genbank	gene	5432	8143	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KT983615.1	Genbank	CDS	5432	5507	.	+	0	ID=cds-ALV86891.1;Parent=gene-rev;Dbxref=NCBI_GP:ALV86891.1;Name=ALV86891.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ALV86891.1
+KT983615.1	Genbank	CDS	7848	8143	.	+	2	ID=cds-ALV86891.1;Parent=gene-rev;Dbxref=NCBI_GP:ALV86891.1;Name=ALV86891.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ALV86891.1
+KT983615.1	Genbank	gene	5528	5773	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KT983615.1	Genbank	CDS	5528	5773	.	+	0	ID=cds-ALV86892.1;Parent=gene-vpu;Dbxref=NCBI_GP:ALV86892.1;Name=ALV86892.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ALV86892.1
+KT983615.1	Genbank	gene	5691	8285	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KT983615.1	Genbank	CDS	5691	8285	.	+	0	ID=cds-ALV86893.1;Parent=gene-env;Dbxref=NCBI_GP:ALV86893.1;Name=ALV86893.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ALV86893.1
+KT983615.1	Genbank	gene	8287	8922	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KT983615.1	Genbank	CDS	8287	8922	.	+	0	ID=cds-ALV86894.1;Parent=gene-nef;Dbxref=NCBI_GP:ALV86894.1;Name=ALV86894.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ALV86894.1
+KT983615.1	Genbank	long_terminal_repeat	8591	9020	.	+	.	ID=id-KT983615.1:8591..9020;end_range=9020,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+###

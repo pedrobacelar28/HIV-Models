@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310369v1
+#!genome-build-accession NCBI_Assembly:GCA_003103695.1
+##sequence-region KF425293.1 1 8931
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KF425293.1	Genbank	region	1	8931	.	+	.	ID=KF425293.1:1..8931;Dbxref=taxon:11676;collection-date=2010;country=Malaysia;gb-acronym=HIV-1;gbkey=Src;genome=genomic;genotype=CRF58_01B;isolate=10MYPR87;mol_type=genomic RNA;nat-host=Homo sapiens;old-name=HIV1
+KF425293.1	Genbank	gene	107	1603	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KF425293.1	Genbank	CDS	107	1603	.	+	0	ID=cds-AHC72015.1;Parent=gene-gag;Dbxref=NCBI_GP:AHC72015.1;Name=AHC72015.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AHC72015.1
+KF425293.1	Genbank	gene	1396	4407	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1396
+KF425293.1	Genbank	CDS	1396	4407	.	+	0	ID=cds-AHC72016.1;Parent=gene-pol;Dbxref=NCBI_GP:AHC72016.1;Name=AHC72016.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AHC72016.1;start_range=.,1396
+KF425293.1	Genbank	gene	4352	4930	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KF425293.1	Genbank	CDS	4352	4930	.	+	0	ID=cds-AHC72017.1;Parent=gene-vif;Dbxref=NCBI_GP:AHC72017.1;Name=AHC72017.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AHC72017.1
+KF425293.1	Genbank	gene	4870	5160	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KF425293.1	Genbank	CDS	4870	5160	.	+	0	ID=cds-AHC72018.1;Parent=gene-vpr;Dbxref=NCBI_GP:AHC72018.1;Name=AHC72018.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AHC72018.1
+KF425293.1	Genbank	gene	5141	7777	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KF425293.1	Genbank	CDS	5141	5355	.	+	0	ID=cds-AHC72019.1;Parent=gene-tat;Dbxref=NCBI_GP:AHC72019.1;Name=AHC72019.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHC72019.1
+KF425293.1	Genbank	CDS	7687	7777	.	+	1	ID=cds-AHC72019.1;Parent=gene-tat;Dbxref=NCBI_GP:AHC72019.1;Name=AHC72019.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AHC72019.1
+KF425293.1	Genbank	gene	5280	7982	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KF425293.1	Genbank	CDS	5280	5355	.	+	0	ID=cds-AHC72020.1;Parent=gene-rev;Dbxref=NCBI_GP:AHC72020.1;Name=AHC72020.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHC72020.1
+KF425293.1	Genbank	CDS	7687	7982	.	+	2	ID=cds-AHC72020.1;Parent=gene-rev;Dbxref=NCBI_GP:AHC72020.1;Name=AHC72020.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AHC72020.1
+KF425293.1	Genbank	gene	5376	5621	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KF425293.1	Genbank	CDS	5376	5621	.	+	0	ID=cds-AHC72021.1;Parent=gene-vpu;Dbxref=NCBI_GP:AHC72021.1;Name=AHC72021.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AHC72021.1
+KF425293.1	Genbank	gene	5539	8124	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KF425293.1	Genbank	CDS	5539	8124	.	+	0	ID=cds-AHC72022.1;Parent=gene-env;Dbxref=NCBI_GP:AHC72022.1;Name=AHC72022.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AHC72022.1
+KF425293.1	Genbank	gene	8126	8743	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KF425293.1	Genbank	CDS	8126	8743	.	+	0	ID=cds-AHC72023.1;Parent=gene-nef;Dbxref=NCBI_GP:AHC72023.1;Name=AHC72023.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AHC72023.1
+###

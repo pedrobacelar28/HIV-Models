@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309789v1
+#!genome-build-accession NCBI_Assembly:GCA_003097895.1
+##sequence-region AF005494.1 1 8968
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF005494.1	Genbank	region	1	8968	.	+	.	ID=AF005494.1:1..8968;Dbxref=taxon:11676;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=93br020;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1
+AF005494.1	Genbank	CDS	133	1412	.	+	0	ID=cds-AAD03169.1;Dbxref=NCBI_GP:AAD03169.1;Name=AAD03169.1;Note=translated by ribosomal frameshift slip;gbkey=CDS;product=Gag-Pol fusion polyprotein;protein_id=AAD03169.1
+AF005494.1	Genbank	CDS	1412	4424	.	+	1	ID=cds-AAD03169.1;Dbxref=NCBI_GP:AAD03169.1;Name=AAD03169.1;Note=translated by ribosomal frameshift slip;gbkey=CDS;product=Gag-Pol fusion polyprotein;protein_id=AAD03169.1
+AF005494.1	Genbank	gene	133	1611	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF005494.1	Genbank	CDS	133	1611	.	+	0	ID=cds-AAD03165.1;Parent=gene-gag;Dbxref=NCBI_GP:AAD03165.1;Name=AAD03165.1;gbkey=CDS;gene=gag;product=Gag;protein_id=AAD03165.1
+AF005494.1	Genbank	sequence_feature	412	417	.	+	.	ID=id-gag;Note=ribosomal frameshift slippery site;gbkey=misc_feature;gene=gag
+AF005494.1	Genbank	gene	4369	4947	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF005494.1	Genbank	CDS	4369	4947	.	+	0	ID=cds-AAD03170.1;Parent=gene-vif;Dbxref=NCBI_GP:AAD03170.1;Name=AAD03170.1;gbkey=CDS;gene=vif;product=Vif;protein_id=AAD03170.1
+AF005494.1	Genbank	gene	4887	5177	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF005494.1	Genbank	CDS	4887	5177	.	+	0	ID=cds-AAD03171.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAD03171.1;Name=AAD03171.1;gbkey=CDS;gene=vpr;product=Vpr;protein_id=AAD03171.1
+AF005494.1	Genbank	gene	5158	7767	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF005494.1	Genbank	CDS	5158	5372	.	+	0	ID=cds-AAD03167.1;Parent=gene-tat;Dbxref=NCBI_GP:AAD03167.1;Name=AAD03167.1;gbkey=CDS;gene=tat;product=Tat;protein_id=AAD03167.1
+AF005494.1	Genbank	CDS	7683	7767	.	+	1	ID=cds-AAD03167.1;Parent=gene-tat;Dbxref=NCBI_GP:AAD03167.1;Name=AAD03167.1;gbkey=CDS;gene=tat;product=Tat;protein_id=AAD03167.1
+AF005494.1	Genbank	gene	5297	7957	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF005494.1	Genbank	CDS	5297	5372	.	+	0	ID=cds-AAD03168.1;Parent=gene-rev;Dbxref=NCBI_GP:AAD03168.1;Name=AAD03168.1;gbkey=CDS;gene=rev;product=Rev;protein_id=AAD03168.1
+AF005494.1	Genbank	CDS	7683	7957	.	+	2	ID=cds-AAD03168.1;Parent=gene-rev;Dbxref=NCBI_GP:AAD03168.1;Name=AAD03168.1;gbkey=CDS;gene=rev;product=Rev;protein_id=AAD03168.1
+AF005494.1	Genbank	gene	5396	5641	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF005494.1	Genbank	CDS	5396	5641	.	+	0	ID=cds-AAD03173.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAD03173.1;Name=AAD03173.1;gbkey=CDS;gene=vpu;product=Vpu;protein_id=AAD03173.1
+AF005494.1	Genbank	gene	5559	8099	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF005494.1	Genbank	CDS	5559	8099	.	+	0	ID=cds-AAD03172.1;Parent=gene-env;Dbxref=NCBI_GP:AAD03172.1;Name=AAD03172.1;gbkey=CDS;gene=env;product=envelope polyprotein;protein_id=AAD03172.1
+AF005494.1	Genbank	gene	8101	8727	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF005494.1	Genbank	CDS	8101	8727	.	+	0	ID=cds-AAD03166.1;Parent=gene-nef;Dbxref=NCBI_GP:AAD03166.1;Name=AAD03166.1;gbkey=CDS;gene=nef;product=Nef;protein_id=AAD03166.1
+###

@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310283v1
+#!genome-build-accession NCBI_Assembly:GCA_003102835.1
+##sequence-region JX500705.1 1 9275
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+JX500705.1	Genbank	region	1	9275	.	+	.	ID=JX500705.1:1..9275;Dbxref=taxon:11676;collection-date=01-Mar-2012;country=Russia;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=12RU15r;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=AG
+JX500705.1	Genbank	gene	347	1888	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+JX500705.1	Genbank	CDS	347	1888	.	+	0	ID=cds-AFV26840.1;Parent=gene-gag;Dbxref=NCBI_GP:AFV26840.1;Name=AFV26840.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AFV26840.1
+JX500705.1	Genbank	gene	1663	4701	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1663
+JX500705.1	Genbank	CDS	1663	4701	.	+	0	ID=cds-AFV26841.1;Parent=gene-pol;Dbxref=NCBI_GP:AFV26841.1;Name=AFV26841.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AFV26841.1;start_range=.,1663
+JX500705.1	Genbank	gene	4646	5224	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+JX500705.1	Genbank	CDS	4646	5224	.	+	0	ID=cds-AFV26842.1;Parent=gene-vif;Dbxref=NCBI_GP:AFV26842.1;Name=AFV26842.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AFV26842.1
+JX500705.1	Genbank	gene	5164	5454	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+JX500705.1	Genbank	CDS	5164	5454	.	+	0	ID=cds-AFV26843.1;Parent=gene-vpr;Dbxref=NCBI_GP:AFV26843.1;Name=AFV26843.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AFV26843.1
+JX500705.1	Genbank	gene	5435	8083	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+JX500705.1	Genbank	CDS	5435	5649	.	+	0	ID=cds-AFV26844.1;Parent=gene-tat;Dbxref=NCBI_GP:AFV26844.1;Name=AFV26844.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AFV26844.1
+JX500705.1	Genbank	CDS	7993	8083	.	+	1	ID=cds-AFV26844.1;Parent=gene-tat;Dbxref=NCBI_GP:AFV26844.1;Name=AFV26844.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AFV26844.1
+JX500705.1	Genbank	gene	5574	8288	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+JX500705.1	Genbank	CDS	5574	5649	.	+	0	ID=cds-AFV26845.1;Parent=gene-rev;Dbxref=NCBI_GP:AFV26845.1;Name=AFV26845.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AFV26845.1
+JX500705.1	Genbank	CDS	7993	8288	.	+	2	ID=cds-AFV26845.1;Parent=gene-rev;Dbxref=NCBI_GP:AFV26845.1;Name=AFV26845.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AFV26845.1
+JX500705.1	Genbank	gene	5676	5921	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+JX500705.1	Genbank	CDS	5676	5921	.	+	0	ID=cds-AFV26846.1;Parent=gene-vpu;Dbxref=NCBI_GP:AFV26846.1;Name=AFV26846.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AFV26846.1
+JX500705.1	Genbank	gene	5839	8430	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+JX500705.1	Genbank	CDS	5839	8430	.	+	0	ID=cds-AFV26847.1;Parent=gene-env;Dbxref=NCBI_GP:AFV26847.1;Name=AFV26847.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AFV26847.1
+JX500705.1	Genbank	gene	8432	9055	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+JX500705.1	Genbank	CDS	8432	9055	.	+	0	ID=cds-AFV26848.1;Parent=gene-nef;Dbxref=NCBI_GP:AFV26848.1;Name=AFV26848.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AFV26848.1
+###

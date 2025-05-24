@@ -1,0 +1,26 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309913v1
+#!genome-build-accession NCBI_Assembly:GCA_003099135.1
+##sequence-region AF457060.1 1 8806
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF457060.1	Genbank	region	1	8806	.	+	.	ID=AF457060.1:1..8806;Dbxref=taxon:11676;country=Kenya;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=00KE_KISII5009;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;subtype=A2/D recombinant
+AF457060.1	Genbank	sequence_feature	1	1467	.	+	.	ID=id-AF457060.1:1..1467;Note=nonfunctional gag protein due to hypermutation;gbkey=misc_feature
+AF457060.1	Genbank	sequence_feature	1278	4271	.	+	.	ID=id-AF457060.1:1278..4271;Note=nonfunctional pol protein due to hypermutation;gbkey=misc_feature
+AF457060.1	Genbank	sequence_feature	4216	4794	.	+	.	ID=id-AF457060.1:4216..4794;Note=nonfunctional vif protein due to hypermutation;gbkey=misc_feature
+AF457060.1	Genbank	gene	4734	5021	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF457060.1	Genbank	CDS	4734	5021	.	+	0	ID=cds-AAN03087.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAN03087.1;Name=AAN03087.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAN03087.1
+AF457060.1	Genbank	gene	5002	7840	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF457060.1	Genbank	CDS	5002	5216	.	+	0	ID=cds-AAN03088.1;Parent=gene-tat;Dbxref=NCBI_GP:AAN03088.1;Name=AAN03088.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAN03088.1
+AF457060.1	Genbank	CDS	7545	7635	.	+	1	ID=cds-AAN03088.1;Parent=gene-tat;Dbxref=NCBI_GP:AAN03088.1;Name=AAN03088.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAN03088.1
+AF457060.1	Genbank	sequence_feature	5141	5216	.	+	.	ID=id-AF457060.1:5141..7840;Note=nonfunctional rev protein due to hypermutation;gbkey=misc_feature
+AF457060.1	Genbank	sequence_feature	7545	7840	.	+	.	ID=id-AF457060.1:5141..7840;Note=nonfunctional rev protein due to hypermutation;gbkey=misc_feature
+AF457060.1	Genbank	gene	5243	5488	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF457060.1	Genbank	CDS	5243	5488	.	+	0	ID=cds-AAN03089.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAN03089.1;Name=AAN03089.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAN03089.1
+AF457060.1	Genbank	sequence_feature	5406	7982	.	+	.	ID=id-AF457060.1:5406..7982;Note=nonfunctional envelope glycoprotein due to hypermutation;gbkey=misc_feature
+AF457060.1	Genbank	gene	7984	8622	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF457060.1	Genbank	CDS	7984	8619	.	+	0	ID=cds-AAN03090.1;Parent=gene-nef;Dbxref=NCBI_GP:AAN03090.1;Name=AAN03090.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAN03090.1
+AF457060.1	Genbank	long_terminal_repeat	8622	8806	.	+	.	ID=id-AF457060.1:8622..8806;Note=contains U3 and R;end_range=8806,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+AF457052.1	Genbank	match	1	8804	.	+	.	ID=aln0;Target=AF457051.1 1 8814 +;Gap=M1114 I3 M3 I1 M39 I3 M274 D3 M3819 D1 D3 D3 D3 D1 M11 D2 D1 M567 I7 I2 I1 I3 I1 I2 I1 I2 D6 D1 D3 D1 D1 D3 D1 D1 D2 D1 D3 D12 D1 D6 D1 M518 D1 D2 M1 I1 I2 M100 I3 M130 D11 D1 I2 I1 I3 I2 I1 I3 M9 I3 I2 I4 M158 I1 I1 I1 I1 I1 I1 M1329 I6 M42 I3 M436 I4 I4 I9 I4 M27 D1 M6 I3 M5 D1 D2 M6 D1 D1 M6 I1 M4 D1 M62 D1 M15 I1 M27 D1 M12
+###

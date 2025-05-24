@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310157v1
+#!genome-build-accession NCBI_Assembly:GCA_003101575.1
+##sequence-region EU581826.1 1 8855
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+EU581826.1	Genbank	region	1	8855	.	+	.	ID=EU581826.1:1..8855;Dbxref=taxon:11676;country=Argentina;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=AR02.ARG2233;isolation-source=female;mol_type=genomic DNA;subtype=CRF17_BF
+EU581826.1	Genbank	gene	1	1491	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+EU581826.1	Genbank	CDS	1	1491	.	+	0	ID=cds-ACD02822.1;Parent=gene-gag;Dbxref=NCBI_GP:ACD02822.1;Name=ACD02822.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=ACD02822.1;start_range=.,1
+EU581826.1	Genbank	gene	1275	4304	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1275
+EU581826.1	Genbank	CDS	1275	4304	.	+	0	ID=cds-ACD02823.1;Parent=gene-pol;Dbxref=NCBI_GP:ACD02823.1;Name=ACD02823.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACD02823.1;start_range=.,1275
+EU581826.1	Genbank	sequence_feature	4249	4826	.	+	.	ID=id-EU581826.1:4249..4826;Note=vif-like protein;gbkey=misc_feature
+EU581826.1	Genbank	gene	4766	5056	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+EU581826.1	Genbank	CDS	4766	5056	.	+	0	ID=cds-ACD02824.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACD02824.1;Name=ACD02824.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACD02824.1
+EU581826.1	Genbank	gene	5037	7687	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+EU581826.1	Genbank	CDS	5037	5251	.	+	0	ID=cds-ACD02825.1;Parent=gene-tat;Dbxref=NCBI_GP:ACD02825.1;Name=ACD02825.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACD02825.1
+EU581826.1	Genbank	CDS	7597	7687	.	+	1	ID=cds-ACD02825.1;Parent=gene-tat;Dbxref=NCBI_GP:ACD02825.1;Name=ACD02825.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACD02825.1
+EU581826.1	Genbank	gene	5176	7871	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+EU581826.1	Genbank	CDS	5176	5251	.	+	0	ID=cds-ACD02826.1;Parent=gene-rev;Dbxref=NCBI_GP:ACD02826.1;Name=ACD02826.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACD02826.1
+EU581826.1	Genbank	CDS	7597	7871	.	+	2	ID=cds-ACD02826.1;Parent=gene-rev;Dbxref=NCBI_GP:ACD02826.1;Name=ACD02826.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACD02826.1
+EU581826.1	Genbank	gene	5268	5516	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+EU581826.1	Genbank	CDS	5268	5516	.	+	0	ID=cds-ACD02829.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACD02829.1;Name=ACD02829.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACD02829.1
+EU581826.1	Genbank	gene	5431	8013	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+EU581826.1	Genbank	CDS	5431	8013	.	+	0	ID=cds-ACD02827.1;Parent=gene-env;Dbxref=NCBI_GP:ACD02827.1;Name=ACD02827.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACD02827.1
+EU581826.1	Genbank	gene	8015	8647	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+EU581826.1	Genbank	CDS	8015	8647	.	+	0	ID=cds-ACD02828.1;Parent=gene-nef;Dbxref=NCBI_GP:ACD02828.1;Name=ACD02828.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACD02828.1
+EU581824.1	Genbank	match	1	8822	.	+	.	ID=aln0;Target=EU581823.1 1 8840 +;Gap=M345 I6 M1010 I18 I18 M66 D15 M3821 I6 M600 I6 D16 D2 M115 D1 D14 M505 D3 M124 I13 D3 D10 M148 I1 D3 D4 M5 I12 M156 I3 I3 M627 I3 M1058 I1 M54 D1 M116
+###

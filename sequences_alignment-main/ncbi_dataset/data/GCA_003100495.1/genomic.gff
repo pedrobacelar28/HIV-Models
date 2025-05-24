@@ -1,0 +1,13 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310049v1
+#!genome-build-accession NCBI_Assembly:GCA_003100495.1
+##sequence-region AY900581.1 1 7581
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY900581.1	Genbank	region	1	7581	.	+	.	ID=AY900581.1:1..7581;Dbxref=taxon:11676;country=Cuba;gb-acronym=HIV-1;gbkey=Src;isolate=CB219;mol_type=genomic RNA;subtype=CRF24_BG
+AY900581.1	Genbank	gene	248	1741	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AY900581.1	Genbank	CDS	248	1732	.	+	0	ID=cds-AAY24679.1;Parent=gene-gag;Dbxref=NCBI_GP:AAY24679.1;Name=AAY24679.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAY24679.1
+AY900581.1	Genbank	gene	1702	4545	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1702
+AY900581.1	Genbank	CDS	1702	4545	.	+	0	ID=cds-AAY24680.1;Parent=gene-pol;Dbxref=NCBI_GP:AAY24680.1;Name=AAY24680.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAY24680.1;start_range=.,1702
+###

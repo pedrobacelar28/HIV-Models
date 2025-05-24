@@ -1,0 +1,27 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318898v1
+#!genome-build-accession NCBI_Assembly:GCA_003188985.1
+##sequence-region FJ900266.1 1 8257
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+FJ900266.1	Genbank	region	1	8257	.	+	.	ID=FJ900266.1:1..8257;Dbxref=taxon:11676;collection-date=2006;country=Angola;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=AO.06.ANG32;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;subtype=F1
+FJ900266.1	Genbank	gene	1	1494	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+FJ900266.1	Genbank	CDS	1	1494	.	+	0	ID=cds-ACR27140.1;Parent=gene-gag;Dbxref=NCBI_GP:ACR27140.1;Name=ACR27140.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACR27140.1
+FJ900266.1	Genbank	gene	1284	4307	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1284
+FJ900266.1	Genbank	CDS	1284	4307	.	+	0	ID=cds-ACR27141.1;Parent=gene-pol;Dbxref=NCBI_GP:ACR27141.1;Name=ACR27141.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACR27141.1;start_range=.,1284
+FJ900266.1	Genbank	gene	4252	4830	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+FJ900266.1	Genbank	CDS	4252	4830	.	+	0	ID=cds-ACR27142.1;Parent=gene-vif;Dbxref=NCBI_GP:ACR27142.1;Name=ACR27142.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACR27142.1
+FJ900266.1	Genbank	gene	4770	5060	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+FJ900266.1	Genbank	CDS	4770	5060	.	+	0	ID=cds-ACR27143.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACR27143.1;Name=ACR27143.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACR27143.1
+FJ900266.1	Genbank	gene	5041	5255	.	+	.	ID=gene-tat;Name=tat;end_range=5255,.;gbkey=Gene;gene=tat;gene_biotype=protein_coding;partial=true
+FJ900266.1	Genbank	CDS	5041	5255	.	+	0	ID=cds-ACR27144.1;Parent=gene-tat;Dbxref=NCBI_GP:ACR27144.1;Name=ACR27144.1;end_range=5255,.;gbkey=CDS;gene=tat;partial=true;product=tat protein;protein_id=ACR27144.1
+FJ900266.1	Genbank	gene	5180	5255	.	+	.	ID=gene-rev;Name=rev;end_range=5255,.;gbkey=Gene;gene=rev;gene_biotype=protein_coding;partial=true
+FJ900266.1	Genbank	CDS	5180	5255	.	+	0	ID=cds-ACR27148.1;Parent=gene-rev;Dbxref=NCBI_GP:ACR27148.1;Name=ACR27148.1;end_range=5255,.;gbkey=CDS;gene=rev;partial=true;product=rev protein;protein_id=ACR27148.1
+FJ900266.1	Genbank	gene	5283	5528	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+FJ900266.1	Genbank	CDS	5283	5528	.	+	0	ID=cds-ACR27145.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACR27145.1;Name=ACR27145.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACR27145.1
+FJ900266.1	Genbank	gene	5446	7968	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+FJ900266.1	Genbank	CDS	5446	7968	.	+	0	ID=cds-ACR27146.1;Parent=gene-env;Dbxref=NCBI_GP:ACR27146.1;Name=ACR27146.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACR27146.1
+FJ900266.1	Genbank	gene	7970	8257	.	+	.	ID=gene-nef;Name=nef;end_range=8257,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+FJ900266.1	Genbank	CDS	7970	8257	.	+	0	ID=cds-ACR27147.1;Parent=gene-nef;Dbxref=NCBI_GP:ACR27147.1;Name=ACR27147.1;end_range=8257,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=ACR27147.1
+###

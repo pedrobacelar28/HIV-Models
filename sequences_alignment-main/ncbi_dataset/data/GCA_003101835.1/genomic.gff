@@ -1,0 +1,32 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310183v1
+#!genome-build-accession NCBI_Assembly:GCA_003101835.1
+##sequence-region FJ213780.1 1 8944
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+FJ213780.1	Genbank	region	1	8944	.	+	.	ID=FJ213780.1:1..8944;Dbxref=taxon:11676;collection-date=2005;country=Uruguay;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=UY05_4752;mol_type=genomic DNA
+FJ213780.1	Genbank	long_terminal_repeat	1	63	.	+	.	ID=id-FJ213780.1:1..63;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat;start_range=.,1
+FJ213780.1	Genbank	biological_region	64	215	.	+	.	ID=id-FJ213780.1:64..215;Name=PBS and leader sequence;gbkey=Region
+FJ213780.1	Genbank	gene	216	1694	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+FJ213780.1	Genbank	CDS	216	1694	.	+	0	ID=cds-ACI39896.1;Parent=gene-gag;Dbxref=NCBI_GP:ACI39896.1;Name=ACI39896.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACI39896.1
+FJ213780.1	Genbank	gene	1496	4507	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1496
+FJ213780.1	Genbank	CDS	1496	4507	.	+	0	ID=cds-ACI39897.1;Parent=gene-pol;Dbxref=NCBI_GP:ACI39897.1;Name=ACI39897.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACI39897.1;start_range=.,1496
+FJ213780.1	Genbank	gene	4452	5030	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+FJ213780.1	Genbank	CDS	4452	5030	.	+	0	ID=cds-ACI39898.1;Parent=gene-vif;Dbxref=NCBI_GP:ACI39898.1;Name=ACI39898.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACI39898.1
+FJ213780.1	Genbank	gene	4970	5260	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+FJ213780.1	Genbank	CDS	4970	5260	.	+	0	ID=cds-ACI39899.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACI39899.1;Name=ACI39899.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACI39899.1
+FJ213780.1	Genbank	gene	5241	7880	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+FJ213780.1	Genbank	CDS	5241	5455	.	+	0	ID=cds-ACI39903.1;Parent=gene-tat;Dbxref=NCBI_GP:ACI39903.1;Name=ACI39903.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACI39903.1
+FJ213780.1	Genbank	CDS	7790	7874	.	+	1	ID=cds-ACI39903.1;Parent=gene-tat;Dbxref=NCBI_GP:ACI39903.1;Name=ACI39903.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACI39903.1
+FJ213780.1	Genbank	gene	5380	8064	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+FJ213780.1	Genbank	CDS	5380	5455	.	+	0	ID=cds-ACI39904.1;Parent=gene-rev;Dbxref=NCBI_GP:ACI39904.1;Name=ACI39904.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACI39904.1
+FJ213780.1	Genbank	CDS	7790	8064	.	+	2	ID=cds-ACI39904.1;Parent=gene-rev;Dbxref=NCBI_GP:ACI39904.1;Name=ACI39904.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACI39904.1
+FJ213780.1	Genbank	gene	5482	5733	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+FJ213780.1	Genbank	CDS	5482	5733	.	+	0	ID=cds-ACI39902.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACI39902.1;Name=ACI39902.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACI39902.1
+FJ213780.1	Genbank	gene	5651	8206	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+FJ213780.1	Genbank	CDS	5651	8206	.	+	0	ID=cds-ACI39900.1;Parent=gene-env;Dbxref=NCBI_GP:ACI39900.1;Name=ACI39900.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ACI39900.1
+FJ213780.1	Genbank	gene	8208	8834	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+FJ213780.1	Genbank	CDS	8208	8834	.	+	0	ID=cds-ACI39901.1;Parent=gene-nef;Dbxref=NCBI_GP:ACI39901.1;Name=ACI39901.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACI39901.1
+FJ213780.1	Genbank	long_terminal_repeat	8506	8944	.	+	.	ID=id-FJ213780.1:8506..8944;end_range=8944,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+###

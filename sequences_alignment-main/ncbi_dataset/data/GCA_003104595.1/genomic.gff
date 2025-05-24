@@ -1,0 +1,35 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310459v1
+#!genome-build-accession NCBI_Assembly:GCA_003104595.1
+##sequence-region M62320.1 1 9178
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+M62320.1	Genbank	region	1	9178	.	+	.	ID=M62320.1:1..9178;Dbxref=taxon:11676;cell-type=U937;gb-acronym=HIV-1;gbkey=Src;genome=proviral;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;tissue-type=peripheral blood lymphocyte
+M62320.1	Genbank	long_terminal_repeat	1	103	.	+	.	ID=id-M62320.1:1..103;Note=5' LTR;gbkey=repeat_region;rpt_type=long_terminal_repeat
+M62320.1	Genbank	gene	257	1738	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+M62320.1	Genbank	CDS	257	1738	.	+	0	ID=cds-AAA75018.1;Parent=gene-gag;Dbxref=NCBI_GP:AAA75018.1;Name=AAA75018.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAA75018.1
+M62320.1	Genbank	gene	1534	4542	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+M62320.1	Genbank	CDS	1534	4542	.	+	0	ID=cds-AAA75019.1;Parent=gene-pol;Dbxref=NCBI_GP:AAA75019.1;Name=AAA75019.1;Note=NH2 terminus uncertain;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAA75019.1
+M62320.1	Genbank	gene	4487	5065	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+M62320.1	Genbank	CDS	4487	5065	.	+	0	ID=cds-AAA75020.1;Parent=gene-vif;Dbxref=NCBI_GP:AAA75020.1;Name=AAA75020.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAA75020.1
+M62320.1	Genbank	gene	5005	5295	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=pseudogene
+M62320.1	Genbank	CDS	5005	5295	.	+	0	ID=cds-vpr;Parent=gene-vpr;gbkey=CDS;gene=vpr;product=vpr protein;pseudo=true
+M62320.1	Genbank	gene	5276	7899	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+M62320.1	Genbank	exon	7810	7899	.	+	.	ID=id-tat-2;Parent=gene-tat;exon_number=2;gbkey=exon;gene=tat;number=2
+M62320.1	Genbank	CDS	5276	5491	.	+	0	ID=cds-AAA75021.1;Parent=gene-tat;Dbxref=NCBI_GP:AAA75021.1;Name=AAA75021.1;gbkey=CDS;gene=tat;product=AAA75021.1;protein_id=AAA75021.1
+M62320.1	Genbank	CDS	7810	7899	.	+	0	ID=cds-AAA75021.1;Parent=gene-tat;Dbxref=NCBI_GP:AAA75021.1;Name=AAA75021.1;gbkey=CDS;gene=tat;product=AAA75021.1;protein_id=AAA75021.1
+M62320.1	Genbank	exon	5276	5491	.	+	.	ID=id-tat-1;Parent=gene-tat;exon_number=1;gbkey=exon;gene=tat;number=1
+M62320.1	Genbank	gene	5415	8104	.	+	.	ID=gene-rev1;Name=rev1;gbkey=Gene;gene=rev1;gene_biotype=protein_coding
+M62320.1	Genbank	exon	5415	5492	.	+	.	ID=id-rev1-1;Parent=gene-rev1;exon_number=1;gbkey=exon;gene=rev1;number=1
+M62320.1	Genbank	exon	7811	8104	.	+	.	ID=id-rev1-2;Parent=gene-rev1;exon_number=2;gbkey=exon;gene=rev1;number=2
+M62320.1	Genbank	CDS	5415	5492	.	+	0	ID=cds-AAA75022.1;Parent=gene-rev1;Dbxref=NCBI_GP:AAA75022.1;Name=AAA75022.1;gbkey=CDS;gene=rev1;product=AAA75022.1;protein_id=AAA75022.1
+M62320.1	Genbank	CDS	7811	8104	.	+	0	ID=cds-AAA75022.1;Parent=gene-rev1;Dbxref=NCBI_GP:AAA75022.1;Name=AAA75022.1;gbkey=CDS;gene=rev1;product=AAA75022.1;protein_id=AAA75022.1
+M62320.1	Genbank	gene	5511	5758	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=pseudogene
+M62320.1	Genbank	CDS	5511	5758	.	+	0	ID=cds-vpu;Parent=gene-vpu;gbkey=CDS;gene=vpu;product=vpu protein;pseudo=true
+M62320.1	Genbank	gene	5676	8246	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=pseudogene
+M62320.1	Genbank	CDS	5676	8246	.	+	0	ID=cds-env;Parent=gene-env;gbkey=CDS;gene=env;product=envelope protein;pseudo=true
+M62320.1	Genbank	gene	8248	8865	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+M62320.1	Genbank	CDS	8248	8865	.	+	0	ID=cds-AAA75023.1;Parent=gene-nef;Dbxref=NCBI_GP:AAA75023.1;Name=AAA75023.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAA75023.1
+M62320.1	Genbank	long_terminal_repeat	8537	9000	.	+	.	ID=id-M62320.1:8537..9000;Note=3' LTR;gbkey=repeat_region;rpt_type=long_terminal_repeat
+###

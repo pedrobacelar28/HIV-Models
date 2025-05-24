@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310251v1
+#!genome-build-accession NCBI_Assembly:GCA_003102515.1
+##sequence-region JN417237.1 1 8790
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+JN417237.1	Genbank	region	1	8790	.	+	.	ID=JN417237.1:1..8790;Dbxref=taxon:11676;collection-date=2003;country=United Kingdom;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=40534;mol_type=genomic DNA;nat-host=Homo sapiens;subtype=CRF50
+JN417237.1	Genbank	gene	35	1546	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+JN417237.1	Genbank	CDS	35	1546	.	+	0	ID=cds-AEQ28456.1;Parent=gene-gag;Dbxref=NCBI_GP:AEQ28456.1;Name=AEQ28456.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AEQ28456.1
+JN417237.1	Genbank	gene	1327	4350	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1327
+JN417237.1	Genbank	CDS	1327	4350	.	+	0	ID=cds-AEQ28457.1;Parent=gene-pol;Dbxref=NCBI_GP:AEQ28457.1;Name=AEQ28457.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AEQ28457.1;start_range=.,1327
+JN417237.1	Genbank	gene	4295	4867	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+JN417237.1	Genbank	CDS	4295	4867	.	+	0	ID=cds-AEQ28458.1;Parent=gene-vif;Dbxref=NCBI_GP:AEQ28458.1;Name=AEQ28458.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AEQ28458.1
+JN417237.1	Genbank	gene	4813	5097	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+JN417237.1	Genbank	CDS	4813	5097	.	+	0	ID=cds-AEQ28459.1;Parent=gene-vpr;Dbxref=NCBI_GP:AEQ28459.1;Name=AEQ28459.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AEQ28459.1
+JN417237.1	Genbank	gene	5078	7680	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=other
+JN417237.1	Genbank	sequence_feature	5078	5292	.	+	.	ID=id-tat;Note=nonfunctional tat protein due to mutation;gbkey=misc_feature;gene=tat
+JN417237.1	Genbank	sequence_feature	7590	7680	.	+	.	ID=id-tat;Note=nonfunctional tat protein due to mutation;gbkey=misc_feature;gene=tat
+JN417237.1	Genbank	gene	5217	7864	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+JN417237.1	Genbank	CDS	5217	5292	.	+	0	ID=cds-AEQ28460.1;Parent=gene-rev;Dbxref=NCBI_GP:AEQ28460.1;Name=AEQ28460.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AEQ28460.1
+JN417237.1	Genbank	CDS	7590	7864	.	+	2	ID=cds-AEQ28460.1;Parent=gene-rev;Dbxref=NCBI_GP:AEQ28460.1;Name=AEQ28460.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AEQ28460.1
+JN417237.1	Genbank	gene	5309	5557	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+JN417237.1	Genbank	CDS	5309	5557	.	+	0	ID=cds-AEQ28461.1;Parent=gene-vpu;Dbxref=NCBI_GP:AEQ28461.1;Name=AEQ28461.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AEQ28461.1
+JN417237.1	Genbank	gene	5472	8006	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=other
+JN417237.1	Genbank	sequence_feature	5472	8006	.	+	.	ID=id-env;Note=nonfunctional env protein due to mutation;gbkey=misc_feature;gene=env
+JN417237.1	Genbank	gene	8008	8628	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+JN417237.1	Genbank	CDS	8008	8628	.	+	0	ID=cds-AEQ28462.1;Parent=gene-nef;Dbxref=NCBI_GP:AEQ28462.1;Name=AEQ28462.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AEQ28462.1
+###

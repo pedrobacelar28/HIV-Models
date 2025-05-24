@@ -1,0 +1,35 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309801v1
+#!genome-build-accession NCBI_Assembly:GCA_003098015.1
+##sequence-region AF064699.1 1 9775
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF064699.1	Genbank	region	1	9775	.	+	.	ID=AF064699.1:1..9775;Dbxref=taxon:11676;country=Burkina Faso;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=BFP90;mol_type=genomic DNA;note=this sample was taken from an African male living in Australia%2C he is thought to have contracted the virus while living in Burkina Faso%2C Western Central Africa;old-name=Human immunodeficiency virus type 1
+AF064699.1	Genbank	long_terminal_repeat	1	647	.	+	.	ID=id-AF064699.1:1..647;Note=5' LTR;gbkey=LTR
+AF064699.1	Genbank	primer_binding_site	621	662	.	+	.	ID=id-AF064699.1:621..662;gbkey=primer_bind
+AF064699.1	Genbank	gene	818	5124	.	+	.	ID=gene-gag-pol;Name=gag-pol;gbkey=Gene;gene=gag-pol;gene_biotype=protein_coding
+AF064699.1	Genbank	CDS	818	2107	.	+	0	ID=cds-AAD03316.1;Parent=gene-gag-pol;Dbxref=NCBI_GP:AAD03316.1;Name=AAD03316.1;Note=translated by ribosomal slip on tttttt slippery sequence%3B the slippery sequence is followed by an inverted repeat stem-loop structure which potentiates slippage;gbkey=CDS;gene=gag-pol;product=gag-pol fusion polyprotein;protein_id=AAD03316.1
+AF064699.1	Genbank	CDS	2107	5124	.	+	0	ID=cds-AAD03316.1;Parent=gene-gag-pol;Dbxref=NCBI_GP:AAD03316.1;Name=AAD03316.1;Note=translated by ribosomal slip on tttttt slippery sequence%3B the slippery sequence is followed by an inverted repeat stem-loop structure which potentiates slippage;gbkey=CDS;gene=gag-pol;product=gag-pol fusion polyprotein;protein_id=AAD03316.1
+AF064699.1	Genbank	gene	818	2311	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF064699.1	Genbank	CDS	818	2311	.	+	0	ID=cds-AAD03310.1;Parent=gene-gag;Dbxref=NCBI_GP:AAD03310.1;Name=AAD03310.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAD03310.1
+AF064699.1	Genbank	sequence_feature	2107	2112	.	+	.	ID=id-AF064699.1:2107..2112;Note=ribosomal frameshift slippery site;gbkey=misc_feature
+AF064699.1	Genbank	gene	5069	5647	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF064699.1	Genbank	CDS	5069	5647	.	+	0	ID=cds-AAD03311.1;Parent=gene-vif;Dbxref=NCBI_GP:AAD03311.1;Name=AAD03311.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAD03311.1
+AF064699.1	Genbank	gene	5587	5877	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF064699.1	Genbank	CDS	5587	5877	.	+	0	ID=cds-AAD03312.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAD03312.1;Name=AAD03312.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAD03312.1
+AF064699.1	Genbank	gene	5858	8517	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF064699.1	Genbank	CDS	5858	6072	.	+	0	ID=cds-AAD03317.1;Parent=gene-tat;Dbxref=NCBI_GP:AAD03317.1;Name=AAD03317.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAD03317.1
+AF064699.1	Genbank	CDS	8427	8517	.	+	1	ID=cds-AAD03317.1;Parent=gene-tat;Dbxref=NCBI_GP:AAD03317.1;Name=AAD03317.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAD03317.1
+AF064699.1	Genbank	gene	5997	8701	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF064699.1	Genbank	CDS	5997	6072	.	+	0	ID=cds-AAD03318.1;Parent=gene-rev;Dbxref=NCBI_GP:AAD03318.1;Name=AAD03318.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAD03318.1
+AF064699.1	Genbank	CDS	8427	8701	.	+	2	ID=cds-AAD03318.1;Parent=gene-rev;Dbxref=NCBI_GP:AAD03318.1;Name=AAD03318.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAD03318.1
+AF064699.1	Genbank	gene	6101	6346	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF064699.1	Genbank	CDS	6101	6346	.	+	0	ID=cds-AAD03313.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAD03313.1;Name=AAD03313.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAD03313.1
+AF064699.1	Genbank	gene	6264	8843	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF064699.1	Genbank	CDS	6264	8843	.	+	0	ID=cds-AAD03314.1;Parent=gene-env;Dbxref=NCBI_GP:AAD03314.1;Name=AAD03314.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAD03314.1
+AF064699.1	Genbank	gene	8845	9462	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF064699.1	Genbank	CDS	8845	9462	.	+	0	ID=cds-AAD03315.1;Parent=gene-nef;Dbxref=NCBI_GP:AAD03315.1;Name=AAD03315.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAD03315.1
+AF064699.1	Genbank	sequence_feature	9114	9128	.	+	.	ID=id-AF064699.1:9114..9128;Note=polypurine tract;gbkey=misc_feature
+AF064699.1	Genbank	long_terminal_repeat	9129	9775	.	+	.	ID=id-AF064699.1:9129..9775;Note=3' LTR;gbkey=LTR
+###

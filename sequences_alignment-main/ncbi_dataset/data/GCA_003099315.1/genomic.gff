@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309931v1
+#!genome-build-accession NCBI_Assembly:GCA_003099315.1
+##sequence-region AF516184.1 1 8999
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF516184.1	Genbank	region	1	8999	.	+	.	ID=AF516184.1:1..8999;Dbxref=taxon:11676;country=Thailand: Bangkok;gb-acronym=HIV-1;gbkey=Src;isolate=CRF01_AE/B;mol_type=genomic RNA;old-name=Human immunodeficiency virus type 1
+AF516184.1	Genbank	gene	198	1691	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF516184.1	Genbank	CDS	198	1691	.	+	0	ID=cds-AAN15027.1;Parent=gene-gag;Dbxref=NCBI_GP:AAN15027.1;Name=AAN15027.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAN15027.1
+AF516184.1	Genbank	gene	1487	4492	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1487
+AF516184.1	Genbank	CDS	1487	4492	.	+	0	ID=cds-AAN15028.1;Parent=gene-pol;Dbxref=NCBI_GP:AAN15028.1;Name=AAN15028.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAN15028.1;start_range=.,1487
+AF516184.1	Genbank	gene	4437	5015	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF516184.1	Genbank	CDS	4437	5015	.	+	0	ID=cds-AAN15029.1;Parent=gene-vif;Dbxref=NCBI_GP:AAN15029.1;Name=AAN15029.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAN15029.1
+AF516184.1	Genbank	gene	4955	5245	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF516184.1	Genbank	CDS	4955	5245	.	+	0	ID=cds-AAN15030.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAN15030.1;Name=AAN15030.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAN15030.1
+AF516184.1	Genbank	gene	5226	7835	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF516184.1	Genbank	CDS	5226	5441	.	+	0	ID=cds-AAN15031.1;Parent=gene-tat;Dbxref=NCBI_GP:AAN15031.1;Name=AAN15031.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAN15031.1
+AF516184.1	Genbank	CDS	7755	7835	.	+	0	ID=cds-AAN15031.1;Parent=gene-tat;Dbxref=NCBI_GP:AAN15031.1;Name=AAN15031.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAN15031.1
+AF516184.1	Genbank	gene	5365	8046	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF516184.1	Genbank	CDS	5365	5439	.	+	0	ID=cds-AAN15025.1;Parent=gene-rev;Dbxref=NCBI_GP:AAN15025.1;Name=AAN15025.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAN15025.1
+AF516184.1	Genbank	CDS	7750	8046	.	+	0	ID=cds-AAN15025.1;Parent=gene-rev;Dbxref=NCBI_GP:AAN15025.1;Name=AAN15025.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAN15025.1
+AF516184.1	Genbank	gene	5461	5706	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF516184.1	Genbank	CDS	5461	5706	.	+	0	ID=cds-AAN15026.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAN15026.1;Name=AAN15026.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAN15026.1
+AF516184.1	Genbank	gene	5624	8188	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF516184.1	Genbank	CDS	5624	8188	.	+	0	ID=cds-AAN15024.1;Parent=gene-env;Dbxref=NCBI_GP:AAN15024.1;Name=AAN15024.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAN15024.1
+AF516184.1	Genbank	gene	8190	8792	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF516184.1	Genbank	CDS	8190	8792	.	+	0	ID=cds-AAN15023.1;Parent=gene-nef;Dbxref=NCBI_GP:AAN15023.1;Name=AAN15023.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAN15023.1
+###

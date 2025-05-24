@@ -1,0 +1,27 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309879v1
+#!genome-build-accession NCBI_Assembly:GCA_003098795.1
+##sequence-region AF377957.1 1 8896
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF377957.1	Genbank	region	1	8896	.	+	.	ID=AF377957.1:1..8896;Dbxref=taxon:11676;country=Cameroon: Koutaba;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=CM53392;mol_type=genomic DNA;note=isolated from PBMC of a 44-year-old male in 1997%3B infected by heterosexual contact and had a viral load of 459%2C000 RNA copies/ml.;old-name=HIV-1;subtype=novel AG recombinant
+AF377957.1	Genbank	gene	1	1500	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AF377957.1	Genbank	CDS	1	1500	.	+	0	ID=cds-AAK59196.1;Parent=gene-gag;Dbxref=NCBI_GP:AAK59196.1;Name=AAK59196.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AAK59196.1;start_range=.,1
+AF377957.1	Genbank	gene	1302	4313	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1302
+AF377957.1	Genbank	CDS	1302	4313	.	+	0	ID=cds-AAK59197.1;Parent=gene-pol;Dbxref=NCBI_GP:AAK59197.1;Name=AAK59197.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAK59197.1;start_range=.,1302
+AF377957.1	Genbank	gene	4258	4836	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF377957.1	Genbank	CDS	4258	4836	.	+	0	ID=cds-AAK59198.1;Parent=gene-vif;Dbxref=NCBI_GP:AAK59198.1;Name=AAK59198.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAK59198.1
+AF377957.1	Genbank	gene	4776	5066	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF377957.1	Genbank	CDS	4776	5066	.	+	0	ID=cds-AAK59199.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAK59199.1;Name=AAK59199.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAK59199.1
+AF377957.1	Genbank	gene	5047	7683	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF377957.1	Genbank	CDS	5047	5258	.	+	0	ID=cds-AAK59200.1;Parent=gene-tat;Dbxref=NCBI_GP:AAK59200.1;Name=AAK59200.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAK59200.1
+AF377957.1	Genbank	CDS	7593	7683	.	+	1	ID=cds-AAK59200.1;Parent=gene-tat;Dbxref=NCBI_GP:AAK59200.1;Name=AAK59200.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAK59200.1
+AF377957.1	Genbank	gene	5186	7888	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF377957.1	Genbank	CDS	5186	5258	.	+	0	ID=cds-AAK59201.1;Parent=gene-rev;Dbxref=NCBI_GP:AAK59201.1;Name=AAK59201.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAK59201.1
+AF377957.1	Genbank	CDS	7593	7888	.	+	2	ID=cds-AAK59201.1;Parent=gene-rev;Dbxref=NCBI_GP:AAK59201.1;Name=AAK59201.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAK59201.1
+AF377957.1	Genbank	gene	5285	5539	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF377957.1	Genbank	CDS	5285	5530	.	+	0	ID=cds-AAK59202.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAK59202.1;Name=AAK59202.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAK59202.1
+AF377957.1	Genbank	gene	5448	8030	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF377957.1	Genbank	CDS	5448	8030	.	+	0	ID=cds-AAK59203.1;Parent=gene-env;Dbxref=NCBI_GP:AAK59203.1;Name=AAK59203.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAK59203.1
+###

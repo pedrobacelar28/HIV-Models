@@ -1,0 +1,23 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318788v1
+#!genome-build-accession NCBI_Assembly:GCA_003187885.1
+##sequence-region JF320424.1 1 9072
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+JF320424.1	Genbank	region	1	9072	.	+	.	ID=JF320424.1:1..9072;Dbxref=taxon:11676;collection-date=Jan-2007;country=Canada;gb-acronym=HIV-1;gbkey=Src;isolate=502-1191_03;isolation-source=plasma from male vaccine recipient 502-1191;mol_type=genomic RNA;nat-host=Homo sapiens;subtype=B
+JF320424.1	Genbank	gene	211	1719	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+JF320424.1	Genbank	CDS	211	1719	.	+	0	ID=cds-ADZ34939.1;Parent=gene-gag;Dbxref=NCBI_GP:ADZ34939.1;Name=ADZ34939.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ADZ34939.1
+JF320424.1	Genbank	gene	1512	4523	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1512
+JF320424.1	Genbank	CDS	1512	4523	.	+	0	ID=cds-ADZ34940.1;Parent=gene-pol;Dbxref=NCBI_GP:ADZ34940.1;Name=ADZ34940.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ADZ34940.1;start_range=.,1512
+JF320424.1	Genbank	gene	4468	5046	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+JF320424.1	Genbank	CDS	4468	5046	.	+	0	ID=cds-ADZ34941.1;Parent=gene-vif;Dbxref=NCBI_GP:ADZ34941.1;Name=ADZ34941.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ADZ34941.1
+JF320424.1	Genbank	gene	4986	5279	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+JF320424.1	Genbank	CDS	4986	5279	.	+	0	ID=cds-ADZ34942.1;Parent=gene-vpr;Dbxref=NCBI_GP:ADZ34942.1;Name=ADZ34942.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ADZ34942.1
+JF320424.1	Genbank	gene	5491	5751	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+JF320424.1	Genbank	CDS	5491	5751	.	+	0	ID=cds-ADZ34943.1;Parent=gene-vpu;Dbxref=NCBI_GP:ADZ34943.1;Name=ADZ34943.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ADZ34943.1
+JF320424.1	Genbank	gene	5654	8242	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+JF320424.1	Genbank	CDS	5654	8242	.	+	0	ID=cds-ADZ34944.1;Parent=gene-env;Dbxref=NCBI_GP:ADZ34944.1;Name=ADZ34944.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ADZ34944.1
+JF320424.1	Genbank	gene	8244	8864	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+JF320424.1	Genbank	CDS	8244	8864	.	+	0	ID=cds-ADZ34945.1;Parent=gene-nef;Dbxref=NCBI_GP:ADZ34945.1;Name=ADZ34945.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ADZ34945.1
+###

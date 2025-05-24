@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM319228v1
+#!genome-build-accession NCBI_Assembly:GCA_003192285.1
+##sequence-region DQ017382.1 1 8926
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+DQ017382.1	Genbank	region	1	8926	.	+	.	ID=DQ017382.1:1..8926;Dbxref=taxon:11676;collection-date=Dec-2004;country=Cameroon;gb-acronym=HIV-1;gbkey=Src;group=N;isolate=04CM-1015-04;isolation-source=plasma from patient 1015-04;mol_type=genomic RNA;old-name=Human immunodeficiency virus type 1
+DQ017382.1	Genbank	gene	262	1797	.	+	.	ID=gene-DQ017382.1:262..1797;description=gag;gbkey=Gene;gene_biotype=protein_coding
+DQ017382.1	Genbank	CDS	262	1797	.	+	0	ID=cds-AAY82291.1;Parent=gene-DQ017382.1:262..1797;Dbxref=NCBI_GP:AAY82291.1;Name=AAY82291.1;gbkey=CDS;product=gag protein;protein_id=AAY82291.1
+DQ017382.1	Genbank	gene	1569	4613	.	+	.	ID=gene-DQ017382.1:1569..4613;description=pol;gbkey=Gene;gene_biotype=protein_coding;partial=true;start_range=.,1569
+DQ017382.1	Genbank	CDS	1569	4613	.	+	0	ID=cds-AAY82292.1;Parent=gene-DQ017382.1:1569..4613;Dbxref=NCBI_GP:AAY82292.1;Name=AAY82292.1;gbkey=CDS;partial=true;product=pol protein;protein_id=AAY82292.1;start_range=.,1569
+DQ017382.1	Genbank	gene	4546	5124	.	+	.	ID=gene-DQ017382.1:4546..5124;description=vif;gbkey=Gene;gene_biotype=protein_coding
+DQ017382.1	Genbank	CDS	4546	5124	.	+	0	ID=cds-AAY82293.1;Parent=gene-DQ017382.1:4546..5124;Dbxref=NCBI_GP:AAY82293.1;Name=AAY82293.1;gbkey=CDS;product=vif protein;protein_id=AAY82293.1
+DQ017382.1	Genbank	gene	5064	5351	.	+	.	ID=gene-DQ017382.1:5064..5351;description=vpr;gbkey=Gene;gene_biotype=protein_coding
+DQ017382.1	Genbank	CDS	5064	5351	.	+	0	ID=cds-AAY82294.1;Parent=gene-DQ017382.1:5064..5351;Dbxref=NCBI_GP:AAY82294.1;Name=AAY82294.1;gbkey=CDS;product=vpr protein;protein_id=AAY82294.1
+DQ017382.1	Genbank	gene	5332	7874	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+DQ017382.1	Genbank	CDS	5332	5546	.	+	0	ID=cds-AAY82298.1;Parent=gene-tat;Dbxref=NCBI_GP:AAY82298.1;Name=AAY82298.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAY82298.1
+DQ017382.1	Genbank	CDS	7784	7874	.	+	1	ID=cds-AAY82298.1;Parent=gene-tat;Dbxref=NCBI_GP:AAY82298.1;Name=AAY82298.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAY82298.1
+DQ017382.1	Genbank	gene	5471	8022	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+DQ017382.1	Genbank	CDS	5471	5546	.	+	0	ID=cds-AAY82299.1;Parent=gene-rev;Dbxref=NCBI_GP:AAY82299.1;Name=AAY82299.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAY82299.1
+DQ017382.1	Genbank	CDS	7784	8022	.	+	2	ID=cds-AAY82299.1;Parent=gene-rev;Dbxref=NCBI_GP:AAY82299.1;Name=AAY82299.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAY82299.1
+DQ017382.1	Genbank	gene	5566	5790	.	+	.	ID=gene-DQ017382.1:5566..5790;description=vpu;gbkey=Gene;gene_biotype=protein_coding
+DQ017382.1	Genbank	CDS	5566	5790	.	+	0	ID=cds-AAY82295.1;Parent=gene-DQ017382.1:5566..5790;Dbxref=NCBI_GP:AAY82295.1;Name=AAY82295.1;gbkey=CDS;product=vpu protein;protein_id=AAY82295.1
+DQ017382.1	Genbank	gene	5729	8221	.	+	.	ID=gene-DQ017382.1:5729..8221;description=env;gbkey=Gene;gene_biotype=protein_coding
+DQ017382.1	Genbank	CDS	5729	8221	.	+	0	ID=cds-AAY82296.1;Parent=gene-DQ017382.1:5729..8221;Dbxref=NCBI_GP:AAY82296.1;Name=AAY82296.1;gbkey=CDS;product=envelope glycoprotein;protein_id=AAY82296.1
+DQ017382.1	Genbank	gene	8223	8861	.	+	.	ID=gene-DQ017382.1:8223..8861;description=nef;gbkey=Gene;gene_biotype=protein_coding
+DQ017382.1	Genbank	CDS	8223	8861	.	+	0	ID=cds-AAY82297.1;Parent=gene-DQ017382.1:8223..8861;Dbxref=NCBI_GP:AAY82297.1;Name=AAY82297.1;gbkey=CDS;product=nef protein;protein_id=AAY82297.1
+###

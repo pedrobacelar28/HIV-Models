@@ -1,0 +1,23 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310898v1
+#!genome-build-accession NCBI_Assembly:GCA_003108985.1
+##sequence-region AJ404325.1 1 8936
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AJ404325.1	EMBL	region	1	8936	.	+	.	ID=AJ404325.1:1..8936;Dbxref=taxon:11676;country=Democratic Republic of the Congo;gb-acronym=HIV-1;gbkey=Src;genome=proviral;mol_type=genomic DNA;note=complex recombinant env subtype E virus;strain=97DC.KTB49
+AJ404325.1	EMBL	gene	1	1500	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AJ404325.1	EMBL	CDS	1	1500	.	+	0	ID=cds-CAC24834.1;Parent=gene-gag;Dbxref=GOA:Q998U6,HSSP:1BMX,InterPro:IPR000071,InterPro:IPR000721,InterPro:IPR001878,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR010999,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR014817,UniProtKB/TrEMBL:Q998U6,NCBI_GP:CAC24834.1;Name=CAC24834.1;gbkey=CDS;gene=gag;product=core protein;protein_id=CAC24834.1
+AJ404325.1	EMBL	gene	1299	4304	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1299
+AJ404325.1	EMBL	CDS	1299	4304	.	+	0	ID=cds-CAC24835.1;Parent=gene-pol;Dbxref=GOA:Q998U5,HSSP:1IKV,InterPro:IPR000477,InterPro:IPR001037,InterPro:IPR001584,InterPro:IPR001969,InterPro:IPR001995,InterPro:IPR002156,InterPro:IPR003308,InterPro:IPR009007,InterPro:IPR010659,InterPro:IPR010661,InterPro:IPR012337,InterPro:IPR017856,InterPro:IPR018061,InterPro:IPR021109,UniProtKB/TrEMBL:Q998U5,NCBI_GP:CAC24835.1;Name=CAC24835.1;gbkey=CDS;gene=pol;partial=true;product=polymerase;protein_id=CAC24835.1;start_range=.,1299
+AJ404325.1	EMBL	gene	4249	4827	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AJ404325.1	EMBL	CDS	4249	4827	.	+	0	ID=cds-CAC24836.1;Parent=gene-vif;Dbxref=GOA:Q998U4,InterPro:IPR000475,UniProtKB/TrEMBL:Q998U4,NCBI_GP:CAC24836.1;Name=CAC24836.1;gbkey=CDS;gene=vif;product=accessory protein;protein_id=CAC24836.1
+AJ404325.1	EMBL	gene	4767	5057	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AJ404325.1	EMBL	CDS	4767	5057	.	+	0	ID=cds-CAC24837.1;Parent=gene-vpr;Dbxref=GOA:Q998U3,HSSP:1DSJ,InterPro:IPR000012,UniProtKB/TrEMBL:Q998U3,NCBI_GP:CAC24837.1;Name=CAC24837.1;gbkey=CDS;gene=vpr;product=accessory protein;protein_id=CAC24837.1
+AJ404325.1	EMBL	gene	5278	5523	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AJ404325.1	EMBL	CDS	5278	5523	.	+	0	ID=cds-CAC24838.1;Parent=gene-vpu;Dbxref=GOA:Q998U2,HSSP:1VPU,InterPro:IPR008187,InterPro:IPR009032,UniProtKB/TrEMBL:Q998U2,NCBI_GP:CAC24838.1;Name=CAC24838.1;gbkey=CDS;gene=vpu;product=accessory protein;protein_id=CAC24838.1
+AJ404325.1	EMBL	gene	5441	7999	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AJ404325.1	EMBL	CDS	5441	7999	.	+	0	ID=cds-CAC24839.1;Parent=gene-env;Dbxref=GOA:Q998U1,HSSP:1DLB,InterPro:IPR000328,InterPro:IPR000777,UniProtKB/TrEMBL:Q998U1,NCBI_GP:CAC24839.1;Name=CAC24839.1;gbkey=CDS;gene=env;product=envelope protein;protein_id=CAC24839.1
+AJ404325.1	EMBL	gene	8001	8624	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AJ404325.1	EMBL	CDS	8001	8624	.	+	0	ID=cds-CAC24840.1;Parent=gene-nef;Dbxref=GOA:Q998U0,HSSP:1EFN,InterPro:IPR001558,UniProtKB/TrEMBL:Q998U0,NCBI_GP:CAC24840.1;Name=CAC24840.1;gbkey=CDS;gene=nef;product=regulatory protein;protein_id=CAC24840.1
+###

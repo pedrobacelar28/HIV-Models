@@ -1,0 +1,37 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309893v1
+#!genome-build-accession NCBI_Assembly:GCA_003098935.1
+##sequence-region AF414006.1 1 9687
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF414006.1	Genbank	region	1	9687	.	+	.	ID=AF414006.1:1..9687;Dbxref=taxon:11676;clone=1-gp41%3B 2-ltr%3B 2-msf%3B 2-gp%3B 1-pe%3B 2-vif%3B 3-env%3B 1-gp41%3B 2-ltr;country=Belarus: Mogilev;gb-acronym=HIV-1;gbkey=Src;genome=proviral;group=M;isolate=98BY10443;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;subtype=CRF03-AB
+AF414006.1	Genbank	long_terminal_repeat	1	645	.	+	.	ID=id-AF414006.1:1..645;Note=5' long terminal repeat;gbkey=repeat_region;rpt_type=long_terminal_repeat
+AF414006.1	Genbank	sequence_feature	1	467	.	+	.	ID=id-AF414006.1:1..467;Note=U3 region;gbkey=misc_feature
+AF414006.1	Genbank	TATA_box	439	443	.	+	.	ID=id-AF414006.1:439..443;gbkey=regulatory;regulatory_class=TATA_box
+AF414006.1	Genbank	repeat_region	468	562	.	+	.	ID=id-AF414006.1:468..562;Note=R region;gbkey=repeat_region
+AF414006.1	Genbank	sequence_feature	563	645	.	+	.	ID=id-AF414006.1:563..645;Note=U5 region;gbkey=misc_feature
+AF414006.1	Genbank	gene	799	2295	.	+	.	ID=gene-AF414006.1:799..2295;description=gag;gbkey=Gene;gene_biotype=protein_coding
+AF414006.1	Genbank	CDS	799	2295	.	+	0	ID=cds-AAL78489.1;Parent=gene-AF414006.1:799..2295;Dbxref=NCBI_GP:AAL78489.1;Name=AAL78489.1;gbkey=CDS;product=gag protein;protein_id=AAL78489.1
+AF414006.1	Genbank	gene	2088	5099	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,2088
+AF414006.1	Genbank	CDS	2088	5099	.	+	0	ID=cds-AAL78496.1;Parent=gene-pol;Dbxref=NCBI_GP:AAL78496.1;Name=AAL78496.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAL78496.1;start_range=.,2088
+AF414006.1	Genbank	gene	5044	5622	.	+	.	ID=gene-AF414006.1:5044..5622;description=vif;gbkey=Gene;gene_biotype=protein_coding
+AF414006.1	Genbank	CDS	5044	5622	.	+	0	ID=cds-AAL78491.1;Parent=gene-AF414006.1:5044..5622;Dbxref=NCBI_GP:AAL78491.1;Name=AAL78491.1;gbkey=CDS;product=vif protein;protein_id=AAL78491.1
+AF414006.1	Genbank	gene	5562	5852	.	+	.	ID=gene-AF414006.1:5562..5852;description=vpr;gbkey=Gene;gene_biotype=protein_coding
+AF414006.1	Genbank	CDS	5562	5852	.	+	0	ID=cds-AAL78492.1;Parent=gene-AF414006.1:5562..5852;Dbxref=NCBI_GP:AAL78492.1;Name=AAL78492.1;gbkey=CDS;product=vpr protein;protein_id=AAL78492.1
+AF414006.1	Genbank	gene	5833	8423	.	+	.	ID=gene-AF414006.1:5833..8423;description=tat;gbkey=Gene;gene_biotype=protein_coding
+AF414006.1	Genbank	CDS	5833	6047	.	+	0	ID=cds-AAL78494.1;Parent=gene-AF414006.1:5833..8423;Dbxref=NCBI_GP:AAL78494.1;Name=AAL78494.1;gbkey=CDS;product=tat protein;protein_id=AAL78494.1
+AF414006.1	Genbank	CDS	8333	8423	.	+	1	ID=cds-AAL78494.1;Parent=gene-AF414006.1:5833..8423;Dbxref=NCBI_GP:AAL78494.1;Name=AAL78494.1;gbkey=CDS;product=tat protein;protein_id=AAL78494.1
+AF414006.1	Genbank	gene	5972	8607	.	+	.	ID=gene-AF414006.1:5972..8607;description=rev;gbkey=Gene;gene_biotype=protein_coding
+AF414006.1	Genbank	CDS	5972	6047	.	+	0	ID=cds-AAL78495.1;Parent=gene-AF414006.1:5972..8607;Dbxref=NCBI_GP:AAL78495.1;Name=AAL78495.1;gbkey=CDS;product=rev protein;protein_id=AAL78495.1
+AF414006.1	Genbank	CDS	8333	8607	.	+	2	ID=cds-AAL78495.1;Parent=gene-AF414006.1:5972..8607;Dbxref=NCBI_GP:AAL78495.1;Name=AAL78495.1;gbkey=CDS;product=rev protein;protein_id=AAL78495.1
+AF414006.1	Genbank	gene	6227	8749	.	+	.	ID=gene-AF414006.1:6227..8749;description=env;gbkey=Gene;gene_biotype=protein_coding
+AF414006.1	Genbank	CDS	6227	8749	.	+	0	ID=cds-AAL78490.1;Parent=gene-AF414006.1:6227..8749;Dbxref=NCBI_GP:AAL78490.1;Name=AAL78490.1;gbkey=CDS;product=envelope glycoprotein precursor;protein_id=AAL78490.1
+AF414006.1	Genbank	gene	8751	9374	.	+	.	ID=gene-AF414006.1:8751..9374;description=nef;gbkey=Gene;gene_biotype=protein_coding
+AF414006.1	Genbank	CDS	8751	9374	.	+	0	ID=cds-AAL78493.1;Parent=gene-AF414006.1:8751..9374;Dbxref=NCBI_GP:AAL78493.1;Name=AAL78493.1;gbkey=CDS;product=nef protein;protein_id=AAL78493.1
+AF414006.1	Genbank	long_terminal_repeat	9043	9687	.	+	.	ID=id-AF414006.1:9043..9687;Note=3' long terminal repeat;gbkey=repeat_region;rpt_type=long_terminal_repeat
+AF414006.1	Genbank	sequence_feature	9043	9509	.	+	.	ID=id-AF414006.1:9043..9509;Note=U3 region;gbkey=misc_feature
+AF414006.1	Genbank	repeat_region	9510	9604	.	+	.	ID=id-AF414006.1:9510..9604;Note=R region;gbkey=repeat_region
+AF414006.1	Genbank	polyA_signal_sequence	9580	9585	.	+	.	ID=id-AF414006.1:9580..9585;gbkey=regulatory;regulatory_class=polyA_signal_sequence
+AF414006.1	Genbank	sequence_feature	9605	9687	.	+	.	ID=id-AF414006.1:9605..9687;Note=U5 region;gbkey=misc_feature
+###

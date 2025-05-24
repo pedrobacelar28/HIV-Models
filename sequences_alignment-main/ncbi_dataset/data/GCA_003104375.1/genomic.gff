@@ -1,0 +1,32 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310437v1
+#!genome-build-accession NCBI_Assembly:GCA_003104375.1
+##sequence-region L20587.1 1 9754
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+L20587.1	Genbank	region	1	9754	.	+	.	ID=L20587.1:1..9754;Dbxref=taxon:11676;gb-acronym=HIV-1;gbkey=Src;mol_type=genomic RNA
+L20587.1	Genbank	long_terminal_repeat	2	664	.	+	.	ID=id-L20587.1:2..664;Note=5' LTR;gbkey=LTR;partial=true
+L20587.1	Genbank	gene	842	2338	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+L20587.1	Genbank	CDS	842	2338	.	+	0	ID=cds-AAA99878.1;Parent=gene-gag;Dbxref=NCBI_GP:AAA99878.1;Name=AAA99878.1;Note=gag;gbkey=CDS;gene=gag;product=gag polyprotein;protein_id=AAA99878.1
+L20587.1	Genbank	gene	2098	5180	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+L20587.1	Genbank	CDS	2098	5180	.	+	0	ID=cds-AAA99879.1;Parent=gene-pol;Dbxref=NCBI_GP:AAA99879.1;Name=AAA99879.1;Note=2080 is position of first start codon in ORF (bases 2080- >5180);end_range=5180,.;gbkey=CDS;gene=pol;partial=true;product=pol polyprotein;protein_id=AAA99879.1
+L20587.1	Genbank	gene	5096	5674	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+L20587.1	Genbank	CDS	5096	5674	.	+	0	ID=cds-AAA99880.1;Parent=gene-vif;Dbxref=NCBI_GP:AAA99880.1;Name=AAA99880.1;Note=vif protein;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAA99880.1
+L20587.1	Genbank	gene	5614	5907	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+L20587.1	Genbank	CDS	5614	5907	.	+	0	ID=cds-AAA99881.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAA99881.1;Name=AAA99881.1;Note=vpr;gbkey=CDS;gene=vpr;product=vpr polyprotein;protein_id=AAA99881.1
+L20587.1	Genbank	gene	5888	8562	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=other
+L20587.1	Genbank	exon	8427	8562	.	+	.	ID=id-tat-3;Parent=gene-tat;exon_number=3;gbkey=exon;gene=tat;number=3;product=tat protein
+L20587.1	Genbank	exon	5888	6096	.	+	.	ID=id-tat-2;Parent=gene-tat;exon_number=2;gbkey=exon;gene=tat;number=2;product=tat protein
+L20587.1	Genbank	gene	6027	8665	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=other
+L20587.1	Genbank	exon	8427	8665	.	+	.	ID=id-rev-3;Parent=gene-rev;Note=rev protein%2C exon 3 (aa at 8429);exon_number=3;gbkey=exon;gene=rev;number=3;product=rev protein
+L20587.1	Genbank	exon	6027	6096	.	+	.	ID=id-rev-2;Parent=gene-rev;exon_number=2;gbkey=exon;gene=rev;number=2;product=rev protein
+L20587.1	Genbank	intron	6097	8426	.	+	.	ID=id-rev;Parent=gene-rev;Note=intron 2 for both rev and tat;exon_number=2;gbkey=intron;gene=rev;number=2
+L20587.1	Genbank	gene	6110	6367	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+L20587.1	Genbank	CDS	6110	6367	.	+	0	ID=cds-AAA99882.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAA99882.1;Name=AAA99882.1;Note=vpu;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAA99882.1
+L20587.1	Genbank	gene	6273	8864	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+L20587.1	Genbank	CDS	6273	8864	.	+	0	ID=cds-AAA99883.1;Parent=gene-env;Dbxref=NCBI_GP:AAA99883.1;Name=AAA99883.1;Note=env;gbkey=CDS;gene=env;product=envelope protein gp120/gp41;protein_id=AAA99883.1
+L20587.1	Genbank	gene	8866	9507	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+L20587.1	Genbank	CDS	8866	9507	.	+	0	ID=cds-AAA99884.1;Parent=gene-nef;Dbxref=NCBI_GP:AAA99884.1;Name=AAA99884.1;Note=nef;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAA99884.1
+L20587.1	Genbank	long_terminal_repeat	9173	9754	.	+	.	ID=id-L20587.1:9173..9754;end_range=9754,.;gbkey=LTR;partial=true
+###

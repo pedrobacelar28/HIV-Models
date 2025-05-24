@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309805v1
+#!genome-build-accession NCBI_Assembly:GCA_003098055.1
+##sequence-region AF069670.1 1 8813
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF069670.1	Genbank	region	1	8813	.	+	.	ID=AF069670.1:1..8813;Dbxref=taxon:11676;country=Somalia;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=SE7253;mol_type=genomic DNA;note=PBMC sample taken in 1994 from a 27 year old man living in Sweden who acquired the HIV-1 infection heterosexually in Somalia%3B the patient was CDC stage C3 with a zero CD4-positive lymphocyte count%3B HIV-1 was isolated by co-cultivation with donor PBMC%3B the isolate had an NSI phenotype with CCR5 coreceptor usage%3B DNA from the p24 antigen positive culture was the template for nested PCR amplification of an 8.81 kb fragment encompassing all but small segments of the 5' and 3' LTRs%3B serial template dilution in the first round PCR was employed to limit the complexity of the sample%3B the PCR product was sequenced directly to derive a consensus of the viral quasispecies%3B SE7253 is subtype A throughout the genome;old-name=Human immunodeficiency virus type 1
+AF069670.1	Genbank	gene	1	1496	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AF069670.1	Genbank	CDS	1	1496	.	+	2	ID=cds-AAC69288.1;Parent=gene-gag;Dbxref=NCBI_GP:AAC69288.1;Name=AAC69288.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=AAC69288.1;start_range=.,1
+AF069670.1	Genbank	gene	1289	4300	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1289
+AF069670.1	Genbank	CDS	1289	4300	.	+	0	ID=cds-AAC69289.1;Parent=gene-pol;Dbxref=NCBI_GP:AAC69289.1;Name=AAC69289.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAC69289.1;start_range=.,1289
+AF069670.1	Genbank	gene	4245	4823	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF069670.1	Genbank	CDS	4245	4823	.	+	0	ID=cds-AAC69290.1;Parent=gene-vif;Dbxref=NCBI_GP:AAC69290.1;Name=AAC69290.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAC69290.1
+AF069670.1	Genbank	gene	4763	5053	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF069670.1	Genbank	CDS	4763	5053	.	+	0	ID=cds-AAC69291.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAC69291.1;Name=AAC69291.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAC69291.1
+AF069670.1	Genbank	gene	5034	7664	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF069670.1	Genbank	CDS	5034	5248	.	+	0	ID=cds-AAC69292.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC69292.1;Name=AAC69292.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAC69292.1
+AF069670.1	Genbank	CDS	7574	7664	.	+	1	ID=cds-AAC69292.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC69292.1;Name=AAC69292.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAC69292.1
+AF069670.1	Genbank	gene	5173	7869	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF069670.1	Genbank	CDS	5173	5248	.	+	0	ID=cds-AAC69293.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC69293.1;Name=AAC69293.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAC69293.1
+AF069670.1	Genbank	CDS	7574	7869	.	+	2	ID=cds-AAC69293.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC69293.1;Name=AAC69293.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAC69293.1
+AF069670.1	Genbank	gene	5275	5523	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF069670.1	Genbank	CDS	5275	5523	.	+	0	ID=cds-AAC69294.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAC69294.1;Name=AAC69294.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAC69294.1
+AF069670.1	Genbank	gene	5441	8011	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF069670.1	Genbank	CDS	5441	8011	.	+	0	ID=cds-AAC69295.1;Parent=gene-env;Dbxref=NCBI_GP:AAC69295.1;Name=AAC69295.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAC69295.1
+AF069670.1	Genbank	gene	8013	8627	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF069670.1	Genbank	CDS	8013	8627	.	+	0	ID=cds-AAC69296.1;Parent=gene-nef;Dbxref=NCBI_GP:AAC69296.1;Name=AAC69296.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAC69296.1
+###

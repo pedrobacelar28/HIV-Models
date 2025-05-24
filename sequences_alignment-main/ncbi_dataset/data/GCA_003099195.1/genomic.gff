@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309919v1
+#!genome-build-accession NCBI_Assembly:GCA_003099195.1
+##sequence-region AF460972.1 1 8916
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF460972.1	Genbank	region	1	8916	.	+	.	ID=AF460972.1:1..8916;Dbxref=taxon:11676;country=Cameroon;gb-acronym=HIV-1;gbkey=Src;isolate=96CM-1849;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;subtype=CRF13-cpx
+AF460972.1	Genbank	region	1	8916	.	+	.	ID=id-AF460972.1:1..8916;Note=Genome sequence lacks part of non-coding sequence;gbkey=Comment
+AF460972.1	Genbank	gene	168	1697	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF460972.1	Genbank	CDS	168	1688	.	+	0	ID=cds-AAM97843.1;Parent=gene-gag;Dbxref=NCBI_GP:AAM97843.1;Name=AAM97843.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAM97843.1
+AF460972.1	Genbank	gene	1469	4501	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1469
+AF460972.1	Genbank	CDS	1469	4501	.	+	0	ID=cds-AAM97844.1;Parent=gene-pol;Dbxref=NCBI_GP:AAM97844.1;Name=AAM97844.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAM97844.1;start_range=.,1469
+AF460972.1	Genbank	gene	4446	5024	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF460972.1	Genbank	CDS	4446	5024	.	+	0	ID=cds-AAM97845.1;Parent=gene-vif;Dbxref=NCBI_GP:AAM97845.1;Name=AAM97845.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAM97845.1
+AF460972.1	Genbank	gene	4964	5254	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF460972.1	Genbank	CDS	4964	5254	.	+	0	ID=cds-AAM97846.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAM97846.1;Name=AAM97846.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAM97846.1
+AF460972.1	Genbank	gene	5235	7910	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF460972.1	Genbank	CDS	5235	5449	.	+	0	ID=cds-AAM97847.1;Parent=gene-tat;Dbxref=NCBI_GP:AAM97847.1;Name=AAM97847.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAM97847.1
+AF460972.1	Genbank	CDS	7804	7909	.	+	1	ID=cds-AAM97847.1;Parent=gene-tat;Dbxref=NCBI_GP:AAM97847.1;Name=AAM97847.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAM97847.1
+AF460972.1	Genbank	gene	5374	8099	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF460972.1	Genbank	CDS	5374	5449	.	+	0	ID=cds-AAM97848.1;Parent=gene-rev;Dbxref=NCBI_GP:AAM97848.1;Name=AAM97848.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAM97848.1
+AF460972.1	Genbank	CDS	7804	8099	.	+	2	ID=cds-AAM97848.1;Parent=gene-rev;Dbxref=NCBI_GP:AAM97848.1;Name=AAM97848.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAM97848.1
+AF460972.1	Genbank	gene	5475	5720	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF460972.1	Genbank	CDS	5475	5720	.	+	0	ID=cds-AAM97849.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAM97849.1;Name=AAM97849.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAM97849.1
+AF460972.1	Genbank	gene	5638	8241	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF460972.1	Genbank	CDS	5638	8241	.	+	0	ID=cds-AAM97850.1;Parent=gene-env;Dbxref=NCBI_GP:AAM97850.1;Name=AAM97850.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAM97850.1
+AF460972.1	Genbank	gene	8243	8842	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF460972.1	Genbank	CDS	8243	8842	.	+	0	ID=cds-AAM97851.1;Parent=gene-nef;Dbxref=NCBI_GP:AAM97851.1;Name=AAM97851.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAM97851.1
+###

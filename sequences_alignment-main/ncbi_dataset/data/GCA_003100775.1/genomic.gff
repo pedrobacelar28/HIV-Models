@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310077v1
+#!genome-build-accession NCBI_Assembly:GCA_003100775.1
+##sequence-region DQ358801.1 1 9006
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+DQ358801.1	Genbank	region	1	9006	.	+	.	ID=DQ358801.1:1..9006;Dbxref=taxon:11676;country=Brazil;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=01BR087;isolation-source=buffy coat;mol_type=genomic DNA;subtype=F1
+DQ358801.1	Genbank	gene	243	1751	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;gene_synonym=p17,p24,p6,p7
+DQ358801.1	Genbank	CDS	243	1751	.	+	0	ID=cds-ABC88265.1;Parent=gene-gag;Dbxref=NCBI_GP:ABC88265.1;Name=ABC88265.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ABC88265.1
+DQ358801.1	Genbank	gene	1532	4564	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1532
+DQ358801.1	Genbank	CDS	1532	4564	.	+	0	ID=cds-ABC88266.1;Parent=gene-pol;Dbxref=NCBI_GP:ABC88266.1;Name=ABC88266.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ABC88266.1;start_range=.,1532
+DQ358801.1	Genbank	gene	4509	5087	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+DQ358801.1	Genbank	CDS	4509	5087	.	+	0	ID=cds-ABC88267.1;Parent=gene-vif;Dbxref=NCBI_GP:ABC88267.1;Name=ABC88267.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABC88267.1
+DQ358801.1	Genbank	gene	5027	5317	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+DQ358801.1	Genbank	CDS	5027	5317	.	+	0	ID=cds-ABC88268.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABC88268.1;Name=ABC88268.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABC88268.1
+DQ358801.1	Genbank	gene	5298	7898	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=other
+DQ358801.1	Genbank	sequence_feature	5298	5509	.	+	.	ID=id-tat;Note=nonfunctional tat protein due to mutation;gbkey=misc_feature;gene=tat
+DQ358801.1	Genbank	sequence_feature	7814	7898	.	+	.	ID=id-tat;Note=nonfunctional tat protein due to mutation;gbkey=misc_feature;gene=tat
+DQ358801.1	Genbank	gene	5437	8088	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+DQ358801.1	Genbank	CDS	5437	5509	.	+	0	ID=cds-ABC88269.1;Parent=gene-rev;Dbxref=NCBI_GP:ABC88269.1;Name=ABC88269.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABC88269.1
+DQ358801.1	Genbank	CDS	7814	8088	.	+	2	ID=cds-ABC88269.1;Parent=gene-rev;Dbxref=NCBI_GP:ABC88269.1;Name=ABC88269.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABC88269.1
+DQ358801.1	Genbank	gene	5539	5784	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+DQ358801.1	Genbank	CDS	5539	5784	.	+	0	ID=cds-ABC88270.1;Parent=gene-vpu;Dbxref=NCBI_GP:ABC88270.1;Name=ABC88270.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ABC88270.1
+DQ358801.1	Genbank	gene	5702	8230	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+DQ358801.1	Genbank	CDS	5702	8230	.	+	0	ID=cds-ABC88271.1;Parent=gene-env;Dbxref=NCBI_GP:ABC88271.1;Name=ABC88271.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ABC88271.1
+DQ358801.1	Genbank	gene	8232	8852	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+DQ358801.1	Genbank	CDS	8232	8852	.	+	0	ID=cds-ABC88272.1;Parent=gene-nef;Dbxref=NCBI_GP:ABC88272.1;Name=ABC88272.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ABC88272.1
+###

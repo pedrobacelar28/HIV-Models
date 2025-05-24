@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310243v1
+#!genome-build-accession NCBI_Assembly:GCA_003102435.1
+##sequence-region JN029802.1 1 8789
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+JN029802.1	Genbank	region	1	8789	.	+	.	ID=JN029802.1:1..8789;Dbxref=taxon:11676;collection-date=2011;country=Singapore;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=11SG.HM062;mol_type=genomic DNA;nat-host=Homo sapiens;note=hypermutated;subtype=CRF50
+JN029802.1	Genbank	gene	1	1499	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=other;partial=true;start_range=.,1
+JN029802.1	Genbank	sequence_feature	1	1499	.	+	.	ID=id-gag;Note=nonfunctional gag protein due to mutation;gbkey=misc_feature;gene=gag;partial=true;start_range=.,1
+JN029802.1	Genbank	gene	1292	4303	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=other;partial=true;start_range=.,1292
+JN029802.1	Genbank	sequence_feature	1292	4303	.	+	.	ID=id-pol;Note=nonfunctional pol protein due to mutation;gbkey=misc_feature;gene=pol;partial=true;start_range=.,1292
+JN029802.1	Genbank	gene	4248	4826	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=other
+JN029802.1	Genbank	sequence_feature	4248	4826	.	+	.	ID=id-vif;Note=nonfunctional vif protein due to mutation;gbkey=misc_feature;gene=vif
+JN029802.1	Genbank	gene	4766	5056	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=other
+JN029802.1	Genbank	sequence_feature	4766	5056	.	+	.	ID=id-vpr;Note=nonfunctional vpr protein due to mutation;gbkey=misc_feature;gene=vpr
+JN029802.1	Genbank	gene	5037	7642	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=other
+JN029802.1	Genbank	sequence_feature	5037	5251	.	+	.	ID=id-tat;Note=nonfunctional tat protein due to mutation;gbkey=misc_feature;gene=tat
+JN029802.1	Genbank	sequence_feature	7552	7642	.	+	.	ID=id-tat;Note=nonfunctional tat protein due to mutation;gbkey=misc_feature;gene=tat
+JN029802.1	Genbank	gene	5176	7826	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=other
+JN029802.1	Genbank	sequence_feature	5176	5251	.	+	.	ID=id-rev;Note=nonfunctional rev protein due to mutation;gbkey=misc_feature;gene=rev
+JN029802.1	Genbank	sequence_feature	7552	7826	.	+	.	ID=id-rev;Note=nonfunctional rev protein due to mutation;gbkey=misc_feature;gene=rev
+JN029802.1	Genbank	gene	5268	5513	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+JN029802.1	Genbank	CDS	5268	5513	.	+	0	ID=cds-AEN25460.1;Parent=gene-vpu;Dbxref=NCBI_GP:AEN25460.1;Name=AEN25460.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AEN25460.1
+JN029802.1	Genbank	gene	5431	7968	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=other
+JN029802.1	Genbank	sequence_feature	5431	7968	.	+	.	ID=id-env;Note=nonfunctional env protein due to mutation;gbkey=misc_feature;gene=env
+JN029802.1	Genbank	gene	7970	8602	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=other
+JN029802.1	Genbank	sequence_feature	7970	8602	.	+	.	ID=id-nef;Note=nonfunctional nef protein due to mutation;gbkey=misc_feature;gene=nef
+###

@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310405v1
+#!genome-build-accession NCBI_Assembly:GCA_003104055.1
+##sequence-region KJ849777.1 1 8526
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KJ849777.1	Genbank	region	1	8526	.	+	.	ID=KJ849777.1:1..8526;Dbxref=taxon:11676;collection-date=2010;country=Brazil;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=10BR_PE090;isolation-source=PBMC;mol_type=genomic DNA;nat-host=Homo sapiens;subtype=BF1
+KJ849777.1	Genbank	gene	214	1746	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KJ849777.1	Genbank	CDS	214	1746	.	+	0	ID=cds-AIK20104.1;Parent=gene-gag;Dbxref=NCBI_GP:AIK20104.1;Name=AIK20104.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AIK20104.1
+KJ849777.1	Genbank	gene	1734	4550	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding
+KJ849777.1	Genbank	CDS	1734	4550	.	+	0	ID=cds-AIK20112.1;Parent=gene-pol;Dbxref=NCBI_GP:AIK20112.1;Name=AIK20112.1;gbkey=CDS;gene=pol;product=pol protein;protein_id=AIK20112.1
+KJ849777.1	Genbank	gene	4495	5073	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KJ849777.1	Genbank	CDS	4495	5073	.	+	0	ID=cds-AIK20105.1;Parent=gene-vif;Dbxref=NCBI_GP:AIK20105.1;Name=AIK20105.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AIK20105.1
+KJ849777.1	Genbank	gene	5013	5303	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KJ849777.1	Genbank	CDS	5013	5303	.	+	0	ID=cds-AIK20106.1;Parent=gene-vpr;Dbxref=NCBI_GP:AIK20106.1;Name=AIK20106.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AIK20106.1
+KJ849777.1	Genbank	gene	5284	7889	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KJ849777.1	Genbank	CDS	5284	5498	.	+	0	ID=cds-AIK20107.1;Parent=gene-tat;Dbxref=NCBI_GP:AIK20107.1;Name=AIK20107.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AIK20107.1
+KJ849777.1	Genbank	CDS	7799	7889	.	+	1	ID=cds-AIK20107.1;Parent=gene-tat;Dbxref=NCBI_GP:AIK20107.1;Name=AIK20107.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AIK20107.1
+KJ849777.1	Genbank	gene	5423	8073	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KJ849777.1	Genbank	CDS	5423	5498	.	+	0	ID=cds-AIK20108.1;Parent=gene-rev;Dbxref=NCBI_GP:AIK20108.1;Name=AIK20108.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AIK20108.1
+KJ849777.1	Genbank	CDS	7799	8073	.	+	2	ID=cds-AIK20108.1;Parent=gene-rev;Dbxref=NCBI_GP:AIK20108.1;Name=AIK20108.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AIK20108.1
+KJ849777.1	Genbank	gene	5515	5754	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KJ849777.1	Genbank	CDS	5515	5754	.	+	0	ID=cds-AIK20109.1;Parent=gene-vpu;Dbxref=NCBI_GP:AIK20109.1;Name=AIK20109.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AIK20109.1
+KJ849777.1	Genbank	gene	5678	8215	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KJ849777.1	Genbank	CDS	5678	8215	.	+	0	ID=cds-AIK20110.1;Parent=gene-env;Dbxref=NCBI_GP:AIK20110.1;Name=AIK20110.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AIK20110.1
+KJ849777.1	Genbank	gene	8217	8526	.	+	.	ID=gene-nef;Name=nef;end_range=8526,.;gbkey=Gene;gene=nef;gene_biotype=protein_coding;partial=true
+KJ849777.1	Genbank	CDS	8217	8526	.	+	0	ID=cds-AIK20111.1;Parent=gene-nef;Dbxref=NCBI_GP:AIK20111.1;Name=AIK20111.1;end_range=8526,.;gbkey=CDS;gene=nef;partial=true;product=nef protein;protein_id=AIK20111.1
+###

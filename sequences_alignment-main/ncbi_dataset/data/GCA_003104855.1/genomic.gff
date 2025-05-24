@@ -1,0 +1,30 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310485v1
+#!genome-build-accession NCBI_Assembly:GCA_003104855.1
+##sequence-region U88824.1 1 8952
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+U88824.1	Genbank	region	1	8952	.	+	.	ID=U88824.1:1..8952;Dbxref=taxon:11676;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=94UG114;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1
+U88824.1	Genbank	gene	139	4451	.	+	.	ID=gene-gag-pol fusion;Name=gag-pol fusion;gbkey=Gene;gene=gag-pol fusion;gene_biotype=protein_coding
+U88824.1	Genbank	CDS	139	1437	.	+	0	ID=cds-AAC97575.1;Parent=gene-gag-pol fusion;Dbxref=NCBI_GP:AAC97575.1;Name=AAC97575.1;Note=translated by ribosomal slip at 'tttttt';gbkey=CDS;gene=gag-pol fusion;product=gag-Pol fusion;protein_id=AAC97575.1
+U88824.1	Genbank	CDS	1437	4451	.	+	0	ID=cds-AAC97575.1;Parent=gene-gag-pol fusion;Dbxref=NCBI_GP:AAC97575.1;Name=AAC97575.1;Note=translated by ribosomal slip at 'tttttt';gbkey=CDS;gene=gag-pol fusion;product=gag-Pol fusion;protein_id=AAC97575.1
+U88824.1	Genbank	gene	139	1647	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+U88824.1	Genbank	CDS	139	1647	.	+	0	ID=cds-AAC97569.1;Parent=gene-gag;Dbxref=NCBI_GP:AAC97569.1;Name=AAC97569.1;gbkey=CDS;gene=gag;product=gag polyprotein;protein_id=AAC97569.1
+U88824.1	Genbank	gene	4396	4974	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+U88824.1	Genbank	CDS	4396	4974	.	+	0	ID=cds-AAC97572.1;Parent=gene-vif;Dbxref=NCBI_GP:AAC97572.1;Name=AAC97572.1;gbkey=CDS;gene=vif;product=Vif;protein_id=AAC97572.1
+U88824.1	Genbank	gene	4914	5240	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+U88824.1	Genbank	CDS	4914	5240	.	+	0	ID=cds-AAC97573.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAC97573.1;Name=AAC97573.1;gbkey=CDS;gene=vpr;product=Vpr;protein_id=AAC97573.1
+U88824.1	Genbank	gene	5185	7742	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+U88824.1	Genbank	CDS	5185	5399	.	+	0	ID=cds-AAC97577.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC97577.1;Name=AAC97577.1;gbkey=CDS;gene=tat;product=Tat;protein_id=AAC97577.1
+U88824.1	Genbank	CDS	7697	7742	.	+	1	ID=cds-AAC97577.1;Parent=gene-tat;Dbxref=NCBI_GP:AAC97577.1;Name=AAC97577.1;gbkey=CDS;gene=tat;product=Tat;protein_id=AAC97577.1
+U88824.1	Genbank	gene	5324	7971	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+U88824.1	Genbank	CDS	5324	5399	.	+	0	ID=cds-AAC97571.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC97571.1;Name=AAC97571.1;gbkey=CDS;gene=rev;product=Rev;protein_id=AAC97571.1
+U88824.1	Genbank	CDS	7697	7971	.	+	2	ID=cds-AAC97571.1;Parent=gene-rev;Dbxref=NCBI_GP:AAC97571.1;Name=AAC97571.1;gbkey=CDS;gene=rev;product=Rev;protein_id=AAC97571.1
+U88824.1	Genbank	gene	5416	5661	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+U88824.1	Genbank	CDS	5416	5661	.	+	0	ID=cds-AAC97576.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAC97576.1;Name=AAC97576.1;gbkey=CDS;gene=vpu;product=Vpu;protein_id=AAC97576.1
+U88824.1	Genbank	gene	5579	8113	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+U88824.1	Genbank	CDS	5579	8113	.	+	0	ID=cds-AAC97570.1;Parent=gene-env;Dbxref=NCBI_GP:AAC97570.1;Name=AAC97570.1;gbkey=CDS;gene=env;product=envelope polyprotein;protein_id=AAC97570.1
+U88824.1	Genbank	gene	8115	8735	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+U88824.1	Genbank	CDS	8115	8735	.	+	0	ID=cds-AAC97574.1;Parent=gene-nef;Dbxref=NCBI_GP:AAC97574.1;Name=AAC97574.1;gbkey=CDS;gene=nef;product=Nef;protein_id=AAC97574.1
+###

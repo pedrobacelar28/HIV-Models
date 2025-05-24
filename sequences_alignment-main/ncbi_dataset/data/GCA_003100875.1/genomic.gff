@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310087v1
+#!genome-build-accession NCBI_Assembly:GCA_003100875.1
+##sequence-region DQ366662.1 1 9153
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+DQ366662.1	Genbank	region	1	9153	.	+	.	ID=DQ366662.1:1..9153;Dbxref=taxon:11676;collection-date=Aug-2005;country=Malaysia: Kuala Lumpur;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=05MYKL045.1;mol_type=genomic DNA;subtype=CRF33_01B
+DQ366662.1	Genbank	gene	175	1671	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+DQ366662.1	Genbank	CDS	175	1671	.	+	0	ID=cds-ABC94979.1;Parent=gene-gag;Dbxref=NCBI_GP:ABC94979.1;Name=ABC94979.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ABC94979.1
+DQ366662.1	Genbank	gene	1464	4475	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1464
+DQ366662.1	Genbank	CDS	1464	4475	.	+	0	ID=cds-ABC94980.1;Parent=gene-pol;Dbxref=NCBI_GP:ABC94980.1;Name=ABC94980.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ABC94980.1;start_range=.,1464
+DQ366662.1	Genbank	gene	4420	4998	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+DQ366662.1	Genbank	CDS	4420	4998	.	+	0	ID=cds-ABC94981.1;Parent=gene-vif;Dbxref=NCBI_GP:ABC94981.1;Name=ABC94981.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ABC94981.1
+DQ366662.1	Genbank	gene	4938	5228	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+DQ366662.1	Genbank	CDS	4938	5228	.	+	0	ID=cds-ABC94982.1;Parent=gene-vpr;Dbxref=NCBI_GP:ABC94982.1;Name=ABC94982.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ABC94982.1
+DQ366662.1	Genbank	gene	5209	7914	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+DQ366662.1	Genbank	CDS	5209	5423	.	+	0	ID=cds-ABC94983.1;Parent=gene-tat;Dbxref=NCBI_GP:ABC94983.1;Name=ABC94983.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABC94983.1
+DQ366662.1	Genbank	CDS	7824	7914	.	+	1	ID=cds-ABC94983.1;Parent=gene-tat;Dbxref=NCBI_GP:ABC94983.1;Name=ABC94983.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ABC94983.1
+DQ366662.1	Genbank	gene	5348	8119	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+DQ366662.1	Genbank	CDS	5348	5423	.	+	0	ID=cds-ABC94984.1;Parent=gene-rev;Dbxref=NCBI_GP:ABC94984.1;Name=ABC94984.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABC94984.1
+DQ366662.1	Genbank	CDS	7824	8119	.	+	2	ID=cds-ABC94984.1;Parent=gene-rev;Dbxref=NCBI_GP:ABC94984.1;Name=ABC94984.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ABC94984.1
+DQ366662.1	Genbank	gene	5444	5689	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=other
+DQ366662.1	Genbank	sequence_feature	5444	5689	.	+	.	ID=id-vpu;Note=nonfunctional vpu protein due to mutation;gbkey=misc_feature;gene=vpu
+DQ366662.1	Genbank	gene	5607	8261	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+DQ366662.1	Genbank	CDS	5607	8261	.	+	0	ID=cds-ABC94985.1;Parent=gene-env;Dbxref=NCBI_GP:ABC94985.1;Name=ABC94985.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ABC94985.1
+DQ366662.1	Genbank	gene	8263	8880	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+DQ366662.1	Genbank	CDS	8263	8880	.	+	0	ID=cds-ABC94986.1;Parent=gene-nef;Dbxref=NCBI_GP:ABC94986.1;Name=ABC94986.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ABC94986.1
+###

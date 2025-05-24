@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310191v1
+#!genome-build-accession NCBI_Assembly:GCA_003101915.1
+##sequence-region FJ358521.1 1 8858
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+FJ358521.1	Genbank	region	1	8858	.	+	.	ID=FJ358521.1:1..8858;Dbxref=taxon:11676;collection-date=2000;country=Chile;gb-acronym=HIV-1;gbkey=Src;genome=genomic;isolate=CH80;mol_type=genomic RNA;old-name=Human immunodeficiency virus type 1;subtype=BF
+FJ358521.1	Genbank	gene	229	1725	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+FJ358521.1	Genbank	CDS	229	1725	.	+	0	ID=cds-ACN72597.1;Parent=gene-gag;Dbxref=NCBI_GP:ACN72597.1;Name=ACN72597.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ACN72597.1
+FJ358521.1	Genbank	gene	1527	4538	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1527
+FJ358521.1	Genbank	CDS	1527	4538	.	+	0	ID=cds-ACN72598.1;Parent=gene-pol;Dbxref=NCBI_GP:ACN72598.1;Name=ACN72598.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ACN72598.1;start_range=.,1527
+FJ358521.1	Genbank	gene	4483	5061	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+FJ358521.1	Genbank	CDS	4483	5061	.	+	0	ID=cds-ACN72600.1;Parent=gene-vif;Dbxref=NCBI_GP:ACN72600.1;Name=ACN72600.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ACN72600.1
+FJ358521.1	Genbank	gene	5001	5291	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+FJ358521.1	Genbank	CDS	5001	5291	.	+	0	ID=cds-ACN72599.1;Parent=gene-vpr;Dbxref=NCBI_GP:ACN72599.1;Name=ACN72599.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ACN72599.1
+FJ358521.1	Genbank	gene	5272	7884	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+FJ358521.1	Genbank	CDS	5272	5486	.	+	0	ID=cds-ACN72601.1;Parent=gene-tat;Dbxref=NCBI_GP:ACN72601.1;Name=ACN72601.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACN72601.1
+FJ358521.1	Genbank	CDS	7794	7884	.	+	1	ID=cds-ACN72601.1;Parent=gene-tat;Dbxref=NCBI_GP:ACN72601.1;Name=ACN72601.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ACN72601.1
+FJ358521.1	Genbank	gene	5411	8068	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+FJ358521.1	Genbank	CDS	5411	5486	.	+	0	ID=cds-ACN72602.1;Parent=gene-rev;Dbxref=NCBI_GP:ACN72602.1;Name=ACN72602.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACN72602.1
+FJ358521.1	Genbank	CDS	7794	8068	.	+	2	ID=cds-ACN72602.1;Parent=gene-rev;Dbxref=NCBI_GP:ACN72602.1;Name=ACN72602.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ACN72602.1
+FJ358521.1	Genbank	gene	5513	5758	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+FJ358521.1	Genbank	CDS	5513	5758	.	+	0	ID=cds-ACN72603.1;Parent=gene-vpu;Dbxref=NCBI_GP:ACN72603.1;Name=ACN72603.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ACN72603.1
+FJ358521.1	Genbank	gene	5676	8210	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+FJ358521.1	Genbank	CDS	5676	8210	.	+	0	ID=cds-ACN72604.1;Parent=gene-env;Dbxref=NCBI_GP:ACN72604.1;Name=ACN72604.1;gbkey=CDS;gene=env;product=env protein;protein_id=ACN72604.1
+FJ358521.1	Genbank	gene	8212	8832	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+FJ358521.1	Genbank	CDS	8212	8832	.	+	0	ID=cds-ACN72605.1;Parent=gene-nef;Dbxref=NCBI_GP:ACN72605.1;Name=ACN72605.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ACN72605.1
+###

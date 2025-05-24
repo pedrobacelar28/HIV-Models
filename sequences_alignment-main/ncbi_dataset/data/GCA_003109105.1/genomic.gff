@@ -1,0 +1,17 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM310910v1
+#!genome-build-accession NCBI_Assembly:GCA_003109105.1
+##sequence-region AM851090.1 1 8825
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=467352
+AM851090.1	EMBL	region	1	8825	.	+	.	ID=AM851090.1:1..8825;Dbxref=taxon:467352;collection-date=2002;country=Democratic Republic of the Congo;gbkey=Src;genome=proviral;isolate=02CD.LBR024;isolation-source=clinical sample from congolese refugee in the south of the DRC;mol_type=genomic DNA;note=complex circulating recombinant strain%2C CRF27_cpx
+AM851090.1	EMBL	gene	1	1497	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AM851090.1	EMBL	CDS	1	1497	.	+	0	ID=cds-CAO99177.1;Parent=gene-gag;Dbxref=GOA:A8E113,InterPro:IPR000071,InterPro:IPR000721,InterPro:IPR001878,InterPro:IPR008916,InterPro:IPR008919,InterPro:IPR010999,InterPro:IPR012344,InterPro:IPR013084,InterPro:IPR014817,UniProtKB/TrEMBL:A8E113,NCBI_GP:CAO99177.1;Name=CAO99177.1;gbkey=CDS;gene=gag;partial=true;product=gag protein;protein_id=CAO99177.1;start_range=.,1
+AM851090.1	EMBL	gene	4246	4824	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AM851090.1	EMBL	CDS	4246	4824	.	+	0	ID=cds-CAO99178.1;Parent=gene-vif;Dbxref=GOA:A8E114,InterPro:IPR000475,UniProtKB/TrEMBL:A8E114,NCBI_GP:CAO99178.1;Name=CAO99178.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=CAO99178.1
+AM851090.1	EMBL	gene	5439	8021	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AM851090.1	EMBL	CDS	5439	8021	.	+	0	ID=cds-CAO99179.1;Parent=gene-env;Dbxref=GOA:A8E115,InterPro:IPR000328,InterPro:IPR000777,UniProtKB/TrEMBL:A8E115,NCBI_GP:CAO99179.1;Name=CAO99179.1;gbkey=CDS;gene=env;product=gp160;protein_id=CAO99179.1
+AM851090.1	EMBL	gene	8023	8646	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AM851090.1	EMBL	CDS	8023	8646	.	+	0	ID=cds-CAO99180.1;Parent=gene-nef;Dbxref=GOA:A8E116,InterPro:IPR001558,UniProtKB/TrEMBL:A8E116,NCBI_GP:CAO99180.1;Name=CAO99180.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=CAO99180.1
+###

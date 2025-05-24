@@ -1,0 +1,32 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309923v1
+#!genome-build-accession NCBI_Assembly:GCA_003099235.1
+##sequence-region AF484509.1 1 8807
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF484509.1	Genbank	region	1	8807	.	+	.	ID=AF484509.1:1..8807;Dbxref=taxon:11676;country=Uganda: Rakai;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=98UG57136;mol_type=genomic DNA;old-name=Human immunodeficiency virus type 1;subtype=A
+AF484509.1	Genbank	gene	1	4301	.	+	.	ID=gene-gag-pol;Name=gag-pol;gbkey=Gene;gene=gag-pol;gene_biotype=protein_coding;partial=true;start_range=.,1
+AF484509.1	Genbank	CDS	1	1290	.	+	0	ID=cds-AAN73718.1;Parent=gene-gag-pol;Dbxref=NCBI_GP:AAN73718.1;Name=AAN73718.1;exception=ribosomal slippage;gbkey=CDS;gene=gag-pol;partial=true;product=gag-pol fusion polyprotein;protein_id=AAN73718.1;start_range=.,1
+AF484509.1	Genbank	CDS	1290	4301	.	+	0	ID=cds-AAN73718.1;Parent=gene-gag-pol;Dbxref=NCBI_GP:AAN73718.1;Name=AAN73718.1;exception=ribosomal slippage;gbkey=CDS;gene=gag-pol;partial=true;product=gag-pol fusion polyprotein;protein_id=AAN73718.1
+AF484509.1	Genbank	gene	1	1497	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding;partial=true;start_range=.,1
+AF484509.1	Genbank	CDS	1	1497	.	+	0	ID=cds-AAN73719.1;Parent=gene-gag;Dbxref=NCBI_GP:AAN73719.1;Name=AAN73719.1;gbkey=CDS;gene=gag;partial=true;product=gag polyprotein precursor;protein_id=AAN73719.1;start_range=.,1
+AF484509.1	Genbank	gene	4246	4824	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF484509.1	Genbank	CDS	4246	4824	.	+	0	ID=cds-AAN73720.1;Parent=gene-vif;Dbxref=NCBI_GP:AAN73720.1;Name=AAN73720.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAN73720.1
+AF484509.1	Genbank	gene	4764	5054	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF484509.1	Genbank	CDS	4764	5054	.	+	0	ID=cds-AAN73726.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAN73726.1;Name=AAN73726.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAN73726.1
+AF484509.1	Genbank	gene	5035	7659	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF484509.1	Genbank	CDS	5035	5249	.	+	0	ID=cds-AAN73721.1;Parent=gene-tat;Dbxref=NCBI_GP:AAN73721.1;Name=AAN73721.1;Note=protein extends 15 amino acids beyond HXB2 Tat;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAN73721.1
+AF484509.1	Genbank	CDS	7569	7659	.	+	1	ID=cds-AAN73721.1;Parent=gene-tat;Dbxref=NCBI_GP:AAN73721.1;Name=AAN73721.1;Note=protein extends 15 amino acids beyond HXB2 Tat;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAN73721.1
+AF484509.1	Genbank	gene	5174	7864	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF484509.1	Genbank	CDS	5174	5249	.	+	0	ID=cds-AAN73722.1;Parent=gene-rev;Dbxref=NCBI_GP:AAN73722.1;Name=AAN73722.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAN73722.1
+AF484509.1	Genbank	CDS	7569	7864	.	+	2	ID=cds-AAN73722.1;Parent=gene-rev;Dbxref=NCBI_GP:AAN73722.1;Name=AAN73722.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAN73722.1
+AF484509.1	Genbank	gene	5276	5521	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF484509.1	Genbank	CDS	5276	5521	.	+	0	ID=cds-AAN73723.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAN73723.1;Name=AAN73723.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAN73723.1
+AF484509.1	Genbank	gene	5439	8006	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF484509.1	Genbank	CDS	5439	8006	.	+	0	ID=cds-AAN73724.1;Parent=gene-env;Dbxref=NCBI_GP:AAN73724.1;Name=AAN73724.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAN73724.1
+AF484509.1	Genbank	gene	8008	8622	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF484509.1	Genbank	CDS	8008	8622	.	+	0	ID=cds-AAN73725.1;Parent=gene-nef;Dbxref=NCBI_GP:AAN73725.1;Name=AAN73725.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAN73725.1
+AF484509.1	Genbank	long_terminal_repeat	8291	8807	.	+	.	ID=id-AF484509.1:8291..8807;Note=complete U3 and partial R-repeat region;end_range=8807,.;gbkey=repeat_region;partial=true;rpt_type=long_terminal_repeat
+AF484478.1	Genbank	match	1	8824	.	+	.	ID=aln0;Target=AF484477.1 1 8794 +;Gap=M1114 I3 M42 I3 M281 D3 M3813 D1 D3 D3 D1 D3 M613 D3 D3 D3 D3 M110 I3 I3 I3 M397 D3 M107 I3 M113 D3 D3 M182 D1 D1 I1 I1 M984 D21 M354 I4 I2 M43 I3 M472 D1 M21 D1 M78 I1 M40
+###

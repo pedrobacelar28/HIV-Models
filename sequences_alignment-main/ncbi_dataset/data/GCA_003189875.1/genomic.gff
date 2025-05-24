@@ -1,0 +1,31 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM318987v1
+#!genome-build-accession NCBI_Assembly:GCA_003189875.1
+##sequence-region AB703616.1 1 8667
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AB703616.1	DDBJ	region	1	8667	.	+	.	ID=AB703616.1:1..8667;Dbxref=taxon:11676;collection-date=2010;country=Iran:Tehran;gb-acronym=HIV-1;gbkey=Src;isolate=10IR.THR48F;isolation-source=plasma;mol_type=genomic RNA;nat-host=Homo sapiens subject #48;note=subtype: CRF01_AE
+AB703616.1	DDBJ	gene	7	1482	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AB703616.1	DDBJ	CDS	7	1482	.	+	0	ID=cds-BAM37449.1;Parent=gene-gag;Dbxref=NCBI_GP:BAM37449.1;Name=BAM37449.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=BAM37449.1
+AB703616.1	DDBJ	gene	1299	4286	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1299
+AB703616.1	DDBJ	CDS	1299	4286	.	+	0	ID=cds-BAM37450.1;Parent=gene-pol;Dbxref=NCBI_GP:BAM37450.1;Name=BAM37450.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=BAM37450.1;start_range=.,1299
+AB703616.1	DDBJ	gene	4231	4809	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AB703616.1	DDBJ	CDS	4231	4809	.	+	0	ID=cds-BAM37451.1;Parent=gene-vif;Dbxref=NCBI_GP:BAM37451.1;Name=BAM37451.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=BAM37451.1
+AB703616.1	DDBJ	gene	4749	5039	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AB703616.1	DDBJ	CDS	4749	5039	.	+	0	ID=cds-BAM37452.1;Parent=gene-vpr;Dbxref=NCBI_GP:BAM37452.1;Name=BAM37452.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=BAM37452.1
+AB703616.1	DDBJ	gene	5020	5234	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true
+AB703616.1	DDBJ	gene	7584	7674	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding;is_ordered=true
+AB703616.1	DDBJ	CDS	5020	5234	.	+	0	ID=cds-BAM37453.1;Parent=gene-tat;Dbxref=NCBI_GP:BAM37453.1;Name=BAM37453.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=BAM37453.1
+AB703616.1	DDBJ	CDS	7584	7674	.	+	1	ID=cds-BAM37453.1;Parent=gene-tat;Dbxref=NCBI_GP:BAM37453.1;Name=BAM37453.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=BAM37453.1
+AB703616.1	DDBJ	gene	5159	5234	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+AB703616.1	DDBJ	gene	7584	7879	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding;is_ordered=true
+AB703616.1	DDBJ	CDS	5159	5234	.	+	0	ID=cds-BAM37454.1;Parent=gene-rev;Dbxref=NCBI_GP:BAM37454.1;Name=BAM37454.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=BAM37454.1
+AB703616.1	DDBJ	CDS	7584	7879	.	+	2	ID=cds-BAM37454.1;Parent=gene-rev;Dbxref=NCBI_GP:BAM37454.1;Name=BAM37454.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=BAM37454.1
+AB703616.1	DDBJ	gene	5255	5500	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AB703616.1	DDBJ	CDS	5255	5500	.	+	0	ID=cds-BAM37455.1;Parent=gene-vpu;Dbxref=NCBI_GP:BAM37455.1;Name=BAM37455.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=BAM37455.1
+AB703616.1	DDBJ	gene	5418	8021	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AB703616.1	DDBJ	CDS	5418	8021	.	+	0	ID=cds-BAM37456.1;Parent=gene-env;Dbxref=NCBI_GP:BAM37456.1;Name=BAM37456.1;gbkey=CDS;gene=env;product=env protein;protein_id=BAM37456.1
+AB703616.1	DDBJ	gene	8023	8637	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AB703616.1	DDBJ	CDS	8023	8637	.	+	0	ID=cds-BAM37457.1;Parent=gene-nef;Dbxref=NCBI_GP:BAM37457.1;Name=BAM37457.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=BAM37457.1
+###

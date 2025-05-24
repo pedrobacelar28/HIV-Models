@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM309845v1
+#!genome-build-accession NCBI_Assembly:GCA_003098455.1
+##sequence-region AF193277.1 1 8961
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AF193277.1	Genbank	region	1	8961	.	+	.	ID=AF193277.1:1..8961;Dbxref=taxon:11676;clone=B10;country=Russia: Kaliningrad;gb-acronym=HIV-1;gbkey=Src;genome=proviral;group=M;isolate=RU98001;mol_type=genomic DNA;note=cloned from short-term PBMC coculture;old-name=Human immunodeficiency virus type 1;subtype=A/B
+AF193277.1	Genbank	gene	166	1662	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AF193277.1	Genbank	CDS	166	1662	.	+	0	ID=cds-AAF22328.1;Parent=gene-gag;Dbxref=NCBI_GP:AAF22328.1;Name=AAF22328.1;gbkey=CDS;gene=gag;product=gag polyprotein;protein_id=AAF22328.1
+AF193277.1	Genbank	gene	1455	4466	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1455
+AF193277.1	Genbank	CDS	1455	4466	.	+	0	ID=cds-AAF22329.1;Parent=gene-pol;Dbxref=NCBI_GP:AAF22329.1;Name=AAF22329.1;gbkey=CDS;gene=pol;partial=true;product=pol polyprotein;protein_id=AAF22329.1;start_range=.,1455
+AF193277.1	Genbank	gene	4411	4989	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AF193277.1	Genbank	CDS	4411	4989	.	+	0	ID=cds-AAF22330.1;Parent=gene-vif;Dbxref=NCBI_GP:AAF22330.1;Name=AAF22330.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAF22330.1
+AF193277.1	Genbank	gene	4929	5219	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+AF193277.1	Genbank	CDS	4929	5219	.	+	0	ID=cds-AAF22332.1;Parent=gene-vpr;Dbxref=NCBI_GP:AAF22332.1;Name=AAF22332.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=AAF22332.1
+AF193277.1	Genbank	gene	5200	7739	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AF193277.1	Genbank	CDS	5200	5414	.	+	0	ID=cds-AAF22334.1;Parent=gene-tat;Dbxref=NCBI_GP:AAF22334.1;Name=AAF22334.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAF22334.1
+AF193277.1	Genbank	CDS	7694	7739	.	+	1	ID=cds-AAF22334.1;Parent=gene-tat;Dbxref=NCBI_GP:AAF22334.1;Name=AAF22334.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAF22334.1
+AF193277.1	Genbank	gene	5339	7968	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AF193277.1	Genbank	CDS	5339	5414	.	+	0	ID=cds-AAF22336.1;Parent=gene-rev;Dbxref=NCBI_GP:AAF22336.1;Name=AAF22336.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAF22336.1
+AF193277.1	Genbank	CDS	7694	7968	.	+	2	ID=cds-AAF22336.1;Parent=gene-rev;Dbxref=NCBI_GP:AAF22336.1;Name=AAF22336.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAF22336.1
+AF193277.1	Genbank	gene	5431	5667	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AF193277.1	Genbank	CDS	5431	5667	.	+	0	ID=cds-AAF22335.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAF22335.1;Name=AAF22335.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAF22335.1
+AF193277.1	Genbank	gene	5594	8110	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AF193277.1	Genbank	CDS	5594	8110	.	+	0	ID=cds-AAF22333.1;Parent=gene-env;Dbxref=NCBI_GP:AAF22333.1;Name=AAF22333.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAF22333.1
+AF193277.1	Genbank	gene	8112	8735	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AF193277.1	Genbank	CDS	8112	8735	.	+	0	ID=cds-AAF22331.1;Parent=gene-nef;Dbxref=NCBI_GP:AAF22331.1;Name=AAF22331.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAF22331.1
+###

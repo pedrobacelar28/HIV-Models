@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM319045v1
+#!genome-build-accession NCBI_Assembly:GCA_003190455.1
+##sequence-region KU992929.1 1 9020
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+KU992929.1	Genbank	region	1	9020	.	+	.	ID=KU992929.1:1..9020;Dbxref=taxon:11676;collection-date=2014;country=China;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=SCFL14;mol_type=genomic DNA;nat-host=Homo sapiens%3B sex: male;strain=14CN.SCYB2
+KU992929.1	Genbank	gene	153	1628	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+KU992929.1	Genbank	CDS	153	1628	.	+	0	ID=cds-ANY94958.1;Parent=gene-gag;Dbxref=NCBI_GP:ANY94958.1;Name=ANY94958.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ANY94958.1
+KU992929.1	Genbank	gene	1433	4432	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1433
+KU992929.1	Genbank	CDS	1433	4432	.	+	0	ID=cds-ANY94959.1;Parent=gene-pol;Dbxref=NCBI_GP:ANY94959.1;Name=ANY94959.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ANY94959.1;start_range=.,1433
+KU992929.1	Genbank	gene	4377	4958	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+KU992929.1	Genbank	CDS	4377	4958	.	+	0	ID=cds-ANY94960.1;Parent=gene-vif;Dbxref=NCBI_GP:ANY94960.1;Name=ANY94960.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ANY94960.1
+KU992929.1	Genbank	gene	4898	5188	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+KU992929.1	Genbank	CDS	4898	5188	.	+	0	ID=cds-ANY94961.1;Parent=gene-vpr;Dbxref=NCBI_GP:ANY94961.1;Name=ANY94961.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ANY94961.1
+KU992929.1	Genbank	gene	5169	7855	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+KU992929.1	Genbank	CDS	5169	5383	.	+	0	ID=cds-ANY94965.1;Parent=gene-tat;Dbxref=NCBI_GP:ANY94965.1;Name=ANY94965.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ANY94965.1
+KU992929.1	Genbank	CDS	7762	7855	.	+	1	ID=cds-ANY94965.1;Parent=gene-tat;Dbxref=NCBI_GP:ANY94965.1;Name=ANY94965.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ANY94965.1
+KU992929.1	Genbank	gene	5308	8012	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+KU992929.1	Genbank	CDS	5308	5383	.	+	0	ID=cds-ANY94966.1;Parent=gene-rev;Dbxref=NCBI_GP:ANY94966.1;Name=ANY94966.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ANY94966.1
+KU992929.1	Genbank	CDS	7762	8012	.	+	2	ID=cds-ANY94966.1;Parent=gene-rev;Dbxref=NCBI_GP:ANY94966.1;Name=ANY94966.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ANY94966.1
+KU992929.1	Genbank	gene	5400	5642	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+KU992929.1	Genbank	CDS	5400	5642	.	+	0	ID=cds-ANY94962.1;Parent=gene-vpu;Dbxref=NCBI_GP:ANY94962.1;Name=ANY94962.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ANY94962.1
+KU992929.1	Genbank	gene	5563	8202	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+KU992929.1	Genbank	CDS	5563	8202	.	+	0	ID=cds-ANY94963.1;Parent=gene-env;Dbxref=NCBI_GP:ANY94963.1;Name=ANY94963.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ANY94963.1
+KU992929.1	Genbank	gene	8204	8824	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+KU992929.1	Genbank	CDS	8204	8824	.	+	0	ID=cds-ANY94964.1;Parent=gene-nef;Dbxref=NCBI_GP:ANY94964.1;Name=ANY94964.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ANY94964.1
+###

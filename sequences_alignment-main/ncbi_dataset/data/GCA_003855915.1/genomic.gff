@@ -1,0 +1,29 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM385591v1
+#!genome-build-accession NCBI_Assembly:GCA_003855915.1
+##sequence-region MF373173.1 1 8583
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+MF373173.1	Genbank	region	1	8583	.	+	.	ID=MF373173.1:1..8583;Dbxref=taxon:11676;collection-date=2012;country=Sweden;gb-acronym=HIV-1;gbkey=Src;genome=proviral;isolate=070SE;mol_type=genomic DNA;nat-host=Homo sapiens;subtype=01_AE
+MF373173.1	Genbank	gene	1	1470	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+MF373173.1	Genbank	CDS	1	1470	.	+	0	ID=cds-ASU63067.1;Parent=gene-gag;Dbxref=NCBI_GP:ASU63067.1;Name=ASU63067.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=ASU63067.1
+MF373173.1	Genbank	gene	1284	4274	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,1284
+MF373173.1	Genbank	CDS	1284	4274	.	+	0	ID=cds-ASU63068.1;Parent=gene-pol;Dbxref=NCBI_GP:ASU63068.1;Name=ASU63068.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=ASU63068.1;start_range=.,1284
+MF373173.1	Genbank	gene	4219	4797	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+MF373173.1	Genbank	CDS	4219	4797	.	+	0	ID=cds-ASU63069.1;Parent=gene-vif;Dbxref=NCBI_GP:ASU63069.1;Name=ASU63069.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=ASU63069.1
+MF373173.1	Genbank	gene	4737	5027	.	+	.	ID=gene-vpr;Name=vpr;gbkey=Gene;gene=vpr;gene_biotype=protein_coding
+MF373173.1	Genbank	CDS	4737	5027	.	+	0	ID=cds-ASU63070.1;Parent=gene-vpr;Dbxref=NCBI_GP:ASU63070.1;Name=ASU63070.1;gbkey=CDS;gene=vpr;product=vpr protein;protein_id=ASU63070.1
+MF373173.1	Genbank	gene	5008	7614	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+MF373173.1	Genbank	CDS	5008	5222	.	+	0	ID=cds-ASU63071.1;Parent=gene-tat;Dbxref=NCBI_GP:ASU63071.1;Name=ASU63071.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ASU63071.1
+MF373173.1	Genbank	CDS	7530	7614	.	+	1	ID=cds-ASU63071.1;Parent=gene-tat;Dbxref=NCBI_GP:ASU63071.1;Name=ASU63071.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=ASU63071.1
+MF373173.1	Genbank	gene	5147	7825	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+MF373173.1	Genbank	CDS	5147	5222	.	+	0	ID=cds-ASU63072.1;Parent=gene-rev;Dbxref=NCBI_GP:ASU63072.1;Name=ASU63072.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ASU63072.1
+MF373173.1	Genbank	CDS	7530	7825	.	+	2	ID=cds-ASU63072.1;Parent=gene-rev;Dbxref=NCBI_GP:ASU63072.1;Name=ASU63072.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=ASU63072.1
+MF373173.1	Genbank	gene	5243	5488	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+MF373173.1	Genbank	CDS	5243	5488	.	+	0	ID=cds-ASU63073.1;Parent=gene-vpu;Dbxref=NCBI_GP:ASU63073.1;Name=ASU63073.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=ASU63073.1
+MF373173.1	Genbank	gene	5406	7967	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+MF373173.1	Genbank	CDS	5406	7967	.	+	0	ID=cds-ASU63074.1;Parent=gene-env;Dbxref=NCBI_GP:ASU63074.1;Name=ASU63074.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=ASU63074.1
+MF373173.1	Genbank	gene	7969	8583	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+MF373173.1	Genbank	CDS	7969	8583	.	+	0	ID=cds-ASU63075.1;Parent=gene-nef;Dbxref=NCBI_GP:ASU63075.1;Name=ASU63075.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=ASU63075.1
+###

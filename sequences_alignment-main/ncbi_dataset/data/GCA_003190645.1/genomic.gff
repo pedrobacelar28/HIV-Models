@@ -1,0 +1,28 @@
+##gff-version 3
+#!gff-spec-version 1.21
+#!processor NCBI annotwriter
+#!genome-build ASM319064v1
+#!genome-build-accession NCBI_Assembly:GCA_003190645.1
+##sequence-region AY618998.1 1 9868
+##species https://www.ncbi.nlm.nih.gov/Taxonomy/Browser/wwwtax.cgi?id=11676
+AY618998.1	Genbank	region	1	9868	.	+	.	ID=AY618998.1:1..9868;Dbxref=taxon:11676;clone=pCMO2.3;country=Cameroon;gb-acronym=HIV-1;gbkey=Src;genome=proviral;group=O;mol_type=genomic DNA;note=derived from R-5 tropic HIV-1 primary isolate MVP8913;old-name=Human immunodeficiency virus type 1
+AY618998.1	Genbank	gene	845	2335	.	+	.	ID=gene-gag;Name=gag;gbkey=Gene;gene=gag;gene_biotype=protein_coding
+AY618998.1	Genbank	CDS	845	2335	.	+	0	ID=cds-AAU08215.1;Parent=gene-gag;Dbxref=NCBI_GP:AAU08215.1;Name=AAU08215.1;gbkey=CDS;gene=gag;product=gag protein;protein_id=AAU08215.1
+AY618998.1	Genbank	gene	2155	5178	.	+	.	ID=gene-pol;Name=pol;gbkey=Gene;gene=pol;gene_biotype=protein_coding;partial=true;start_range=.,2155
+AY618998.1	Genbank	CDS	2155	5178	.	+	0	ID=cds-AAU08216.1;Parent=gene-pol;Dbxref=NCBI_GP:AAU08216.1;Name=AAU08216.1;gbkey=CDS;gene=pol;partial=true;product=pol protein;protein_id=AAU08216.1;start_range=.,2155
+AY618998.1	Genbank	gene	5093	5671	.	+	.	ID=gene-vif;Name=vif;gbkey=Gene;gene=vif;gene_biotype=protein_coding
+AY618998.1	Genbank	CDS	5093	5671	.	+	0	ID=cds-AAU08217.1;Parent=gene-vif;Dbxref=NCBI_GP:AAU08217.1;Name=AAU08217.1;gbkey=CDS;gene=vif;product=vif protein;protein_id=AAU08217.1
+AY618998.1	Genbank	gene	5611	5913	.	+	.	ID=gene-vpr;Name=vpr;Note=nonfunctional vpr protein due to mutation;gbkey=Gene;gene=vpr;gene_biotype=other
+AY618998.1	Genbank	gene	5894	8544	.	+	.	ID=gene-tat;Name=tat;gbkey=Gene;gene=tat;gene_biotype=protein_coding
+AY618998.1	Genbank	CDS	5894	6105	.	+	0	ID=cds-AAU08218.1;Parent=gene-tat;Dbxref=NCBI_GP:AAU08218.1;Name=AAU08218.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAU08218.1
+AY618998.1	Genbank	CDS	8463	8544	.	+	1	ID=cds-AAU08218.1;Parent=gene-tat;Dbxref=NCBI_GP:AAU08218.1;Name=AAU08218.1;gbkey=CDS;gene=tat;product=tat protein;protein_id=AAU08218.1
+AY618998.1	Genbank	gene	6033	8701	.	+	.	ID=gene-rev;Name=rev;gbkey=Gene;gene=rev;gene_biotype=protein_coding
+AY618998.1	Genbank	CDS	6033	6105	.	+	0	ID=cds-AAU08219.1;Parent=gene-rev;Dbxref=NCBI_GP:AAU08219.1;Name=AAU08219.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAU08219.1
+AY618998.1	Genbank	CDS	8463	8701	.	+	2	ID=cds-AAU08219.1;Parent=gene-rev;Dbxref=NCBI_GP:AAU08219.1;Name=AAU08219.1;gbkey=CDS;gene=rev;product=rev protein;protein_id=AAU08219.1
+AY618998.1	Genbank	gene	6119	6376	.	+	.	ID=gene-vpu;Name=vpu;gbkey=Gene;gene=vpu;gene_biotype=protein_coding
+AY618998.1	Genbank	CDS	6119	6376	.	+	0	ID=cds-AAU08220.1;Parent=gene-vpu;Dbxref=NCBI_GP:AAU08220.1;Name=AAU08220.1;gbkey=CDS;gene=vpu;product=vpu protein;protein_id=AAU08220.1
+AY618998.1	Genbank	gene	6282	8900	.	+	.	ID=gene-env;Name=env;gbkey=Gene;gene=env;gene_biotype=protein_coding
+AY618998.1	Genbank	CDS	6282	8900	.	+	0	ID=cds-AAU08221.1;Parent=gene-env;Dbxref=NCBI_GP:AAU08221.1;Name=AAU08221.1;gbkey=CDS;gene=env;product=envelope glycoprotein;protein_id=AAU08221.1
+AY618998.1	Genbank	gene	8902	9537	.	+	.	ID=gene-nef;Name=nef;gbkey=Gene;gene=nef;gene_biotype=protein_coding
+AY618998.1	Genbank	CDS	8902	9537	.	+	0	ID=cds-AAU08222.1;Parent=gene-nef;Dbxref=NCBI_GP:AAU08222.1;Name=AAU08222.1;gbkey=CDS;gene=nef;product=nef protein;protein_id=AAU08222.1
+###
