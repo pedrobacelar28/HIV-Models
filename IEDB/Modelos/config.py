@@ -4,7 +4,7 @@ import datetime
 
 def get_config(dataset_type="B", model_type="esmc_300m", virus_type="Tudo"):
     """
-    Configuração generalizada para treinar modelos em diferentes datasets.
+    Configuração de caminhos e configurações básicas para treinar modelos em diferentes datasets.
     
     Args:
         dataset_type: str - "B", "MHC1" ou "MHC2"
@@ -76,42 +76,42 @@ def get_config(dataset_type="B", model_type="esmc_300m", virus_type="Tudo"):
     if not test_neg_file.exists():
         raise FileNotFoundError(f"Arquivo de teste não encontrado: {test_neg_file}")
     
-    # Configurar modelo baseado no model_type
-    model_configs = {
+    # Configurações padrão de modelos (usadas apenas se não especificado no main.py)
+    model_defaults = {
         "esmc_300m": {
             "base_model": "esmc_300m",
-            "max_length": 60,  # Aumentado para acomodar sequências de 50+ chars
-            "batch_size": 8,    # Valor mais conservador para max_length=60
+            "max_length": 60,
+            "batch_size": 8,
             "dropout": 0.3,
             "freeze_backbone": False
         },
         "esmc_600m": {
             "base_model": "esmc_600m", 
-            "max_length": 60,  # Aumentado para acomodar sequências de 50+ chars
-            "batch_size": 3,    # Reduzido devido ao max_length maior e modelo maior
+            "max_length": 60,
+            "batch_size": 4,
             "dropout": 0.3,
             "freeze_backbone": False
         },
         "esm2_t33_650M_UR50D": {
-            "base_model": "esm2_t6_8M_UR50D",
-            "max_length": 60,  # Aumentado para acomodar sequências de 50+ chars
-            "batch_size": 256,    # Valor conservador para max_length=60 e modelo grande
-            "dropout": 0.3,     # Mesmo dropout usado no código original
-            "freeze_backbone": False  # Não congelar backbone para fine-tuning completo
+            "base_model": "esm2_t33_650M_UR50D",
+            "max_length": 60,
+            "batch_size": 6,
+            "dropout": 0.3,
+            "freeze_backbone": False
         },
         "esm2_t36_3B_UR50D": {
             "base_model": "esm2_t36_3B_UR50D",
-            "max_length": 60,  # Aumentado para acomodar sequências de 50+ chars
-            "batch_size": 2,    # Mantido pequeno devido ao modelo muito grande
-            "dropout": 0.3,     # Mesmo dropout usado no código original
-            "freeze_backbone": False  # Não congelar backbone para fine-tuning completo
+            "max_length": 60,
+            "batch_size": 2,
+            "dropout": 0.3,
+            "freeze_backbone": False
         }
     }
     
-    if model_type not in model_configs:
-        raise ValueError(f"model_type deve ser um de: {list(model_configs.keys())}")
+    if model_type not in model_defaults:
+        raise ValueError(f"model_type deve ser um de: {list(model_defaults.keys())}")
     
-    model_config = model_configs[model_type]
+    model_config = model_defaults[model_type]
     
     # Criar run_name único com timestamp
     timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
@@ -124,38 +124,26 @@ def get_config(dataset_type="B", model_type="esmc_300m", virus_type="Tudo"):
         "test_pos": str(test_pos_file),   # Arquivos específicos de teste HIV
         "test_neg": str(test_neg_file),   # Arquivos específicos de teste HIV
         
-        # ── Training hyperparameters ─────────────────────────────── #
-        "lr": 1e-4 if model_type.startswith("esmc") else 1e-5,  # ESMC: reduzido de 5e-3 para 1e-4
-        "weight_decay": 0.01,
-        "batch_size": model_config["batch_size"],
-        "max_length": model_config["max_length"],
-        "epochs": 30,
-        "eval_interval": 1,
-        "save_interval": 1,
+        # ── Configurações padrão do modelo (podem ser sobrescritas no main.py) ─ #
         "base_model": model_config["base_model"],
-        
-        # ── Model-specific parameters ────────────────────────────── #
+        "max_length": model_config["max_length"],
+        "batch_size": model_config["batch_size"],
         "dropout": model_config["dropout"],
         "freeze_backbone": model_config["freeze_backbone"],
         
         # ── Weights & Biases setup ──────────────────────────────── #
         "project": f"protein-{dataset_type.lower()}",
-        "entity": None,  # or "your-wandb-entity"
-        "run_name": run_name,  # Agora inclui timestamp único
+        "entity": None,
+        "run_name": run_name,
         
-        # ── Reproducibility and output ───────────────────────────── #
-        "seed": 42,
+        # ── Output and metadata ──────────────────────────────────── #
         "artifacts_path": str(base_path / dataset_type / "model"),
-        "eval": False,
-        "step": None,
-        
-        # ── Metadata para referência ───────────────────────────── #
         "dataset_type": dataset_type,
         "model_type": model_type,
         "virus_type": virus_type,
         
         # ── Critério de melhor modelo ──────────────────────────── #
-        "best_model_metric": "f1_precision_combined",  # Critério combinado F1 + Precision
+        "best_model_metric": "f1_precision_combined",
     }
     
     return config

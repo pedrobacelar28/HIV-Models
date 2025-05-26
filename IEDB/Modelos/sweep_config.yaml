@@ -1,0 +1,60 @@
+# ================================================================== #
+# 🎯 W&B Hyperparameter Sweep Configuration                          #
+# ================================================================== #
+# Configuração para otimizar precision através dos pesos da loss function
+
+program: main.py
+method: bayes
+
+# Métrica a ser otimizada
+metric:
+  name: test/f1_precision_combined  # Média harmônica de F1 e Precision
+  goal: maximize
+
+# Hiperparâmetros a serem otimizados
+parameters:
+  # ────── Pesos da Loss Function (foco principal) ──────────────────
+  pos_class_weight:
+    distribution: uniform
+    min: 1.0      # Peso balanceado
+    max: 10.0     # Peso alto para melhorar precision significativamente
+  
+  loss_weight_multiplier:
+    distribution: uniform
+    min: 0.5      # Reduzir efeito geral
+    max: 3.0      # Amplificar efeito geral
+  
+  # ────── Learning Rate (pode afetar convergência) ─────────────────
+  lr:
+    distribution: log_uniform_values
+    min: 1e-6     # LR muito baixo
+    max: 1e-3     # LR alto para modelos ESMC
+  
+  # ────── Weight Decay (regularização) ─────────────────────────────
+  weight_decay:
+    distribution: uniform
+    min: 0.0      # Sem regularização
+    max: 0.1      # Regularização alta
+  
+  # ────── Dropout (regularização do modelo) ────────────────────────
+  dropout:
+    distribution: uniform
+    min: 0.0      # Sem dropout
+    max: 0.5      # Dropout alto para evitar overfitting
+
+# Configuração do sweep
+early_terminate:
+  type: hyperband
+  min_iter: 4     # Mínimo 3 épocas antes de terminar
+  max_iter: 20    # Máximo 50 épocas
+  s: 2
+  eta: 3
+
+# Quantos runs executar
+run_cap: 50
+
+# Comando base para execução
+command:
+  - python
+  - main.py
+  - ${args}  # Hyperband controlará épocas automaticamente 

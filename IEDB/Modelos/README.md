@@ -1,6 +1,6 @@
 # Sistema Generalizado de Treinamento de Modelos para HIV
 
-Este sistema permite treinar modelos de proteínas de forma flexível, suportando diferentes datasets e tipos de modelos através de parâmetros.
+Este sistema permite treinar modelos de proteínas de forma flexível, suportando diferentes datasets e tipos de modelos através de parâmetros **TOTALMENTE CONFIGURÁVEIS** no `main.py`.
 
 ## 🚀 Características
 
@@ -9,11 +9,108 @@ Este sistema permite treinar modelos de proteínas de forma flexível, suportand
   - ESMC: `esmc_300m`, `esmc_600m`
   - ESM2: `esm2_t33_650M_UR50D`, `esm2_t36_3B_UR50D`
 - **Tipos de vírus**: Tudo, Virus, Lent, Retro
-- **Configuração automática** de parâmetros baseada no modelo escolhido
+- **🆕 HIPERPARÂMETROS TOTALMENTE CONFIGURÁVEIS** no `main.py`
+- **Controle completo** de learning rate, batch size, dropout, etc.
 - **Conjuntos de teste específicos HIV** para avaliação independente
 - **Critério inteligente** para melhor modelo (F1 + Precision combinados)
 - **Logging com Weights & Biases**
 - **Suporte a avaliação e treinamento**
+
+## 🆕 NOVA FUNCIONALIDADE: Hiperparâmetros Configuráveis
+
+**AGORA VOCÊ TEM CONTROLE TOTAL** sobre todos os hiperparâmetros diretamente no `main.py`!
+
+### 🔧 Duas formas de configurar:
+
+1. **Editando defaults no `main.py`** (Recomendado para uso frequente)
+2. **Argumentos da linha de comando** (Para overrides específicos)
+
+### 📝 Configuração de Defaults no main.py
+
+Edite a seção no início do `main.py` para seus valores preferidos:
+
+```python
+# ────── Configuração básica ──────────────────────────────────────
+DEFAULT_DATASET = "B"                          # Dataset preferido
+DEFAULT_MODEL = "esmc_300m"                     # Modelo preferido
+DEFAULT_VIRUS_TYPE = "Base"                     # Tipo de arquivo
+DEFAULT_EVAL_MODE = False                       # Modo padrão
+
+# ────── Hiperparâmetros de treinamento ───────────────────────────
+DEFAULT_EPOCHS = 30                            # Número de épocas
+DEFAULT_LEARNING_RATE = 1e-4                   # Taxa de aprendizado
+DEFAULT_WEIGHT_DECAY = 0.01                    # Regularização L2
+DEFAULT_BATCH_SIZE = None                      # None = auto
+DEFAULT_MAX_LENGTH = None                      # None = auto
+
+# ────── Configuração do modelo ───────────────────────────────────
+DEFAULT_DROPOUT = None                         # None = auto
+DEFAULT_FREEZE_BACKBONE = False                # Congelar encoder
+
+# ────── Pesos da loss function para precision ───────────────────
+DEFAULT_POS_CLASS_WEIGHT = 3.0                # > 1.0 = melhor precision
+DEFAULT_LOSS_WEIGHT_MULTIPLIER = 1.0          # Multiplicador adicional
+```
+
+**Depois execute simplesmente:** `python main.py`
+
+## 🆕 W&B Hyperparameter Sweep para Otimização Automática
+
+**NOVO**: Sistema de otimização automática de hiperparâmetros focado em **melhorar precision**!
+
+### 🎯 O que é o Sweep?
+
+O **W&B Hyperparameter Sweep** testa automaticamente diferentes combinações de hiperparâmetros para encontrar a configuração que **maximiza a precision** sem perder F1-score.
+
+### 🚀 Como usar:
+
+#### Método 1: Editar defaults
+```python
+# No main.py:
+DEFAULT_SWEEP_MODE = True
+DEFAULT_DATASET = "B"
+DEFAULT_MODEL = "esmc_300m"
+DEFAULT_EPOCHS = 5  # Rápido para sweep
+```
+```bash
+python main.py  # Inicia sweep automaticamente
+```
+
+#### Método 2: Argumento direto
+```bash
+python main.py --sweep --dataset B --model esmc_300m
+```
+
+### 🔧 O que o Sweep otimiza:
+
+**Foco Principal** (pesos da loss function):
+- `pos_class_weight`: 1.0 → 10.0 (peso para melhorar precision)
+- `loss_weight_multiplier`: 0.5 → 3.0 (multiplicador de efeito)
+
+**Secundário**:
+- `learning_rate`: 1e-6 → 1e-3 (taxa de aprendizado)
+- `weight_decay`: 0.0 → 0.1 (regularização L2)
+- `dropout`: 0.0 → 0.5 (regularização do modelo)
+
+**Mantido fixo** (para estabilidade):
+- `batch_size`, `max_length`, `epochs`
+
+### 📊 Métrica otimizada:
+- **`f1_precision_combined`**: Média harmônica de F1 e Precision
+- **Objetivo**: Precision alta SEM perder F1
+
+### 🌐 Acompanhamento:
+O sweep cria automaticamente um projeto W&B e exibe o link para acompanhar:
+```
+✅ Sweep criado com ID: abc123
+🌐 Acompanhe em: https://wandb.ai/sua-conta/protein-b-sweep/sweeps/abc123
+```
+
+### 📋 Arquivos do Sweep:
+- `sweep_config.yaml` - Configuração dos hiperparâmetros
+- `sweep_guide.md` - Guia detalhado de uso
+
+**Depois execute simplesmente:** `python main.py`
 
 ## 📁 Estrutura de Arquivos
 
@@ -49,6 +146,36 @@ Modelos/
 ```
 
 ## 🛠️ Como Usar
+
+### 🆕 Configuração Flexível de Hiperparâmetros
+
+**NOVO**: Agora você controla TODOS os hiperparâmetros diretamente no `main.py`!
+
+#### Método 1: Editar Defaults (Recomendado)
+
+Edite os defaults no topo do `main.py` e execute simplesmente:
+
+```bash
+python main.py  # Usa seus defaults configurados
+```
+
+#### Método 2: Argumentos da Linha de Comando
+
+Override qualquer hiperparâmetro específico:
+
+```bash
+# Controle completo via argumentos
+python main.py \
+    --dataset B \
+    --model esmc_300m \
+    --virus-type Base \
+    --epochs 20 \
+    --lr 5e-4 \
+    --batch-size 6 \
+    --max-length 80 \
+    --dropout 0.3 \
+    --pos-class-weight 2.5
+```
 
 ### Configuração Rápida (sem argumentos)
 
@@ -114,21 +241,53 @@ python main.py --eval --dataset MHC1 --model esm2_t33_650M_UR50D --virus-type Vi
 
 ### Parâmetros Disponíveis
 
-- `--dataset`: Escolha entre `B`, `MHC1`, `MHC2` (default: `B`)
-- `--model`: Tipo de modelo a usar (default: `esmc_300m`)
+#### 🆕 CONTROLE TOTAL dos Hiperparâmetros
+
+**Configuração Básica:**
+- `--dataset`: Escolha entre `B`, `MHC1`, `MHC2` (default: configurável)
+- `--model`: Tipo de modelo a usar (default: configurável)
   - `esmc_300m`: ESM-C 300M parâmetros
   - `esmc_600m`: ESM-C 600M parâmetros  
   - `esm2_t33_650M_UR50D`: ESM2 650M parâmetros
   - `esm2_t36_3B_UR50D`: ESM2 3B parâmetros
-- `--virus-type`: Tipo de dados de vírus (default: `Tudo`)
+- `--virus-type`: Tipo de dados de vírus (default: configurável)
   - `Base`: Arquivos base sem sufixo (ex: `simB.txt`, `naoB.txt`)
   - `Tudo`: Todos os dados (ex: `simBTudo.txt`, `naoBTudo.txt`)
   - `Virus`: Apenas dados de vírus (ex: `simBVirus.txt`, `naoBVirus.txt`)
   - `Lent`: Apenas lentivírus (ex: `simBLent.txt`, `naoBLent.txt`)
   - `Retro`: Apenas retrovírus (ex: `simBRetro.txt`, `naoBRetro.txt`)
-- `--epochs`: Número de épocas de treinamento (default: `30`)
+
+**🆕 Hiperparâmetros de Treinamento:**
+- `--epochs`: Número de épocas de treinamento (default: configurável)
+- `--lr`, `--learning-rate`: Taxa de aprendizado (default: configurável)
+- `--weight-decay`: Regularização L2 (default: configurável)
+- `--batch-size`: Tamanho do batch (default: auto baseado no modelo)
+- `--max-length`: Comprimento máximo das sequências (default: auto baseado no modelo)
+
+**🆕 Configuração do Modelo:**
+- `--dropout`: Taxa de dropout (default: auto baseado no modelo)
+- `--freeze-backbone`: Congelar pesos do encoder (default: configurável)
+
+**🆕 Pesos da Loss Function:**
+- `--pos-class-weight`: Peso para classe negativa para melhorar precision (default: configurável)
+- `--loss-weight-multiplier`: Multiplicador escalar para os pesos (default: configurável)
+
+**🆕 Intervalos e Salvamento:**
+- `--eval-interval`: Avaliar a cada N épocas (default: configurável)
+- `--save-interval`: Salvar checkpoint a cada N épocas (default: configurável)
+
+**🆕 Weights & Biases:**
+- `--wandb-project`: Nome do projeto W&B (default: auto gerado)
+- `--wandb-entity`: Organização W&B (default: conta padrão)
+
+**🆕 Reprodutibilidade:**
+- `--seed`: Semente para reprodutibilidade (default: configurável)
+
+**Avaliação:**
 - `--eval`: Modo de avaliação (default: False = treinamento)
 - `--step`: Step específico para avaliação (default: melhor modelo)
+- `--run-name`: Run específico para avaliar (default: mais recente)
+- `--list-runs`: Listar runs disponíveis
 
 ## ⚙️ Configurações Automáticas
 
@@ -143,6 +302,76 @@ O sistema configura automaticamente os hiperparâmetros baseado no modelo escolh
 - **Learning Rate**: 1e-5 (menor para ESM2)
 - **Max Length**: 30 (otimizado para peptídeos)
 - **Batch Sizes**: 6 (650M), 2 (3B)
+
+## 🎯 Controle de Precision com Pesos Personalizados
+
+O sistema oferece controle fino sobre a loss function para otimizar a métrica de precision através de pesos nas classes:
+
+### Parâmetros de Peso
+
+- **`pos_class_weight`** (default: 1.0): Peso aplicado à classe negativa para controle de precision
+  - `> 1.0`: Penaliza mais falsos positivos → **melhora precision**
+  - `< 1.0`: Penaliza menos falsos positivos → melhora recall
+  - `= 1.0`: Pesos balanceados (comportamento padrão)
+
+- **`loss_weight_multiplier`** (default: 1.0): Multiplicador escalar para amplificar o efeito
+  - Multiplica ambos os pesos das classes
+  - Útil para ajuste fino adicional
+
+### Fórmula dos Pesos (CORRIGIDA)
+```
+peso_classe_negativa = pos_class_weight * loss_weight_multiplier
+peso_classe_positiva = 1.0 * loss_weight_multiplier
+```
+
+### Exemplos de Configuração
+
+**Peso moderado para melhorar precision:**
+```python
+trainer = Trainer(
+    # ... outros parâmetros
+    pos_class_weight=2.0,           # Classe positiva 2x mais penalizada
+    loss_weight_multiplier=1.0,     # Sem amplificação adicional
+)
+# Resultado: pesos [1.0, 2.0]
+```
+
+**Peso alto para precision muito conservadora:**
+```python
+trainer = Trainer(
+    # ... outros parâmetros  
+    pos_class_weight=5.0,           # Classe positiva 5x mais penalizada
+    loss_weight_multiplier=1.5,     # Amplifica o efeito em 1.5x
+)
+# Resultado: pesos [1.5, 7.5]
+```
+
+**Para melhorar recall (menos conservador):**
+```python
+trainer = Trainer(
+    # ... outros parâmetros
+    pos_class_weight=0.5,           # Classe positiva menos penalizada
+    loss_weight_multiplier=2.0,     # Amplifica o efeito
+)
+# Resultado: pesos [2.0, 1.0]
+```
+
+### Recomendações de Uso
+
+- **Precision baixa**: Use `pos_class_weight=2.0` ou maior
+- **Recall baixo**: Use `pos_class_weight=0.5` ou menor  
+- **Dataset desbalanceado**: Ajuste baseado na distribuição real
+- **Ajuste fino**: Use `loss_weight_multiplier` para amplificar sutilmente
+
+### Monitoramento
+Durante o treinamento, o sistema exibe os pesos configurados:
+```
+🔧 Loss function configurada:
+   Peso classe negativa (0): 1.000
+   Peso classe positiva (1): 2.000
+   Multiplicador: 1.000
+   💡 Peso maior na classe positiva → menos falsos positivos → melhor precision
+```
 
 ## 🎯 Critério de Melhor Modelo
 

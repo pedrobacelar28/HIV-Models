@@ -63,6 +63,8 @@ class Trainer:
         eval=False,
         step=None,
         best_model_metric="f1_precision_combined",
+        pos_class_weight=3.0,  # CORREÇÃO: Agora vai para classe NEGATIVA - valores > 1.0 melhoram precision
+        loss_weight_multiplier=1.0,  # Multiplicador escalar adicional para amplificar o efeito
         **kwargs  # Added to catch additional config parameters
     ):
         # ---------- store configuration --------------------------------- #
@@ -80,6 +82,10 @@ class Trainer:
         self.save_interval = save_interval
         self.base_model = base_model
         self.best_model_metric = best_model_metric
+        
+        # Parâmetros para controle de peso na loss function
+        self.pos_class_weight = pos_class_weight
+        self.loss_weight_multiplier = loss_weight_multiplier
 
         self.project = project
         self.entity = entity
@@ -124,6 +130,8 @@ class Trainer:
                 "base_model": self.base_model,
                 "seed": self.seed,
                 "best_model_metric": self.best_model_metric,
+                "pos_class_weight": pos_class_weight,
+                "loss_weight_multiplier": loss_weight_multiplier,
             },
             reinit="finish_previous",
         )
@@ -275,25 +283,28 @@ class Trainer:
             num_training_steps=total_steps,
         )
 
-        self.loss_fn = nn.CrossEntropyLoss()
-
-    # ------------------------------------------------------------------ #
-    # 3) Epoch helpers                                                   #
-    # ------------------------------------------------------------------ #
-    def _forward(self, ids, mask):
-        """Forward pass with optional loss (mixed precision on CUDA)."""
-        from torch import amp
-
-        with amp.autocast(
-            device_type=self.device.type,
-            dtype=torch.float16,
-            enabled=(self.device.type == "cuda"),
-        ):
-            logits = self.model(ids, mask)
+        # ------------------------------------------------------------------ #
+        #  loss function com pesos personalizados                             #
+        # ------------------------------------------------------------------ #
+        # Criar tensor de pesos: [peso_classe_0, peso_classe_1]
+        # CORREÇÃO: Para melhorar PRECISION (menos FP), aumentamos peso da classe NEGATIVA!
+        # Falsos Positivos = real negativo → usa peso da classe 0 (negativo)
+        # IMPORTANTE: usar dtype=torch.float32 para compatibilidade com mixed precision
+        class_weights = torch.tensor([self.pos_class_weight, 1.0], dtype=torch.float32, device=self.device)
+        class_weights = class_weights * self.loss_weight_multiplier
         
-        return logits
+        self.loss_fn = nn.CrossEntropyLoss(weight=class_weights)
+        
+        print(f"🔧 Loss function configurada:")
+        print(f"   Peso classe negativa (0): {class_weights[0]:.3f}")
+        print(f"   Peso classe positiva (1): {class_weights[1]:.3f}")
+        print(f"   Multiplicador: {self.loss_weight_multiplier:.3f}")
+        print(f"   Dtype: {class_weights.dtype}")
+        print(f"   💡 Peso maior na classe negativa → penaliza mais FP → melhor precision")
 
-    # ------------------------ training -------------------------------- #
+    # ------------------------------------------------------------------ #
+    # 3) Training and evaluation helpers                                 #
+    # ------------------------------------------------------------------ #
     def train_epoch(self) -> Dict[str, float]:
         self.model.train()
         total_loss = 0
@@ -303,13 +314,18 @@ class Trainer:
         for step, (ids, mask, y) in enumerate(tqdm(self.train_loader, desc="Train")):
             ids, mask, y = ids.to(self.device), mask.to(self.device), y.to(self.device)
             self.optimizer.zero_grad()
-            logits = self._forward(ids, mask)
-            loss = self.loss_fn(logits, y)
+            
+            # Forward pass e loss calculation dentro do contexto de mixed precision
+            from torch import amp
+            with amp.autocast(
+                device_type=self.device.type,
+                dtype=torch.float16,
+                enabled=(self.device.type == "cuda"),
+            ):
+                logits = self.model(ids, mask)
+                loss = self.loss_fn(logits, y)
             
             loss.backward()
-            
-            # Gradient clipping para evitar explosão de gradientes
-            torch.nn.utils.clip_grad_norm_(self.model.parameters(), max_norm=1.0)
             
             self.optimizer.step()
 
@@ -355,21 +371,37 @@ class Trainer:
         Computa métricas de avaliação no conjunto de dados fornecido
         """
         preds, probs, ys = [], [], []
+        total_loss = 0
+        num_batches = 0
 
         self.model.eval()  # modo de inferência, desativa dropout, etc
         for ids, mask, y in loader:
-            ids, mask = ids.to(self.device), mask.to(self.device)
+            ids, mask, y = ids.to(self.device), mask.to(self.device), y.to(self.device)
 
-            # forward pass
-            logits = self._forward(ids, mask)  # (B, C)
+            # forward pass e cálculo de loss dentro do contexto de mixed precision
+            from torch import amp
+            with amp.autocast(
+                device_type=self.device.type,
+                dtype=torch.float16,
+                enabled=(self.device.type == "cuda"),
+            ):
+                logits = self.model(ids, mask)  # (B, C)
+                loss = self.loss_fn(logits, y)
+            
+            total_loss += loss.item()
+            num_batches += 1
+            
             prob = torch.softmax(logits, dim=1)[:, 1].detach().cpu().numpy()
             pred = (prob >= 0.5).astype(int)
 
             preds.extend(pred)
             probs.extend(prob)
-            ys.extend(y.numpy())
+            ys.extend(y.cpu().numpy())
 
         y_true, y_pred, y_prob = map(np.asarray, (ys, preds, probs))
+        
+        # Calcular loss média
+        avg_loss = total_loss / num_batches if num_batches > 0 else 0.0
         
         # Verificar se há valores NaN ou infinitos nas probabilidades
         if np.any(np.isnan(y_prob)) or np.any(np.isinf(y_prob)):
@@ -406,6 +438,7 @@ class Trainer:
         print(f"FN={fn} (Falsos Negativos)      | TP={tp} (Verdadeiros Positivos)")
         
         metrics = {
+            "loss": avg_loss,  # Adicionar loss média
             "accuracy": accuracy_score(y_true, y_pred),
             "precision": precision_score(y_true, y_pred, zero_division=0),
             "recall": recall_score(y_true, y_pred, zero_division=0),
@@ -428,6 +461,7 @@ class Trainer:
         # Interpretação das métricas
         print(f"\n📈 MÉTRICAS DE DESEMPENHO:")
         print("─" * 50)
+        print(f"📉 Loss:        {metrics['loss']:.4f} (Loss média no conjunto de teste)")
         print(f"🎯 Accuracy:    {metrics['accuracy']:.4f} ({metrics['accuracy']*100:.1f}%)")
         print(f"🔍 Precision:   {metrics['precision']:.4f} (De todas as predições positivas, {metrics['precision']*100:.1f}% estavam corretas)")
         print(f"📡 Recall:      {metrics['recall']:.4f} (Detectou {metrics['recall']*100:.1f}% dos casos positivos)")
@@ -539,14 +573,17 @@ class Trainer:
             
             # Apenas treinamento (sem validação)
             tr = self.train_epoch()
-            self._update_json({"epoch": epoch, "training": tr})
+            
+            # Preparar registro da época
+            epoch_record = {"epoch": epoch, "training": tr}
 
             # Avaliação no conjunto de teste
             if epoch % self.eval_interval == 0 or epoch == self.epochs:
                 test_metrics = self.evaluate()
-                self._update_json({"test": test_metrics})
+                epoch_record["test"] = test_metrics  # Adicionar métricas de teste ao registro da época
                 
                 # Imprimir métricas principais
+                print(f"   Test Loss: {test_metrics['loss']:.4f}")
                 print(f"   Test F1: {test_metrics['f1']:.4f}")
                 print(f"   Test Precision: {test_metrics['precision']:.4f}")
                 print(f"   Test Recall: {test_metrics['recall']:.4f}")
@@ -554,6 +591,9 @@ class Trainer:
                 
                 # Salvar melhor modelo
                 self.save_best_model(test_metrics, epoch)
+            
+            # Salvar registro da época (com ou sem métricas de teste)
+            self._update_json(epoch_record)
 
             # Salvar checkpoint regular
             if epoch % self.save_interval == 0 or epoch == self.epochs:
@@ -574,6 +614,7 @@ class Trainer:
             final_metrics = self._compute_metrics(self.test_loader)
             
             print(f"\n📊 Métricas finais do melhor modelo:")
+            print(f"   Loss: {final_metrics['loss']:.4f}")
             print(f"   Accuracy: {final_metrics['accuracy']:.4f}")
             print(f"   Precision: {final_metrics['precision']:.4f}")
             print(f"   Recall: {final_metrics['recall']:.4f}")
