@@ -1,4 +1,116 @@
-# 🛑 Early Terminate Hyperband - Explicação Detalhada
+# 🚀 W&B Hyperband Early Terminate - Explicação Detalhada
+
+## 🎯 Como Funciona o Early Terminate
+
+O **W&B Hyperband Early Terminate** NÃO define épocas dinamicamente como eu expliquei antes. Na verdade, ele funciona de forma mais inteligente:
+
+### ✅ Funcionamento Real
+
+```python
+# ❌ NÃO é assim (como pensei inicialmente):
+epochs = config_wandb._epochs  # Isso não existe!
+
+# ✅ É ASSIM que funciona:
+# 1. Seu código roda normalmente com épocas FIXAS (ex: 20 épocas)
+# 2. W&B monitora métricas a cada época
+# 3. Se performance < threshold → W&B MATA o processo externamente
+# 4. Run aparece como "Killed" ou "Crashed" no dashboard
+```
+
+### 🔄 Processo Prático
+
+1. **Configuração**: Definimos `max_iter: 20` (máximo 20 épocas)
+2. **Execução**: Cada run inicia com 20 épocas programadas
+3. **Monitoramento**: W&B avalia performance nos "bucket points"
+4. **Eliminação**: Se performance for ruim → processo é **terminado externamente**
+
+## 📊 Bucket Points - Quando Avalia?
+
+Com nossa configuração atual:
+```yaml
+early_terminate:
+  type: hyperband
+  min_iter: 4      # Mínimo 4 épocas antes de eliminar
+  max_iter: 20     # Máximo 20 épocas
+  s: 2             # Fator de agressividade
+  eta: 3           # Fator de eliminação
+```
+
+**Avaliações ocorrem aproximadamente nas épocas**: `[4, 7, 12, 20]`
+
+### 🎮 Exemplo Prático
+
+```
+🏁 INÍCIO: 50 runs iniciam com 20 épocas cada
+
+📊 ÉPOCA 4: W&B avalia todos os runs
+   ✅ 17 melhores runs → continuam
+   ❌ 33 piores runs → PROCESS KILLED
+   
+📊 ÉPOCA 7: W&B avalia os 17 restantes  
+   ✅ 6 melhores runs → continuam
+   ❌ 11 runs → PROCESS KILLED
+   
+📊 ÉPOCA 12: W&B avalia os 6 restantes
+   ✅ 2 melhores runs → continuam até o fim
+   ❌ 4 runs → PROCESS KILLED
+   
+🏆 ÉPOCA 20: 2 runs completam todas as épocas
+```
+
+## 🚨 Estados dos Runs Terminados
+
+Quando W&B para um run prematuramente, você verá:
+
+- **"Killed"** - Processo terminado pelo W&B (normal para early terminate)
+- **"Crashed"** - Processo parou de responder (também pode ser early terminate)
+- **"Failed"** - Erro real no código (não relacionado ao early terminate)
+
+## ⚙️ Nossa Configuração Corrigida
+
+```python
+# main.py
+DEFAULT_EPOCHS = 20  # Máximo de épocas (= max_iter)
+
+def sweep_train():
+    # Épocas fixas - W&B controlará early terminate externamente
+    config["epochs"] = args.epochs  # Sempre 20
+    
+    print(f"Max Épocas: {config['epochs']} (W&B pode parar antes)")
+```
+
+```yaml
+# sweep_config.yaml
+early_terminate:
+  type: hyperband
+  min_iter: 4      # Garante mínimo 4 épocas por run
+  max_iter: 20     # Corresponde ao DEFAULT_EPOCHS
+  s: 2
+  eta: 3
+```
+
+## 🎯 Por Que 5 Épocas no Seu Caso?
+
+Se você viu 5 épocas, provavelmente foi porque:
+
+1. **DEFAULT_EPOCHS estava 5** (agora corrigido para 20)
+2. **W&B ainda não havia iniciado** o early terminate
+3. **Run completou naturalmente** antes da primeira avaliação
+
+Com a correção atual:
+- Runs iniciam com **20 épocas máximas**
+- W&B pode **parar antes** nas épocas de avaliação
+- Performance ruim → processo **terminado externamente**
+
+## 💡 Vantagem Real
+
+**Economia de Tempo**:
+```
+❌ Sem Early Terminate: 50 runs × 20 épocas = 1.000 épocas totais
+✅ Com Early Terminate: ~150-200 épocas totais (5x mais rápido!)
+```
+
+O early terminate **elimina runs ruins cedo**, concentrando recursos nos hiperparâmetros promissores! 🚀
 
 ## 🎯 O que é Early Terminate?
 

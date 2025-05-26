@@ -57,4 +57,4 @@ run_cap: 50
 command:
   - python
   - main.py
-  - ${args}  # Hyperband controlará épocas automaticamente 
+  - ${args}  # W&B controlará early terminate externamente quando necessário 

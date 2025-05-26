@@ -18,7 +18,7 @@ DEFAULT_VIRUS_TYPE = "Base"                  # Opções: "Base", "Tudo", "Virus"
 DEFAULT_EVAL_MODE = False                    # True = apenas avaliação, False = treinamento
 
 # ────── Hiperparâmetros de treinamento ───────────────────────────
-DEFAULT_EPOCHS = 5                          # Número de épocas
+DEFAULT_EPOCHS = 20                         # Número de épocas (max_iter para early terminate)
 DEFAULT_LEARNING_RATE = 1e-5              # Taxa de aprendizado
 DEFAULT_WEIGHT_DECAY = 0.00                 # Decaimento de peso (L2 regularization)
 DEFAULT_BATCH_SIZE = 128                   # None = usar padrão do modelo, ou especificar valor
@@ -244,13 +244,8 @@ def sweep_train():
         # Apply hiperparâmetros
         config["eval"] = False  # Sempre treinamento no sweep
         
-        # Épocas dinâmicas do early terminate ou default
-        if hasattr(config_wandb, '_epochs'):
-            # W&B Hyperband define épocas dinamicamente
-            config["epochs"] = config_wandb._epochs
-        else:
-            # Fallback para default do args
-            config["epochs"] = args.epochs
+        # Usar épocas fixas do args - W&B controlará early terminate externamente
+        config["epochs"] = args.epochs
             
         config["seed"] = args.seed
         config["lr"] = args.lr
@@ -286,6 +281,7 @@ def sweep_train():
         print(f"   Learning Rate: {args.lr:.6f}")
         print(f"   Weight Decay: {args.weight_decay:.6f}")
         print(f"   Dropout: {config.get('dropout', 'auto')}")
+        print(f"   Max Épocas: {config['epochs']} (W&B pode parar antes)")
         print(f"{'='*50}")
         
         # Executar treinamento
