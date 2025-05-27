@@ -18,8 +18,8 @@ DEFAULT_VIRUS_TYPE = "Base"                  # Opções: "Base", "Tudo", "Virus"
 DEFAULT_EVAL_MODE = False                    # True = apenas avaliação, False = treinamento
 
 # ────── Hiperparâmetros de treinamento ───────────────────────────
-DEFAULT_EPOCHS = 20                         # Número de épocas (max_iter para early terminate)
-DEFAULT_LEARNING_RATE = 1e-5              # Taxa de aprendizado
+DEFAULT_EPOCHS = 5                         # Número de épocas (max_iter para early terminate)
+DEFAULT_LEARNING_RATE = 5e-5              # Taxa de aprendizado
 DEFAULT_WEIGHT_DECAY = 0.00                 # Decaimento de peso (L2 regularization)
 DEFAULT_BATCH_SIZE = 128                   # None = usar padrão do modelo, ou especificar valor
 DEFAULT_MAX_LENGTH = None                   # None = usar padrão do modelo, ou especificar valor
@@ -29,7 +29,7 @@ DEFAULT_DROPOUT = 0.0                      # None = usar padrão do modelo, ou e
 DEFAULT_FREEZE_BACKBONE = False             # True = congelar encoder, False = treinar tudo
 
 # ────── Pesos da loss function para precision ───────────────────
-DEFAULT_POS_CLASS_WEIGHT = 2.0             # Peso aplicado à classe negativa (> 1.0 melhora precision)
+DEFAULT_POS_CLASS_WEIGHT = 3.0             # Peso aplicado à classe negativa (> 1.0 melhora precision)
 DEFAULT_LOSS_WEIGHT_MULTIPLIER = 1.0       # Multiplicador escalar adicional
 
 # ────── Para modo AVALIAÇÃO ──────────────────────────────────────
@@ -47,7 +47,17 @@ DEFAULT_WANDB_ENTITY = None                # None = conta padrão, ou especifica
 DEFAULT_SEED = 42                          # Semente para reprodutibilidade
 
 # ────── W&B Hyperparameter Sweep ─────────────────────────────────
-DEFAULT_SWEEP_MODE = True                 # True = ativar sweep para otimização automática
+DEFAULT_SWEEP_MODE = False                 # True = ativar sweep para otimização automática
+
+# ────── Pré-treinamento MLM ──────────────────────────────────────
+DEFAULT_PRETRAIN_MODE = False              # True = executar pré-treinamento MLM
+DEFAULT_PRETRAIN_EPOCHS = 15               # Épocas de pré-treinamento
+DEFAULT_PRETRAIN_LR = 5e-4                 # Learning rate para pré-treinamento
+DEFAULT_PRETRAIN_BATCH_SIZE = 128           # Batch size para pré-treinamento
+DEFAULT_PRETRAIN_MAX_LENGTH = 60          # Comprimento máximo para epitopos
+DEFAULT_MLM_PROBABILITY = 0.15             # Probabilidade de mascaramento MLM
+DEFAULT_PRETRAINED_BACKBONE_PATH = "/home/ubuntu/guilherme.evangelista/HIV-Models/IEDB/Modelos/MHC2/model/pretraining/pretrain_esmc_600m_20250527_031230/best_pretrained_esmc.pt"   # Caminho para backbone pré-treinado
+DEFAULT_RESUME_PRETRAINING_BACKBONE_PATH = None
 
 # ================================================================== #
 
@@ -191,6 +201,47 @@ def parse_args():
         help=f"Enable W&B hyperparameter sweep (default: {DEFAULT_SWEEP_MODE})"
     )
     
+    # ────── Pré-treinamento MLM ──────────────────────────────────────
+    parser.add_argument(
+        "--pretrain", action="store_true", default=DEFAULT_PRETRAIN_MODE,
+        help=f"Run MLM pretraining before fine-tuning (default: {DEFAULT_PRETRAIN_MODE})"
+    )
+    
+    parser.add_argument(
+        "--pretrain-epochs", type=int, default=DEFAULT_PRETRAIN_EPOCHS,
+        help=f"Total number of pretraining epochs desired (default: {DEFAULT_PRETRAIN_EPOCHS}). When resuming, this is the final epoch number."
+    )
+    
+    parser.add_argument(
+        "--pretrain-lr", type=float, default=DEFAULT_PRETRAIN_LR,
+        help=f"Learning rate for pretraining (default: {DEFAULT_PRETRAIN_LR})"
+    )
+    
+    parser.add_argument(
+        "--pretrain-batch-size", type=int, default=DEFAULT_PRETRAIN_BATCH_SIZE,
+        help=f"Batch size for pretraining (default: {DEFAULT_PRETRAIN_BATCH_SIZE})"
+    )
+    
+    parser.add_argument(
+        "--pretrain-max-length", type=int, default=DEFAULT_PRETRAIN_MAX_LENGTH,
+        help=f"Max length for pretraining epitopes (default: {DEFAULT_PRETRAIN_MAX_LENGTH})"
+    )
+    
+    parser.add_argument(
+        "--mlm-probability", type=float, default=DEFAULT_MLM_PROBABILITY,
+        help=f"MLM masking probability (default: {DEFAULT_MLM_PROBABILITY})"
+    )
+    
+    parser.add_argument(
+        "--pretrained-backbone-path", type=str, default=DEFAULT_PRETRAINED_BACKBONE_PATH,
+        help=f"Path to pretrained backbone weights (default: None)"
+    )
+    
+    parser.add_argument(
+        "--resume-pretraining", type=str, default=DEFAULT_RESUME_PRETRAINING_BACKBONE_PATH,
+        help="Path to checkpoint to resume pretraining from"
+    )
+    
     # ────── Avaliação específica ─────────────────────────────────────
     parser.add_argument(
         "--step", type=int, default=None,
@@ -205,6 +256,11 @@ def parse_args():
     parser.add_argument(
         "--list-runs", action="store_true",
         help="List available runs for the specified dataset/model/virus-type and exit"
+    )
+    
+    parser.add_argument(
+        "--list-pretraining", action="store_true",
+        help="List available pretraining checkpoints and backbones for the specified dataset/model and exit"
     )
     
     return parser.parse_args()
@@ -269,6 +325,10 @@ def sweep_train():
             config["project"] = args.wandb_project
         config["entity"] = args.wandb_entity
         
+        # NOVO: Adicionar pretrained_backbone_path ao sweep
+        if args.pretrained_backbone_path:
+            config["pretrained_backbone_path"] = args.pretrained_backbone_path
+        
         # Gerar run_name específico para sweep
         sweep_id = wandb.run.sweep_id if wandb.run.sweep_id else "manual"
         run_id = wandb.run.id
@@ -282,6 +342,14 @@ def sweep_train():
         print(f"   Weight Decay: {args.weight_decay:.6f}")
         print(f"   Dropout: {config.get('dropout', 'auto')}")
         print(f"   Max Épocas: {config['epochs']} (W&B pode parar antes)")
+        
+        # Mostrar se está usando backbone pré-treinado
+        if args.pretrained_backbone_path:
+            backbone_name = Path(args.pretrained_backbone_path).name
+            print(f"   🧬 Backbone pré-treinado: {backbone_name}")
+        else:
+            print(f"   🧬 Backbone: Original (sem pré-treinamento)")
+        
         print(f"{'='*50}")
         
         # Executar treinamento
@@ -350,6 +418,12 @@ def main():
         list_available_runs(args.dataset, args.model, args.virus_type)
         return
     
+    # Se pediu para listar pré-treinamentos, faz isso e sai
+    if args.list_pretraining:
+        from pretrainer import list_pretraining_checkpoints
+        list_pretraining_checkpoints(args.dataset, args.model)
+        return
+    
     # Get configuration with specified parameters (apenas caminhos e estruturas básicas)
     config = get_config(
         dataset_type=args.dataset,
@@ -408,6 +482,73 @@ def main():
     if args.wandb_project is not None:
         config["project"] = args.wandb_project
     config["entity"] = args.wandb_entity
+    
+    # ────── Pré-treinamento MLM (se habilitado) ──────────────────────
+    pretrained_backbone_path = args.pretrained_backbone_path
+    
+    if (args.pretrain or args.resume_pretraining) and not args.eval and args.model.startswith("esmc"):
+        if args.resume_pretraining:
+            print(f"\n🔄 CONTINUANDO PRÉ-TREINAMENTO MLM")
+        else:
+            print(f"\n🧬 EXECUTANDO PRÉ-TREINAMENTO MLM")
+        print(f"{'='*60}")
+        
+        from pretrainer import PretrainerESMC, load_sequences_from_files
+        
+        # Carregar sequências de treino para pré-treinamento
+        sequences = load_sequences_from_files(config["train_pos"], config["train_neg"])
+        
+        if len(sequences) < 100:
+            print(f"⚠️  Poucas sequências para pré-treinamento ({len(sequences)})")
+            print(f"💡 Recomendamos pelo menos 1000 sequências para bons resultados")
+        
+        # Configurar pré-treinador
+        pretrainer_config = {
+            "sequences": sequences,
+            "artifacts_path": config["artifacts_path"],
+            "lr": args.pretrain_lr,
+            "weight_decay": args.weight_decay,
+            "batch_size": args.pretrain_batch_size,
+            "max_length": args.pretrain_max_length,
+            "epochs": args.pretrain_epochs,
+            "base_model": args.model,
+            "mlm_probability": args.mlm_probability,
+            "project": f"esmc-pretrain-{args.dataset.lower()}",
+            "entity": args.wandb_entity,
+            "seed": args.seed,
+            "resume_from_checkpoint": args.resume_pretraining,
+        }
+        
+        if args.resume_pretraining:
+            print(f"🔄 Continuando pré-treinamento de:")
+            print(f"   📁 {args.resume_pretraining}")
+        else:
+            print(f"🚀 Iniciando pré-treinamento:")
+        
+        print(f"   📊 {len(sequences)} sequências")
+        print(f"   🕐 {args.pretrain_epochs} épocas")
+        print(f"   📏 Max length: {args.pretrain_max_length}")
+        print(f"   🎭 MLM prob: {args.mlm_probability}")
+        print(f"   📚 Batch size: {args.pretrain_batch_size}")
+        print(f"   🎯 Learning rate: {args.pretrain_lr}")
+        
+        # Executar pré-treinamento
+        pretrainer = PretrainerESMC(**pretrainer_config)
+        pretrained_backbone_path = pretrainer.run()
+        
+        print(f"\n✅ Pré-treinamento concluído!")
+        print(f"🎯 Backbone pré-treinado salvo em: {pretrained_backbone_path}")
+        
+        if not args.resume_pretraining:
+            print(f"💡 Usando este backbone para fine-tuning...")
+        
+    elif (args.pretrain or args.resume_pretraining) and args.model.startswith("esm2"):
+        print(f"⚠️  Pré-treinamento MLM ainda não suportado para ESM2")
+        print(f"💡 Use modelos ESM-C (esmc_300m ou esmc_600m) para pré-treinamento")
+    
+    # Adicionar caminho do backbone pré-treinado ao config
+    if pretrained_backbone_path:
+        config["pretrained_backbone_path"] = pretrained_backbone_path
     
     # ────── Print configuration for confirmation ─────────────────────
     print(f"\n🧬 CONFIGURAÇÃO COMPLETA:")

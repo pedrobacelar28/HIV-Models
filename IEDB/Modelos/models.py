@@ -18,11 +18,17 @@ class ESMCForSequenceClassification(nn.Module):
         base_model: str = "esmc_300m",
         dropout: float = 0.3,
         freeze_backbone: bool = False,
+        pretrained_backbone_path: str = None,  # NOVO: caminho para pesos pré-treinados
     ):
         super().__init__()
 
         # 1) backbone -----------------------------------------------------
         self.esmc = load_local_model(base_model)
+        
+        # NOVO: Carregar pesos pré-treinados se fornecido
+        if pretrained_backbone_path is not None:
+            self._load_pretrained_backbone(pretrained_backbone_path)
+        
         if freeze_backbone:
             for p in self.esmc.parameters():
                 p.requires_grad_(False)
@@ -37,6 +43,35 @@ class ESMCForSequenceClassification(nn.Module):
             nn.Linear(d_model // 2, num_labels),
         )
         self._init_weights()  # <- custom initialisation
+
+    # ------------------------------------------------------------------ #
+    def _load_pretrained_backbone(self, pretrained_path: str):
+        """
+        Carrega pesos pré-treinados no backbone ESM-C
+        """
+        print(f"🔄 Carregando pesos pré-treinados: {pretrained_path}")
+        
+        try:
+            pretrained_state = torch.load(pretrained_path, map_location='cpu')
+            
+            # Carregar apenas os pesos compatíveis
+            model_state = self.esmc.state_dict()
+            pretrained_state = {k: v for k, v in pretrained_state.items() if k in model_state}
+            
+            missing_keys = set(model_state.keys()) - set(pretrained_state.keys())
+            if missing_keys:
+                print(f"⚠️  Chaves não encontradas no modelo pré-treinado: {missing_keys}")
+            
+            # Aplicar pesos
+            model_state.update(pretrained_state)
+            self.esmc.load_state_dict(model_state)
+            
+            print(f"✅ Pesos pré-treinados carregados com sucesso!")
+            print(f"   📊 Carregadas {len(pretrained_state)} camadas")
+            
+        except Exception as e:
+            print(f"❌ Erro ao carregar pesos pré-treinados: {e}")
+            print(f"   🔄 Continuando com pesos originais do {self.esmc.__class__.__name__}")
 
     # ------------------------------------------------------------------ #
     def _init_weights(self):
@@ -134,7 +169,7 @@ def create_model(base_model: str, num_labels: int = 2, **kwargs):
     Args:
         base_model: Nome do modelo base
         num_labels: Número de classes para classificação
-        **kwargs: Argumentos adicionais para o modelo
+        **kwargs: Argumentos adicionais para o modelo (incluindo pretrained_backbone_path)
     
     Returns:
         Modelo inicializado
@@ -150,10 +185,15 @@ def create_model(base_model: str, num_labels: int = 2, **kwargs):
         if not base_model.startswith("facebook/"):
             base_model = f"facebook/{base_model}"
         
+        # Para ESM2, remover pretrained_backbone_path se presente (não suportado ainda)
+        esm2_kwargs = {k: v for k, v in kwargs.items() if k != 'pretrained_backbone_path'}
+        if 'pretrained_backbone_path' in kwargs:
+            print("⚠️  pretrained_backbone_path não suportado para ESM2, ignorando...")
+        
         return ESM2ForSequenceClassification(
             num_labels=num_labels,
             base_model=base_model,
-            **kwargs
+            **esm2_kwargs
         )
     else:
         raise ValueError(f"Modelo não suportado: {base_model}")

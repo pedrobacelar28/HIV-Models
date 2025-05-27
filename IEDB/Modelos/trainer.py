@@ -65,6 +65,7 @@ class Trainer:
         best_model_metric="f1_precision_combined",
         pos_class_weight=3.0,  # CORREÇÃO: Agora vai para classe NEGATIVA - valores > 1.0 melhoram precision
         loss_weight_multiplier=1.0,  # Multiplicador escalar adicional para amplificar o efeito
+        pretrained_backbone_path=None,  # NOVO: caminho para backbone pré-treinado
         **kwargs  # Added to catch additional config parameters
     ):
         # ---------- store configuration --------------------------------- #
@@ -86,6 +87,9 @@ class Trainer:
         # Parâmetros para controle de peso na loss function
         self.pos_class_weight = pos_class_weight
         self.loss_weight_multiplier = loss_weight_multiplier
+        
+        # NOVO: Caminho para backbone pré-treinado
+        self.pretrained_backbone_path = pretrained_backbone_path
 
         self.project = project
         self.entity = entity
@@ -190,7 +194,10 @@ class Trainer:
         if not weights_path.exists():
             raise FileNotFoundError(f"Checkpoint não encontrado: {weights_path}")
 
-        self.model = create_model(self.base_model).to(self.device)  # Updated to use factory
+        self.model = create_model(
+            self.base_model, 
+            pretrained_backbone_path=self.pretrained_backbone_path
+        ).to(self.device)  # Updated to use factory
         self.model.load_state_dict(torch.load(weights_path, map_location=self.device))
         self.model.eval()
 
@@ -258,7 +265,8 @@ class Trainer:
             self.base_model, 
             num_labels=2,
             dropout=getattr(self, 'dropout', 0.3),
-            freeze_backbone=getattr(self, 'freeze_backbone', False)
+            freeze_backbone=getattr(self, 'freeze_backbone', False),
+            pretrained_backbone_path=self.pretrained_backbone_path
         ).to(self.device)
 
         # ------------------------------------------------------------------ #
